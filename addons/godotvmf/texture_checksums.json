@@ -1,0 +1,32 @@
+{
+	"materialChecksums": {
+		"/dev/texture_01.tres": "ba37111ad9da846f41fa50c5c2ced7fa",
+		"/dev/texture_02.tres": "1d5f620ce1e33f8252d8029fbb184d1f",
+		"/dev/texture_03.tres": "7176afb33af861aed48528461ffd557f",
+		"/dev/texture_04.tres": "392a7f43158f681b04c7147360129448",
+		"/dev/texture_05.tres": "6c9883d80a1368cff5a913d4fe15543a",
+		"/dev/texture_06.tres": "4e3be5e1cf2a681ce98a1ac23d8caafb",
+		"/dev/texture_07.tres": "2e3307b65246f81ea4f1b72b87c30f66",
+		"/dev/texture_08.tres": "6e21337bab7026f6d10cf616a86f36a2",
+		"/dev/texture_09.tres": "6c5ac15de1af3606c1d5df750ea5414e",
+		"/dev/texture_10.tres": "7a18d073c8470e141600c94623c23eb2",
+		"/dev/texture_11.tres": "4ef80c6403808aabe30d11de717969cc",
+		"/dev/texture_12.tres": "41327826c209682321c2864855cfebaf",
+		"/dev/texture_13.tres": "4119bc977d9383b799517fbd2eea8273"
+	},
+	"textureChecksums": {
+		"/dev/texture_01.png": "de435bdf56d06837e5bdb4d21ba4bc17",
+		"/dev/texture_02.png": "5d69d3683f042ccb0bbbeea2496fc27d",
+		"/dev/texture_03.png": "f87aa4cb60decd86ee22f43d1bcf7e86",
+		"/dev/texture_04.png": "8cd4df98b448aa32d3b86076e89cb0a0",
+		"/dev/texture_05.png": "b657bab6a9129a8e260ebc5bef3b2f6e",
+		"/dev/texture_06.png": "63c6e6a7dd1bdd9b691eb69b1c85e517",
+		"/dev/texture_07.png": "e47fdd0ed9bc48a18abf616b6e7ed27d",
+		"/dev/texture_08.png": "bdb36b515fe8ac20d9995451d25d71ea",
+		"/dev/texture_09.png": "a30d952761e14cdcb90bc4a52ebd4638",
+		"/dev/texture_10.png": "a998975421e9e6b7d8ffc68418167ee5",
+		"/dev/texture_11.png": "66978ba0c84d44f7cb6987603f7b6faa",
+		"/dev/texture_12.png": "1410f4b1658b08f91518023e002ceafc",
+		"/dev/texture_13.png": "c53606d77c657f09e151cc2e7e7b9e20"
+	}
+}

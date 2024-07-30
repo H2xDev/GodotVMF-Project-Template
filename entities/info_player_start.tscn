@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://beponjehvu4od"]
+
+[ext_resource type="Script" path="res://entities/info_player_start.gd" id="1_qsly7"]
+
+[node name="InfoPlayerStart" type="Node3D"]
+script = ExtResource("1_qsly7")

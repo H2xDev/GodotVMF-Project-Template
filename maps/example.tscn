@@ -1,0 +1,76 @@
+[gd_scene load_steps=6 format=3 uid="uid://drhx74i8jnvka"]
+
+[ext_resource type="Script" path="res://addons/godotvmf/utils/VMFNode.gd" id="1_lhojc"]
+[ext_resource type="ArrayMesh" uid="uid://cu18vqxdw5ng5" path="res://geometry/example_vmf_import.mesh" id="2_5dcpq"]
+[ext_resource type="Shape3D" uid="uid://c2ew0oclduxqa" path="res://geometry/example_vmf_collision_import.res" id="3_k482q"]
+[ext_resource type="PackedScene" uid="uid://beponjehvu4od" path="res://entities/info_player_start.tscn" id="4_coq5b"]
+[ext_resource type="PackedScene" uid="uid://bm8k8ppws8jtv" path="res://entities/light.tscn" id="4_ouwts"]
+
+[node name="Example" type="Node3D"]
+
+[node name="VMFNode" type="Node3D" parent="."]
+script = ExtResource("1_lhojc")
+vmf = "res://hammer_project/mapsrc/example.vmf"
+
+[node name="Geometry" type="MeshInstance3D" parent="VMFNode"]
+mesh = ExtResource("2_5dcpq")
+
+[node name="Geometry_col" type="StaticBody3D" parent="VMFNode/Geometry"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="VMFNode/Geometry/Geometry_col"]
+shape = ExtResource("3_k482q")
+
+[node name="Entities" type="Node3D" parent="VMFNode"]
+
+[node name="info_player_start_10" parent="VMFNode/Entities" instance=ExtResource("4_coq5b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.4, 0.025, -6.4)
+entity = {
+"angles": Vector3(0, 0, 0),
+"classname": "info_player_start",
+"editor": {
+"color": Vector3(0, 255, 0),
+"logicalpos": "[0 2500]",
+"visgroupautoshown": 1,
+"visgroupshown": 1
+},
+"id": 10,
+"origin": Vector3(6.4, 0.025, -6.4)
+}
+
+[node name="light_12" parent="VMFNode/Entities" instance=ExtResource("4_ouwts")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.2, 0)
+defaultLightEnergy = 0.784314
+entity = {
+"_light": {
+"a": 0.784314,
+"b": 1.0,
+"g": 1.0,
+"r": 1.0
+},
+"_lightHDR": {
+"a": 0.00392157,
+"b": -0.00392157,
+"g": -0.00392157,
+"r": -0.00392157
+},
+"_lightscaleHDR": 1,
+"_quadratic_attn": 1,
+"classname": "light",
+"editor": {
+"color": Vector3(220, 30, 220),
+"logicalpos": "[0 3000]",
+"visgroupautoshown": 1,
+"visgroupshown": 1
+},
+"id": 12,
+"origin": Vector3(0, 3.2, 0)
+}
+
+[node name="OmniLight3D" parent="VMFNode/Entities/light_12" index="0"]
+light_energy = 0.784314
+shadow_enabled = true
+omni_range = 35.4246
+omni_attenuation = 1.44
+
+[editable path="VMFNode/Entities/info_player_start_10"]
+[editable path="VMFNode/Entities/light_12"]

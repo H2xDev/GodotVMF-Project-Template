@@ -1,0 +1,24 @@
+"GameInfo"
+{
+	game 		"GodotVMF Project Starter"
+	title 		"GodotVMF"
+	title2		"demo"
+	type		singleplayer_only
+	developer			"Radik \"H2x\" Khamatdinov"
+	developer_url		"http://h2xdev.github.io/"
+
+    icon "resource/icon"
+	gamelogo 1
+	gamedata "$SteamUserDir/Source SDK Base 2013 Singleplayer/bin/halflife2.fgd"
+
+	FileSystem
+	{
+		SteamAppId		420
+		SearchPaths
+		{
+			game+mod+mod_write+default_write_path		|gameinfo_path|.
+
+			platform			|all_source_engine_paths|platform/platform_misc.vpk
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"gameInfoPath": "res://hammer_project",
+	"vtfcmd": "res://hammer_project/tools/VTFCmd.exe",
+
+	"import": {
+		"scale": 0.025,
+		"generateCollision": true,
+		"generateLightmapUV2": true,
+		"lightmapTexelSize": 0.4,
+		"instancesFolder": "res://instances",
+		"entitiesFolder": "res://entities",
+		"geometryFolder": "res://geometry"
+	},
+
+	"models": {
+		"import": false,
+		"generateCollision": true,
+		"lightmapTexelSize": 0.4,
+		"targetFolder": "res://models"
+	},
+
+	"material": {
+		"importMode": 3,
+		"generateMipmaps": true,
+		"ignore": [
+			"TOOLS/TOOLSNODRAW",
+		],
+		"fallbackMaterial": null,
+		"defaultTextureSize": 512,
+		"targetFolder": "res://materials"
+	}
+}
