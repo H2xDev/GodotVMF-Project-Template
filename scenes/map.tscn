@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://8tfakpdj334r"]
+
+[ext_resource type="Script" path="res://scenes/map.gd" id="1_8pr3x"]
+
+[node name="Test" type="Node3D"]
+script = ExtResource("1_8pr3x")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+unique_name_in_owner = true
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3

@@ -11,6 +11,6 @@ func _entity_ready():
 	instance.set_owner(get_tree().root);
 
 	instance.global_transform.origin = global_transform.origin;
-	instance.rotation_degrees.y = entity.get("angle", Vector3.ZERO).y;
+	instance.rotation_degrees.y = entity.get("angle", Vector3.ZERO).y - 90;
 
 	get_parent().remove_child(self);

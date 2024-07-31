@@ -290,15 +290,16 @@ func importGeometryOnly() -> void:
 	_importMaterials();
 	_importGeometry(true);
 
-func importMap() -> void:
+func importMap(ingame = false) -> void:
 	if not is_inside_tree():
+		print("VMFNode is not in the tree");
 		queue_free()
 		return
 	
 	VMFConfig.checkProjectConfig();
 	if not VMFConfig.validateConfig(): return;
 	if not VMFConfig.config: return;
-	if not Engine.is_editor_hint(): return;
+	if not Engine.is_editor_hint() && not ingame: return;
 	if not vmf: return;
 
 	if not _owner:

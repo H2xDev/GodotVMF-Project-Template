@@ -40,7 +40,7 @@ func process_surface_movement(delta: float, input_dir: Vector2) -> void:
 	velocity.x *= friction_factor;
 	velocity.z *= friction_factor;
 
-func process_gravity:
+func process_gravity():
 	# TODO: Implement gravity
 	pass;
 
