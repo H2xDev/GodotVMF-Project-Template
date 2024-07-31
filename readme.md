@@ -4,12 +4,12 @@
 1. Install Godot engine to be able to run the project from cmd.  
     1.1. You can do that via [Scoop package manager](https://scoop.sh/#/apps?q=godot&id=2fdd7b453f1ef3161d01986e2051c646911a642c)
 
-3. Configure Hammer++ to work with [hammer_project](/hammer_project)  
-    3.1. Set `Game Executable Directory` - `<your_project>`
-	3.2. Set `Game Directory` - `<your_project>\hammer_project`  
-	3.3. Set `Hammer VMF Directory` - `<your_project>\hammer_project\mapsrc`  
-	3.4. Set `Prefab Directory` - `<your_project>\hammer_project\mapsrc\prefabs`  
-	3.5. Add required FGD - base.fgd and halflife2.fgd (and your custom fgd as well)  
+2. Configure Hammer++ to work with [hammer_project](/hammer_project)  
+	2.1. Set `Game Executable Directory` - `<your_project>`
+	2.2. Set `Game Directory` - `<your_project>\hammer_project`  
+	2.3. Set `Hammer VMF Directory` - `<your_project>\hammer_project\mapsrc`  
+	2.4. Set `Prefab Directory` - `<your_project>\hammer_project\mapsrc\prefabs`  
+	2.5. Add required FGD - base.fgd and halflife2.fgd (and your custom fgd as well)  
 3. Restart Hammer++  
 
 4. Open `Run Map` in Expert mode (F9)  
