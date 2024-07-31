@@ -3,10 +3,10 @@ class_name FuncInstance extends ValveIONode;
 
 static var cached = {};
 
-func _apply_entity(e, c):
-	super._apply_entity(e, c);
+func _apply_entity(e):
+	super._apply_entity(e);
 	
-	var file = VMFInstanceManager.correctInstancePath(e, c.vmf);
+	var file = VMFInstanceManager.correctInstancePath(e, e.vmf);
 	if !file:
 		VMFLogger.error('Could not retrieve correct instance path');
 		return;
@@ -24,10 +24,10 @@ func _apply_entity(e, c):
 				if ent.classname != "func_instance":
 					continue;
 
-				var subfile = VMFInstanceManager.correctInstancePath(ent, c.vmf);
-				VMFInstanceManager.importInstance(subfile, c);
+				var subfile = VMFInstanceManager.correctInstancePath(ent, e.vmf);
+				VMFInstanceManager.importInstance(subfile);
 				
-		VMFInstanceManager.importInstance(file, c);
+		VMFInstanceManager.importInstance(file);
 
 	var res: Resource = cached[basename] if basename in FuncInstance.cached else load(path);
 

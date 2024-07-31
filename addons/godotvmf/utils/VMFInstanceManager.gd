@@ -21,7 +21,7 @@ static func correctInstancePath(e, mainVmfPath: String) -> String:
 
 	return '';
 
-static func importInstance(file: String, vmfNode: Node):
+static func importInstance(file: String):
 	var instancesFolder: String = VMFConfig.config.import.instancesFolder;
 
 	var filename := file.get_file().get_basename();

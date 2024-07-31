@@ -252,6 +252,7 @@ func _importEntities(_reimport := false) -> void:
 
 	for ent: Dictionary in _structure.entity:
 		ent = ent.duplicate(true);
+		ent.vmf = vmf;
 
 		var resPath: String = (VMFConfig.config.import.entitiesFolder + '/' + ent.classname + '.tscn').replace('//', '/').replace('res:/', 'res://');
 
@@ -265,17 +266,16 @@ func _importEntities(_reimport := false) -> void:
 		var tscn = load(resPath);
 		var node = tscn.instantiate();
 
-		_entitiesNode.add_child(node);
-		node.set_owner(_owner);
+		node.entity = ent;
 		
-		if ent.classname and ent.classname != "func_instance":
+		if ent.get("classname", "") != "func_instance":
 			set_editable_instance(node, true);
 		
 		if "origin" in ent:
 			ent.origin = Vector3(ent.origin.x, ent.origin.z, -ent.origin.y) * importScale;
 
-		if "_apply_entity" in node:
-			node._apply_entity(ent, self);
+		_entitiesNode.add_child(node);
+		node.set_owner(_owner);
 
 	var time := Time.get_ticks_msec() - elapsedTime;
 	VMFLogger.log("Imported entities in " + str(time) + "ms");

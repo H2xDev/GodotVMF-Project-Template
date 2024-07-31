@@ -7,9 +7,8 @@ var instance: Player;
 
 func _entity_ready():
 	instance = player_entity.instantiate();
-	get_tree().current_scene.add_child(instance);
-	instance.set_owner(get_tree().root);
 
+	get_tree().current_scene.add_child(instance);
 	instance.global_transform.origin = global_transform.origin;
 	instance.rotation_degrees.y = entity.get("angle", Vector3.ZERO).y - 90;
 

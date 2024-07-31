@@ -109,8 +109,6 @@ func _preload_resources():
 
 	var elapsed = Time.get_ticks_msec() - time;
 
-	VMFLogger.log("Preloading resources took: " + str(elapsed) + "ms");
-
 	for file in resources:
 		var key = file.replace(config.material.targetFolder, "");
 		var data = projectMaterials.get(key, projectTextures.get(key, ResourceLoader.load(file)));

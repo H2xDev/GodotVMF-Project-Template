@@ -1,8 +1,28 @@
 extends Node3D;
+class_name Debugger;
 
 @onready var richText: RichTextLabel = %RichTextLabel;
 
-func _ready():
+const PROCESS_FILE = ".current_process";
+
+static var instance: Debugger;
+
+func kill_existing_process():
+	var pid = FileAccess.open(PROCESS_FILE, FileAccess.READ);
+	if pid:
+		var processToKill = int(pid.get_line());
+
+		if processToKill:
+			message("Killing existing process: {0}".format([pid.get_line()]));
+			OS.kill(processToKill);
+
+		pid.close();
+
+	var file = FileAccess.open(PROCESS_FILE, FileAccess.WRITE);
+	file.store_string(str(OS.get_process_id()));
+	file.close();
+
+func launch_map():
 	var args = OS.get_cmdline_args();
 	var vmfArg = args.find("--vmf");
 
@@ -14,7 +34,7 @@ func _ready():
 			message("Map file not found: {0}".format([mapPath]));
 			return;
 
-		richText.text += "Map: {0}".format([mapPath]);
+		message("Loading map: {0}".format([mapPath]));
 
 		var vmf = VMFNode.new();
 
@@ -25,9 +45,16 @@ func _ready():
 	else:
 		message("No map specified. Use --vmf <mapname> to specify a map to load.");
 
+
+func _ready():
+	instance = self;
+
+	kill_existing_process();
+	launch_map();
+
 func _process(_delta):
-	# On press ESC quit the game
 	if Input.is_action_just_pressed("ui_cancel"):
+		DirAccess.remove_absolute(PROCESS_FILE);
 		get_tree().quit();
 
 func message(text):

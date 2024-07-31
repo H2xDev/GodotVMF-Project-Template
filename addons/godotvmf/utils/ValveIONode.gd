@@ -46,28 +46,31 @@ func _reparent():
 		call_deferred("reparent", parentNode, true);
 
 func _ready():
+	if entity.size(): _apply_entity(entity);
+
 	if Engine.is_editor_hint():
 		return;
 
 	parse_connections();
-	
+
 	ValveIONode.namedEntities[name] = self;
 
-	if "StartDisabled" in entity and entity.StartDisabled == 1:
-		enabled = false;
+	enabled = entity.get("StartDisabled", 0) == 0;
 
 	_reparent();
 	call_deferred("_entity_ready");
 
-func _apply_entity(ent, config):
+func _apply_entity(ent):
 	self.entity = ent;
 	self.flags = ent.get("spawnflags", 0);
 	self.basis = get_entity_basis(ent);
 	self.global_position = ent.get("origin", Vector3.ZERO);
-	
+
 	assign_name();
 
 func assign_name(i = 0) -> void:
+	self.name = str(entity.get("id", "no_name"));
+
 	if not "targetname" in entity:
 		self.name = entity.classname + '_' + str(entity.id);
 		return;
@@ -161,7 +164,7 @@ func parse_connections() -> void:
 
 func validate_entity() -> bool:
 	if entity.keys().size() == 0:
-		VMFLogger.error('Looks like you forgot to call "super._apply_instance" inside the entity - ' + name);
+		VMFLogger.error('Looks like you forgot to call "super._apply_entity" inside the entity - ' + name);
 		return false;
 
 	return true;
@@ -263,7 +266,7 @@ func get_entity_trimesh_shape():
 		};
 	
 		var csgmesh = CSGMesh3D.new();
-		var origin = entity.origin if "origin" in entity else Vector3.ZERO;
+		var origin = entity.get("origin", Vector3.ZERO);
 
 		csgmesh.mesh = VMFTool.createMesh(struct, origin);
 
