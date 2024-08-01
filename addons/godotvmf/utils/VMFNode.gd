@@ -266,7 +266,8 @@ func _importEntities(_reimport := false) -> void:
 		var tscn = load(resPath);
 		var node = tscn.instantiate();
 
-		node.entity = ent;
+		if "entity" in node:
+			node.entity = ent;
 		
 		if ent.get("classname", "") != "func_instance":
 			set_editable_instance(node, true);

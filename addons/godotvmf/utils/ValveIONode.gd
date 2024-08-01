@@ -20,6 +20,8 @@ var config:
 
 static var aliases: Dictionary = {};
 
+var isSuperCalled = false;
+
 func Toggle(_param = null):
 	enabled = !enabled;
 
@@ -65,6 +67,8 @@ func _apply_entity(ent):
 	self.flags = ent.get("spawnflags", 0);
 	self.basis = get_entity_basis(ent);
 	self.global_position = ent.get("origin", Vector3.ZERO);
+
+	isSuperCalled = true;
 
 	assign_name();
 
@@ -163,7 +167,7 @@ func parse_connections() -> void:
 				call_target_input(target, input, param, delay));
 
 func validate_entity() -> bool:
-	if entity.keys().size() == 0:
+	if not isSuperCalled:
 		VMFLogger.error('Looks like you forgot to call "super._apply_entity" inside the entity - ' + name);
 		return false;
 

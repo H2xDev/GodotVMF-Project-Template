@@ -88,5 +88,6 @@ func _ready() -> void:
 func _process(_delta: float) -> void:
 	process_gravity(_delta);
 	process_movement(_delta);
+
+func _physics_process(_delta: float) -> void:
 	move_and_slide();
-	pass;

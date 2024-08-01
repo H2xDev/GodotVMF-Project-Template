@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://d4bck3xnn6i3e"]
+
+[ext_resource type="Script" path="res://entities/path_track.gd" id="1_ghfd2"]
+
+[node name="PathTrack" type="Node3D"]
+script = ExtResource("1_ghfd2")

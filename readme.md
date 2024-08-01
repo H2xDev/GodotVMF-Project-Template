@@ -2,12 +2,12 @@
 
 ## Preparation
 1. Install Godot engine to be able to run the project from cmd.  
-    1.1. You can do that via [Scoop package manager](https://scoop.sh/#/apps?q=godot&id=2fdd7b453f1ef3161d01986e2051c646911a642c)
+	1.1. You can do that via [Scoop package manager](https://scoop.sh/#/apps?q=godot&id=2fdd7b453f1ef3161d01986e2051c646911a642c)
 
 2. Configure Hammer++ to work with [hammer_project](/hammer_project)  
 	2.1. Instruction [here](https://github.com/H2xDev/GodotVMF/blob/master/docs/installation.md)  
 3. Create a new game configuration in Hammer++  
-    3.1. Set `Game Executable Directory` - `<your_project>`
+	3.1. Set `Game Executable Directory` - `<your_project>`
 	3.2. Set `Game Directory` - `<your_project>\hammer_project`  
 	3.3. Set `Hammer VMF Directory` - `<your_project>\hammer_project\mapsrc`  
 	3.4. Set `Prefab Directory` - `<your_project>\hammer_project\mapsrc\prefabs`  
