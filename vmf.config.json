@@ -20,7 +20,7 @@
 	},
 
 	"material": {
-		"importMode": 3,
+		"importMode": 2,
 		"generateMipmaps": true,
 		"ignore": [
 			"TOOLS/TOOLSNODRAW",

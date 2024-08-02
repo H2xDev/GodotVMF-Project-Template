@@ -201,7 +201,11 @@ class VTF:
 
 	static func create(path: String, duration: float = 0):
 		path = path.to_lower().replace('\\', '/').replace('//', '/');
-		var fullPath = "{0}/materials/{1}.vtf".format([VMFConfig.config.gameInfoPath, path]).replace('\\', '/').replace('//', '/');
+		var fullPath = "{0}/materials/{1}.vtf" \
+			.format([VMFConfig.config.gameInfoPath, path]) \
+			.replace('\\', '/') \
+			.replace('//', '/') \
+			.replace('res:/', 'res://');
 
 		if not FileAccess.file_exists(fullPath):
 			VMFLogger.error("File {0} is not exist".format([fullPath]));
@@ -255,7 +259,10 @@ class VTF:
 			VMFLogger.error("Corrupted file: {0}".format([file.get_path()]));
 			return null;
 
-		var pathToSave = "{0}/{1}.texture.tres".format([VMFConfig.config.material.targetFolder, path]).replace('//', '/').replace('res:/', 'res://');
+		var pathToSave = "{0}/{1}.texture.tres" \
+			.format([VMFConfig.config.material.targetFolder, path]) \
+			.replace('//', '/') \
+			.replace('res:/', 'res://');
 
 		var tex;
 
@@ -270,16 +277,23 @@ class VTF:
 		else:
 			tex = _readFrame(0);
 			
-		if not tex: return null;
+		if not tex: 
+			VMFLogger.error("Texture not loaded: {0}".format([pathToSave]));
+			return null;
 
 		DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(pathToSave.get_base_dir()));
 		ResourceSaver.save(tex, pathToSave);
 		tex.take_over_path(pathToSave);
+		VMFLogger.log("Texture imported: {0}".format([pathToSave]));
 
 		return tex;
 
 	func _init(path, duration):
-		path = path.to_lower().replace('\\', '/').replace('//', '/');
+		path = path.to_lower() \
+			.replace('\\', '/') \
+			.replace('//', '/') \
+			.replace('res:/', 'res://');
+
 		self.path = path;
 		self.frameDuration = duration
 
@@ -312,11 +326,16 @@ class VMT:
 		}
 
 	static func create(materialPath):
-		if not VMFConfig.config: return null;
+		if not VMFConfig.config:
+			return null;
 
 		materialPath = materialPath.to_lower().replace('\\', '/');
 
-		var path = "{0}/materials/{1}.vmt".format([VMFConfig.config.gameInfoPath, materialPath]).replace('\\', '/').replace('//', '/');
+		var path = "{0}/materials/{1}.vmt"\
+			.format([VMFConfig.config.gameInfoPath, materialPath])\
+			.replace('\\', '/').replace('//', '/')\
+			.replace('res:/', 'res://');
+
 		var h = hash(materialPath);
 
 		VMT.cache = {} if not VMT.cache else VMT.cache;
@@ -345,9 +364,9 @@ class VMT:
 				material.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED;
 
 			var emissionTint: Array[float]
-			emissionTint.assign(structure.get('$selfillummasktint', '[1 1 1]')\
-				.trim_suffix(']')\
-				.trim_prefix('[')\
+			emissionTint.assign(structure.get('$selfillummasktint', '[1 1 1]') \
+				.trim_suffix(']') \
+				.trim_prefix('[') \
 				.split_floats(' '))
 
 			material.emission = Color(emissionTint[0], emissionTint[1], emissionTint[2]);
@@ -363,7 +382,12 @@ class VMT:
 		for key in mappings.keys():
 			if not key in structure: continue;
 
-			var path = structure[key].to_lower().replace('\\', '/').replace('//', '/').replace('.vtf', '');
+			var path = structure[key].to_lower()\
+					.replace('\\', '/')\
+					.replace('//', '/')\
+					.replace('res:/', 'res://')\
+					.replace('.vtf', '');
+
 			var duration = float(structure.proxies.animatedtexture.animatedtextureframerate if "proxies" in structure and "animatedtexture" in structure.proxies else 30);
 			duration = 1 / duration;
 
@@ -423,7 +447,11 @@ class VMT:
 	func _init(materialPath):
 		materialPath = materialPath.to_lower().replace('\\', '/');
 
-		var path = "{0}/materials/{1}.vmt".format([VMFConfig.config.gameInfoPath, materialPath]).replace('\\', '/').replace('//', '/');
+		var path = "{0}/materials/{1}.vmt"\
+				.format([VMFConfig.config.gameInfoPath, materialPath])\
+				.replace('\\', '/')\
+				.replace('//', '/')\
+				.replace('res:/', 'res://');
 
 		structure = ValveFormatParser.parse(path, true);
 		shader = structure.keys()[0];
@@ -470,12 +498,17 @@ static func getMaterial(materialPath):
 
 static func importMaterial(materialPath, isModel = false):
 	materialPath = materialPath.to_lower().replace('\\', '/');
-	var savePath = "{0}/{1}.tres".format([VMFConfig.config.material.targetFolder, materialPath]).replace('//', '/').replace('res:/', 'res://');
+	var savePath = "{0}/{1}.tres" \
+		.format([VMFConfig.config.material.targetFolder, materialPath]) \
+		.replace('//', '/') \
+		.replace('res:/', 'res://');
 
 	if ResourceLoader.exists(savePath): return;
 
 	var vmt = VMT.create(materialPath);
-	if not vmt: return;
+	if not vmt: 
+		VMFLogger.error("Compiling texture...");
+		return;
 
 	if isModel: vmt.material.uv1_scale.y = -1;
 

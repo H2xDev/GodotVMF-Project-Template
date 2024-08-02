@@ -1,8 +1,8 @@
-[gd_scene load_steps=12 format=3 uid="uid://drhx74i8jnvka"]
+[gd_scene load_steps=12 format=3 uid="uid://cgol851814edp"]
 
 [ext_resource type="Script" path="res://addons/godotvmf/utils/VMFNode.gd" id="1_lhojc"]
-[ext_resource type="ArrayMesh" path="res://geometry/example2_vmf_import.mesh" id="2_6dllp"]
-[ext_resource type="Shape3D" path="res://geometry/example2_vmf_collision_import.res" id="3_xftf7"]
+[ext_resource type="ArrayMesh" uid="uid://c3ttl6wwidq2c" path="res://geometry/example2_vmf_import.mesh" id="2_6dllp"]
+[ext_resource type="Shape3D" uid="uid://djtshexk3hk7e" path="res://geometry/example2_vmf_collision_import.res" id="3_xftf7"]
 [ext_resource type="PackedScene" uid="uid://beponjehvu4od" path="res://entities/info_player_start.tscn" id="4_coq5b"]
 [ext_resource type="PackedScene" uid="uid://bm8k8ppws8jtv" path="res://entities/light.tscn" id="4_ouwts"]
 [ext_resource type="PackedScene" uid="uid://dqohp4r0iukoo" path="res://entities/light_spot.tscn" id="8_tapr5"]
@@ -136,7 +136,7 @@ entity = {
 "movedir": Vector3(0, 90, 0),
 "noise1": "effects/door4.wav",
 "origin": Vector3(4, 3.2, 4),
-"radius": 2.5,
+"radius": 3.90625e-05,
 "renderamt": 255,
 "rendercolor": Vector3(255, 255, 255),
 "renderfx": 0,
@@ -554,7 +554,7 @@ entity = {
 "locked_sound": 0,
 "movedir": Vector3(0, 90, 0),
 "origin": Vector3(-6.3, 3, -8),
-"radius": 2.5,
+"radius": 3.90625e-05,
 "renderamt": 255,
 "rendercolor": Vector3(255, 255, 255),
 "renderfx": 0,

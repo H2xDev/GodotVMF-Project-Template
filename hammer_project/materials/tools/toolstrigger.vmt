@@ -2,7 +2,7 @@
 {
 	// Original shader: BaseTimesLightmapAlphaBlend
 	"$translucent" 1
-	"$basetexture" "Tools/toolstrigger"
+	"$basetexture" "tools/toolstrigger"
 	"srgb?$basetexture" "Tools/toolstrigger-dx10"
 	"%compiletrigger" 1
 	"%keywords" "airexchange,borealis,c17downtown,c17industrial,c17sewers,c17skyscraper,c17trainstation,combine,kraken,wasteland"

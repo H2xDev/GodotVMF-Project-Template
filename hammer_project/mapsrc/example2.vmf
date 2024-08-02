@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "56"
+	"mapversion" "60"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "56"
+	"mapversion" "60"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -902,6 +902,124 @@ world
 		editor
 		{
 			"color" "0 102 191"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "319"
+		side
+		{
+			"id" "180"
+			"plane" "(-384 64 128) (-320 64 128) (-320 -320 128)"
+			vertices_plus
+			{
+				"v" "-384 64 128"
+				"v" "-320 64 128"
+				"v" "-320 -320 128"
+				"v" "-384 -320 128"
+			}
+			"material" "TOOLS/TOOLSNPCCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "179"
+			"plane" "(-384 -320 0) (-320 -320 0) (-320 64 0)"
+			vertices_plus
+			{
+				"v" "-384 -320 0"
+				"v" "-320 -320 0"
+				"v" "-320 64 0"
+				"v" "-384 64 0"
+			}
+			"material" "TOOLS/TOOLSNPCCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "178"
+			"plane" "(-384 64 128) (-384 -320 128) (-384 -320 0)"
+			vertices_plus
+			{
+				"v" "-384 64 128"
+				"v" "-384 -320 128"
+				"v" "-384 -320 0"
+				"v" "-384 64 0"
+			}
+			"material" "TOOLS/TOOLSNPCCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "177"
+			"plane" "(-320 64 0) (-320 -320 0) (-320 -320 128)"
+			vertices_plus
+			{
+				"v" "-320 64 0"
+				"v" "-320 -320 0"
+				"v" "-320 -320 128"
+				"v" "-320 64 128"
+			}
+			"material" "TOOLS/TOOLSNPCCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "176"
+			"plane" "(-320 64 128) (-384 64 128) (-384 64 0)"
+			vertices_plus
+			{
+				"v" "-320 64 128"
+				"v" "-384 64 128"
+				"v" "-384 64 0"
+				"v" "-320 64 0"
+			}
+			"material" "TOOLS/TOOLSNPCCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "175"
+			"plane" "(-320 -320 0) (-384 -320 0) (-384 -320 128)"
+			vertices_plus
+			{
+				"v" "-320 -320 0"
+				"v" "-384 -320 0"
+				"v" "-384 -320 128"
+				"v" "-320 -320 128"
+			}
+			"material" "TOOLS/TOOLSNPCCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 155 244"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}

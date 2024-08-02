@@ -26,25 +26,25 @@ func launch_map():
 	var args = OS.get_cmdline_args();
 	var vmfArg = args.find("--vmf");
 
+	var mapName = "example2";
+
 	if(vmfArg != -1):
-		var mapName = args[vmfArg + 1];
-		var mapPath = "res://hammer_project/mapsrc/{0}.vmf".format([mapName]);
+		mapName = args[vmfArg + 1];
+	
+	var mapPath = "res://hammer_project/mapsrc/{0}.vmf".format([mapName]);
 
-		if (FileAccess.file_exists(mapPath) == false):
-			message("Map file not found: {0}".format([mapPath]));
-			return;
+	if (FileAccess.file_exists(mapPath) == false):
+		message("Map file not found: {0}".format([mapPath]));
+		return;
 
-		message("Loading map: {0}".format([mapPath]));
+	message("Loading map: {0}".format([mapPath]));
 
-		var vmf = VMFNode.new();
+	var vmf = VMFNode.new();
 
-		get_tree().current_scene.add_child(vmf);
+	get_tree().current_scene.add_child(vmf);
 
-		vmf.vmf = mapPath;
-		vmf.importMap(true);
-	else:
-		message("No map specified. Use --vmf <mapname> to specify a map to load.");
-
+	vmf.vmf = mapPath;
+	vmf.importMap(true);
 
 func _ready():
 	instance = self;
