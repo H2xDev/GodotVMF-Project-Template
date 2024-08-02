@@ -25,6 +25,25 @@ var open_sound = null;
 var close_sound = null;
 var current_tween = null;
 
+func _apply_entity(e):
+	super._apply_entity(e);
+
+	$body/mesh.set_mesh(get_mesh());
+
+	if not has_flag(FLAG_NON_SOLID):
+		$body/collision.shape = get_entity_shape();
+	else:
+		$body/collision.queue_free();
+
+	move_direction = get_movement_vector(e.movedir);
+	move_distance = $body/mesh.mesh.get_aabb().size * move_direction;
+
+	speed = e.speed * config.import.scale;
+	lip_vector = move_direction * e.lip * config.import.scale;
+	
+	volume = e.get("volume", 10.0) / 10.0;
+	e.radius = e.get("radius", 100.0 / config.import.scale) * config.import.scale;
+
 func _entity_ready():
 	start_position = position;
 
@@ -55,25 +74,6 @@ func move_door(target_value: float = 0.0, instant: bool = false):
 
 	current_tween = create_tween();
 	current_tween.tween_property(self, "position", target_position, time);
-
-func _apply_entity(e):
-	super._apply_entity(e);
-
-	$body/mesh.set_mesh(get_mesh());
-
-	if not has_flag(FLAG_NON_SOLID):
-		$body/collision.shape = get_entity_shape();
-	else:
-		$body/collision.queue_free();
-
-	move_direction = get_movement_vector(e.movedir);
-	move_distance = $body/mesh.mesh.get_aabb().size * move_direction;
-
-	speed = e.speed * config.import.scale;
-	lip_vector = move_direction * e.lip * config.import.scale;
-	
-	volume = e.get("volume", 10.0) / 10.0;
-	e.radius = e.get("radius", 100.0 / config.import.scale) * config.import.scale;
 
 # OUTPUTS
 func _on_fully_open():

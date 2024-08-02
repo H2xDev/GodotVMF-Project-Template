@@ -6,12 +6,16 @@ var sound_cache: Dictionary = {};
 
 ## Play a sound at a given position
 func play_sound(position: Vector3, sound_name: String, volume: float = 1.0, pitch: float = 1.0) -> AudioStreamPlayer3D:
-	var is_cached = sound_cache.has(sound_name);
+	if sound_name == "":
+		push_error("Sound name is empty.");
+		return
 
-	if (!is_cached):
+	var sound = sound_cache.get(sound_name, null);
+
+	if sound == null:
 		push_error("Sound " + sound_name + " is not cached. Precache it first.");
+		return;
 
-	var sound = sound_cache[sound_name];
 	var sound_player = AudioStreamPlayer3D.new();
 
 	get_tree().get_current_scene().add_child(sound_player);
@@ -22,6 +26,7 @@ func play_sound(position: Vector3, sound_name: String, volume: float = 1.0, pitc
 	sound_player.pitch_scale = pitch;
 	sound_player.connect("finished", sound_player.queue_free);
 	sound_player.play(0.0);
+	sound_player.max_distance = 10.0;
 	return sound_player;
 
 ## Play a random sound from a list of sound names

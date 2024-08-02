@@ -5,5 +5,14 @@ extends ValveIONode
 var next_stop_target: path_track:
 	get: return get_target(entity.target);
 
-func _apply_entity(e):
-	super._apply_entity(e)
+var prev_stop_target: path_track = null;
+
+func _entity_ready():
+	if next_stop_target and next_stop_target is path_track:
+		next_stop_target.prev_stop_target = self;
+
+func _pass():
+	trigger_output("OnPass");
+
+func _teleport():
+	trigger_output("OnTeleport");

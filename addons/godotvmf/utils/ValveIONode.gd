@@ -228,7 +228,7 @@ func get_value(field, fallback):
 
 ## Returns the shape of the entity that depends on solids that it have
 func get_entity_shape():
-	var use_convex_shape = entity.solid is Dictionary;
+	var use_convex_shape = entity.solid.size() == 1;
 
 	if use_convex_shape:
 		return get_entity_convex_shape();

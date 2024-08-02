@@ -6,6 +6,8 @@ class_name Debugger;
 const PROCESS_FILE = ".current_process";
 
 static var instance: Debugger;
+static func log(text: String):
+	instance.message(text);
 
 func kill_existing_process():
 	var pid = FileAccess.open(PROCESS_FILE, FileAccess.READ);
@@ -44,6 +46,8 @@ func launch_map():
 	get_tree().current_scene.add_child(vmf);
 
 	vmf.vmf = mapPath;
+	vmf.saveGeometry = false;
+	vmf.saveCollision = false;
 	vmf.importMap(true);
 
 func _ready():

@@ -201,6 +201,7 @@ class VTF:
 
 	static func create(path: String, duration: float = 0):
 		path = path.to_lower().replace('\\', '/').replace('//', '/');
+
 		var fullPath = "{0}/materials/{1}.vtf" \
 			.format([VMFConfig.config.gameInfoPath, path]) \
 			.replace('\\', '/') \
