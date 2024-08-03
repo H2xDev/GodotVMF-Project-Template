@@ -13,8 +13,10 @@ var click_sound = null;
 var lock_sound = null;
 
 func _entity_ready():
-	click_sound = entity.get("click_sound", "");
-	lock_sound = entity.get("lock_sound", "");
+	super._entity_ready();
+
+	click_sound = entity.get("click_sound", click_sound);
+	lock_sound = entity.get("lock_sound", lock_sound);
 
 	if click_sound: SoundManager.precache_sound(click_sound);
 	if lock_sound: SoundManager.precache_sound(lock_sound);
@@ -24,7 +26,7 @@ func _interact(_player: Player):
 		return;
 
 	if is_locked:
-		SoundManager.play_sound(global_transform.origin, lock_sound);
+		if lock_sound: SoundManager.play_sound(global_transform.origin, lock_sound);
 		trigger_output("OnUseLocked");
 		return;
 
@@ -33,7 +35,7 @@ func _interact(_player: Player):
 		wait_time = float(entity.wait);
 		Open(null);
 
-	SoundManager.play_sound(global_transform.origin, click_sound);
+	if click_sound: SoundManager.play_sound(global_transform.origin, click_sound);
 	trigger_output("OnPressed");
 
 func _process(delta: float):
