@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "se_metal/sg_metalfloor001"
+	"$bumpmap" "se_metal/sg_metalfloor001_norm"
+	"$surfaceprop" "Metal"
+
+}

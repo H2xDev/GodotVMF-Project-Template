@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	// Orchid.
+	"$basetexture" "Dev/dev_measuregeneric_purple03"
+	"$surfaceprop" "concrete"
+	"%keywords" "mapbase_dev"
+}
