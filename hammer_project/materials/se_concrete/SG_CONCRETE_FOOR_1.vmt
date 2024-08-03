@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "se_concrete/sg_concrete_foor_1"
+		"$surfaceprop" "concrete"
+		
+		"$detail" "detail\beton"
+	"$detailscale" "3.0"
+	"$detailblendfactor" .6
+	"$detailblendmode" "0"
+}

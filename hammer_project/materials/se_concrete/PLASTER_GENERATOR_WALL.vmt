@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "se_concrete/plaster_generator_wall"
+	"$bumpmap" "se_concrete/plaster_generator_wall_norm"
+		"$surfaceprop" "plaster"
+}

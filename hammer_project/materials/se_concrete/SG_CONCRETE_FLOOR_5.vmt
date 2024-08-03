@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "se_concrete/sg_concrete_floor_5"
+	"$bumpmap" "se_concrete/sg_concrete_floor_5_norm"
+	"$surfaceprop" "Concrete"
+}

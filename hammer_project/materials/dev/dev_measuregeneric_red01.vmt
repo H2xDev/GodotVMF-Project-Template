@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	// Red.
+	"$basetexture" "Dev/dev_measuregeneric_red01"
+	"$surfaceprop" "concrete"
+	"%keywords" "mapbase_dev"
+}

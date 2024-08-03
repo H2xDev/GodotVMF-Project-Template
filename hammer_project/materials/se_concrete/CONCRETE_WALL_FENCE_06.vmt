@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"se_concrete/concrete_wall_fence_06"
+	"$bumpmap"		"se_concrete/concrete_wall_fence_06_norm"
+	
+	"$detail" "detail\beton"
+	"$detailscale" "6.0"
+	"$detailblendfactor" .3
+	"$detailblendmode" "0"
+}
