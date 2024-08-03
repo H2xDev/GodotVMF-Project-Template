@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8y77syhd7fxf"]
+
+[ext_resource type="Script" path="res://entities/ambient_generic.gd" id="1_wn8yh"]
+
+[node name="AmbientGeneric" type="Node3D"]
+script = ExtResource("1_wn8yh")

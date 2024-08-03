@@ -114,7 +114,5 @@ func Close(_param):
 	move_door(0.0);
 
 func Toggle(_param = null):
-	if is_open:
-		Close(_param);
-	else:
-		Open(_param);
+	if is_open: Close(_param);
+	else: Open(_param);

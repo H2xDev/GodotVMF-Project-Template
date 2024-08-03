@@ -35,9 +35,9 @@ func precache_sounds():
 	stop_sound = entity.get("StopSound", "");
 	move_sound = entity.get("MoveSound", "");
 
-	if start_sound: SoundManager.preload_sound(start_sound);
-	if stop_sound: SoundManager.preload_sound(stop_sound);
-	if move_sound: SoundManager.preload_sound(move_sound);
+	if start_sound: SoundManager.precache_sound(start_sound);
+	if stop_sound: SoundManager.precache_sound(stop_sound);
+	if move_sound: SoundManager.precache_sound(move_sound);
 
 func _apply_entity(e):
 	super._apply_entity(e);
