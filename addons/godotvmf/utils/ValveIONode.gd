@@ -44,8 +44,7 @@ func _reparent():
 
 	var parentNode = get_target(entity.parentname);
 
-	if parentNode:
-		call_deferred("reparent", parentNode, true);
+	if parentNode: reparent(parentNode, true);
 
 func _ready():
 	if entity.size(): _apply_entity(entity);
@@ -59,7 +58,7 @@ func _ready():
 
 	enabled = entity.get("StartDisabled", 0) == 0;
 
-	_reparent();
+	call_deferred("_reparent");
 	call_deferred("_entity_ready");
 
 func _apply_entity(ent):

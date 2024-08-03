@@ -49,6 +49,9 @@ func reset_tween():
 	if current_tween != null:
 		current_tween.stop();
 		current_tween = null;
+		state = MovementState.STOPPED;
+		SoundManager.play_sound(global_transform.origin, stop_sound);
+		trigger_output("OnStop");
 
 func is_current_point_valid():
 	if not current_point:
@@ -63,10 +66,6 @@ func is_current_point_valid():
 ## Returns true in case the entity should stop
 func move_to_current_point():
 	if stop_required:
-		state = MovementState.STOPPED;
-		SoundManager.play_sound(global_transform.origin, stop_sound);
-		trigger_output("OnStop");
-		stop_required = false;
 		return true;
 
 	var target_position = current_point.global_transform.origin;
@@ -105,7 +104,10 @@ func move_to_next_point():
 	if await move_to_current_point(): return;
 
 	current_point = current_point.next_stop_target;
-	if current_point: move_to_next_point();
+	if current_point:
+		move_to_next_point()
+	else:
+		stop_required = false;
 
 func move_to_previous_point():
 	if not is_current_point_valid(): return;
@@ -114,7 +116,10 @@ func move_to_previous_point():
 	if await move_to_current_point(): return;
 
 	current_point = current_point.prev_stop_target;
-	if current_point: move_to_previous_point();
+	if current_point:
+		move_to_previous_point();
+	else:
+		stop_required = false;
 
 func teleport_to_point(target_point: String, _trigger_output: bool = false):
 	var track = get_target(target_point);
@@ -130,9 +135,13 @@ func teleport_to_point(target_point: String, _trigger_output: bool = false):
 
 # INPUTS
 func StartForward(_param = null):
+	if direction == MovementDirection.BACKWARD and current_point:
+		current_point = current_point.next_stop_target;
 	move_to_next_point();
 
 func StartBackward(_param = null):
+	if direction == MovementDirection.FORWARD and current_point:
+		current_point = current_point.prev_stop_target;
 	move_to_previous_point();
 
 func Toggle(_param = null):
@@ -145,7 +154,6 @@ func Toggle(_param = null):
 		Stop();
 
 func Stop(_param = null):
-	stop_required = true;
 	reset_tween();
 
 func TeleportToPathTrack(target_path_track: String):
