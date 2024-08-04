@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://bw7pwv6kmfb84"]
+
+[ext_resource type="Script" path="res://objects/hud/hud.gd" id="1_ggyaj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_as5lp"]
+bg_color = Color(1, 1, 1, 1)
+
+[node name="Hud" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ggyaj")
+
+[node name="game_text_container" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="fade_panel" type="Panel" parent="."]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_as5lp")

@@ -31,13 +31,9 @@ func _entity_ready():
 	precache_sounds();
 
 func precache_sounds():
-	start_sound = entity.get("StartSound", "");
-	stop_sound = entity.get("StopSound", "");
-	move_sound = entity.get("MoveSound", "");
-
-	if start_sound: SoundManager.precache_sound(start_sound);
-	if stop_sound: SoundManager.precache_sound(stop_sound);
-	if move_sound: SoundManager.precache_sound(move_sound);
+	start_sound = SoundManager.precache_sound(entity.get("StartSound", ""));
+	stop_sound = SoundManager.precache_sound(entity.get("StopSound", ""));
+	move_sound = SoundManager.precache_sound(entity.get("MoveSound", ""));
 
 func _apply_entity(e):
 	super._apply_entity(e);
@@ -49,7 +45,6 @@ func reset_tween():
 	if current_tween != null:
 		current_tween.stop();
 		current_tween = null;
-		state = MovementState.STOPPED;
 		SoundManager.play_sound(global_transform.origin, stop_sound);
 		trigger_output("OnStop");
 
@@ -107,7 +102,7 @@ func move_to_next_point():
 	if current_point:
 		move_to_next_point()
 	else:
-		stop_required = false;
+		state = MovementState.STOPPED;
 
 func move_to_previous_point():
 	if not is_current_point_valid(): return;
@@ -119,7 +114,7 @@ func move_to_previous_point():
 	if current_point:
 		move_to_previous_point();
 	else:
-		stop_required = false;
+		state = MovementState.STOPPED;
 
 func teleport_to_point(target_point: String, _trigger_output: bool = false):
 	var track = get_target(target_point);

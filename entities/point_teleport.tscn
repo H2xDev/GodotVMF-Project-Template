@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dicpy6kv8ytwj"]
+
+[ext_resource type="Script" path="res://Entities/point_teleport.gd" id="1_q8iwe"]
+
+[node name="PointTeleport" type="Node3D"]
+script = ExtResource("1_q8iwe")

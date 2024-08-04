@@ -7,6 +7,7 @@ const PROCESS_FILE = ".current_process";
 
 static var instance: Debugger;
 static func log(text: String):
+	if instance: return;
 	instance.message(text);
 
 func kill_existing_process():

@@ -1,9 +1,12 @@
-[gd_scene load_steps=2 format=3 uid="uid://8tfakpdj334r"]
+[gd_scene load_steps=3 format=3 uid="uid://8tfakpdj334r"]
 
 [ext_resource type="Script" path="res://scenes/map.gd" id="1_8pr3x"]
+[ext_resource type="PackedScene" uid="uid://bw7pwv6kmfb84" path="res://objects/hud/hud.tscn" id="2_c00wq"]
 
 [node name="Test" type="Node3D"]
 script = ExtResource("1_8pr3x")
+
+[node name="Hud" parent="." instance=ExtResource("2_c00wq")]
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 unique_name_in_owner = true

@@ -1,6 +1,8 @@
 class_name Player
 extends CharacterBody3D
 
+static var instance: Player;
+
 @onready var head: Node3D = %Head;
 @onready var capsule: CollisionShape3D = %Capsule;
 @onready var camera: Camera3D = %Camera;
@@ -82,6 +84,7 @@ func _input(event):
 	process_interaction();
 
 func _ready() -> void:
+	instance = self;
 	ValveIONode.define_alias("!player", self);
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED);
 

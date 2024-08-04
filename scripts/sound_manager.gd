@@ -57,6 +57,10 @@ func play_everywhere(sound_name: String, volume: float = 1.0, pitch: float = 1.0
 	sound_player.play(0.0);
 	return sound_player;
 
-func precache_sound(sound_name: String):
+func precache_sound(sound_name) -> String:
+	if not sound_name: return "";
+
 	print("Precaching sound " + sound_name);
 	sound_cache[sound_name] = load(SOUND_FOLDER + sound_name);
+
+	return sound_name;

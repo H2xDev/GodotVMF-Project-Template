@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmvvx2i3i8rk0"]
+
+[ext_resource type="Script" path="res://Entities/info_particle_system.gd" id="1_3shqy"]
+
+[node name="InfoParticleSystem" type="Node3D"]
+script = ExtResource("1_3shqy")
