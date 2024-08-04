@@ -1,14 +1,35 @@
-[gd_scene load_steps=3 format=3 uid="uid://8tfakpdj334r"]
+[gd_scene load_steps=6 format=3 uid="uid://8tfakpdj334r"]
 
 [ext_resource type="Script" path="res://scenes/map.gd" id="1_8pr3x"]
 [ext_resource type="PackedScene" uid="uid://bw7pwv6kmfb84" path="res://objects/hud/hud.tscn" id="2_c00wq"]
 
-[node name="Test" type="Node3D"]
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_rqv50"]
+
+[sub_resource type="Sky" id="Sky_3emus"]
+sky_material = SubResource("PanoramaSkyMaterial_rqv50")
+radiance_size = 4
+
+[sub_resource type="Environment" id="Environment_mg5r0"]
+background_mode = 2
+sky = SubResource("Sky_3emus")
+ssao_enabled = true
+ssao_intensity = 4.96
+sdfgi_enabled = true
+glow_enabled = true
+glow_bloom = 1.0
+fog_mode = 1
+fog_density = 1.0
+fog_sky_affect = 0.0
+fog_depth_begin = 0.0
+fog_depth_end = 84.1
+volumetric_fog_sky_affect = 0.0
+
+[node name="Map" type="Node3D"]
 script = ExtResource("1_8pr3x")
 
 [node name="Hud" parent="." instance=ExtResource("2_c00wq")]
 
-[node name="RichTextLabel" type="RichTextLabel" parent="."]
+[node name="logs" type="RichTextLabel" parent="."]
 unique_name_in_owner = true
 anchors_preset = 15
 anchor_right = 1.0
@@ -17,3 +38,6 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+
+[node name="environment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_mg5r0")

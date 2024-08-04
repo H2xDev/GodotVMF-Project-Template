@@ -5,5 +5,5 @@
 [node name="Light" type="Node3D"]
 script = ExtResource("1_6y2p0")
 
-[node name="OmniLight3D" type="OmniLight3D" parent="."]
+[node name="light" type="OmniLight3D" parent="."]
 light_energy = 0.0

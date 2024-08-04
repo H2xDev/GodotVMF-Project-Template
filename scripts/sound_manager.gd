@@ -6,9 +6,7 @@ var sound_cache: Dictionary = {};
 
 ## Play a sound at a given position
 func play_sound(position: Vector3, sound_name: String, volume: float = 1.0, pitch: float = 1.0) -> AudioStreamPlayer3D:
-	if sound_name == "":
-		push_error("Sound name is empty.");
-		return
+	if sound_name == "": return
 
 	var sound = sound_cache.get(sound_name, null);
 

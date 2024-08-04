@@ -17,4 +17,3 @@ func _apply_entity(e):
 
 	$body/mesh.set_mesh(get_mesh());
 	$body/collision.shape = get_entity_shape();
-

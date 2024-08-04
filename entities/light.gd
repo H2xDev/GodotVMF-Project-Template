@@ -12,7 +12,7 @@ const FLAG_INITIALLY_DARK = 1;
 
 @export var style: Appearance = Appearance.NORMAL;
 @export var defaultLightEnergy = 0.0;
-@onready var light = $OmniLight3D if has_node("OmniLight3D") else $SpotLight3D;
+@onready var light: Light3D = $light;
 
 func _entity_ready():
 	light.visible = not has_flag(FLAG_INITIALLY_DARK);
@@ -42,6 +42,9 @@ func TurnOn(_param):
 
 func _apply_entity(ent):
 	super._apply_entity(ent);
+
+	if ent.get("targetname", ""):
+		light.light_bake_mode = Light3D.BAKE_DISABLED;
 
 	var color = ent._light;
 

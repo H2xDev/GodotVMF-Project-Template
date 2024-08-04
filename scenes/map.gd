@@ -1,7 +1,7 @@
 extends Node3D;
 class_name Debugger;
 
-@onready var richText: RichTextLabel = %RichTextLabel;
+@onready var richText: RichTextLabel = %logs;
 
 const PROCESS_FILE = ".current_process";
 
@@ -29,7 +29,7 @@ func launch_map():
 	var args = OS.get_cmdline_args();
 	var vmfArg = args.find("--vmf");
 
-	var mapName = "example2";
+	var mapName = "devmap";
 
 	if(vmfArg != -1):
 		mapName = args[vmfArg + 1];
@@ -50,6 +50,23 @@ func launch_map():
 	vmf.saveGeometry = false;
 	vmf.saveCollision = false;
 	vmf.importMap(true);
+
+	assign_skybox(vmf._structure);
+
+func assign_skybox(vmf_struct: Dictionary):
+	var env = $environment.environment;
+	var sky_file = "res://skies/{0}".format([vmf_struct.world.skyname]);
+
+	if not sky_file.get_extension():
+		sky_file += ".jpg";
+
+	if not FileAccess.file_exists(sky_file):
+		print("Skybox file not found: {0}".format([sky_file]));
+		return;
+
+	print("Assigning skybox: {0}".format([sky_file]));
+
+	env.sky.sky_material.panorama = load(sky_file);
 
 func _ready():
 	instance = self;

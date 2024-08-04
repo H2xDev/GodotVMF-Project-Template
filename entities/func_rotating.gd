@@ -64,8 +64,8 @@ func RotateBy(deg):
 	rotTween.play();
 	rotTween.finished.connect(func(): rotTween = null);
 
-func _apply_entity(e, c):
-	super._apply_entity(e, c);
+func _apply_entity(e):
+	super._apply_entity(e);
 
 	$MeshInstance3D.set_mesh(get_mesh());
 	$MeshInstance3D.cast_shadow = entity.disableshadows == 0;

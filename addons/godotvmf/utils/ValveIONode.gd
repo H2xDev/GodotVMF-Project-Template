@@ -61,7 +61,7 @@ func _ready():
 	call_deferred("_reparent");
 	call_deferred("_entity_ready");
 
-func _apply_entity(ent):
+func _apply_entity(ent) -> void:
 	self.entity = ent;
 	self.flags = ent.get("spawnflags", 0);
 	self.basis = get_entity_basis(ent);

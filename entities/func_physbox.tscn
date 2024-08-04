@@ -1,13 +1,13 @@
 [gd_scene load_steps=2 format=3 uid="uid://oumojxolb1tm"]
 
-[ext_resource type="Script" path="res://Entities/func_physbox.gd" id="1_1axbg"]
+[ext_resource type="Script" path="res://entities/func_physbox.gd" id="1_1axbg"]
 
 [node name="FuncPhysbox" type="Node3D"]
 script = ExtResource("1_1axbg")
 
-[node name="RigidBody3D" type="RigidBody3D" parent="."]
+[node name="body" type="RigidBody3D" parent="."]
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D"]
+[node name="mesh" type="MeshInstance3D" parent="body"]
 skeleton = NodePath("../..")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+[node name="collision" type="CollisionShape3D" parent="body"]

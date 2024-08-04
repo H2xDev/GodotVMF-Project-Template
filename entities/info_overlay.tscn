@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://cjy41gyowie1n"]
 
-[ext_resource type="Script" path="res://Entities/info_overlay.gd" id="1_ahhqv"]
+[ext_resource type="Script" path="res://entities/info_overlay.gd" id="1_ahhqv"]
 
 [node name="InfoOverlay" type="Node3D"]
 script = ExtResource("1_ahhqv")
