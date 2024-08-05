@@ -46,4 +46,5 @@
 | func_button | Implemented | |
 | func_tracktrain | Not completely | Rotation by direction is not implemented |
 | func_physbox | Not completely | Works only DisableMotion, EnableMotion and Motion Disabled flag |
+| logic_relay | Implemented | |
 

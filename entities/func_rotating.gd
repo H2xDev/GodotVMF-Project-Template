@@ -11,14 +11,14 @@ const FLAG_Y_AXIS: int = 8;
 var rotTween = null;
 
 # Called when the node enters the scene tree for the first time.
-func _process(dt):
+func _process_physics(dt):
 	if Engine.is_editor_hint() && not preview:
 		return;
 
 	if not enabled:
 		return;
 
-	var speed = deg_to_rad(entity.maxspeed) * dt;
+	var speed = entity.maxspeed * dt;
 
 	if typeof(entity.spawnflags) != TYPE_INT:
 		entity.spawnflags = int(entity.spawnflags);
@@ -67,7 +67,6 @@ func RotateBy(deg):
 func _apply_entity(e):
 	super._apply_entity(e);
 
-	$MeshInstance3D.set_mesh(get_mesh());
-	$MeshInstance3D.cast_shadow = entity.disableshadows == 0;
-
-
+	$body/mesh.set_mesh(get_mesh());
+	$body/mesh.cast_shadow = entity.disableshadows == 0;
+	$body/collision.shape = get_entity_shape();
