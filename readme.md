@@ -48,3 +48,5 @@
 | func_physbox | Not completely | Works only DisableMotion, EnableMotion and Motion Disabled flag |
 | logic_relay | Implemented | |
 
+## TODO
+- env_fog_controller
