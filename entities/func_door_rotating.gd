@@ -11,6 +11,7 @@ const FLAG_TOUCH_OPENS = 1024;
 
 var is_open = false;
 var is_locked = false;
+var is_prevented = false;
 var initial_rotation_state = Vector3(0, 0, 0);
 var current_tween = null;
 var start_sound = null;
@@ -64,6 +65,7 @@ func move_door(progress: float = 0.0):
 	var target_rotation = get_target_rotation(progress);
 
 	if current_tween:
+		is_prevented = true;
 		current_tween.stop();
 
 	if speed == 0.0:
@@ -81,13 +83,23 @@ func move_door(progress: float = 0.0):
 # INPUTS
 func Open(_param):
 	is_open = true;
-	move_door(1.0);
 	trigger_output("OnOpen");
+	await move_door(1.0);
+
+	if not is_prevented:
+		trigger_output("OnFullyOpen");
+	else:
+		is_prevented = false;
 
 func Close(_param):
 	is_open = false;
-	move_door(0.0);
 	trigger_output("OnClose");
+	await move_door(0.0);
+
+	if not is_prevented:
+		trigger_output("OnFullyClosed");
+	else:
+		is_prevented = false;
 
 func Toggle(_param = null):
 	if is_open:
