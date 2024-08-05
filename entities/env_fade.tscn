@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://yfksuk8rnkvr"]
 
-[ext_resource type="Script" path="res://Entities/env_fade.gd" id="1_4imju"]
+[ext_resource type="Script" path="res://entities/env_fade.gd" id="1_4imju"]
 
 [node name="EnvFade" type="Node3D"]
 script = ExtResource("1_4imju")

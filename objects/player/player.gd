@@ -15,17 +15,17 @@ static var instance: Player;
 @export var sprint_rate: float = 1.5;
 @export var ground_friction: float = 30.0;
 @export var air_friction: float = 0.01;
-@export var jump_force: float = 5.0;
+@export var jump_height: float = 1.0;
 
 var move_rate: float = 0.0;
 var movement_vector: Vector3 = Vector3.ZERO;
 var is_controls_disabled: bool = false;
 
 const MAX_STEP_HEIGHT = 0.5;
+const ALLOWED_COLLIDER_CLASSES = ["StaticBody3D", "RigidBody3D"];
 var _snapped_to_stairs_last_frame = false;
 var _last_frame_was_on_floor = -INF;
 
-const ALLOWED_COLLIDER_CLASSES = ["StaticBody3D", "RigidBody3D"];
 
 func process_surface_movement(delta: float, input_dir: Vector2) -> void:
 	var is_sprinting = Input.is_action_pressed("sprint");
@@ -38,7 +38,7 @@ func process_surface_movement(delta: float, input_dir: Vector2) -> void:
 
 	var direction = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized() * move_rate;
 	var computed_acceleration = ((max_speed / delta) / friction_factor - (max_speed / delta)) / 2.0;
-	var current_acceleration = computed_acceleration if is_on_floor() else 0.0;
+	var current_acceleration = computed_acceleration if is_on_floor() else 0.5;
 
 	movement_vector = direction * current_acceleration;
 	movement_vector.y = 0;
@@ -85,7 +85,7 @@ func process_movement(delta: float) -> void:
 
 func do_jump() -> void:
 	if is_on_floor() or _snapped_to_stairs_last_frame:
-		velocity.y = jump_force;
+		velocity.y = sqrt(2 * jump_height * abs(ProjectSettings.get_setting("physics/3d/default_gravity")));
 
 func _input(event):
 	process_mouse_look(event);

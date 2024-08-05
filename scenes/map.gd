@@ -60,11 +60,7 @@ func assign_skybox(vmf_struct: Dictionary):
 	if not sky_file.get_extension():
 		sky_file += ".jpg";
 
-	if not FileAccess.file_exists(sky_file):
-		print("Skybox file not found: {0}".format([sky_file]));
-		return;
-
-	print("Assigning skybox: {0}".format([sky_file]));
+	if not FileAccess.file_exists(sky_file): return;
 
 	env.sky.sky_material.panorama = load(sky_file);
 

@@ -1,16 +1,13 @@
 @tool
 extends ValveIONode
 
-@onready var mi = $MeshInstance3D;
-@onready var de = $Decal;
-
 func _apply_entity(e):
 	super._apply_entity(e);
 
 	var isDecalMode = not "geometry" in e;
 
 	VTFTool.importMaterial(e.material);
-	var material = VTFTool.getMaterial(e.material) if not isDecalMode else load("res://Assets/Materials/" + e.material + ".png");
+	var material = VTFTool.getMaterial(e.material);
 
 	if not material:
 		queue_free();
@@ -56,23 +53,21 @@ func _apply_entity(e):
 	var aabb = mesh.get_aabb().size;
 
 	if isDecalMode:
-		de.size.x = aabb.x;
-		de.size.z = aabb.z;
+		$decal.size.x = aabb.x;
+		$decal.size.z = aabb.z;
 
-		var s = -1 if normal.dot(Vector3.BACK) > 0 or normal.dot(Vector3.RIGHT) > 0 or normal.dot(Vector3.UP) > 0 else 1;
+		var side = -1 if normal.dot(Vector3.BACK) > 0 or normal.dot(Vector3.RIGHT) > 0 or normal.dot(Vector3.UP) > 0 else 1;
 
-		var normalmap = load("res://Assets/Materials/" + e.material + "_norm.jpg");
-
-		de.texture_albedo = material;
-		de.texture_normal = normalmap;
-		de.basis.x = -convert_vector(e.BasisU) * s;
-		de.basis.z = convert_vector(e.BasisV) * s;
-		de.basis.y = normal;
-		mi.queue_free();
+		$decal.texture_albedo = material.albedo_texture;
+		$decal.texture_normal = material.normal_texture;
+		$decal.basis.x = -convert_vector(e.BasisU) * side;
+		$decal.basis.z = convert_vector(e.BasisV) * side;
+		$decal.basis.y = normal;
+		$mesh.queue_free();
 	else:
-		de.queue_free();
-		mi.set_mesh(mesh);
-		mi.position += normal * 0.001;
-		mi.basis.x = convert_vector(e.BasisU);
-		mi.basis.z = -convert_vector(e.BasisV);
-		mi.basis.y = normal;
+		$decal.queue_free();
+		$mesh.set_mesh(mesh);
+		$mesh.position += normal * 0.001;
+		$mesh.basis.x = convert_vector(e.BasisU);
+		$mesh.basis.z = -convert_vector(e.BasisV);
+		$mesh.basis.y = normal;

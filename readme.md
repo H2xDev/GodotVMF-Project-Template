@@ -1,4 +1,4 @@
-# GodotVMF Project Starter
+# GodotVMF Project Starter [Work In Progress]
 
 ## Preparation
 1. Install Godot engine to be able to run the project from cmd.  
@@ -29,6 +29,9 @@
 | info_player_start | Not completely | Flag master doesnt work |
 | path_track | Implemented | |
 | env_fade | Implemented | |
+| point_teleport | Implemented | |
+| info_overlay | Implemented | Has two modes - geometry and decal |
+| game_text | Implemented | Without scan effect |
 | light | Implemented | |
 | light_spot | Implemented | |
 | light_environment | Implemented | |
@@ -42,7 +45,5 @@
 | func_door_rotating | Implemented | |
 | func_button | Implemented | |
 | func_tracktrain | Not completely | Rotation by direction is not implemented |
-| func_physbox | Not completely | |
-| point_teleport | Implemented | |
-| info_overlay | Implemented | Has two modes - geometry and decal |
+| func_physbox | Not completely | Works only DisableMotion, EnableMotion and Motion Disabled flag |
 

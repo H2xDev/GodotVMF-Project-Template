@@ -5,8 +5,8 @@
 [node name="InfoOverlay" type="Node3D"]
 script = ExtResource("1_ahhqv")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+[node name="mesh" type="MeshInstance3D" parent="."]
 cast_shadow = 0
 
-[node name="Decal" type="Decal" parent="."]
+[node name="decal" type="Decal" parent="."]
 size = Vector3(2, 0.2, 2)
