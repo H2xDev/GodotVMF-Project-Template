@@ -1,4 +1,4 @@
-"SDK_LightmappedGeneric"
+"LightmappedGeneric"
 {
 	// A much more acceptable yellow which doesn't suck.
 	"$basetexture" "Dev/dev_measuregeneric_yellow02"

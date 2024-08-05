@@ -1,9 +1,5 @@
 "LightmappedGeneric"
 {
 	"$basetexture" "se_concrete/concrete_wall_fence_03"
-	
-	"$detail" "detail\beton"
-	"$detailscale" "8.0"
-	"$detailblendfactor" .7
-	"$detailblendmode" "0"
+
 }
