@@ -29,7 +29,7 @@ func launch_map():
 	var args = OS.get_cmdline_args();
 	var vmfArg = args.find("--vmf");
 
-	var mapName = "devmap";
+	var mapName = "example3";
 
 	if(vmfArg != -1):
 		mapName = args[vmfArg + 1];

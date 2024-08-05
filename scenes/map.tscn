@@ -22,6 +22,8 @@ fog_density = 1.0
 fog_sky_affect = 0.0
 fog_depth_begin = 0.0
 fog_depth_end = 84.1
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.025
 volumetric_fog_sky_affect = 0.0
 
 [node name="Map" type="Node3D"]
