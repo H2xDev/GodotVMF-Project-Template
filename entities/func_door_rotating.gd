@@ -79,6 +79,7 @@ func move_door(progress: float = 0.0):
 	current_tween.tween_property(self, "rotation", target_rotation, move_time);
 
 	await current_tween.finished;
+	current_tween = null;
 
 # INPUTS
 func Open(_param):
