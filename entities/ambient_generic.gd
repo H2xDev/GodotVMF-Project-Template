@@ -27,9 +27,11 @@ func play_sound(_v = volume):
 
 	if has_flag(FLAG_PLAY_EVERYWHERE):
 		sound_instance = SoundManager.play_everywhere(sound, _v);
-		return;
+	else:
+		sound_instance = SoundManager.play_sound(global_transform.origin, sound, _v);
 
-	sound_instance = SoundManager.play_sound(global_transform.origin, sound, _v);
+	await sound_instance.finished;
+	is_playing = false;
 
 func stop_sound():
 	is_playing = false;
