@@ -26,6 +26,7 @@ const ALLOWED_COLLIDER_CLASSES = ["StaticBody3D", "RigidBody3D"];
 var _snapped_to_stairs_last_frame = false;
 var _last_frame_was_on_floor = -INF;
 
+var pickup_processor: PlayerPickupProcessor = null;
 
 func process_surface_movement(delta: float, input_dir: Vector2) -> void:
 	var is_sprinting = Input.is_action_pressed("sprint");
@@ -67,15 +68,22 @@ func process_mouse_look(event) -> void:
 
 func process_interaction() -> void:
 	if Input.is_action_just_pressed("interact"):
+
+		if pickup_processor.has_item():
+			pickup_processor.drop_item();
+			return;
+
 		var ray_start = camera.global_transform.origin;
 		var ray_end = camera.global_transform.origin - camera.global_transform.basis.z * 10;
 		var query = PhysicsRayQueryParameters3D.create(ray_start, ray_end, 1, [self]);
 		var result = get_world_3d().direct_space_state.intersect_ray(query);
 
 		if result:
-			var body = result["collider"].get_parent();
+			var body = result.collider.get_parent();
 			if body.has_method("_interact"):
 				body._interact(self);
+
+			pickup_processor.pickup_item(result.collider);
 
 func process_movement(delta: float) -> void:
 	var input_dir = Input.get_vector("left", "right", "forward", "backward") if not is_controls_disabled else Vector2(0, 0);
@@ -93,6 +101,8 @@ func _input(event):
 
 func _ready() -> void:
 	instance = self;
+	pickup_processor = PlayerPickupProcessor.new(%hand_point);
+
 	ValveIONode.define_alias("!player", self);
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED);
 
@@ -156,6 +166,8 @@ func _process(_delta: float) -> void:
 	process_movement(_delta);
 
 func _physics_process(_delta: float) -> void:
+	pickup_processor.physics_process(_delta);
+
 	process_gravity(_delta);
 	if snap_up_stairs_check(_delta): return;
 

@@ -29,6 +29,10 @@ window/vsync/vsync_mode=0
 
 enabled=PackedStringArray("res://addons/godotvmf/plugin.cfg")
 
+[global_group]
+
+pickupable=""
+
 [input]
 
 left={

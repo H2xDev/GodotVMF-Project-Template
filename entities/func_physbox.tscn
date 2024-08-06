@@ -5,7 +5,8 @@
 [node name="FuncPhysbox" type="Node3D"]
 script = ExtResource("1_1axbg")
 
-[node name="body" type="RigidBody3D" parent="."]
+[node name="body" type="RigidBody3D" parent="." groups=["pickupable"]]
+freeze_mode = 1
 
 [node name="mesh" type="MeshInstance3D" parent="body"]
 skeleton = NodePath("../..")

@@ -25,6 +25,10 @@ current = true
 [node name="AudioListener3D" type="AudioListener3D" parent="Head/Camera"]
 current = true
 
+[node name="hand_point" type="Node3D" parent="Head/Camera"]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.5)
+
 [node name="StairsBelowRC" type="RayCast3D" parent="."]
 target_position = Vector3(0, -0.75, 0)
 
