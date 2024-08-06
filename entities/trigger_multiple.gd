@@ -3,18 +3,18 @@ class_name trigger_multiple
 extends ValveIONode
 
 func _entity_ready():
-	$Area3D.body_entered.connect(func(_node):
+	$area.body_entered.connect(func(_node):
 		if ValveIONode.aliases["!player"] == _node: 
 			trigger_output("OnTrigger");
 			trigger_output("OnStartTouch");
 	);
 
-	$Area3D.body_exited.connect(func(_node):
+	$area.body_exited.connect(func(_node):
 		if ValveIONode.aliases["!player"] == _node: 
 			trigger_output("OnEndTouch");
 	);
 
-func _apply_entity(entityData):
-	super._apply_entity(entityData);
+func _apply_entity(e):
+	super._apply_entity(e);
 	
-	$Area3D/CollisionShape3D.shape = get_entity_shape();
+	$area/collision.shape = get_entity_shape();

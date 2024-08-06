@@ -36,7 +36,7 @@ func play_sound(_v = volume):
 func stop_sound():
 	is_playing = false;
 
-	if sound_instance:
+	if is_instance_valid(sound_instance):
 		sound_instance.stop();
 		sound_instance.queue_free();
 		sound_instance = null;

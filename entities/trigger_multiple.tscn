@@ -5,6 +5,6 @@
 [node name="no_name" type="Node3D"]
 script = ExtResource("1_s6eti")
 
-[node name="Area3D" type="Area3D" parent="."]
+[node name="area" type="Area3D" parent="."]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+[node name="collision" type="CollisionShape3D" parent="area"]

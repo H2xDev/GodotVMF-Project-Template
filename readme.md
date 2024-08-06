@@ -37,6 +37,7 @@
 | light_environment | Implemented | |
 | trigger_once | Implemented | |
 | trigger_multiple | Implemented | |
+| trigger_push | Implemented | |
 | func_detail | Implemented | |
 | func_lod | Implemented | Duplicate of func_detail |
 | func_brush | Not completely | Duplicate of func_detail |
@@ -47,6 +48,9 @@
 | func_tracktrain | Not completely | Rotation by direction is not implemented |
 | func_physbox | Not completely | Works only DisableMotion, EnableMotion and Motion Disabled flag |
 | logic_relay | Implemented | |
+| filter_activator_name | Implemented | |
 
 ## TODO
 - env_fog_controller
+- filter_activator_name
+- info_particle_system
