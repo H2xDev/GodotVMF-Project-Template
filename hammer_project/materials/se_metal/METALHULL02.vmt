@@ -1,0 +1,11 @@
+LightMappedGeneric
+{
+$basetexture "se_metal/metalhull02"
+$surfaceprop metal
+$bumpmap "se_metal/metalhull_norm"
+//$envmapcontrast 1
+//$envmapsaturation .2
+$envmaptint "[.2 .2 .2 ]"
+$normalmapalphaenvmapmask 1
+//$envmaplightscale .75
+}
