@@ -48,9 +48,13 @@
 | func_tracktrain | Not completely | Rotation by direction is not implemented |
 | func_physbox | Not completely | Works only DisableMotion, EnableMotion and Motion Disabled flag |
 | logic_relay | Implemented | |
-| filter_activator_name | Implemented | |
+| filter_activator_name | Not completely | Outputs don't work |
+| filter_multi | Not completely | Outputs don't work |
+| math_counter | Implemented | |
 
 ## TODO
 - env_fog_controller
-- filter_activator_name
 - info_particle_system
+- crouching
+- noclip
+- env_shake

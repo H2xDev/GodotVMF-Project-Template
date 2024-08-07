@@ -7,3 +7,4 @@ script = ExtResource("1_6y2p0")
 
 [node name="light" type="OmniLight3D" parent="."]
 light_energy = 0.0
+light_bake_mode = 1

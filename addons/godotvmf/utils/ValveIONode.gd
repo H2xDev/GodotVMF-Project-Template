@@ -21,6 +21,7 @@ var config:
 static var aliases: Dictionary = {};
 
 var isSuperCalled = false;
+var activator = null;
 
 func Toggle(_param = null):
 	enabled = !enabled;
@@ -115,9 +116,11 @@ func call_target_input(target, input, param, delay) -> void:
 	for node in targets:
 		if delay > 0.0:
 			get_tree().create_timer(delay).timeout.connect(func():
+				activator = self;
 				node.call(input, param)
 			);
 		else:
+			activator = self;
 			node.call(input, param);
 
 func get_target(n) -> Node3D:

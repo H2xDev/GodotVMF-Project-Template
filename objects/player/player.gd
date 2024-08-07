@@ -64,7 +64,7 @@ func process_mouse_look(event) -> void:
 
 	rotate_y(deg_to_rad(-event.relative.x * mouse_sensitivity));
 	head.rotate_x(deg_to_rad(-event.relative.y * mouse_sensitivity));
-	head.rotation.x = clamp(head.rotation.x, deg_to_rad(-89), deg_to_rad(89));
+	head.rotation.x = clamp(head.rotation.x, deg_to_rad(-89), deg_to_rad(89));	
 
 func process_interaction() -> void:
 	if Input.is_action_just_pressed("interact"):
@@ -91,6 +91,12 @@ func process_movement(delta: float) -> void:
 
 	if Input.is_action_just_pressed("jump"): do_jump();
 
+func process_fire():
+	if not Input.is_action_pressed("fire"): return;
+	if pickup_processor.has_item():
+		pickup_processor.throw_item();
+		
+
 func do_jump() -> void:
 	if is_on_floor() or _snapped_to_stairs_last_frame:
 		velocity.y = sqrt(2 * jump_height * abs(ProjectSettings.get_setting("physics/3d/default_gravity")));
@@ -98,6 +104,7 @@ func do_jump() -> void:
 func _input(event):
 	process_mouse_look(event);
 	process_interaction();
+	process_fire();
 
 func _ready() -> void:
 	instance = self;

@@ -268,15 +268,16 @@ func _importEntities(_reimport := false) -> void:
 
 		if "entity" in node:
 			node.entity = ent;
-		
-		if ent.get("classname", "") != "func_instance":
-			set_editable_instance(node, true);
+
 		
 		if "origin" in ent:
 			ent.origin = Vector3(ent.origin.x, ent.origin.z, -ent.origin.y) * importScale;
 
 		_entitiesNode.add_child(node);
 		node.set_owner(_owner);
+
+		if ent.get("classname", "") != "func_instance":
+			set_editable_instance(node, true);
 
 	var time := Time.get_ticks_msec() - elapsedTime;
 	VMFLogger.log("Imported entities in " + str(time) + "ms");
