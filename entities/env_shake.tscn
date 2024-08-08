@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://yfksuk8rnkvw"]
+
+[ext_resource type="Script" path="res://entities/env_shake.gd" id="1_4imjw"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_o2axe"]
+radius = 4.25
+
+[node name="EnvShake" type="Node3D"]
+script = ExtResource("1_4imjw")
+
+[node name="area" type="Area3D" parent="."]
+
+[node name="collision" type="CollisionShape3D" parent="area"]
+shape = SubResource("SphereShape3D_o2axe")

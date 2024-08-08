@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8y77syhd7fxw"]
+
+[ext_resource type="Script" path="res://entities/env_fog_controller.gd" id="1_wn8yw"]
+
+[node name="EnvFogController" type="Node3D"]
+script = ExtResource("1_wn8yw")

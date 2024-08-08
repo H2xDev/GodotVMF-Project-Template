@@ -20,9 +20,11 @@ static var instance: Player;
 var move_rate: float = 0.0;
 var movement_vector: Vector3 = Vector3.ZERO;
 var is_controls_disabled: bool = false;
+var shake: float = 0.0;
 
 const MAX_STEP_HEIGHT = 0.5;
 const ALLOWED_COLLIDER_CLASSES = ["StaticBody3D", "RigidBody3D"];
+
 var _snapped_to_stairs_last_frame = false;
 var _last_frame_was_on_floor = -INF;
 
@@ -39,7 +41,7 @@ func process_surface_movement(delta: float, input_dir: Vector2) -> void:
 
 	var direction = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized() * move_rate;
 	var computed_acceleration = ((max_speed / delta) / friction_factor - (max_speed / delta)) / 2.0;
-	var current_acceleration = computed_acceleration if is_on_floor() else 0.5;
+	var current_acceleration = computed_acceleration if is_on_floor() else 1.0;
 
 	movement_vector = direction * current_acceleration;
 	movement_vector.y = 0;
@@ -169,8 +171,20 @@ func snap_down_to_stair_check() -> void:
 func is_surface_too_steep(normal: Vector3) -> bool:
 	return normal.angle_to(Vector3.UP) > floor_max_angle;
 
+func process_shake(delta):
+	var shake_rotation = Vector3(
+		sin(Time.get_ticks_msec() * 123.123),
+		cos(Time.get_ticks_msec() * 435.345),
+		sin(Time.get_ticks_msec() * 345.345),
+	) * shake * 0.1;
+
+	shake = lerp(shake, 0.0, 1.0 * delta);
+
+	camera.rotation_degrees = shake_rotation;
+
 func _process(_delta: float) -> void:
 	process_movement(_delta);
+	process_shake(_delta);
 
 func _physics_process(_delta: float) -> void:
 	pickup_processor.physics_process(_delta);

@@ -27,10 +27,12 @@
 | --- | --- | --- |
 | ambient_generic | Implemented | |
 | info_player_start | Not completely | Flag master doesnt work |
-| path_track | Implemented | |
-| env_fade | Implemented | |
-| point_teleport | Implemented | |
 | info_overlay | Implemented | Has two modes - geometry and decal |
+| env_fade | Implemented | |
+| env_shake | Not completely | A little bit different logic but should work near the original |
+| env_fog_controller | Not implemented | |
+| path_track | Implemented | |
+| point_teleport | Implemented | |
 | game_text | Implemented | Without scan effect |
 | light | Implemented | |
 | light_spot | Implemented | |
@@ -57,4 +59,3 @@
 - info_particle_system
 - crouching
 - noclip
-- env_shake
