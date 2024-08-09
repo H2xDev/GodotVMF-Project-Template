@@ -1,0 +1,69 @@
+[gd_scene load_steps=11 format=3 uid="uid://yqkfmel305dp"]
+
+[ext_resource type="Texture2D" uid="uid://c1ate47oyq3wv" path="res://particles/fire/flame.jpg" id="1_of4xc"]
+
+[sub_resource type="Curve" id="Curve_4gnt4"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.84186, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_1ta7r"]
+texture_mode = 1
+curve = SubResource("Curve_4gnt4")
+
+[sub_resource type="Gradient" id="Gradient_ool3y"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0, 0.757576, 1)
+colors = PackedColorArray(1, 1, 1, 1, 0.92549, 0, 0, 1, 1, 0.227451, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_jcakl"]
+gradient = SubResource("Gradient_ool3y")
+
+[sub_resource type="Curve" id="Curve_rgf6s"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.27907, 1), 0.0, 0.0, 0, 0, Vector2(0.969767, 0.5), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_a6bj0"]
+curve = SubResource("Curve_rgf6s")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_d17eh"]
+angle_min = -720.0
+angle_max = 720.0
+gravity = Vector3(0, 9.8, 0)
+scale_max = 2.0
+scale_curve = SubResource("CurveTexture_a6bj0")
+color_ramp = SubResource("GradientTexture1D_jcakl")
+alpha_curve = SubResource("CurveTexture_1ta7r")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3takh"]
+transparency = 1
+blend_mode = 1
+shading_mode = 0
+disable_fog = true
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_of4xc")
+texture_repeat = false
+disable_receive_shadows = true
+billboard_mode = 3
+billboard_keep_scale = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_mpt1n"]
+material = SubResource("StandardMaterial3D_3takh")
+orientation = 2
+
+[node name="Steam" type="Node3D"]
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00130844, 0.00972652, -0.00432062)
+amount = 30
+lifetime = 0.73
+visibility_aabb = AABB(-2.87588, -1.67504, -2.16516, 5.75175, 3.35008, 4.33031)
+process_material = SubResource("ParticleProcessMaterial_d17eh")
+draw_pass_1 = SubResource("PlaneMesh_mpt1n")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+light_color = Color(1, 0.533333, 0, 1)
+light_energy = 5.0
+shadow_enabled = true

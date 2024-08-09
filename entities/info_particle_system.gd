@@ -1,23 +1,31 @@
 @tool
-class_name InfoParticleSystem extends ValveIONode
+class_name info_particle_system
+extends ValveIONode
 
 func _apply_entity(e):
 	super._apply_entity(e);
 
-	var scenePath = 'res://Particles/{effect_name}.tscn'.format(e);
+	var scene_path = 'res://particles/{effect_name}.tscn'.format(e);
 
-	if not ResourceLoader.exists(scenePath):
-		push_error('Particle effect not found: {0}'.format([scenePath]));
+	if not ResourceLoader.exists(scene_path):
+		push_error('Particle effect not found: {0}'.format([scene_path]));
 		return;
 
-	global_rotation = convert_direction(e.angles);
-
-	var scene = load(scenePath);
+	var scene = load(scene_path);
 	var node = scene.instantiate();
+	node.name = "particles";
+	node.visible = false;
 
-	get_parent().add_child(node);
-	node.set_owner(owner);
-	node.name = '{effect_name}_{id}'.format(e);
-	node.global_transform = global_transform;
+	add_child(node);
 
-	queue_free();
+func _entity_ready():
+	$particles.visible = entity.get("start_active", 0) == 1;
+
+# INPUTS
+
+func Start(_param = null):
+	$particles.visible = true;
+
+func Stop(_param = null):
+	$particles.visible = false;
+
