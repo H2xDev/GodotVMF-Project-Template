@@ -32,7 +32,9 @@
 | env_shake | Not completely | A little bit different logic but should work near the original |
 | env_fog_controller | Not implemented | |
 | path_track | Implemented | |
+| path_corner | Implemented | Duplicate of path_track |
 | point_teleport | Implemented | |
+| point_viewcontrol | Implemented | A little bit different from the original  |
 | game_text | Implemented | Without scan effect |
 | light | Implemented | |
 | light_spot | Implemented | |

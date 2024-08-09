@@ -22,7 +22,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.50505, 0)
 unique_name_in_owner = true
 current = true
 
-[node name="AudioListener3D" type="AudioListener3D" parent="Head/Camera"]
+[node name="listener" type="AudioListener3D" parent="Head/Camera"]
 current = true
 
 [node name="hand_point" type="Node3D" parent="Head/Camera"]

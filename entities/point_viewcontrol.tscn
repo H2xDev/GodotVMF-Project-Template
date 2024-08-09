@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://dpt20b08prypy"]
+
+[ext_resource type="Script" path="res://entities/point_viewcontrol.gd" id="1_ksgd3"]
+
+[node name="PointViewcontrol" type="Node3D"]
+script = ExtResource("1_ksgd3")
+
+[node name="camera" type="Camera3D" parent="."]
+
+[node name="listener" type="AudioListener3D" parent="camera"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)

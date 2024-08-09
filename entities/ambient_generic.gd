@@ -52,10 +52,8 @@ func FadeIn(time = 0.0):
 	play_sound(0.001);
 
 	var target_volume = linear_to_db(volume);
-
-	prints("Fading in from " + str(sound_instance.volume_db) + " to " + str(target_volume));
-
 	var tween = create_tween();
+
 	tween.tween_property(sound_instance, "volume_db", target_volume, float(time));
 
 func FadeOut(time = 0.0):
@@ -63,6 +61,7 @@ func FadeOut(time = 0.0):
 
 	var target_volume = linear_to_db(0.0);
 	var tween = create_tween();
+
 	tween.tween_property(sound_instance, "volume_db", target_volume, float(time));
 	await tween.finished;
 	stop_sound();

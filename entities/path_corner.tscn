@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://d4bck3xnn6i3w"]
+
+[ext_resource type="Script" path="res://entities/path_track.gd" id="1_ghfdw"]
+
+[node name="PathCorner" type="Node3D"]
+script = ExtResource("1_ghfdw")
