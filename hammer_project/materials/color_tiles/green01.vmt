@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"color_tiles/green01"
+	"$bumpmap"		"color_tiles/tile_normal"
+}
