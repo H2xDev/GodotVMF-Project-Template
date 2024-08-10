@@ -29,7 +29,7 @@ func launch_map():
 	var args = OS.get_cmdline_args();
 	var vmfArg = args.find("--vmf");
 
-	var mapName = "example3";
+	var mapName = "hammerous_course_v01";
 
 	if(vmfArg != -1):
 		mapName = args[vmfArg + 1];
@@ -47,9 +47,9 @@ func launch_map():
 	get_tree().current_scene.add_child(vmf);
 
 	vmf.vmf = mapPath;
-	vmf.saveGeometry = false;
-	vmf.saveCollision = false;
-	vmf.importMap(true);
+	vmf.save_geometry = false;
+	vmf.save_collision = false;
+	vmf.import_map(true);
 
 	assign_skybox(vmf._structure);
 

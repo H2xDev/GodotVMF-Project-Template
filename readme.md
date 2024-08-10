@@ -57,6 +57,5 @@
 | math_counter | Implemented | |
 
 ## TODO
-- info_particle_system
 - crouching
 - noclip
