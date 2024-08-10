@@ -57,7 +57,5 @@
 | math_counter | Implemented | |
 
 ## TODO
-- env_fog_controller
-- info_particle_system
 - crouching
 - noclip
