@@ -5,52 +5,30 @@ static var cached = {};
 
 func _apply_entity(e):
 	super._apply_entity(e);
-	
-	var file = VMFInstanceManager.correctInstancePath(e, e.vmf);
-	if !file:
-		VMFLogger.error('Could not retrieve correct instance path');
-		return;
-	
-	var basename := file.get_file().get_basename();
-	var path := str(VMFConfig.config.import.instancesFolder).path_join(basename + ".tscn");
 
-	if not ResourceLoader.exists(path):
-		var struct = ValveFormatParser.parse(file);
-		
-		if "entity" in struct:
-			struct.entity = [struct.entity] if struct.entity is Dictionary else struct.entity;
+	VMFInstanceManager.import_instance(e);
 
-			for ent in struct.entity:
-				if ent.classname != "func_instance":
-					continue;
+	assign_instance.call_deferred(e);
 
-				var subfile = VMFInstanceManager.correctInstancePath(ent, e.vmf);
-				VMFInstanceManager.importInstance(subfile);
-				
-		VMFInstanceManager.importInstance(file);
+func assign_instance(e):
+	var name = e.file.get_basename().split("/")[-1];
+	var instance_scene = VMFInstanceManager.load_instance(name);
+	if not instance_scene: return;
 
-	var res: Resource = cached[basename] if basename in FuncInstance.cached else load(path);
+	var node = instance_scene.instantiate();
 
-	if not basename in FuncInstance.cached and res:
-		cached[basename] = res;
-
-	if not res:
-		VMFLogger.warn("Failed to load instance: " + path + "\n EntityID: " + str(e.id));
-		return;
-
-	var node = res.instantiate();
-	node.name = basename + '_instance';
-	node.position = position;
-	node.rotation = rotation;
-	
 	var i = 1
 	for child: Node in get_parent().get_children():
 		if child.name.begins_with(node.name):
 			i += 1
 	
 	node.name = "%s_%s" % [node.name, i]
-	
+
 	get_parent().add_child(node);
-	node.set_owner(get_owner());
+	node.owner = get_owner();
+	node.position = position;
+	node.rotation = rotation;
+
+	get_parent().set_editable_instance(node, true);
 
 	queue_free();

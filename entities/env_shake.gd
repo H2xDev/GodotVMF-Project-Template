@@ -41,14 +41,11 @@ func _physics_process(delta):
 		) * freq;
 
 		var influence = 1 - clamp(body.global_transform.origin.distance_to(global_transform.origin) / radius, 0, 1);
-		print(influence);
 
 		if body is RigidBody3D:
 			body.apply_force(force_vector * delta * influence, Vector3.ZERO);
 			body.apply_torque(force_vector * delta * influence * 0.1);
 		elif body is CharacterBody3D and body.is_on_floor():
-			body.velocity += force_vector * delta * influence * Vector3(1, 0, 1);
-			
 			if "shake" in body:
 				body.shake += amp * delta;
 

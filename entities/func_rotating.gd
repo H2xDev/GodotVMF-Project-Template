@@ -9,6 +9,8 @@ const FLAG_X_AXIS: int = 4;
 const FLAG_Y_AXIS: int = 8;
 
 var current_tween = null;
+var loop_sound = null;
+var current_player = null;
 
 func _apply_entity(e):
 	super._apply_entity(e);
@@ -37,14 +39,23 @@ func _physics_process(dt):
 
 func _entity_ready():
 	enabled = has_flag(FLAG_START_ON);
+	loop_sound = SoundManager.precache_sound(entity.get("message", ""));
 
 # INPUTS
 
 func Start(_param = null):
 	enabled = true;
 
+	if loop_sound:
+		current_player = SoundManager.play_sound(global_position, loop_sound);
+
 func Stop(_param = null):
 	enabled = false;
+
+	if current_player:
+		current_player.stop()
+		current_player.queue_free();
+		current_player = null;
 
 func RotateBy(deg):
 	if current_tween:

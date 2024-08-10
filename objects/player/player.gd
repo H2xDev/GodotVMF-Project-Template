@@ -9,6 +9,7 @@ static var instance: Player;
 
 @export_category("Controls")
 @export var mouse_sensitivity: float = 0.1;
+@export var interaction_distance: float = 3.0;
 
 @export_category("Movement Physics")
 @export var max_speed: float = 10.0;
@@ -29,6 +30,7 @@ var _snapped_to_stairs_last_frame = false;
 var _last_frame_was_on_floor = -INF;
 
 var pickup_processor: PlayerPickupProcessor = null;
+var footstep_processor: FootstepProcessor = null;
 
 func process_surface_movement(delta: float, input_dir: Vector2) -> void:
 	var is_sprinting = Input.is_action_pressed("sprint");
@@ -76,7 +78,7 @@ func process_interaction() -> void:
 			return;
 
 		var ray_start = camera.global_transform.origin;
-		var ray_end = camera.global_transform.origin - camera.global_transform.basis.z * 10;
+		var ray_end = camera.global_transform.origin - camera.global_transform.basis.z * interaction_distance;
 		var query = PhysicsRayQueryParameters3D.create(ray_start, ray_end, 1, [self]);
 		var result = get_world_3d().direct_space_state.intersect_ray(query);
 
@@ -111,6 +113,7 @@ func _input(event):
 func _ready() -> void:
 	instance = self;
 	pickup_processor = PlayerPickupProcessor.new(%hand_point);
+	footstep_processor = FootstepProcessor.new(self);
 
 	ValveIONode.define_alias("!player", self);
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED);
@@ -188,6 +191,7 @@ func _process(_delta: float) -> void:
 
 func _physics_process(_delta: float) -> void:
 	pickup_processor.physics_process(_delta);
+	footstep_processor.process(_delta);
 
 	process_gravity(_delta);
 	if snap_up_stairs_check(_delta): return;

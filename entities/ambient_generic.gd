@@ -18,6 +18,9 @@ func _entity_ready():
 	if sound:
 		SoundManager.precache_sound(entity.get("message", ""));
 
+	if not has_flag(FLAG_START_SILENT):
+		play_sound();
+
 func _apply_entity(e):
 	super._apply_entity(e);
 

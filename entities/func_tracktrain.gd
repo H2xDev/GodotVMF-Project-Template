@@ -15,7 +15,6 @@ enum MovementDirection {
 
 var current_point: path_track = null;
 var current_tween: Tween = null;
-var stop_required: bool = false;
 
 var start_sound: String;
 var stop_sound: String;
@@ -24,16 +23,15 @@ var move_sound: String;
 var direction: MovementDirection = MovementDirection.FORWARD;
 var state: MovementState = MovementState.STOPPED;
 
+var move_player: AudioStreamPlayer3D = null;
+var first_target:
+	get: return get_target(entity.get("target", ""));
+
 func _entity_ready():
-	if is_current_point_valid():
-		teleport_to_point(current_point.name, false);
+	if not current_point:
+		teleport_to_point(first_target.name, false);
 
 	precache_sounds();
-
-func precache_sounds():
-	start_sound = SoundManager.precache_sound(entity.get("StartSound", ""));
-	stop_sound = SoundManager.precache_sound(entity.get("StopSound", ""));
-	move_sound = SoundManager.precache_sound(entity.get("MoveSound", ""));
 
 func _apply_entity(e):
 	super._apply_entity(e);
@@ -41,28 +39,26 @@ func _apply_entity(e):
 	$body/mesh.set_mesh(get_mesh());
 	$body/collision.shape = get_entity_shape();
 
+func _physics_process(_delta) -> void:
+	if is_instance_valid(move_player):
+		move_player.global_transform.origin = global_transform.origin;
+
+func precache_sounds():
+	start_sound = SoundManager.precache_sound(entity.get("StartSound", ""));
+	stop_sound = SoundManager.precache_sound(entity.get("StopSound", ""));
+	move_sound = SoundManager.precache_sound(entity.get("MoveSound", ""));
+
 func reset_tween():
 	if current_tween != null:
 		current_tween.stop();
 		current_tween = null;
-		SoundManager.play_sound(global_transform.origin, stop_sound);
-		trigger_output("OnStop");
 
-func is_current_point_valid():
-	if not current_point:
-		current_point = get_target(entity.get("target", ""));
+		if state == MovementState.STOPPED:
+			SoundManager.play_sound(global_transform.origin, stop_sound);
+			if is_instance_valid(move_player): move_player.stop();
+			trigger_output("OnStop");
 
-		if not current_point:
-			push_error("No target specified for tracktrain");
-			return false
-
-	return true;
-
-## Returns true in case the entity should stop
 func move_to_current_point():
-	if stop_required:
-		return true;
-
 	var target_position = current_point.global_transform.origin;
 	var distance = (target_position - global_transform.origin).length();
 	var speed = entity.get("speed", 0.0) * config.import.scale;
@@ -76,9 +72,9 @@ func move_to_current_point():
 	reset_tween();
 
 	if state == MovementState.STOPPED:
-		print("Playing start sound");
 		SoundManager.play_sound(global_transform.origin, start_sound);
-		SoundManager.play_sound(global_transform.origin, move_sound);
+		move_player = SoundManager.play_sound(global_transform.origin, move_sound);
+		trigger_output("OnStart");
 
 	state = MovementState.MOVING_FORWARD \
 			if direction == MovementDirection.FORWARD \
@@ -93,28 +89,36 @@ func move_to_current_point():
 	current_point._pass();
 
 func move_to_next_point():
-	if not is_current_point_valid(): return;
+	if not current_point:
+		Stop();
+		return;
+
 	direction = MovementDirection.FORWARD;
 
-	if await move_to_current_point(): return;
+	await move_to_current_point();
+
+	if not current_point.next_stop_target:
+		Stop();
+		return;
 
 	current_point = current_point.next_stop_target;
-	if current_point:
-		move_to_next_point()
-	else:
-		state = MovementState.STOPPED;
+	move_to_next_point()
 
 func move_to_previous_point():
-	if not is_current_point_valid(): return;
+	if not current_point: 
+		Stop();
+		return;
+
 	direction = MovementDirection.BACKWARD;
 
-	if await move_to_current_point(): return;
+	await move_to_current_point();
+
+	if not current_point.prev_stop_target:
+		Stop();
+		return;
 
 	current_point = current_point.prev_stop_target;
-	if current_point:
-		move_to_previous_point();
-	else:
-		state = MovementState.STOPPED;
+	move_to_previous_point();
 
 func teleport_to_point(target_point: String, _trigger_output: bool = false):
 	var track = get_target(target_point);
@@ -130,13 +134,15 @@ func teleport_to_point(target_point: String, _trigger_output: bool = false):
 
 # INPUTS
 func StartForward(_param = null):
-	if direction == MovementDirection.BACKWARD and current_point:
+	if direction != MovementDirection.FORWARD:
 		current_point = current_point.next_stop_target;
+
 	move_to_next_point();
 
 func StartBackward(_param = null):
-	if direction == MovementDirection.FORWARD and current_point:
+	if direction != MovementDirection.BACKWARD:
 		current_point = current_point.prev_stop_target;
+
 	move_to_previous_point();
 
 func Toggle(_param = null):
@@ -149,6 +155,8 @@ func Toggle(_param = null):
 		Stop();
 
 func Stop(_param = null):
+	state = MovementState.STOPPED;
+	trigger_output("OnStop");
 	reset_tween();
 
 func TeleportToPathTrack(target_path_track: String):

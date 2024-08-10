@@ -38,19 +38,19 @@ func ReimportVMF():
 	var nodes := GetExistingVMFNodes();
 
 	for node in nodes:
-		node.importMap();
+		node.import_map();
 
 func ReimportEntities():
 	var nodes := GetExistingVMFNodes();
 
 	for node in nodes:
-		node._importEntities(true);
+		node.import_entities(true);
 
 func ReimportGeometry():
 	var nodes := GetExistingVMFNodes();
 
 	for node in nodes:
-		node.importGeometryOnly();
+		node.import_geometry();
 
 func _exit_tree():
 	remove_custom_type("VMFNode");
