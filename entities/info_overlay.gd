@@ -6,8 +6,8 @@ func _apply_entity(e):
 
 	var isDecalMode = not "geometry" in e;
 
-	VTFTool.importMaterial(e.material);
-	var material = VTFTool.getMaterial(e.material);
+	VTFTool.import_material(e.material);
+	var material = VTFTool.get_material(e.material);
 
 	if not material:
 		queue_free();

@@ -177,7 +177,7 @@ func _recheck_resources(_null = null):
 	if isInProcess:
 		return;
 
-	VMFConfig.checkProjectConfig();
+	VMFConfig.reload();
 
 	if config.material.importMode != VTFTool.TextureImportMode.SYNC:
 		return;

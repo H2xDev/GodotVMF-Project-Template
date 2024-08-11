@@ -46,14 +46,14 @@ func _ready() -> void:
 	add_to_group(&"vmfnode_group");
 
 func import_geometry(_reimport := false) -> void:
-	var mesh: ArrayMesh = VMFTool.createMesh(_structure);
+	var mesh: ArrayMesh = VMFTool.create_mesh(_structure);
 	if not mesh:
 		return;
 
 	if _reimport:
-		VMFConfig.checkProjectConfig();
+		VMFConfig.reload();
 		
-		if not VMFConfig.validateConfig(): return;
+		if not VMFConfig.validate_config(): return;
 		if not VMFConfig.config: return;
 
 		_read_vmf();
@@ -122,7 +122,7 @@ func _import_materials() -> void:
 	if VMFConfig.config.material.importMode != VTFTool.TextureImportMode.IMPORT_DIRECTLY:
 		return;
 
-	VTFTool.clearCache();
+	VTFTool.clear_cache();
 	
 
 	if "solid" in _structure.world:
@@ -152,7 +152,7 @@ func _import_materials() -> void:
 						list.append(side.material);
 
 	for material in list:
-		VTFTool.importMaterial(material);
+		VTFTool.import_material(material);
 
 	VMFLogger.log("Imported " + str(len(list)) + " materials in " + str(Time.get_ticks_msec() - elapsed_time) + "ms");
 
@@ -172,7 +172,7 @@ func import_models() -> void:
 		remove_child(_modelsNode);
 		_modelsNode.queue_free();
 
-	MDLManager.clearCache();
+	MDLManager.clear_cache();
 
 	_modelsNode = Node3D.new();
 	_modelsNode.name = "Models";
@@ -186,22 +186,24 @@ func import_models() -> void:
 		if not "model" in ent:
 			continue;
 
-		var lightmapTexelSize = VMFConfig.config.models.lightmapTexelSize
+		var lightmap_texel_size = VMFConfig.config.models.lightmapTexelSize;
+		var generate_collision = VMFConfig.config.models.generateCollision;
+		var generate_lightmap_uv2 = VMFConfig.config.models.generateLightmapUV2;
 
-		if VMFConfig.config.import.generateLightmapUV2 and "lightmapTexelSize" in ent:
-			lightmapTexelSize = float(ent.lightmapTexelSize)
-			VMFLogger.log('prop_static (%s) overrides lightmapTexelSize to \'%f\'' % [ent.id, lightmapTexelSize])
+		if generate_lightmap_uv2 and "lightmapTexelSize" in ent:
+			lightmap_texel_size = float(ent.lightmapTexelSize);
+			VMFLogger.log('prop_static (%s) overrides lightmapTexelSize to \'%f\'' % [ent.id, lightmap_texel_size]);
 
-		var resource = MDLManager.loadModel(ent.model, VMFConfig.config.models.generateCollision, VMFConfig.config.import.generateLightmapUV2, lightmapTexelSize);
-		var importScale: float = VMFConfig.config.import.scale;
+		var resource = MDLManager.load_model(ent.model, generate_collision, generate_lightmap_uv2, lightmap_texel_size);
+		var import_scale: float = VMFConfig.config.import.scale;
 
 		if not resource:
 			continue;
 		
 		ent = ent.duplicate();
 		var model = resource.instantiate();
-		var origin := Vector3(ent.origin.x * importScale, ent.origin.z * importScale, -ent.origin.y * importScale);
-		var scale := Vector3(importScale, importScale, importScale);
+		var origin := Vector3(ent.origin.x * import_scale, ent.origin.z * import_scale, -ent.origin.y * import_scale);
+		var scale := Vector3(import_scale, import_scale, import_scale);
 
 		model.transform.origin = origin;
 		model.basis = ValveIONode.get_entity_basis(ent);
@@ -233,7 +235,7 @@ func _read_vmf() -> void:
 
 func import_entities(_reimport := false) -> void:
 	var elapsed_time := Time.get_ticks_msec();
-	var importScale: float = VMFConfig.config.import.scale;
+	var import_scale: float = VMFConfig.config.import.scale;
 
 	if _reimport: _read_vmf();
 
@@ -270,7 +272,7 @@ func import_entities(_reimport := false) -> void:
 			node.entity = ent;
 		
 		if "origin" in ent:
-			ent.origin = Vector3(ent.origin.x, ent.origin.z, -ent.origin.y) * importScale;
+			ent.origin = Vector3(ent.origin.x, ent.origin.z, -ent.origin.y) * import_scale;
 
 		_entities_node.add_child(node);
 		node.set_owner(_owner);
@@ -279,12 +281,12 @@ func import_entities(_reimport := false) -> void:
 	VMFLogger.log("Imported entities in " + str(time) + "ms");
 
 func import_map(_deprecated = null) -> void:
-	VMFConfig.checkProjectConfig();
-	if not VMFConfig.validateConfig(): return;
+	VMFConfig.reload();
+	if not VMFConfig.validate_config(): return;
 	if not VMFConfig.config: return;
 	if not vmf: return;
 
-	VTFTool.clearCache();
+	VTFTool.clear_cache();
 
 	_clear_structure();
 	_read_vmf();

@@ -24,7 +24,7 @@ func play_sound(position: Vector3, sound_name: String, volume: float = 1.0, pitc
 	sound_player.pitch_scale = pitch;
 	sound_player.connect("finished", sound_player.queue_free);
 	sound_player.play(0.0);
-	sound_player.max_distance = 10.0;
+	sound_player.max_distance = 20.0;
 	return sound_player;
 
 ## Play a random sound from a list of sound names

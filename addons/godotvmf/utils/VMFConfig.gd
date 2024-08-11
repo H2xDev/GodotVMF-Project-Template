@@ -4,11 +4,10 @@ static var _config = null;
 
 static var config:
 	get:
-		if not _config:
-			checkProjectConfig();
+		if not _config: reload();
 		return _config;
 	
-static func _validateKeys(keyset: Array[String], dict, resFolders: Array[String] = [], section := '') -> bool:
+static func _validate_keys(keyset: Array[String], dict, resFolders: Array[String] = [], section := '') -> bool:
 	var missingKeys: Array[String] = [];
 
 	for key: String in keyset:
@@ -29,7 +28,7 @@ static func _validateKeys(keyset: Array[String], dict, resFolders: Array[String]
 
 	return true;
 
-static func validateConfig() -> bool:
+static func validate_config() -> bool:
 	var checkKeys: Array[String] = [
 		"import",
 		"material",
@@ -58,7 +57,7 @@ static func validateConfig() -> bool:
 			VMFLogger.error('mdl2obj not found at {0}. Model import disabled'.format([_config.mdl2obj]));
 			config.models.import = false;
 
-	if not _validateKeys(checkKeys, config):
+	if not _validate_keys(checkKeys, config):
 		return false;
 
 	checkKeys = [
@@ -71,7 +70,7 @@ static func validateConfig() -> bool:
 		"geometryFolder",
 	];
 
-	if not _validateKeys(checkKeys, config.import, ['entitiesFolder', 'instancesFolder'], 'import'):
+	if not _validate_keys(checkKeys, config.import, ['entitiesFolder', 'instancesFolder'], 'import'):
 		return false;
 
 	checkKeys = [
@@ -82,7 +81,7 @@ static func validateConfig() -> bool:
 		"targetFolder",
 	];
 
-	if not _validateKeys(checkKeys, config.material, ['targetFolder'], 'material'):
+	if not _validate_keys(checkKeys, config.material, ['targetFolder'], 'material'):
 		return false;
 	
 	if "models" in config:
@@ -92,19 +91,19 @@ static func validateConfig() -> bool:
 			"lightmapTexelSize",
 		];
 
-		if not _validateKeys(checkKeys, config.models, ['targetFolder'], 'models'):
+		if not _validate_keys(checkKeys, config.models, ['targetFolder'], 'models'):
 			return false;
 
 	return true;
 
-static func checkProjectConfig() -> void:
+static func reload() -> void:
 	if not FileAccess.file_exists('res://vmf.config.json'):
 		VMFLogger.error('vmf.config.json not found in project root');
 
 	var file = FileAccess.open('res://vmf.config.json', FileAccess.READ);
 	_config = JSON.parse_string(file.get_as_text());
 
-	if not validateConfig():
+	if not validate_config():
 		_config = null;
 		return;
 

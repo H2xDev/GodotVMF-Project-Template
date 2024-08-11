@@ -205,7 +205,7 @@ func get_mesh() -> ArrayMesh:
 	};
 	var offset: Vector3 = entity.origin if "origin" in entity else Vector3.ZERO;
 	
-	return VMFTool.createMesh(struct, offset);
+	return VMFTool.create_mesh(struct, offset);
 
 static func convert_vector(v) -> Vector3:
 	return Vector3(v.x, v.z, -v.y);
@@ -251,7 +251,7 @@ func get_entity_convex_shape():
 
 	var origin = entity.origin if "origin" in entity else Vector3.ZERO;
 
-	var mesh := VMFTool.createMesh(struct, origin);
+	var mesh := VMFTool.create_mesh(struct, origin);
 
 	return mesh.create_convex_shape();
 	
@@ -274,7 +274,7 @@ func get_entity_trimesh_shape():
 		var csgmesh = CSGMesh3D.new();
 		var origin = entity.get("origin", Vector3.ZERO);
 
-		csgmesh.mesh = VMFTool.createMesh(struct, origin);
+		csgmesh.mesh = VMFTool.create_mesh(struct, origin);
 
 		combiner.add_child(csgmesh);
 		
