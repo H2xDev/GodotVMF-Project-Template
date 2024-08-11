@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://cih10gw0ryv6s"]
+
+[ext_resource type="Texture2D" path="res://materials/se_metal/quarryibeama.texture.tres" id="1_oihiy"]
+[ext_resource type="Texture2D" uid="uid://ddlwndh4l1pht" path="res://materials/se_metal/metalhull02.rough.png" id="2_28ff1"]
+
+[resource]
+albedo_texture = ExtResource("1_oihiy")
+metallic = 1.0
+metallic_specular = 1.0
+metallic_texture = ExtResource("2_28ff1")
+roughness_texture = ExtResource("2_28ff1")
+emission = Color(1, 1, 1, 1)
+detail_blend_mode = 3
+metadata/center = Vector2(0, 0)
+metadata/scale = Vector2(1, 1)
+metadata/rotate = 0
+metadata/translate = Vector2(0, 0)

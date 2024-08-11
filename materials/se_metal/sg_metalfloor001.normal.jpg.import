@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://tc2kong4iiyl"
+path.s3tc="res://.godot/imported/sg_metalfloor001.normal.jpg-209fed77037f1621d47eb3c15b7b7920.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://materials/se_metal/sg_metalfloor001.normal.jpg"
+dest_files=["res://.godot/imported/sg_metalfloor001.normal.jpg-209fed77037f1621d47eb3c15b7b7920.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=1
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=1
+roughness/src_normal="res://materials/se_metal/sg_metalfloor001.normal.jpg"
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0
