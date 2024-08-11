@@ -74,13 +74,7 @@ func move_door(target_value: float = 0.0, instant: bool = false):
 
 	current_tween = create_tween();
 	current_tween.tween_property(self, "position", target_position, time);
-
-# OUTPUTS
-func _on_fully_open():
-	trigger_output("OnFullyOpen");
-
-func _on_fully_closed():
-	trigger_output("OnFullyClosed");
+	await current_tween.finished;
 
 ## INPUTS
 func Open(_param):
@@ -93,7 +87,8 @@ func Open(_param):
 		var snd = SoundManager.play_sound(global_transform.origin, open_sound);
 		snd.max_distance = entity.radius;
 
-	move_door(1.0);
+	await move_door(1.0);
+	trigger_output("OnFullyOpen");
 
 func Close(_param):
 	if not is_open: return;
@@ -111,7 +106,8 @@ func Close(_param):
 	if snd:
 		snd.max_distance = entity.radius;
 
-	move_door(0.0);
+	await move_door(0.0);
+	trigger_output("OnFullyClosed");
 
 func Toggle(_param = null):
 	if is_open: Close(_param);

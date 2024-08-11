@@ -43,8 +43,8 @@ func _tween_camera():
 	var time = target_transform.origin.distance_to(from_transform.origin) / acceleration;
 
 	current_tween = create_tween();
-	current_tween.set_ease(Tween.EASE_IN_OUT);
-	current_tween.set_trans(Tween.TRANS_QUAD);
+	# current_tween.set_ease(Tween.EASE_IN_OUT);
+	# current_tween.set_trans(Tween.TRANS_QUAD);
 	current_tween.tween_property(self, "global_transform", target_transform, time);
 	current_tween.parallel().tween_property($camera, "fov", target_fov, time);
 	await current_tween.finished;
@@ -57,8 +57,8 @@ func _move_to_path_corner():
 	var time = distance / acceleration;
 
 	current_tween = create_tween();
-	current_tween.set_ease(Tween.EASE_IN_OUT);
-	current_tween.set_trans(Tween.TRANS_SINE);
+	# current_tween.set_ease(Tween.EASE_IN_OUT);
+	# current_tween.set_trans(Tween.TRANS_SINE);
 	current_tween.tween_property(self, "global_transform", current_stop_target.global_transform, time);
 
 	await current_tween.finished;

@@ -14,18 +14,16 @@ func _apply_entity(e):
 	var scene = load(scene_path);
 	var node = scene.instantiate();
 	node.name = "particles";
-	node.visible = false;
 
 	add_child(node);
 
 func _entity_ready():
-	$particles.visible = entity.get("start_active", 0) == 1;
+	$particles.get_child(0).emitting = entity.get("start_active", 0) == 1;
 
 # INPUTS
 
 func Start(_param = null):
-	$particles.visible = true;
+	$particles.get_child(0).emitting = true;
 
 func Stop(_param = null):
-	$particles.visible = false;
-
+	$particles.get_child(0).emitting = false;
