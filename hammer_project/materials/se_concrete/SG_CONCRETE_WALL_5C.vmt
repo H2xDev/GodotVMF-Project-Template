@@ -3,6 +3,5 @@
 	"$basetexture" "se_concrete/sg_concrete_wall_5c"
 	"$bumpmap" "se_concrete/sg_concrete_wall_5_norm"
 	"$surfaceprop" "Concrete"
-	
 
 }
