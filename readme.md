@@ -15,7 +15,21 @@ It includes a basic project structure, a sample map, and scripts to get you star
 - Use Hammer++ as a level editor
 - Test maps directly from Hammer++
 - A set of entities ready to use
+- Basic character controller
+    - Walking
+    - Jumping
+    - Crouching
+    - Sprinting
+    - Noclip
 - All features of [GodotVMF](https://github.com/H2xDev/GodotVMF) plugin
+
+## Controls
+- `WASD` - Movement
+- `Space` - Jump
+- `Shift` - Sprint
+- `Ctrl` - Crouch
+- `E` - Use
+- `V` - Noclip
 
 ## Getting Started
 
