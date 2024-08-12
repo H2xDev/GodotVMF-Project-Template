@@ -19,4 +19,4 @@ It includes a basic project structure, a sample map, and scripts to get you star
 
 ## Getting Started
 
-[Documentation](./wiki)
+[Documentation](https://github.com/H2xDev/GodotVMF-Game-Template/wiki)
