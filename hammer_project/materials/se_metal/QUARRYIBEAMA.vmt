@@ -2,5 +2,6 @@ LightmappedGeneric
 {
 $baseTexture "se_metal/quarryibeama"
 $surfaceprop metal
-
+$basetexturetransform "center 0 0 scale 2.0 2.0 rotate 0 translate 0 0"
+//$bumptransform "center 0 0 scale .5 .5 rotate 0 translate 0 0"
 }

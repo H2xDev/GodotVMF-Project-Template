@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "white_light"
+	"$selfillum" "1"
+    "$selfillummask" "white_light_illum"
+}

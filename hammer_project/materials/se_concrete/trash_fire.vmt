@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "se_concrete/trash_fire"
+	"$bumpmap" "se_concrete/trash_fire_norm"
+	"$surfaceprop" "Concrete"
+
+}
