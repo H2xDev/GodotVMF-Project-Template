@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://cptfhh118txje"]
+
+[ext_resource type="Texture2D" uid="uid://b1k62tgaf67gf" path="res://materials/se_concrete/plaster_generator_wall.texture.jpg" id="1_xuo8b"]
+[ext_resource type="Texture2D" uid="uid://c2i7ijnsiulw1" path="res://materials/se_concrete/plaster_generator_wall_norm.texture.jpg" id="2_et1hg"]
+
+[resource]
+albedo_texture = ExtResource("1_xuo8b")
+emission = Color(1, 1, 1, 1)
+normal_enabled = true
+normal_scale = -0.2
+normal_texture = ExtResource("2_et1hg")
+detail_blend_mode = 3
+uv1_scale = Vector3(4, 4, 4)
+metadata/center = Vector2(0, 0)
+metadata/scale = Vector2(1, 1)
+metadata/rotate = 0
+metadata/translate = Vector2(0, 0)

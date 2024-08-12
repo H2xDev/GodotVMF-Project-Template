@@ -1,0 +1,14 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://o75qb20j8fyb"]
+
+[ext_resource type="Texture2D" uid="uid://csbx4w8glqjxx" path="res://materials/se_concrete/sg_concrete_wall_5b.texture.jpg" id="1_m0vjp"]
+
+[resource]
+albedo_texture = ExtResource("1_m0vjp")
+emission = Color(1, 1, 1, 1)
+normal_enabled = true
+detail_blend_mode = 3
+uv1_scale = Vector3(4, 4, 4)
+metadata/center = Vector2(0, 0)
+metadata/scale = Vector2(1, 1)
+metadata/rotate = 0
+metadata/translate = Vector2(0, 0)

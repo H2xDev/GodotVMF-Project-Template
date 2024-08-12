@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://ds4a0r2guivow"]
+
+[ext_resource type="Texture2D" path="res://materials/color_tiles/green02.texture.tres" id="1_vwnnj"]
+[ext_resource type="Texture2D" path="res://materials/color_tiles/tile_normal.texture.tres" id="2_wl073"]
+
+[resource]
+albedo_texture = ExtResource("1_vwnnj")
+roughness = 0.33
+emission = Color(1, 1, 1, 1)
+normal_enabled = true
+normal_texture = ExtResource("2_wl073")
+detail_blend_mode = 3
+metadata/center = Vector2(0, 0)
+metadata/scale = Vector2(1, 1)
+metadata/rotate = 0
+metadata/translate = Vector2(0, 0)

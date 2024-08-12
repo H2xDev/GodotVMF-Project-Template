@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8864"
-	"mapversion" "3"
+	"editorbuild" "8868"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -64,7 +64,24 @@ light_plus
 	"soften_cosine" "0"
 	"debug" "0"
 	"cubemap" "1"
-	"hdr" "0"
+}
+postprocess_plus
+{
+	"enable" "1"
+	"copied_from_controller" "1"
+	"bloom_scale" "1"
+	"bloom_exponent" "2.5"
+	"bloom_saturation" "1"
+	"auto_exposure_min" "0.5"
+	"auto_exposure_max" "2"
+	"tonemap_percent_target" "60"
+	"tonemap_percent_bright_pixels" "2"
+	"tonemap_min_avg_luminance" "3"
+	"tonemap_rate" "1"
+	"vignette_enable" "0"
+	"vignette_start" "1"
+	"vignette_end" "2"
+	"vignette_blur" "0"
 }
 bgimages_plus
 {
@@ -72,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "3"
+	"mapversion" "5"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -94,9 +111,9 @@ world
 				"v" "-72 -8 24"
 				"v" "-72 8 24"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
-			"uaxis" "[0 1 0 -96] 0.25"
-			"vaxis" "[1 -0 0 32] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -112,9 +129,9 @@ world
 				"v" "-72 8 -56"
 				"v" "-72 8 24"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
-			"uaxis" "[0 1 0 -96] 0.25"
-			"vaxis" "[0 0 -1 -96] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-0 1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -184,9 +201,9 @@ world
 				"v" "-72 8 -56"
 				"v" "-72 -8 -56"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
-			"uaxis" "[0 1 0 -96] 0.25"
-			"vaxis" "[1 -0 0 32] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -213,9 +230,9 @@ world
 				"v" "56 -8 20"
 				"v" "56 8 20"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
-			"uaxis" "[0 1 0 -96] 0.25"
-			"vaxis" "[1 -0 0 32] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -267,9 +284,9 @@ world
 				"v" "72 -8 -56"
 				"v" "72 -8 24"
 			}
-			"material" "SE_METAL/QUARRYIBEAMA"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-0 -1 0 31.9969] 0.25"
-			"vaxis" "[0 0 -1 -224] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -303,9 +320,9 @@ world
 				"v" "56 8 -56"
 				"v" "56 -8 -56"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
-			"uaxis" "[0 1 0 -96] 0.25"
-			"vaxis" "[1 -0 0 32] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -332,9 +349,9 @@ world
 				"v" "36 -8 40"
 				"v" "36 8 40"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
-			"uaxis" "[0 1 0 -96] 0.25"
-			"vaxis" "[1 -0 0 32] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -386,9 +403,9 @@ world
 				"v" "72 -8 24"
 				"v" "40 -8 56"
 			}
-			"material" "SE_METAL/QUARRYIBEAMA"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-0 -1 0 31.9969] 0.25"
-			"vaxis" "[0 0 -1 -416] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -422,9 +439,9 @@ world
 				"v" "56 8 20"
 				"v" "56 -8 20"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
-			"uaxis" "[0 1 0 -96] 0.25"
-			"vaxis" "[1 -0 0 32] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -451,9 +468,9 @@ world
 				"v" "-36 -8 40"
 				"v" "-36 8 40"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
-			"uaxis" "[0 1 0 -96] 0.25"
-			"vaxis" "[0 0 1 96] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-0 1 0 -32] 0.25"
+			"vaxis" "[0 0 1 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -505,9 +522,9 @@ world
 				"v" "40 -8 56"
 				"v" "-40 -8 56"
 			}
-			"material" "SE_METAL/QUARRYIBEAMA"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-0 -1 0 31.9969] 0.25"
-			"vaxis" "[1 -0 0 352] 0.25"
+			"vaxis" "[1 0 0 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -541,9 +558,9 @@ world
 				"v" "36 8 40"
 				"v" "36 -8 40"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
-			"uaxis" "[0 1 0 -96] 0.25"
-			"vaxis" "[0 0 1 96] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-0 1 0 -32] 0.25"
+			"vaxis" "[0 0 1 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -570,9 +587,9 @@ world
 				"v" "-56 -8 20"
 				"v" "-56 8 20"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
-			"uaxis" "[0 1 0 -96] 0.25"
-			"vaxis" "[0 0 1 96] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-0 1 0 -32] 0.25"
+			"vaxis" "[0 0 1 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -624,9 +641,9 @@ world
 				"v" "-40 -8 56"
 				"v" "-72 -8 24"
 			}
-			"material" "SE_METAL/QUARRYIBEAMA"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-0 -1 0 31.9969] 0.25"
-			"vaxis" "[1 -0 0 160] 0.25"
+			"vaxis" "[1 0 0 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -660,9 +677,9 @@ world
 				"v" "-36 8 40"
 				"v" "-36 -8 40"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
-			"uaxis" "[0 1 0 -96] 0.25"
-			"vaxis" "[0 0 1 96] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-0 1 0 -32] 0.25"
+			"vaxis" "[0 0 1 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -684,21 +701,6 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
-	}
-}
-entity
-{
-	"id" "20"
-	"classname" "func_instance"
-	"angles" "0 0 0"
-	"file" "arc2"
-	"origin" "0 0 0"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
 	}
 }
 cameras

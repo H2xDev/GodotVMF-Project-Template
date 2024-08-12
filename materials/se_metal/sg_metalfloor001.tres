@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://b07fge5w8h14x"]
+
+[ext_resource type="Texture2D" path="res://materials/se_metal/sg_metalfloor001.texture.tres" id="1_mi0tq"]
+[ext_resource type="Texture2D" uid="uid://tc2kong4iiyl" path="res://materials/se_metal/sg_metalfloor001.normal.jpg" id="2_xv5ds"]
+
+[resource]
+albedo_texture = ExtResource("1_mi0tq")
+metallic = 1.0
+roughness = 0.59
+emission = Color(1, 1, 1, 1)
+normal_enabled = true
+normal_scale = -1.0
+normal_texture = ExtResource("2_xv5ds")
+detail_blend_mode = 3
+metadata/center = Vector2(0, 0)
+metadata/scale = Vector2(1, 1)
+metadata/rotate = 0
+metadata/translate = Vector2(0, 0)

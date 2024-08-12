@@ -1,6 +1,12 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bbqulif5n5j0l"]
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3]
 
-[ext_resource type="Texture2D" uid="uid://bgpqvqbpl632s" path="res://materials/dev/texture_06.png" id="1_5yuth"]
+[ext_resource type="Texture2D" path="res://materials/dev/texture_06.texture.tres" id="1_gtrok"]
 
 [resource]
-albedo_texture = ExtResource("1_5yuth")
+albedo_texture = ExtResource("1_gtrok")
+emission = Color(1, 1, 1, 1)
+detail_blend_mode = 3
+metadata/center = Vector2(0, 0)
+metadata/scale = Vector2(1, 1)
+metadata/rotate = 0
+metadata/translate = Vector2(0, 0)
