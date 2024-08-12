@@ -86,15 +86,15 @@ func _move_through_path():
 			current_stop_target = null;
 			continue;
 
-	var path_points = _calculate_spline_path(corners, entity.get("subdivisions", 20));
+	var path_points = _calculate_spline_path(corners, 30);
 
 	await _move_to_point(0, path_points);
 
-func _find_corner_by_position(position):
+func _find_corner_by_position(pos: Vector3):
 	var target = get_target(entity.get("moveto", ""));
 
 	while target:
-		var distance = target.global_transform.origin.distance_to(position);
+		var distance = target.global_transform.origin.distance_to(pos);
 		if distance < 0.001: return target;
 
 		target = get_target(target.entity.get("target", ""));
@@ -107,7 +107,6 @@ func _move_to_point(i = 0, points = []):
 
 	var target_position = points[i];
 	var next_target = points[i + 1] if i + 1 < points.size() else target_position;
-	var from_rotation = global_transform.basis;
 	var to_rotation = Basis.looking_at((next_target - target_position).normalized(), Vector3.UP);
 
 	var acceleration = float(entity.get("acceleration", 1.0)) * config.import.scale;
@@ -143,8 +142,6 @@ func Enable(_param = null):
 
 	if has_flag(FLAG_START_AT_PLAYER):
 		await _tween_camera();
-	else:
-		global_transform = Transform3D(current_stop_target.global_transform);
 
 	_move_through_path();
 
