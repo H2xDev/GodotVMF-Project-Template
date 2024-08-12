@@ -4,7 +4,7 @@
 
 <h1 align="center"> GodotVMF Project Template </h1>
 
-The project template is a starting point for creating a new Godot project with using Source Engine development pipeline. 
+A starting template based on [GodotVMF plugin](https://github.com/H2xDev/GodotVMF) for creating a new Godot project with using Source Engine development pipeline. 
 It includes a basic project structure, a sample map, and scripts to get you started.
 
 <p align="center">
