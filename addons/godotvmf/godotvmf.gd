@@ -32,7 +32,7 @@ func GetExistingVMFNodes() -> Array[VMFNode]:
 	if !get_tree(): return nodes;
 	
 	nodes.assign(get_tree().get_nodes_in_group(&"vmfnode_group"));
-	return nodes
+	return nodes.filter(func(node): return not node.is_in_group(&"vmfnode_ignore-rebuild"));
 
 func ReimportVMF():
 	var nodes := GetExistingVMFNodes();

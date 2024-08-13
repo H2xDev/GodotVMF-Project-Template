@@ -1,0 +1,15 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3]
+
+[ext_resource type="Texture2D" path="res://materials/se_concrete/trash_fire.texture.tres" id="1_l8i31"]
+[ext_resource type="Texture2D" path="res://materials/se_concrete/trash_fire_norm.texture.tres" id="2_bhofk"]
+
+[resource]
+albedo_texture = ExtResource("1_l8i31")
+emission = Color(1, 1, 1, 1)
+normal_enabled = true
+normal_texture = ExtResource("2_bhofk")
+detail_blend_mode = 3
+metadata/center = Vector2(0, 0)
+metadata/scale = Vector2(1, 1)
+metadata/rotate = 0
+metadata/translate = Vector2(0, 0)

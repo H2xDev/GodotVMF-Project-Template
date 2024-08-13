@@ -7,6 +7,7 @@ extends ValveIONode
 @export var lip_vector = Vector3(0, 0, 0);
 @export var speed = 0.0;
 @export var volume = 1.0;
+@export var radius = 100.0;
 
 const FLAG_NON_SOLID = 4;
 const FLAG_PASSABLE = 8;
@@ -42,7 +43,7 @@ func _apply_entity(e):
 	lip_vector = move_direction * e.lip * config.import.scale;
 	
 	volume = e.get("volume", 10.0) / 10.0;
-	e.radius = e.get("radius", 100.0 / config.import.scale) * config.import.scale;
+	radius = e.get("radius", 100.0 / config.import.scale) * config.import.scale;
 
 func _entity_ready():
 	start_position = position;
@@ -84,8 +85,8 @@ func Open(_param):
 	trigger_output("OnOpen");
 	
 	if open_sound:
-		var snd = SoundManager.play_sound(global_transform.origin, open_sound);
-		snd.max_distance = entity.radius;
+		var snd = SoundManager.play_sound(global_transform.origin, open_sound, volume);
+		if snd: snd.max_distance = radius;
 
 	await move_door(1.0);
 	trigger_output("OnFullyOpen");
@@ -99,12 +100,11 @@ func Close(_param):
 	var snd: AudioStreamPlayer3D;
 
 	if close_sound:
-		snd = SoundManager.play_sound(global_transform.origin, close_sound);
+		snd = SoundManager.play_sound(global_transform.origin, close_sound, volume);
 	else: if open_sound:
-		snd = SoundManager.play_sound(global_transform.origin, open_sound);
+		snd = SoundManager.play_sound(global_transform.origin, open_sound, volume);
 
-	if snd:
-		snd.max_distance = entity.radius;
+	if snd: snd.max_distance = radius;
 
 	await move_door(0.0);
 	trigger_output("OnFullyClosed");

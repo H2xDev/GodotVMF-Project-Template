@@ -3,3 +3,4 @@
 /android/
 
 .current_process
+*.vmx

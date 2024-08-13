@@ -12,6 +12,7 @@ config_version=5
 
 config/name="vmf-starter-kit"
 config/features=PackedStringArray("4.3", "Forward Plus")
+boot_splash/image="res://build_presets/splash.png"
 config/icon="res://icon.svg"
 
 [autoload]
@@ -32,6 +33,8 @@ enabled=PackedStringArray("res://addons/godotvmf/plugin.cfg")
 [global_group]
 
 pickupable=""
+vmfnode_group=""
+vmfnode_ignore-rebuild=""
 
 [input]
 
@@ -89,3 +92,7 @@ noclip={
 [physics]
 
 3d/default_gravity=14.7
+
+[rendering]
+
+environment/volumetric_fog/volume_size=128

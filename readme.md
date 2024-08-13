@@ -18,11 +18,11 @@ Join our [Discord Server](https://discord.gg/wtSK94fPxd) to get support
 - Test maps directly from Hammer++
 - A set of entities ready to use
 - Basic character controller
-    - Walking
-    - Jumping
-    - Crouching
-    - Sprinting
-    - Noclip
+	- Walking
+	- Jumping
+	- Crouching
+	- Sprinting
+	- Noclip
 - All features of [GodotVMF](https://github.com/H2xDev/GodotVMF) plugin
 
 ## Controls

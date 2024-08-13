@@ -8,6 +8,7 @@ height = 1.8
 
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1_3vioq")
+noclip_speed = 40.0
 
 [node name="Capsule" type="CollisionShape3D" parent="."]
 unique_name_in_owner = true

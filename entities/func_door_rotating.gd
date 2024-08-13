@@ -83,6 +83,8 @@ func move_door(progress: float = 0.0):
 
 # INPUTS
 func Open(_param):
+	if is_open: return;
+
 	is_open = true;
 	trigger_output("OnOpen");
 
@@ -99,7 +101,10 @@ func Open(_param):
 		is_prevented = false;
 
 func Close(_param):
+	if not is_open: return;
+
 	is_open = false;
+
 	trigger_output("OnClose");
 	if start_close_sound: SoundManager.play_sound(global_position, start_close_sound);
 	elif start_sound: SoundManager.play_sound(global_position, start_sound);

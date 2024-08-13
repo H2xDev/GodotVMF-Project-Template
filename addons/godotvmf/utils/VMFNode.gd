@@ -2,6 +2,8 @@
 @icon("res://addons/godotvmf/icon.svg")
 class_name VMFNode extends Node3D;
 
+signal output(message: String);
+
 @export_category("VMF File")
 
 ## Allow the file picker to select an external file
@@ -46,6 +48,7 @@ func _ready() -> void:
 	add_to_group(&"vmfnode_group");
 
 func import_geometry(_reimport := false) -> void:
+	output.emit("Importing geometry...");
 	var mesh: ArrayMesh = VMFTool.create_mesh(_structure);
 	if not mesh:
 		return;
@@ -58,12 +61,6 @@ func import_geometry(_reimport := false) -> void:
 
 		_read_vmf();
 		_import_materials();
-		
-	var transform = global_transform if is_inside_tree() else Transform3D();
-	var texel_size = VMFConfig.config.import.lightmapTexelSize;
-
-	if VMFConfig.config.import.generateLightmapUV2:
-		mesh.lightmap_unwrap(transform, texel_size);
 
 	var _current_mesh := MeshInstance3D.new()
 	_current_mesh.name = "Geometry";
@@ -86,6 +83,13 @@ func import_geometry(_reimport := false) -> void:
 	
 	add_child(_current_mesh);
 	_current_mesh.set_owner(_owner);
+		
+	# FIXME - is_inside_tree always false
+	var transform = _current_mesh.global_transform;
+	var texel_size = VMFConfig.config.import.lightmapTexelSize;
+
+	if VMFConfig.config.import.generateLightmapUV2:
+		_current_mesh.mesh.lightmap_unwrap(transform, texel_size);
 	
 	if VMFConfig.config.import.generateCollision:
 		_current_mesh.create_trimesh_collision();
@@ -94,6 +98,7 @@ func import_geometry(_reimport := false) -> void:
 			_save_collision.call_deferred();
 
 func _save_collision() -> void:
+	output.emit("Save collision into a file...");
 	var new_collision_shape: CollisionShape3D = $Geometry/Geometry_col/CollisionShape3D;
 	if not new_collision_shape:
 		VMFLogger.warn("Could not save find collision shape in " + name);
@@ -113,6 +118,7 @@ func _vmf_identifer() -> String:
 	return vmf.split('/')[-1].replace('.', '_');
 
 func _import_materials() -> void:
+	output.emit("Importing materials...");
 	var list: Array[String] = [];
 	var ignore_list: Array[String];
 	ignore_list.assign(VMFConfig.config.material.ignore);
@@ -154,10 +160,14 @@ func _import_materials() -> void:
 	for material in list:
 		VTFTool.import_material(material);
 
-	VMFLogger.log("Imported " + str(len(list)) + " materials in " + str(Time.get_ticks_msec() - elapsed_time) + "ms");
+	elapsed_time = Time.get_ticks_msec() - elapsed_time;
+
+	if elapsed_time > 1000:
+		VMFLogger.warn("Imported " + str(len(list)) + " materials in " + str(Time.get_ticks_msec() - elapsed_time) + "ms");
 
 # TODO: Make it in a separate thread
 func import_models() -> void:
+	output.emit("Importing models...");
 	if not "models" in VMFConfig.config:
 		return;
 	if not VMFConfig.config.models.import:
@@ -221,7 +231,7 @@ func _clear_structure() -> void:
 		n.queue_free();
 
 func _read_vmf() -> void:
-	VMFLogger.log("Read vmf structure");
+	output.emit("Reading vmf...");
 	_structure = ValveFormatParser.parse(vmf);
 
 	## NOTE: In case if "entity" or "solid" fields are Dictionary,
@@ -234,6 +244,7 @@ func _read_vmf() -> void:
 		_structure.world.solid = [_structure.world.solid] if not _structure.world.solid is Array else _structure.world.solid;
 
 func import_entities(_reimport := false) -> void:
+	output.emit("Importing entities...");
 	var elapsed_time := Time.get_ticks_msec();
 	var import_scale: float = VMFConfig.config.import.scale;
 

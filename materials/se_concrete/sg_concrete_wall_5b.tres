@@ -1,11 +1,21 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://o75qb20j8fyb"]
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://o75qb20j8fyb"]
 
 [ext_resource type="Texture2D" uid="uid://csbx4w8glqjxx" path="res://materials/se_concrete/sg_concrete_wall_5b.texture.jpg" id="1_m0vjp"]
+[ext_resource type="Texture2D" uid="uid://y7o64mnsx3h0" path="res://materials/se_concrete/sg_concrete_wall_5_height.png" id="2_a0hs7"]
+[ext_resource type="Texture2D" uid="uid://dcihkvl183av7" path="res://materials/se_concrete/sg_concrete_wall_5_norm.jpg" id="3_8gpqy"]
 
 [resource]
 albedo_texture = ExtResource("1_m0vjp")
+roughness = 0.74
 emission = Color(1, 1, 1, 1)
 normal_enabled = true
+normal_scale = -1.0
+normal_texture = ExtResource("3_8gpqy")
+heightmap_scale = -1.0
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("2_a0hs7")
 detail_blend_mode = 3
 uv1_scale = Vector3(4, 4, 4)
 metadata/center = Vector2(0, 0)

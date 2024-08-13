@@ -1,11 +1,13 @@
-[gd_resource type="StandardMaterial3D" load_steps=3 format=3]
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://bn8qw1fhj0lgw"]
 
 [ext_resource type="Texture2D" path="res://materials/green_red_light.texture.tres" id="1_tnolt"]
 [ext_resource type="Texture2D" path="res://materials/green_red_light_illum.texture.tres" id="2_8djhc"]
 
 [resource]
 albedo_texture = ExtResource("1_tnolt")
-emission = Color(1, 1, 1, 1)
+metallic = 0.14
+metallic_specular = 1.0
+roughness = 0.22
 emission_texture = ExtResource("2_8djhc")
 detail_blend_mode = 3
 metadata/center = Vector2(0, 0)
