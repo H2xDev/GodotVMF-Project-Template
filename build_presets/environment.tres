@@ -1,9 +1,30 @@
-[gd_resource type="Environment" format=3 uid="uid://c2h2q3rl1e1wu"]
+[gd_resource type="Environment" load_steps=4 format=3 uid="uid://c2h2q3rl1e1wu"]
+
+[ext_resource type="Texture2D" uid="uid://cagfu5cime3yi" path="res://skies/mud_road_puresky_1k.hdr" id="1_chby3"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_4mgxm"]
+panorama = ExtResource("1_chby3")
+
+[sub_resource type="Sky" id="Sky_vrq65"]
+sky_material = SubResource("PanoramaSkyMaterial_4mgxm")
 
 [resource]
 background_mode = 2
+sky = SubResource("Sky_vrq65")
+ambient_light_source = 3
+reflected_light_source = 2
+tonemap_mode = 3
+ssao_enabled = true
+ssao_radius = 1.8
+ssao_intensity = 1.66
+ssao_power = 4.09812
+sdfgi_enabled = true
+sdfgi_use_occlusion = true
+sdfgi_min_cell_size = 0.3125
 glow_enabled = true
+glow_normalized = true
 glow_strength = 0.74
+glow_bloom = 0.44
 glow_blend_mode = 1
 volumetric_fog_enabled = true
 volumetric_fog_density = 0.025

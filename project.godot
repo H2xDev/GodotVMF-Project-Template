@@ -96,3 +96,5 @@ noclip={
 [rendering]
 
 environment/volumetric_fog/volume_size=128
+anti_aliasing/quality/use_taa=true
+anti_aliasing/quality/use_debanding=true

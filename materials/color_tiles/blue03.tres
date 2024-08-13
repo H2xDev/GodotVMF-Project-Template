@@ -5,9 +5,9 @@
 
 [resource]
 albedo_texture = ExtResource("1_q57q8")
-roughness = 0.26
 emission = Color(1, 1, 1, 1)
 normal_enabled = true
+normal_scale = -1.0
 normal_texture = ExtResource("2_du2ba")
 detail_blend_mode = 3
 metadata/center = Vector2(0, 0)

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "282"
+	"mapversion" "287"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "282"
+	"mapversion" "287"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -100462,10 +100462,10 @@ entity
 {
 	"id" "34603"
 	"classname" "point_viewcontrol"
-	"acceleration" "100"
+	"acceleration" "200"
 	"angles" "-0 0 0"
 	"deceleration" "500"
-	"fov" "40"
+	"fov" "30"
 	"moveto" "viewcontrol_camera_path_1"
 	"spawnflags" "138"
 	"speed" "200"
@@ -100486,7 +100486,7 @@ entity
 	"classname" "trigger_once"
 	"origin" "3717 -3044.5 -444"
 	"spawnflags" "1"
-	"StartDisabled" "1"
+	"StartDisabled" "0"
 	connections
 	{
 		"OnTrigger" "viewcontrol_camera,Enable,,0,-1"
@@ -125032,10 +125032,10 @@ entity
 }
 entity
 {
-	"id" "57054"
+	"id" "57059"
 	"classname" "info_player_start"
 	"angles" "0 180 0"
-	"origin" "1571.75 -127.899 0"
+	"origin" "3723.24 -3036.57 -480"
 	editor
 	{
 		"color" "0 255 0"

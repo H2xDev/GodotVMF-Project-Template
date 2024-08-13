@@ -9,6 +9,5 @@ script = ExtResource("1_m4j1f")
 light_bake_mode = 1
 shadow_enabled = true
 shadow_bias = 0.001
-shadow_reverse_cull_face = true
 shadow_blur = 3.0
 sky_mode = 1

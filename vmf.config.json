@@ -22,9 +22,7 @@
 	"material": {
 		"importMode": 2,
 		"generateMipmaps": true,
-		"ignore": [
-			"TOOLS/TOOLSNODRAW",
-		],
+		"ignore": [],
 		"fallbackMaterial": null,
 		"defaultTextureSize": 512,
 		"targetFolder": "res://materials"

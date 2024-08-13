@@ -43,8 +43,8 @@ func TurnOn(_param):
 func _apply_entity(ent):
 	super._apply_entity(ent);
 
-	if ent.get("targetname", ""):
-		light.light_bake_mode = Light3D.BAKE_DISABLED;
+	if ent.get("targetname", "") or ent.get("parentname", ""):
+		light.light_bake_mode = Light3D.BAKE_DYNAMIC;
 
 	var color = ent._light;
 

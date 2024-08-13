@@ -66,8 +66,6 @@ func launch_map():
 	scene.add_child(we);
 	we.set_owner(scene);
 
-	print(we);
-
 func create_environment(vmf_struct: Dictionary):
 	var we = WorldEnvironment.new();
 	var env = ResourceLoader.load("res://build_presets/environment.tres").duplicate();

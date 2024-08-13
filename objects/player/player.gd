@@ -109,7 +109,7 @@ func process_noclip_movement(dt: float, input_dir: Vector2) -> void:
 	var computed_acceleration = get_acceleration(noclip_speed, noclip_friction, dt);
 	var friction_factor = get_friction_rate(noclip_friction, dt);
 
-	velocity += (forward * input_dir.y + right * input_dir.x) * noclip_speed * dt;
+	velocity += (forward * input_dir.y + right * input_dir.x) * computed_acceleration * dt;
 	velocity *= friction_factor;
 
 	move_and_slide();
