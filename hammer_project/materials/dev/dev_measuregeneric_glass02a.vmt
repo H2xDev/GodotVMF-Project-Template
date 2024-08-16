@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "Dev/dev_measuregeneric_glass02a"
-	"$surfaceprop" "glass"
-
-	"%keywords" "mapbase_dev"
-	"%tooltexture" "dev/dev_measuregeneric_glass02a_tooltexture"
-}
