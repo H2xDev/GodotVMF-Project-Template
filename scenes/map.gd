@@ -128,8 +128,6 @@ func build_map(map_path: String):
 
 	var packed_scene = PackedScene.new();
 	packed_scene.pack(scene);
-	
-
 
 	var err := ResourceSaver.save(packed_scene, "res://scenes/{0}.tscn".format([map_name]));
 	if err != OK:
