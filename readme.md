@@ -10,8 +10,9 @@ It includes a basic project structure, a sample map, and scripts to get you star
 Join our [Discord Server](https://discord.gg/wtSK94fPxd) to get support  
 
 <p align="center">
-<img width="100%" src="https://github.com/user-attachments/assets/2847c75a-8cb4-41c4-8dd3-f6a6863e99b0" />
+<img width="100%" src="https://github.com/user-attachments/assets/0bb859d9-e95f-4422-ac14-80092bbb078d" />
 </p>
+
 
 ## Features
 - Use Hammer++ as a level editor
