@@ -47,7 +47,6 @@ func _apply_entity(ent):
 	light = light if light != null else $light;
 
 	if ent.get("targetname", null) or ent.get("parentname", null):
-		prints("Apply dynamic baking: ", ent.get("parentname"), name);
 		light.light_bake_mode = Light3D.BAKE_DYNAMIC;
 	else:
 		light.light_bake_mode = Light3D.BAKE_STATIC;
