@@ -11,4 +11,4 @@ func _apply_entity(e):
 	e.angles.x = 0;
 
 	basis = get_entity_basis(e);
-	global_rotation.y -= PI / 2;
+	rotation.y -= PI / 2;

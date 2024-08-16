@@ -11,8 +11,8 @@ func _apply_entity(e):
 	var d = $DirectionalLight3D;
 	d.light_color = Color(e._light.r, e._light.g, e._light.b);
 	d.light_energy = e._light.a;
-	global_rotation_degrees.x = e.get("pitch", 0);
-	global_rotation.y -= PI / 2;
+	rotation_degrees.x = e.get("pitch", 0);
+	rotation.y -= PI / 2;
 	
 	name = "light_environment"
 	

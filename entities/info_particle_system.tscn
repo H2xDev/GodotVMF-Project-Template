@@ -2,5 +2,6 @@
 
 [ext_resource type="Script" path="res://entities/info_particle_system.gd" id="1_3shqy"]
 
-[node name="InfoParticleSystem" type="Node3D"]
+[node name="no_name" type="Node3D"]
 script = ExtResource("1_3shqy")
+is_entity_applied = true

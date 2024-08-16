@@ -9,8 +9,6 @@ script = ExtResource("1_t5d4s")
 [node name="light" type="SpotLight3D" parent="."]
 light_energy = 0.0
 light_volumetric_fog_energy = 2.0
-light_bake_mode = 1
 shadow_enabled = true
 shadow_reverse_cull_face = true
-shadow_blur = 0.1
 spot_range = 100.0

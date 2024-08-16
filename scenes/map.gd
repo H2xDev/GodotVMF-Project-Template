@@ -59,6 +59,7 @@ func launch_map():
 	vmf.name = map_name;
 	vmf.save_geometry = false;
 	vmf.save_collision = false;
+	vmf.is_runtime = true;
 	vmf.import_map(true);
 	vmf.set_owner(scene);
 
@@ -105,8 +106,8 @@ func build_map(map_path: String):
 
 	vmf.vmf = map_path;
 	vmf.name = map_name;
-	vmf.save_geometry = false;
-	vmf.save_collision = false;
+	vmf.save_geometry = true;
+	vmf.save_collision = true;
 	vmf.import_map(true);
 
 	var env = create_environment(vmf._structure);
@@ -122,13 +123,13 @@ func build_map(map_path: String):
 
 	scene.add_child(lightmap);
 	lightmap.set_owner(scene);
-	
-	scene.add_child(vmf);
+
+	vmf.output.disconnect(message);
 
 	var packed_scene = PackedScene.new();
 	packed_scene.pack(scene);
+	
 
-	vmf.output.disconnect(message);
 
 	var err := ResourceSaver.save(packed_scene, "res://scenes/{0}.tscn".format([map_name]));
 	if err != OK:

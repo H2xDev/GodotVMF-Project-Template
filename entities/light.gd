@@ -12,12 +12,14 @@ const FLAG_INITIALLY_DARK = 1;
 
 @export var style: Appearance = Appearance.NORMAL;
 @export var defaultLightEnergy = 0.0;
-@onready var light: Light3D = $light;
+@export var light: Light3D;
 
 func _entity_ready():
-	light.visible = not has_flag(FLAG_INITIALLY_DARK);
+	$light.visible = not has_flag(FLAG_INITIALLY_DARK);
 
 func _process(_delta):
+	if Engine.is_editor_hint(): return;
+
 	var newLightEnergy = defaultLightEnergy;
 
 	match style:
@@ -32,19 +34,23 @@ func _process(_delta):
 			newLightEnergy = 0.0 if randf() > 0.05 else defaultLightEnergy;
 		_: pass;
 
-	light.light_energy = newLightEnergy;
+	$light.light_energy = newLightEnergy;
 
 func TurnOff(_param):
-	light.visible = false;
+	$light.visible = false;
 
 func TurnOn(_param):
-	light.visible = true;
+	$light.visible = true;
 
 func _apply_entity(ent):
 	super._apply_entity(ent);
+	light = light if light != null else $light;
 
-	if ent.get("targetname", "") or ent.get("parentname", ""):
+	if ent.get("targetname", null) or ent.get("parentname", null):
+		prints("Apply dynamic baking: ", ent.get("parentname"), name);
 		light.light_bake_mode = Light3D.BAKE_DYNAMIC;
+	else:
+		light.light_bake_mode = Light3D.BAKE_STATIC;
 
 	var color = ent._light;
 

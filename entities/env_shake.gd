@@ -29,9 +29,11 @@ func _apply_entity(e):
 
 func _physics_process(delta):
 	if not enabled: return;
+
 	var freq = float(entity.get("frequency", 0.1)) / 255.0 * 100.0;
 	var amp = entity.get("amplitude", 0.1);
-	var radius = entity.get("radius", 0.1) * config.import.scale;
+	var radius = 2;
+	# var radius = entity.get("radius", 0.1) * config.import.scale;
 
 	for body in bodies:
 		var force_vector = Vector3(
