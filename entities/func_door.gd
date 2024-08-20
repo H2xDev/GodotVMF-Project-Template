@@ -91,6 +91,14 @@ func Open(_param):
 	await move_door(1.0);
 	trigger_output("OnFullyOpen");
 
+func Unlock(_param):
+	is_locked = false;
+	trigger_output("OnUnlocked");
+
+func Lock(_param):
+	is_locked = true;
+	trigger_output("OnLocked");
+
 func Close(_param):
 	if not is_open: return;
 	is_open = false;

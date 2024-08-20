@@ -118,6 +118,14 @@ func Close(_param):
 	else:
 		is_prevented = false;
 
+func Unlock(_param):
+	is_locked = false;
+	trigger_output("OnUnlocked");
+
+func Lock(_param):
+	is_locked = true;
+	trigger_output("OnLocked");
+
 func Toggle(_param = null):
 	if is_open:
 		Close(_param);
