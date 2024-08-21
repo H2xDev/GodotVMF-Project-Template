@@ -7,6 +7,7 @@ script = ExtResource("1_1axbg")
 
 [node name="body" type="RigidBody3D" parent="." groups=["pickupable"]]
 freeze_mode = 1
+continuous_cd = true
 
 [node name="mesh" type="MeshInstance3D" parent="body"]
 skeleton = NodePath("../..")

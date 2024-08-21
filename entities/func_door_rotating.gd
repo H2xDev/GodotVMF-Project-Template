@@ -8,6 +8,7 @@ const FLAG_Z_AXIS = 128;
 const FLAG_STARTS_LOCKED = 2048;
 const FLAG_ONE_WAY = 16;
 const FLAG_TOUCH_OPENS = 1024;
+const FLAG_TOGGLE = 32;
 
 var is_open = false;
 var is_locked = false;
@@ -26,8 +27,8 @@ func precache_sounds():
 	stop_close_sound = SoundManager.precache_sound(entity.get("closesound", ""));
 
 func _interact(_player: Player):
-	if not has_flag(FLAG_USE_OPENS):
-		return;
+	if not has_flag(FLAG_USE_OPENS): return;
+	if not has_flag(FLAG_TOGGLE) and is_open: return;
 
 	if is_locked:
 		trigger_output("OnLockedUse");

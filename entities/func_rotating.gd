@@ -7,6 +7,7 @@ const FLAG_START_ON: int = 1;
 const FLAG_REVERSE_DIRECTION: int = 2;
 const FLAG_X_AXIS: int = 4;
 const FLAG_Y_AXIS: int = 8;
+const FLAG_NONSOLID: int = 64;
 
 var current_tween = null;
 var loop_sound = null;
@@ -17,7 +18,11 @@ func _apply_entity(e):
 
 	$body/mesh.set_mesh(get_mesh());
 	$body/mesh.cast_shadow = entity.disableshadows == 0;
-	$body/collision.shape = get_entity_shape();
+
+	if has_flag(FLAG_NONSOLID):
+		$body/collision.queue_free();
+	else:
+		$body/collision.shape = get_entity_shape();
 
 func _physics_process(dt):
 	if Engine.is_editor_hint() && not preview:

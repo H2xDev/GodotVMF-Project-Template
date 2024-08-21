@@ -20,6 +20,6 @@ func _apply_entity(e):
 	
 	$body.freeze = has_flag(FLAG_MOTION_DISABLED);
 	$body/mesh.set_mesh(get_mesh());
-	$body/collision.shape = $body/mesh.mesh.create_convex_shape(true, true);
+	$body/collision.shape = $body/mesh.mesh.create_convex_shape(true);
 
 	$body.mass = $body/mesh.get_aabb().size.x * $body/mesh.get_aabb().size.y * $body/mesh.get_aabb().size.z * 0.01;

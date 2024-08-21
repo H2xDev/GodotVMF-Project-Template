@@ -52,7 +52,10 @@ func _entity_ready():
 
 	var spawnpos = entity.get("spawnpos", 0);
 	is_open = spawnpos == 1;
-	call_deferred('move_door', float(spawnpos), true);
+
+	# NOTE: Wait for proper reparenting;
+	await get_tree().create_timer(0.001).timeout;
+	move_door.call_deferred(float(spawnpos), true);
 
 	open_sound = entity.get("noise1", null);
 	close_sound = entity.get("startclosesound", null);
@@ -62,6 +65,8 @@ func _entity_ready():
 
 ## 0.0 = closed, 1.0 = open
 func move_door(target_value: float = 0.0, instant: bool = false):
+	lip_vector = lip_vector if lip_vector != null else Vector3.ZERO;
+
 	var target_position = start_position + move_distance * target_value - lip_vector * target_value;
 	var time = (target_position - position).length() / speed;
 
