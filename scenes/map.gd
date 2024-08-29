@@ -89,8 +89,6 @@ func create_environment(vmf_struct: Dictionary):
 
 	return we;
 
-# NOTE: This feature is disabled for now
-# 			since LightmapGI has not exposed bake() method.
 func build_map(map_path: String):
 	var scene = Node3D.new();
 	var vmf = VMFNode.new();
