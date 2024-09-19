@@ -1,10 +1,10 @@
 <p align="center">
-<img src="https://github.com/user-attachments/assets/e1959708-fc5a-4245-aed4-5b7f3044aada" />
+<img src="https://github.com/user-attachments/assets/e1959708-fc5a-4245-aed4-5b7f3044aada" width="10%" />
 </p>
 
-<h1 align="center"> GodotVMF Project Template </h1>
+<h2 align="center"> GodotVMF Project Template </h2>
 
-A starting template based on [GodotVMF plugin](https://github.com/H2xDev/GodotVMF) for creating a new Godot project with using Source Engine development pipeline. 
+An example project of [GodotVMF plugin](https://github.com/H2xDev/GodotVMF) for creating a new Godot project with using Source Engine development pipeline. 
 It includes a basic project structure, a sample map, and scripts to get you started.  
 
 Join our [Discord Server](https://discord.gg/wtSK94fPxd) to get support  
