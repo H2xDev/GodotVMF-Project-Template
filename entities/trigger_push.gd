@@ -10,7 +10,6 @@ const CLIENT_CLASSES = ["CharacterBody3D"];
 const PHYSICS_CLASSES = ["RigidBody3D", "KinematicBody3D"];
 
 func _entity_ready():
-	
 	super._entity_ready();
 
 	acceleration = float(entity.speed) * get_movement_vector(entity.pushdir) * config.import.scale;
@@ -18,8 +17,8 @@ func _entity_ready():
 	$area.body_entered.connect(func(node):
 		if bodies.has(node): return;
 
-		var is_rigid_body = node is RigidBody3D and node.has_flag(FLAG_PHYSICS_OBJECTS);
-		var is_character_body = node is CharacterBody3D and node.has_flag(FLAG_CLIENTS);
+		var is_rigid_body = node is RigidBody3D and has_flag(FLAG_PHYSICS_OBJECTS);
+		var is_character_body = node is CharacterBody3D and has_flag(FLAG_CLIENTS);
 
 		if not is_rigid_body and not is_character_body:
 			bodies.append(node);
