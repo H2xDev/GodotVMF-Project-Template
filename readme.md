@@ -13,6 +13,9 @@ Join our [Discord Server](https://discord.gg/wtSK94fPxd) to get support
 <img width="100%" src="https://github.com/user-attachments/assets/0bb859d9-e95f-4422-ac14-80092bbb078d" />
 </p>
 
+## Getting Started
+
+[Documentation](https://github.com/H2xDev/GodotVMF-Game-Template/wiki)
 
 ## Features
 - Use Hammer++ as a level editor
@@ -34,6 +37,3 @@ Join our [Discord Server](https://discord.gg/wtSK94fPxd) to get support
 - `E` - Use
 - `V` - Noclip
 
-## Getting Started
-
-[Documentation](https://github.com/H2xDev/GodotVMF-Game-Template/wiki)
