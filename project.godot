@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="vmf-starter-kit"
+config/name="GodotVMF-Project-Template"
 config/features=PackedStringArray("4.3", "Forward Plus")
 boot_splash/image="res://build_presets/splash.png"
 config/icon="res://icon.svg"
