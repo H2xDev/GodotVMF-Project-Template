@@ -15,6 +15,7 @@
 	"models": {
 		"import": false,
 		"generateCollision": true,
+		"generateLightmapUV2": true,
 		"lightmapTexelSize": 0.4,
 		"targetFolder": "res://models"
 	},
