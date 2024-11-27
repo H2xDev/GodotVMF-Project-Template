@@ -60,7 +60,7 @@ func launch_map():
 	vmf.save_geometry = false;
 	vmf.save_collision = false;
 	vmf.is_runtime = true;
-	vmf.import_map(true);
+	vmf.import_map();
 	vmf.set_owner(scene);
 
 	var we = create_environment(vmf._structure);
@@ -106,7 +106,7 @@ func build_map(map_path: String):
 	vmf.name = map_name;
 	vmf.save_geometry = true;
 	vmf.save_collision = true;
-	vmf.import_map(true);
+	vmf.import_map();
 
 	var env = create_environment(vmf._structure);
 	scene.add_child(env);
