@@ -1,78 +1,56 @@
-[gd_scene load_steps=184 format=4 uid="uid://bb7hsxu5axk01"]
+[gd_scene load_steps=158 format=4 uid="uid://bb7hsxu5axk01"]
 
 [ext_resource type="Script" path="res://addons/godotvmf/utils/VMFNode.gd" id="1_s51lk"]
 [ext_resource type="ArrayMesh" uid="uid://d1hglgdvapm1f" path="res://geometry/hammerous_course_v01_vmf_import.mesh" id="2_qilnu"]
 [ext_resource type="PackedScene" uid="uid://cwxttgf1xbejo" path="res://entities/light_environment.tscn" id="3_314a4"]
 [ext_resource type="Shape3D" uid="uid://d1jw02smqwwdc" path="res://geometry/hammerous_course_v01_vmf_collision_import.res" id="3_chs2k"]
 [ext_resource type="PackedScene" uid="uid://dw3wc4ii6tuan" path="res://entities/trigger_multiple.tscn" id="5_rblj8"]
-[ext_resource type="Script" path="res://entities/ambient_generic.gd" id="5_vha3o"]
-[ext_resource type="Script" path="res://entities/func_rotating.gd" id="7_26q6v"]
 [ext_resource type="PackedScene" uid="uid://o4lost2k1as0" path="res://addons/godotvmf/entities/func_instance.tscn" id="7_fuyd3"]
 [ext_resource type="PackedScene" uid="uid://dt1yhdqq8xyf5" path="res://instances/arc.tscn" id="9_ibjrx"]
 [ext_resource type="PackedScene" uid="uid://dqohp4r0iukoo" path="res://entities/light_spot.tscn" id="10_dhdtg"]
-[ext_resource type="Script" path="res://entities/func_door_rotating.gd" id="11_fbeum"]
 [ext_resource type="PackedScene" path="res://instances/spotlight_lamp.tscn" id="12_dociq"]
 [ext_resource type="Material" uid="uid://whg14w8475sd" path="res://materials/tools/toolsinvisible.tres" id="13_4j2yd"]
 [ext_resource type="PackedScene" uid="uid://d4bck3xnn6i3e" path="res://entities/path_track.tscn" id="13_l1clb"]
 [ext_resource type="PackedScene" uid="uid://bbi15wgtvgr2s" path="res://instances/light_sign.tscn" id="15_6lohb"]
-[ext_resource type="Script" path="res://entities/trigger_multiple.gd" id="15_f1ii6"]
 [ext_resource type="PackedScene" uid="uid://cmvvx2i3i8rk0" path="res://entities/info_particle_system.tscn" id="16_xgvdl"]
-[ext_resource type="Script" path="res://entities/filter_activator_name.gd" id="17_wepr7"]
 [ext_resource type="PackedScene" uid="uid://yqkfmel305dp" path="res://particles/flame.tscn" id="18_hmp0o"]
-[ext_resource type="Script" path="res://entities/func_physbox.gd" id="19_372c6"]
 [ext_resource type="PackedScene" uid="uid://ba6d464lrje60" path="res://particles/steam.tscn" id="19_lcm3y"]
 [ext_resource type="PackedScene" uid="uid://dpt20b08prypy" path="res://entities/point_viewcontrol.tscn" id="20_xgxui"]
 [ext_resource type="PackedScene" uid="uid://bp50y1nufh13p" path="res://entities/trigger_once.tscn" id="22_ev1ps"]
-[ext_resource type="Script" path="res://entities/light_spot.gd" id="22_m7l8k"]
 [ext_resource type="PackedScene" uid="uid://cjy41gyowie1n" path="res://entities/info_overlay.tscn" id="24_0iii5"]
-[ext_resource type="Script" path="res://addons/godotvmf/entities/func_instance.gd" id="24_lcn7m"]
-[ext_resource type="PackedScene" path="res://instances/wall_fan.tscn" id="25_7f6yx"]
+[ext_resource type="PackedScene" uid="uid://dk5740g22ecjd" path="res://instances/wall_fan.tscn" id="25_7f6yx"]
 [ext_resource type="Texture2D" path="res://materials/decals/numbers/stencil_numb_9.texture.tres" id="26_0gua3"]
-[ext_resource type="Script" path="res://entities/info_player_start.gd" id="27_4fjtk"]
 [ext_resource type="Texture2D" path="res://materials/decals/numbers/stencil_numb_0.texture.tres" id="27_f4c64"]
 [ext_resource type="Texture2D" path="res://materials/decals/numbers/stencil_numb_8.texture.tres" id="28_k7rs3"]
 [ext_resource type="Texture2D" path="res://materials/decals/numbers/stencil_numb_7.texture.tres" id="29_4365c"]
-[ext_resource type="Script" path="res://entities/game_text.gd" id="29_cna4p"]
 [ext_resource type="Texture2D" path="res://materials/decals/numbers/stencil_numb_6.texture.tres" id="30_kuqsq"]
 [ext_resource type="Texture2D" path="res://materials/decals/numbers/stencil_numb_5.texture.tres" id="31_rx4wv"]
 [ext_resource type="Texture2D" path="res://materials/decals/numbers/stencil_numb_3.texture.tres" id="32_e64mn"]
-[ext_resource type="Script" path="res://entities/info_particle_system.gd" id="33_qnjso"]
 [ext_resource type="Texture2D" path="res://materials/decals/numbers/stencil_numb_2.texture.tres" id="33_xhb34"]
 [ext_resource type="Texture2D" path="res://materials/decals/numbers/stencil_numb_1.texture.tres" id="34_beh1m"]
 [ext_resource type="PackedScene" uid="uid://dldht0twwtbll" path="res://instances/arc_rect_long.tscn" id="35_kyhjj"]
-[ext_resource type="Script" path="res://entities/logic_relay.gd" id="36_7ub24"]
 [ext_resource type="PackedScene" uid="uid://ut8rbv8xxbh7" path="res://instances/arc_rect_short.tscn" id="36_oikrn"]
 [ext_resource type="PackedScene" uid="uid://ceuk0vv32nljq" path="res://entities/game_text.tscn" id="37_rv7qg"]
-[ext_resource type="Script" path="res://entities/env_shake.gd" id="38_gdxag"]
 [ext_resource type="PackedScene" uid="uid://c8y77syhd7fxf" path="res://entities/ambient_generic.tscn" id="39_i3s2x"]
-[ext_resource type="Script" path="res://entities/light.gd" id="40_iodim"]
 [ext_resource type="PackedScene" uid="uid://yfksuk8rnkvw" path="res://entities/env_shake.tscn" id="41_0dng3"]
-[ext_resource type="Script" path="res://entities/func_door.gd" id="42_545pb"]
 [ext_resource type="PackedScene" uid="uid://bm8k8ppws8jtv" path="res://entities/light.tscn" id="43_55jp6"]
-[ext_resource type="Script" path="res://entities/math_counter.gd" id="45_c2f3a"]
 [ext_resource type="PackedScene" uid="uid://cxvre6issxp4l" path="res://entities/func_rotating.tscn" id="45_glwyv"]
 [ext_resource type="Material" uid="uid://bn8qw1fhj0lgw" path="res://materials/green_red_light.tres" id="47_ml7iw"]
 [ext_resource type="Material" uid="uid://ciiihvd4ihg7d" path="res://materials/color_tiles/red03.tres" id="48_vv0vf"]
-[ext_resource type="Script" path="res://entities/func_button.gd" id="49_e50hg"]
 [ext_resource type="PackedScene" uid="uid://dicpy6kv8ytwj" path="res://entities/point_teleport.tscn" id="49_ib214"]
 [ext_resource type="PackedScene" uid="uid://bxwdmqt2mtc15" path="res://entities/func_door.tscn" id="51_yry1k"]
-[ext_resource type="Script" path="res://entities/env_fade.gd" id="53_cgfoj"]
 [ext_resource type="Material" uid="uid://b8ogd56u3cuuy" path="res://materials/tools/toolsnodraw.tres" id="53_v60lr"]
 [ext_resource type="Material" path="res://materials/se_metal/gate.tres" id="54_5i5fc"]
-[ext_resource type="Script" path="res://entities/path_track.gd" id="55_4ijmc"]
 [ext_resource type="PackedScene" uid="uid://dikmguc0pj36a" path="res://entities/func_button.tscn" id="55_smpen"]
-[ext_resource type="Script" path="res://entities/func_tracktrain.gd" id="57_fw2pj"]
 [ext_resource type="Material" path="res://materials/dev/dev_measuregeneric_white01.tres" id="57_n4yjr"]
 [ext_resource type="Material" uid="uid://c3e3nvoxxiie6" path="res://materials/color_tiles/blue01.tres" id="58_croyc"]
 [ext_resource type="PackedScene" uid="uid://bf5og83i51j2h" path="res://entities/func_door_rotating.tscn" id="59_33vpd"]
 [ext_resource type="Material" uid="uid://b07fge5w8h14x" path="res://materials/se_metal/sg_metalfloor001.tres" id="61_cbx38"]
-[ext_resource type="Script" path="res://entities/point_teleport.gd" id="61_f2jgj"]
 [ext_resource type="Material" uid="uid://b2ouo55ds213k" path="res://materials/se_metal/metalhull02.tres" id="62_1bcmc"]
 [ext_resource type="Material" uid="uid://b23cs1g08hh7d" path="res://materials/se_metal/quarryibeama.tres" id="63_mfrvd"]
 [ext_resource type="Material" uid="uid://ds4a0r2guivow" path="res://materials/color_tiles/green02.tres" id="64_8wnk7"]
 [ext_resource type="Material" uid="uid://rl5hwgxgdf18" path="res://materials/se_metal/metalhull01.tres" id="65_0s5ws"]
 [ext_resource type="PackedScene" uid="uid://cwjkeogtmwr8y" path="res://entities/func_tracktrain.tscn" id="66_oa57g"]
-[ext_resource type="Script" path="res://entities/info_overlay.gd" id="67_3o7dm"]
 [ext_resource type="Material" path="res://materials/se_concrete/concrete_wall_fence_04a.tres" id="68_deoyi"]
 [ext_resource type="PackedScene" uid="uid://yfksuk8rnkvr" path="res://entities/env_fade.tscn" id="69_5y4wc"]
 [ext_resource type="PackedScene" uid="uid://oumojxolb1tm" path="res://entities/func_physbox.tscn" id="71_e2t7a"]
@@ -80,16 +58,12 @@
 [ext_resource type="PackedScene" uid="uid://cqh85dj2mdhn7" path="res://entities/logic_relay.tscn" id="74_hrl7v"]
 [ext_resource type="Material" uid="uid://b1im3lov8sucl" path="res://materials/color_tiles/blue03.tres" id="76_kpddx"]
 [ext_resource type="PackedScene" uid="uid://6ula86o1fnem" path="res://entities/filter_activator_name.tscn" id="77_du4xf"]
-[ext_resource type="Script" path="res://entities/trigger_once.gd" id="78_8nb1p"]
 [ext_resource type="PackedScene" uid="uid://c446bnusmbopl" path="res://entities/math_counter.tscn" id="79_ijgbp"]
-[ext_resource type="Script" path="res://entities/point_viewcontrol.gd" id="80_atgws"]
 [ext_resource type="PackedScene" uid="uid://beponjehvu4od" path="res://entities/info_player_start.tscn" id="81_ges0k"]
 [ext_resource type="Texture2D" uid="uid://cagfu5cime3yi" path="res://skies/mud_road_puresky_1k.hdr" id="83_akqgr"]
 [ext_resource type="PackedScene" uid="uid://cjxioe1h04mpm" path="res://build_presets/lightmapper.tscn" id="84_d43hv"]
-[ext_resource type="Script" path="res://entities/light_environment.gd" id="85_htnab"]
-[ext_resource type="PackedScene" path="res://instances/wall_fan_fast.tscn" id="86_t66cy"]
+[ext_resource type="PackedScene" uid="uid://dmj47xy187qim" path="res://instances/wall_fan_fast.tscn" id="86_t66cy"]
 [ext_resource type="PackedScene" uid="uid://cx3saydh4cxhk" path="res://entities/func_brush.tscn" id="87_jmls8"]
-[ext_resource type="Script" path="res://entities/func_brush.gd" id="88_kwfmn"]
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_ffkh2"]
 _surfaces = [{
@@ -1462,7 +1436,6 @@ shape = ExtResource("3_chs2k")
 
 [node name="valve_wheel_ambient" parent="hammerous_course_v01/Entities" instance=ExtResource("39_i3s2x")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 61.05, 9.95, -24.6)
-script = ExtResource("5_vha3o")
 entity = {
 "classname": "ambient_generic",
 "editor": {
@@ -1486,7 +1459,6 @@ flags = 48
 
 [node name="elevator_wheel" parent="hammerous_course_v01/Entities" instance=ExtResource("45_glwyv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.199, 10.55, -9.274)
-script = ExtResource("7_26q6v")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "func_rotating",
@@ -6781,17 +6753,11 @@ entity = {
 }
 flags = 580
 
-[node name="body" parent="hammerous_course_v01/Entities/elevator_wheel" index="0"]
-freeze = true
-freeze_mode = 1
-
 [node name="mesh" parent="hammerous_course_v01/Entities/elevator_wheel/body" index="0"]
 mesh = SubResource("ArrayMesh_ffkh2")
-skeleton = NodePath("../..")
 
 [node name="elevator_lever" parent="hammerous_course_v01/Entities" instance=ExtResource("59_33vpd")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 43.7875, 6.55, -11.8375)
-script = ExtResource("11_fbeum")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "func_door_rotating",
@@ -8780,21 +8746,14 @@ entity = {
 }
 flags = 402
 
-[node name="body" parent="hammerous_course_v01/Entities/elevator_lever" index="0"]
-sleeping = true
-freeze = true
-freeze_mode = 1
-
 [node name="mesh" parent="hammerous_course_v01/Entities/elevator_lever/body" index="0"]
 mesh = SubResource("ArrayMesh_623bg")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/elevator_lever/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_j7rpb")
 
 [node name="trigger_multiple_67449" parent="hammerous_course_v01/Entities" instance=ExtResource("5_rblj8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 61.059, 10.5145, -24.6353)
-script = ExtResource("15_f1ii6")
 entity = {
 "classname": "trigger_multiple",
 "connections": {
@@ -8996,7 +8955,6 @@ shape = SubResource("ConvexPolygonShape3D_gxn3j")
 
 [node name="valve_wheel_filter" parent="hammerous_course_v01/Entities" instance=ExtResource("77_du4xf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 62.8, 9.8, -26.3)
-script = ExtResource("17_wepr7")
 entity = {
 "Negated": 0,
 "classname": "filter_activator_name",
@@ -9015,7 +8973,6 @@ entity = {
 
 [node name="valve_wheel" parent="hammerous_course_v01/Entities" instance=ExtResource("71_e2t7a")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.6, 11.35, -25.775)
-script = ExtResource("19_372c6")
 entity = {
 "Damagetype": 0,
 "ExplodeDamage": 0,
@@ -14321,22 +14278,17 @@ entity = {
 }
 flags = 524288
 
-[node name="body" parent="hammerous_course_v01/Entities/valve_wheel" index="0" groups=["pickupable"]]
+[node name="body" parent="hammerous_course_v01/Entities/valve_wheel" index="0"]
 mass = 0.000180001
-freeze_mode = 1
-continuous_cd = true
 
 [node name="mesh" parent="hammerous_course_v01/Entities/valve_wheel/body" index="0"]
 mesh = SubResource("ArrayMesh_mw7c2")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/valve_wheel/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_xrlac")
 
 [node name="light_dynamics" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(1.19249e-08, -0.91706, 0.398749, 0, 0.398749, 0.91706, -1, -1.09358e-08, 4.75504e-09, 42.8, 12.1, -9.52383)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -14376,15 +14328,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_dynamics" index="0"]
 light_color = Color(0.94902, 0.913725, 0.827451, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 spot_angle = 25.0
 
 [node name="func_instance_58480" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-1, 8.74228e-08, -3.82137e-15, 0, -4.37114e-08, -1, -8.74228e-08, -1, 4.37114e-08, 55.85, 2.4, 82.4)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, -180, 90),
 "classname": "func_instance",
@@ -14400,16 +14347,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="wall_fan_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_58480" instance=ExtResource("25_7f6yx")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/wall_fan.vmf"
-ignore_global_import = true
-save_geometry = false
-save_collision = false
+[node name="wall_fan_instance_1" parent="hammerous_course_v01/Entities/func_instance_58480" instance=ExtResource("25_7f6yx")]
 
 [node name="info_player_start_57059" parent="hammerous_course_v01/Entities" instance=ExtResource("81_ges0k")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 93.081, -12, 75.9143)
-script = ExtResource("27_4fjtk")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "info_player_start",
@@ -14427,8 +14368,6 @@ entity = {
 
 [node name="light_spot_50329" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(0.0523359, -0.308594, 0.949753, 0, 0.951057, 0.309017, -0.99863, -0.0161727, 0.0497744, 59.925, 8.2, 4.91997)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 16.4706
 light = NodePath("light")
 entity = {
@@ -14466,15 +14405,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_50329" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 16.4706
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="title_01" parent="hammerous_course_v01/Entities" instance=ExtResource("37_rv7qg")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.1495, 8.2, -27.595)
-script = ExtResource("29_cna4p")
 entity = {
 "channel": 1,
 "classname": "game_text",
@@ -14500,22 +14434,10 @@ entity = {
 }
 
 [node name="panel" parent="hammerous_course_v01/Entities/title_01" index="0"]
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxEmpty_lmssv")
-
-[node name="label" parent="hammerous_course_v01/Entities/title_01/panel" index="0"]
-unique_name_in_owner = true
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
 
 [node name="rotating_thing" parent="hammerous_course_v01/Entities" instance=ExtResource("45_glwyv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.2, -1.4, 55.2)
-script = ExtResource("7_26q6v")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "func_rotating",
@@ -15076,20 +14998,14 @@ entity = {
 }
 flags = 514
 
-[node name="body" parent="hammerous_course_v01/Entities/rotating_thing" index="0"]
-freeze = true
-freeze_mode = 1
-
 [node name="mesh" parent="hammerous_course_v01/Entities/rotating_thing/body" index="0"]
 mesh = SubResource("ArrayMesh_5t46r")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/rotating_thing/body" index="1"]
 shape = SubResource("ConcavePolygonShape3D_j83id")
 
 [node name="platform_piston_02_steam_particle" parent="hammerous_course_v01/Entities" instance=ExtResource("16_xgvdl")]
 transform = Transform3D(-3.82308e-08, 2.11917e-08, 1, 0.48481, 0.87462, 0, -0.87462, 0.48481, -4.37114e-08, 31.95, 0.25, 4)
-script = ExtResource("33_qnjso")
 entity = {
 "angles": Vector3(-29, 90, 0),
 "classname": "info_particle_system",
@@ -15107,11 +15023,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="particles" type="Node3D" parent="hammerous_course_v01/Entities/platform_piston_02_steam_particle" instance=ExtResource("19_lcm3y")]
+[node name="particles" parent="hammerous_course_v01/Entities/platform_piston_02_steam_particle" instance=ExtResource("19_lcm3y")]
 
 [node name="trigger_multiple_36638" parent="hammerous_course_v01/Entities" instance=ExtResource("5_rblj8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.05, 1.5, 8.15)
-script = ExtResource("15_f1ii6")
 entity = {
 "classname": "trigger_multiple",
 "connections": {
@@ -15313,7 +15228,6 @@ shape = SubResource("ConvexPolygonShape3D_sbchj")
 
 [node name="trigger_multiple_36614" parent="hammerous_course_v01/Entities" instance=ExtResource("5_rblj8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.55, 9.5, -25.425)
-script = ExtResource("15_f1ii6")
 entity = {
 "classname": "trigger_multiple",
 "connections": {
@@ -15515,7 +15429,6 @@ shape = SubResource("ConvexPolygonShape3D_32728")
 
 [node name="platform_piston_01_steam_particle" parent="hammerous_course_v01/Entities" instance=ExtResource("16_xgvdl")]
 transform = Transform3D(-3.82308e-08, 2.11917e-08, 1, 0.48481, 0.87462, 0, -0.87462, 0.48481, -4.37114e-08, 26.5, 0.25, 3.9)
-script = ExtResource("33_qnjso")
 entity = {
 "angles": Vector3(-29, 90, 0),
 "classname": "info_particle_system",
@@ -15533,11 +15446,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="particles" type="Node3D" parent="hammerous_course_v01/Entities/platform_piston_01_steam_particle" instance=ExtResource("19_lcm3y")]
+[node name="particles" parent="hammerous_course_v01/Entities/platform_piston_01_steam_particle" instance=ExtResource("19_lcm3y")]
 
 [node name="math_counter_rotor_close_relay" parent="hammerous_course_v01/Entities" instance=ExtResource("74_hrl7v")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.8, 8.2, -25.6)
-script = ExtResource("36_7ub24")
 entity = {
 "StartDisabled": 1,
 "classname": "logic_relay",
@@ -15558,7 +15470,6 @@ entity = {
 
 [node name="platform_piston_shake" parent="hammerous_course_v01/Entities" instance=ExtResource("41_0dng3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.6, 3.6, 4.8)
-script = ExtResource("38_gdxag")
 entity = {
 "amplitude": 2,
 "classname": "env_shake",
@@ -15582,7 +15493,6 @@ shape = SubResource("SphereShape3D_o2axe")
 
 [node name="light_30142" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 84.4, -0.7, 75.8)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 2.35294
 light = NodePath("light")
 entity = {
@@ -15615,16 +15525,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_30142" index="0"]
 light_color = Color(0.364706, 0.254902, 0.545098, 1)
 light_energy = 2.35294
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 61.3572
 omni_attenuation = 1.44
 
 [node name="light_30120" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 91.05, -10.25, 76.65)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 2.35294
 light = NodePath("light")
 entity = {
@@ -15657,16 +15563,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_30120" index="0"]
 light_color = Color(0.364706, 0.254902, 0.545098, 1)
 light_energy = 2.35294
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 61.3572
 omni_attenuation = 1.44
 
 [node name="cube_purple" parent="hammerous_course_v01/Entities" instance=ExtResource("71_e2t7a")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.4, 9, -31.1758)
-script = ExtResource("19_372c6")
 entity = {
 "Damagetype": 0,
 "ExplodeDamage": 0,
@@ -15884,21 +15786,17 @@ entity = {
 }
 flags = 524288
 
-[node name="body" parent="hammerous_course_v01/Entities/cube_purple" index="0" groups=["pickupable"]]
+[node name="body" parent="hammerous_course_v01/Entities/cube_purple" index="0"]
 mass = 0.0078329
-freeze_mode = 1
-continuous_cd = true
 
 [node name="mesh" parent="hammerous_course_v01/Entities/cube_purple/body" index="0"]
 mesh = SubResource("ArrayMesh_ndukw")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/cube_purple/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_du4ed")
 
 [node name="cube_green_filter" parent="hammerous_course_v01/Entities" instance=ExtResource("77_du4xf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 8.2, -30.1)
-script = ExtResource("17_wepr7")
 entity = {
 "Negated": 0,
 "classname": "filter_activator_name",
@@ -15917,7 +15815,6 @@ entity = {
 
 [node name="counter_test_doors_light2" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.575, 9.15, -23.2)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -15954,15 +15851,11 @@ flags = 1
 [node name="light" parent="hammerous_course_v01/Entities/counter_test_doors_light2" index="0"]
 light_color = Color(0.0509804, 1, 0.027451, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="counter_test_doors_light" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.575, 9.65, -23.2)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -15997,15 +15890,11 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/counter_test_doors_light" index="0"]
 light_color = Color(1, 0, 0, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="counter_test_doors" parent="hammerous_course_v01/Entities" instance=ExtResource("51_yry1k")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23, 9.2, -24.1)
-script = ExtResource("42_545pb")
 move_direction = Vector3(1.19249e-08, 0, 1)
 move_distance = Vector3(2.38499e-09, 0, 1.4)
 lip_vector = Vector3(1.19249e-09, 0, 0.1)
@@ -16255,14 +16144,12 @@ entity = {
 
 [node name="mesh" parent="hammerous_course_v01/Entities/counter_test_doors/body" index="0"]
 mesh = SubResource("ArrayMesh_881pu")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/counter_test_doors/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_6xjr7")
 
 [node name="counter_test_doors0" parent="hammerous_course_v01/Entities" instance=ExtResource("51_yry1k")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23, 9.2, -25.5)
-script = ExtResource("42_545pb")
 move_direction = Vector3(-4.37114e-08, 0, -1)
 move_distance = Vector3(-8.74231e-09, 0, -1.4)
 lip_vector = Vector3(-4.37114e-09, 0, -0.1)
@@ -16507,14 +16394,12 @@ entity = {
 
 [node name="mesh" parent="hammerous_course_v01/Entities/counter_test_doors0/body" index="0"]
 mesh = SubResource("ArrayMesh_bwwn0")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/counter_test_doors0/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_pw558")
 
 [node name="math_counter_logic" parent="hammerous_course_v01/Entities" instance=ExtResource("79_ijgbp")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.425, 8.2, -23.6)
-script = ExtResource("45_c2f3a")
 entity = {
 "classname": "math_counter",
 "connections": {
@@ -16535,7 +16420,6 @@ entity = {
 
 [node name="math_counter_rotor" parent="hammerous_course_v01/Entities" instance=ExtResource("59_33vpd")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 8.025, -24.8)
-script = ExtResource("11_fbeum")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "func_door_rotating",
@@ -17264,21 +17148,14 @@ entity = {
 "wait": -1
 }
 
-[node name="body" parent="hammerous_course_v01/Entities/math_counter_rotor" index="0"]
-sleeping = true
-freeze = true
-freeze_mode = 1
-
 [node name="mesh" parent="hammerous_course_v01/Entities/math_counter_rotor/body" index="0"]
 mesh = SubResource("ArrayMesh_hacxi")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/math_counter_rotor/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_uwl71")
 
 [node name="cube_purple_filter" parent="hammerous_course_v01/Entities" instance=ExtResource("77_du4xf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31, 9.8, -17.9)
-script = ExtResource("17_wepr7")
 entity = {
 "Negated": 0,
 "classname": "filter_activator_name",
@@ -17297,7 +17174,6 @@ entity = {
 
 [node name="func_button_20840" parent="hammerous_course_v01/Entities" instance=ExtResource("55_smpen")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.1278, 1.041, 30.1835)
-script = ExtResource("49_e50hg")
 move_direction = Vector3(-4.37114e-08, -1, 0)
 move_distance = Vector3(-8.74231e-09, -0.143497, 0)
 lip_vector = Vector3(-5.46392e-09, -0.125, 0)
@@ -18585,14 +18461,12 @@ flags = 1024
 
 [node name="mesh" parent="hammerous_course_v01/Entities/func_button_20840/body" index="0"]
 mesh = SubResource("ArrayMesh_q06fs")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/func_button_20840/body" index="1"]
 shape = SubResource("ConcavePolygonShape3D_xvndo")
 
 [node name="button_cube_green" parent="hammerous_course_v01/Entities" instance=ExtResource("51_yry1k")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.4, 8.15, -31.2)
-script = ExtResource("42_545pb")
 move_direction = Vector3(-4.37114e-08, -1, 0)
 move_distance = Vector3(-6.99382e-08, -0.0999994, 0)
 lip_vector = Vector3(-2.18557e-09, -0.05, 0)
@@ -18812,14 +18686,12 @@ flags = 1024
 
 [node name="mesh" parent="hammerous_course_v01/Entities/button_cube_green/body" index="0"]
 mesh = SubResource("ArrayMesh_nasql")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/button_cube_green/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_l67ap")
 
 [node name="button_cube_purple" parent="hammerous_course_v01/Entities" instance=ExtResource("51_yry1k")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.8, 9.75, -16.4)
-script = ExtResource("42_545pb")
 move_direction = Vector3(-4.37114e-08, -1, 0)
 move_distance = Vector3(-6.99382e-08, -0.1, 0)
 lip_vector = Vector3(-2.18557e-09, -0.05, 0)
@@ -19039,14 +18911,12 @@ flags = 1024
 
 [node name="mesh" parent="hammerous_course_v01/Entities/button_cube_purple/body" index="0"]
 mesh = SubResource("ArrayMesh_gbosw")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/button_cube_purple/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_1eo7o")
 
 [node name="trigger_multiple_20491" parent="hammerous_course_v01/Entities" instance=ExtResource("5_rblj8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.8, 9.85, -16.4)
-script = ExtResource("15_f1ii6")
 entity = {
 "classname": "trigger_multiple",
 "connections": {
@@ -19249,7 +19119,6 @@ shape = SubResource("ConvexPolygonShape3D_lcq2f")
 
 [node name="light_20494" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.8, 10.1, -16.3105)
-script = ExtResource("40_iodim")
 style = 4
 defaultLightEnergy = 1.56863
 light = NodePath("light")
@@ -19284,16 +19153,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_20494" index="0"]
 light_color = Color(0.552941, 0.180392, 0.180392, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="trigger_multiple_20674" parent="hammerous_course_v01/Entities" instance=ExtResource("5_rblj8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.4, 8.25, -31.2)
-script = ExtResource("15_f1ii6")
 entity = {
 "classname": "trigger_multiple",
 "connections": {
@@ -19496,8 +19361,6 @@ shape = SubResource("ConvexPolygonShape3D_k63ln")
 
 [node name="light_spot_9094" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(1.19249e-08, -0.999962, 0.00872656, 0, 0.00872656, 0.999962, -1, -1.19244e-08, 1.04063e-10, 50.2, 2.7, 22.2)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -19535,17 +19398,11 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_9094" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 spot_angle = 80.0
 
 [node name="light_spot_9084" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(1.19249e-08, -0.999962, 0.00872656, 0, 0.00872656, 0.999962, -1, -1.19244e-08, 1.04063e-10, 50.2703, 2.7, 31.1)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -19583,16 +19440,11 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_9084" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 spot_angle = 80.0
 
 [node name="relay_test_doors" parent="hammerous_course_v01/Entities" instance=ExtResource("51_yry1k")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.1, 1.2, 16.6)
-script = ExtResource("42_545pb")
 move_direction = Vector3(1, 0, 0)
 move_distance = Vector3(1.4, 0, 0)
 lip_vector = Vector3(0.1, 0, 0)
@@ -19839,14 +19691,12 @@ entity = {
 
 [node name="mesh" parent="hammerous_course_v01/Entities/relay_test_doors/body" index="0"]
 mesh = SubResource("ArrayMesh_oaklr")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/relay_test_doors/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_kdfik")
 
 [node name="relay_logic" parent="hammerous_course_v01/Entities" instance=ExtResource("74_hrl7v")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48.675, 0.2, 22.4)
-script = ExtResource("36_7ub24")
 entity = {
 "StartDisabled": 1,
 "classname": "logic_relay",
@@ -19868,7 +19718,6 @@ entity = {
 
 [node name="relay_rotor" parent="hammerous_course_v01/Entities" instance=ExtResource("59_33vpd")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.1, 0.025, 22.4)
-script = ExtResource("11_fbeum")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "func_door_rotating",
@@ -20598,21 +20447,14 @@ entity = {
 "wait": -1
 }
 
-[node name="body" parent="hammerous_course_v01/Entities/relay_rotor" index="0"]
-sleeping = true
-freeze = true
-freeze_mode = 1
-
 [node name="mesh" parent="hammerous_course_v01/Entities/relay_rotor/body" index="0"]
 mesh = SubResource("ArrayMesh_sdrrj")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/relay_rotor/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_a6v8i")
 
 [node name="cube_green" parent="hammerous_course_v01/Entities" instance=ExtResource("71_e2t7a")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.45, 10.325, -16.275)
-script = ExtResource("19_372c6")
 entity = {
 "Damagetype": 0,
 "ExplodeDamage": 0,
@@ -20830,21 +20672,17 @@ entity = {
 }
 flags = 524288
 
-[node name="body" parent="hammerous_course_v01/Entities/cube_green" index="0" groups=["pickupable"]]
+[node name="body" parent="hammerous_course_v01/Entities/cube_green" index="0"]
 mass = 0.00720102
-freeze_mode = 1
-continuous_cd = true
 
 [node name="mesh" parent="hammerous_course_v01/Entities/cube_green/body" index="0"]
 mesh = SubResource("ArrayMesh_eq805")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/cube_green/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_l6nsp")
 
 [node name="func_button_8845" parent="hammerous_course_v01/Entities" instance=ExtResource("55_smpen")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45.9393, 1.041, 21.75)
-script = ExtResource("49_e50hg")
 move_direction = Vector3(-4.37114e-08, -1, 0)
 move_distance = Vector3(-8.797e-09, -0.142595, 0)
 lip_vector = Vector3(-5.46392e-09, -0.125, 0)
@@ -22132,14 +21970,12 @@ flags = 1024
 
 [node name="mesh" parent="hammerous_course_v01/Entities/func_button_8845/body" index="0"]
 mesh = SubResource("ArrayMesh_m67na")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/func_button_8845/body" index="1"]
 shape = SubResource("ConcavePolygonShape3D_ioheb")
 
 [node name="relay_test_doors0" parent="hammerous_course_v01/Entities" instance=ExtResource("51_yry1k")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.7, 1.2, 16.6)
-script = ExtResource("42_545pb")
 move_direction = Vector3(-1, 0, 8.74228e-08)
 move_distance = Vector3(-1.4, 0, 1.74846e-08)
 lip_vector = Vector3(-0.1, 0, 8.74228e-09)
@@ -22384,14 +22220,12 @@ entity = {
 
 [node name="mesh" parent="hammerous_course_v01/Entities/relay_test_doors0/body" index="0"]
 mesh = SubResource("ArrayMesh_dmlho")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/relay_test_doors0/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_q74om")
 
 [node name="pit_trigger" parent="hammerous_course_v01/Entities" instance=ExtResource("5_rblj8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.2, -6.4, 52.6)
-script = ExtResource("15_f1ii6")
 entity = {
 "classname": "trigger_multiple",
 "connections": {
@@ -22594,7 +22428,6 @@ shape = SubResource("ConvexPolygonShape3D_hg74a")
 
 [node name="fade_out" parent="hammerous_course_v01/Entities" instance=ExtResource("69_5y4wc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 53, -0.8, 60.8)
-script = ExtResource("53_cgfoj")
 entity = {
 "classname": "env_fade",
 "duration": 0.5,
@@ -22617,7 +22450,6 @@ flags = 1
 
 [node name="fade_in" parent="hammerous_course_v01/Entities" instance=ExtResource("69_5y4wc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 53, -0.8, 60.4)
-script = ExtResource("53_cgfoj")
 entity = {
 "classname": "env_fade",
 "connections": {
@@ -22642,8 +22474,6 @@ entity = {
 
 [node name="light_spot_7813" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(1.19249e-08, -0.492424, 0.870356, 0, 0.870356, 0.492424, -1, -5.87209e-09, 1.03789e-08, 53, 2, 42.7518)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 style = 10
 defaultLightEnergy = 4.70588
 light = NodePath("light")
@@ -22683,16 +22513,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_7813" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="light_dynamics0" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(1.19249e-08, -0.492424, 0.870356, 0, 0.870356, 0.492424, -1, -5.87209e-09, 1.03789e-08, 53, 2, 52.387)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -22731,15 +22555,9 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_dynamics0" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="light_spot_7792" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(1.19249e-08, -0.492424, 0.870356, 0, 0.870356, 0.492424, -1, -5.87209e-09, 1.03789e-08, 53, 1.5045, 63.6)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -22777,16 +22595,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_7792" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="light_spot_7786" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(-1, -4.3049e-08, 7.60889e-08, 0, 0.870356, 0.492424, -8.74228e-08, 0.492424, -0.870356, 56.881, 1.76367, 69.7453)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -22824,16 +22636,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_7786" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="light_spot_7773" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(-1, -4.3049e-08, 7.60889e-08, 0, 0.870356, 0.492424, -8.74228e-08, 0.492424, -0.870356, 71.43, 1.9606, 69.8932)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -22871,15 +22677,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_7773" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="light_7759" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.8, 1.6, 43.3015)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -22912,16 +22713,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_7759" index="0"]
 light_color = Color(0.329412, 0.392157, 0.466667, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="func_button_7676" parent="hammerous_course_v01/Entities" instance=ExtResource("55_smpen")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.6115, -0.559, 60.3005)
-script = ExtResource("49_e50hg")
 move_direction = Vector3(-4.37114e-08, -1, 0)
 move_distance = Vector3(-8.74231e-09, -0.146325, 0)
 lip_vector = Vector3(-5.46392e-09, -0.125, 0)
@@ -24209,14 +24006,12 @@ flags = 1024
 
 [node name="mesh" parent="hammerous_course_v01/Entities/func_button_7676/body" index="0"]
 mesh = SubResource("ArrayMesh_4wkgi")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/func_button_7676/body" index="1"]
 shape = SubResource("ConcavePolygonShape3D_w7et8")
 
 [node name="rotating_thing0" parent="hammerous_course_v01/Entities" instance=ExtResource("45_glwyv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.2, -1.4, 50.8)
-script = ExtResource("7_26q6v")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "func_rotating",
@@ -24777,20 +24572,14 @@ entity = {
 }
 flags = 512
 
-[node name="body" parent="hammerous_course_v01/Entities/rotating_thing0" index="0"]
-freeze = true
-freeze_mode = 1
-
 [node name="mesh" parent="hammerous_course_v01/Entities/rotating_thing0/body" index="0"]
 mesh = SubResource("ArrayMesh_famwj")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/rotating_thing0/body" index="1"]
 shape = SubResource("ConcavePolygonShape3D_ino12")
 
 [node name="light_7424" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.3, 1.45, 61.872)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -24823,16 +24612,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_7424" index="0"]
 light_color = Color(0.329412, 0.392157, 0.466667, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="light_7418" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 53.6203, 0, 77.3)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -24865,16 +24650,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_7418" index="0"]
 light_color = Color(0.329412, 0.392157, 0.466667, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="light_7405" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 73.85, 0.925, 75.525)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -24907,16 +24688,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_7405" index="0"]
 light_color = Color(0.329412, 0.392157, 0.466667, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="light_7380" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.2, 8.95, -13.2254)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -24949,16 +24726,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_7380" index="0"]
 light_color = Color(0.329412, 0.392157, 0.466667, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="light_7369" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.025, 6.8, 2.9037)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -24991,17 +24764,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_7369" index="0"]
 light_color = Color(0.329412, 0.392157, 0.466667, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="light_spot_6999" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(-4.37114e-08, 0.866025, -0.5, 0, 0.5, 0.866025, 1, 3.78552e-08, -2.18557e-08, 48.163, 8.96405, -7.51767)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -25039,16 +24807,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_6999" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="light_spot_6985" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(-4.37114e-08, 0.866025, -0.5, 0, 0.5, 0.866025, 1, 3.78552e-08, -2.18557e-08, 48.6, 8.4, 4.8)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -25086,15 +24848,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_6985" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="func_button_3399" parent="hammerous_course_v01/Entities" instance=ExtResource("55_smpen")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.575, 4.2275, 6.128)
-script = ExtResource("49_e50hg")
 move_direction = Vector3(-4.37114e-08, -1, 0)
 move_distance = Vector3(-8.74214e-09, -0.11265, 0)
 lip_vector = Vector3(-4.37114e-09, -0.1, 0)
@@ -25285,14 +25042,12 @@ flags = 1024
 
 [node name="mesh" parent="hammerous_course_v01/Entities/func_button_3399/body" index="0"]
 mesh = SubResource("ArrayMesh_kbdo5")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/func_button_3399/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_xnfu7")
 
 [node name="func_button_3395" parent="hammerous_course_v01/Entities" instance=ExtResource("55_smpen")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.225, 4.2275, 6.128)
-script = ExtResource("49_e50hg")
 move_direction = Vector3(-4.37114e-08, -1, 0)
 move_distance = Vector3(-6.55661e-09, -0.11265, 0)
 lip_vector = Vector3(-4.37114e-09, -0.1, 0)
@@ -25623,14 +25378,12 @@ flags = 1024
 
 [node name="mesh" parent="hammerous_course_v01/Entities/func_button_3395/body" index="0"]
 mesh = SubResource("ArrayMesh_2ufru")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/func_button_3395/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_osovx")
 
 [node name="func_button_3391" parent="hammerous_course_v01/Entities" instance=ExtResource("55_smpen")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 54.875, 4.2275, 6.128)
-script = ExtResource("49_e50hg")
 move_direction = Vector3(-4.37114e-08, -1, 0)
 move_distance = Vector3(-8.74231e-09, -0.11265, 0)
 lip_vector = Vector3(-4.37114e-09, -0.1, 0)
@@ -25821,14 +25574,12 @@ flags = 1024
 
 [node name="mesh" parent="hammerous_course_v01/Entities/func_button_3391/body" index="0"]
 mesh = SubResource("ArrayMesh_8h1jr")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/func_button_3391/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_vwues")
 
 [node name="func_button_3332" parent="hammerous_course_v01/Entities" instance=ExtResource("55_smpen")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55, 4.2275, 1.89675)
-script = ExtResource("49_e50hg")
 move_direction = Vector3(-4.37114e-08, -1, 0)
 move_distance = Vector3(-8.74231e-09, -0.11265, 0)
 lip_vector = Vector3(-4.37114e-09, -0.1, 0)
@@ -26019,14 +25770,12 @@ flags = 1024
 
 [node name="mesh" parent="hammerous_course_v01/Entities/func_button_3332/body" index="0"]
 mesh = SubResource("ArrayMesh_01ync")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/func_button_3332/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_yleda")
 
 [node name="func_button_3324" parent="hammerous_course_v01/Entities" instance=ExtResource("55_smpen")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.7, 4.2275, 1.89675)
-script = ExtResource("49_e50hg")
 move_direction = Vector3(-4.37114e-08, -1, 0)
 move_distance = Vector3(-8.74214e-09, -0.11265, 0)
 lip_vector = Vector3(-4.37114e-09, -0.1, 0)
@@ -26217,14 +25966,12 @@ flags = 1024
 
 [node name="mesh" parent="hammerous_course_v01/Entities/func_button_3324/body" index="0"]
 mesh = SubResource("ArrayMesh_m6raf")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/func_button_3324/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_eny12")
 
 [node name="func_button_3328" parent="hammerous_course_v01/Entities" instance=ExtResource("55_smpen")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.35, 4.2275, 1.89675)
-script = ExtResource("49_e50hg")
 move_direction = Vector3(-4.37114e-08, -1, 0)
 move_distance = Vector3(-6.55661e-09, -0.11265, 0)
 lip_vector = Vector3(-4.37114e-09, -0.1, 0)
@@ -26555,14 +26302,12 @@ flags = 1024
 
 [node name="mesh" parent="hammerous_course_v01/Entities/func_button_3328/body" index="0"]
 mesh = SubResource("ArrayMesh_34jyy")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/func_button_3328/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_ts8st")
 
 [node name="rail_path_4" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.2, 4.8, -24)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "path_track",
@@ -26581,7 +26326,6 @@ entity = {
 
 [node name="rail_path_3" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.2, 4.8, -15.6)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "path_track",
@@ -26601,7 +26345,6 @@ entity = {
 
 [node name="rail_path_2" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.2, 0, -6)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "path_track",
@@ -26621,7 +26364,6 @@ entity = {
 
 [node name="rail_path_1" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.2, 0, 4)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "path_track",
@@ -26641,7 +26383,6 @@ entity = {
 
 [node name="rail_platforn" parent="hammerous_course_v01/Entities" instance=ExtResource("66_oa57g")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.2, 0, 4)
-script = ExtResource("57_fw2pj")
 entity = {
 "ManualAccelSpeed": 0,
 "ManualDecelSpeed": 0,
@@ -37768,12 +37509,6 @@ entity = {
 "wheels": 50
 }
 
-[node name="body" parent="hammerous_course_v01/Entities/rail_platforn" index="0"]
-mass = 0.001
-gravity_scale = 0.0
-freeze = true
-freeze_mode = 1
-
 [node name="collision" parent="hammerous_course_v01/Entities/rail_platforn/body" index="0"]
 shape = SubResource("ConcavePolygonShape3D_3dc8p")
 
@@ -37782,7 +37517,6 @@ mesh = SubResource("ArrayMesh_enfe4")
 
 [node name="trigger_multiple_1180" parent="hammerous_course_v01/Entities" instance=ExtResource("5_rblj8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.8, 1.5, 4.8)
-script = ExtResource("15_f1ii6")
 entity = {
 "classname": "trigger_multiple",
 "connections": {
@@ -37984,7 +37718,6 @@ shape = SubResource("ConvexPolygonShape3D_e13tj")
 
 [node name="platform_piston_01" parent="hammerous_course_v01/Entities" instance=ExtResource("51_yry1k")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.4, 1.6, 4.8)
-script = ExtResource("42_545pb")
 move_direction = Vector3(-4.37114e-08, -1, 0)
 move_distance = Vector3(-7.86806e-08, -3.2, 0)
 lip_vector = Vector3(-3.49691e-08, -0.8, 0)
@@ -39199,14 +38932,12 @@ entity = {
 
 [node name="mesh" parent="hammerous_course_v01/Entities/platform_piston_01/body" index="0"]
 mesh = SubResource("ArrayMesh_geres")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/platform_piston_01/body" index="1"]
 shape = SubResource("ConcavePolygonShape3D_p81ad")
 
 [node name="platform_piston_03" parent="hammerous_course_v01/Entities" instance=ExtResource("51_yry1k")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.6, 1.6, 4.8)
-script = ExtResource("42_545pb")
 move_direction = Vector3(-4.37114e-08, -1, 0)
 move_distance = Vector3(-7.86805e-08, -3.2, 0)
 lip_vector = Vector3(-3.49691e-08, -0.8, 0)
@@ -40421,14 +40152,12 @@ entity = {
 
 [node name="mesh" parent="hammerous_course_v01/Entities/platform_piston_03/body" index="0"]
 mesh = SubResource("ArrayMesh_2p81x")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/platform_piston_03/body" index="1"]
 shape = SubResource("ConcavePolygonShape3D_o2ppn")
 
 [node name="platform_piston_02" parent="hammerous_course_v01/Entities" instance=ExtResource("51_yry1k")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32, 1.6, 4.8)
-script = ExtResource("42_545pb")
 move_direction = Vector3(-4.37114e-08, -1, 0)
 move_distance = Vector3(-7.86806e-08, -3.2, 0)
 lip_vector = Vector3(-3.49691e-08, -0.8, 0)
@@ -41643,14 +41372,12 @@ entity = {
 
 [node name="mesh" parent="hammerous_course_v01/Entities/platform_piston_02/body" index="0"]
 mesh = SubResource("ArrayMesh_yq8gp")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/platform_piston_02/body" index="1"]
 shape = SubResource("ConcavePolygonShape3D_j3xux")
 
 [node name="func_button_836" parent="hammerous_course_v01/Entities" instance=ExtResource("55_smpen")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.4, 4.241, -0.41125)
-script = ExtResource("49_e50hg")
 move_direction = Vector3(-4.37114e-08, -1, 0)
 move_distance = Vector3(-8.74223e-09, -0.147375, 0)
 lip_vector = Vector3(-5.46392e-09, -0.125, 0)
@@ -42938,15 +42665,12 @@ flags = 1024
 
 [node name="mesh" parent="hammerous_course_v01/Entities/func_button_836/body" index="0"]
 mesh = SubResource("ArrayMesh_cmoa6")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/func_button_836/body" index="1"]
 shape = SubResource("ConcavePolygonShape3D_2345p")
 
 [node name="light_spot_1794" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(1, -3.78552e-08, 2.18557e-08, 0, 0.5, 0.866025, -4.37114e-08, -0.866025, 0.5, 24, 7.95, 7.5)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -42984,16 +42708,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_1794" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="light_spot_1804" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(1, -3.78552e-08, 2.18557e-08, 0, 0.5, 0.866025, -4.37114e-08, -0.866025, 0.5, 28.8, 7.95, 7.5)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -43031,16 +42749,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_1804" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="light_spot_1810" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(1, -3.78552e-08, 2.18557e-08, 0, 0.5, 0.866025, -4.37114e-08, -0.866025, 0.5, 33.6, 7.95, 7.5)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -43078,16 +42790,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_1810" index="0"]
 light_color = Color(0.968627, 0.894118, 0.713726, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="light_spot_1816" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(1, -3.78552e-08, 2.18557e-08, 0, 0.5, 0.866025, -4.37114e-08, -0.866025, 0.5, 38.4, 8.9, 7.95)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -43125,15 +42831,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_1816" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="light_1898" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 43.0233, 1.6, 4.8)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 0.784314
 light = NodePath("light")
 entity = {
@@ -43166,16 +42867,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_1898" index="0"]
 light_color = Color(0.329412, 0.392157, 0.466667, 1)
 light_energy = 0.784314
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 35.4246
 omni_attenuation = 1.44
 
 [node name="light_1911" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 44.8, 4.8, 4.8)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 0.784314
 light = NodePath("light")
 entity = {
@@ -43208,16 +42905,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_1911" index="0"]
 light_color = Color(0.329412, 0.392157, 0.466667, 1)
 light_energy = 0.784314
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 35.4246
 omni_attenuation = 1.44
 
 [node name="light_1918" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 4.8, -4.8)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -43250,17 +42943,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_1918" index="0"]
 light_color = Color(0.329412, 0.392157, 0.466667, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="light_dynamics1" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(-1, -8.01719e-08, 3.48598e-08, 0, 0.398749, 0.91706, -8.74228e-08, 0.91706, -0.398749, 23.4561, 5.8237, -0.91782)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -43299,16 +42987,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_dynamics1" index="0"]
 light_color = Color(0.94902, 0.913725, 0.827451, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 spot_angle = 25.0
 
 [node name="light_spot_7005" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(-4.37114e-08, 0.866025, -0.5, 0, 0.5, 0.866025, 1, 3.78552e-08, -2.18557e-08, 48.563, 9.39915, -17.8821)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -43346,15 +43028,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_7005" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="ramp_walkyway" parent="hammerous_course_v01/Entities" instance=ExtResource("59_33vpd")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 58.2, 2.9, 8.8)
-script = ExtResource("11_fbeum")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "func_door_rotating",
@@ -46261,21 +45938,14 @@ entity = {
 }
 flags = 144
 
-[node name="body" parent="hammerous_course_v01/Entities/ramp_walkyway" index="0"]
-sleeping = true
-freeze = true
-freeze_mode = 1
-
 [node name="mesh" parent="hammerous_course_v01/Entities/ramp_walkyway/body" index="0"]
 mesh = SubResource("ArrayMesh_shxhh")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/ramp_walkyway/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_bpxuu")
 
 [node name="func_button_5304" parent="hammerous_course_v01/Entities" instance=ExtResource("55_smpen")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47.7448, 4.241, 6.644)
-script = ExtResource("49_e50hg")
 move_direction = Vector3(-4.37114e-08, -1, 0)
 move_distance = Vector3(-8.76415e-09, -0.145425, 0)
 lip_vector = Vector3(-5.46392e-09, -0.125, 0)
@@ -47563,15 +47233,12 @@ flags = 1024
 
 [node name="mesh" parent="hammerous_course_v01/Entities/func_button_5304/body" index="0"]
 mesh = SubResource("ArrayMesh_355u5")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/func_button_5304/body" index="1"]
 shape = SubResource("ConcavePolygonShape3D_neb16")
 
 [node name="light_spot_9372" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(-4.37114e-08, 0.91706, -0.398749, 0, 0.398749, 0.91706, 1, 4.0086e-08, -1.74299e-08, 45.5, 1.9, 21.8)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -47609,17 +47276,11 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_9372" index="0"]
 light_color = Color(0.94902, 0.913725, 0.827451, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 spot_angle = 25.0
 
 [node name="light_dynamics2" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(1, -4.0086e-08, 1.74299e-08, 0, 0.398749, 0.91706, -4.37114e-08, -0.91706, 0.398749, 51.6, 0.4, 60.7)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -47658,15 +47319,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_dynamics2" index="0"]
 light_color = Color(0.94902, 0.913725, 0.827451, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 spot_angle = 25.0
 
 [node name="relay_test_doors_light2" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48.8, 1.1, 17.2)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -47703,15 +47359,11 @@ flags = 1
 [node name="light" parent="hammerous_course_v01/Entities/relay_test_doors_light2" index="0"]
 light_color = Color(0.0509804, 1, 0.027451, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="light_20678" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.4, 8.5, -31.1105)
-script = ExtResource("40_iodim")
 style = 4
 defaultLightEnergy = 1.56863
 light = NodePath("light")
@@ -47746,16 +47398,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_20678" index="0"]
 light_color = Color(0.329412, 0.552941, 0.180392, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="light_9683" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45.9, 1.20389, 21.7449)
-script = ExtResource("40_iodim")
 style = 4
 defaultLightEnergy = 1.56863
 light = NodePath("light")
@@ -47790,16 +47438,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_9683" index="0"]
 light_color = Color(0.552941, 0.180392, 0.180392, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="relay_test_doors_light" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48.8, 1.6, 17.2)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -47834,15 +47478,11 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/relay_test_doors_light" index="0"]
 light_color = Color(1, 0, 0, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="hall_doors" parent="hammerous_course_v01/Entities" instance=ExtResource("51_yry1k")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47.8, 9.2, -24.1)
-script = ExtResource("42_545pb")
 move_direction = Vector3(1.19249e-08, 0, 1)
 move_distance = Vector3(2.38499e-09, 0, 1.4)
 lip_vector = Vector3(1.19249e-09, 0, 0.1)
@@ -48093,14 +47733,12 @@ entity = {
 
 [node name="mesh" parent="hammerous_course_v01/Entities/hall_doors/body" index="0"]
 mesh = SubResource("ArrayMesh_yeel8")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/hall_doors/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_y1dc8")
 
 [node name="hall_doors0" parent="hammerous_course_v01/Entities" instance=ExtResource("51_yry1k")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47.8, 9.2, -25.5)
-script = ExtResource("42_545pb")
 move_direction = Vector3(-4.37114e-08, 0, -1)
 move_distance = Vector3(-8.74231e-09, 0, -1.4)
 lip_vector = Vector3(-4.37114e-09, 0, -0.1)
@@ -48347,14 +47985,12 @@ entity = {
 
 [node name="mesh" parent="hammerous_course_v01/Entities/hall_doors0/body" index="0"]
 mesh = SubResource("ArrayMesh_xvghw")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/hall_doors0/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_4d8xd")
 
 [node name="hall_doors_light_on" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48.4, 9.1, -23.2)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -48391,15 +48027,11 @@ flags = 1
 [node name="light" parent="hammerous_course_v01/Entities/hall_doors_light_on" index="0"]
 light_color = Color(0.0509804, 1, 0.027451, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="hall_doors_light_off" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48.4, 9.6, -23.2)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -48434,15 +48066,11 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/hall_doors_light_off" index="0"]
 light_color = Color(1, 0, 0, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="pit_teleport2" parent="hammerous_course_v01/Entities" instance=ExtResource("49_ib214")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 50.2, -0.8, 50.8)
-script = ExtResource("61_f2jgj")
 entity = {
 "angles": Vector3(0, 90, 0),
 "classname": "point_teleport",
@@ -48462,7 +48090,6 @@ entity = {
 
 [node name="pit_teleport" parent="hammerous_course_v01/Entities" instance=ExtResource("49_ib214")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 50.025, -1.4, 60.5)
-script = ExtResource("61_f2jgj")
 entity = {
 "angles": Vector3(0, 90, 0),
 "classname": "point_teleport",
@@ -48482,7 +48109,6 @@ entity = {
 
 [node name="pit_trigger2" parent="hammerous_course_v01/Entities" instance=ExtResource("5_rblj8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.2, -6.8, 52.6)
-script = ExtResource("15_f1ii6")
 entity = {
 "StartDisabled": 1,
 "classname": "trigger_multiple",
@@ -48686,7 +48312,6 @@ shape = SubResource("ConvexPolygonShape3D_r2icq")
 
 [node name="trigger_multiple_18719" parent="hammerous_course_v01/Entities" instance=ExtResource("5_rblj8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.2, -1, 50.8)
-script = ExtResource("15_f1ii6")
 entity = {
 "classname": "trigger_multiple",
 "connections": {
@@ -48888,7 +48513,6 @@ shape = SubResource("ConvexPolygonShape3D_k8jvk")
 
 [node name="rail_light" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.239, 6, 1.75)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 0.501961
 light = NodePath("light")
 entity = {
@@ -48925,15 +48549,11 @@ flags = 1
 [node name="light" parent="hammerous_course_v01/Entities/rail_light" index="0"]
 light_color = Color(0.760784, 0.290196, 0.145098, 1)
 light_energy = 0.501961
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 28.3397
 omni_attenuation = 1.44
 
 [node name="rail_light_rotor" parent="hammerous_course_v01/Entities" instance=ExtResource("45_glwyv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.25, 5.725, 1.8)
-script = ExtResource("7_26q6v")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "func_rotating",
@@ -49142,21 +48762,14 @@ entity = {
 }
 flags = 512
 
-[node name="body" parent="hammerous_course_v01/Entities/rail_light_rotor" index="0"]
-freeze = true
-freeze_mode = 1
-
 [node name="mesh" parent="hammerous_course_v01/Entities/rail_light_rotor/body" index="0"]
 mesh = SubResource("ArrayMesh_vwkk8")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/rail_light_rotor/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_s4eih")
 
 [node name="rail_light0" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(1, -1.88182e-08, 3.94533e-08, 0, 0.902585, 0.430511, -4.37114e-08, -0.430511, 0.902585, 57.2475, 5.73795, 1.57755)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 62.7451
 light = NodePath("light")
 entity = {
@@ -49198,16 +48811,10 @@ flags = 1
 [node name="light" parent="hammerous_course_v01/Entities/rail_light0" index="0"]
 light_color = Color(0.760784, 0.290196, 0.145098, 1)
 light_energy = 62.7451
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 spot_angle = 35.0
 
 [node name="rail_light1" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(-1, -3.76365e-08, 7.89065e-08, 0, 0.902585, 0.430511, -8.74228e-08, 0.430511, -0.902585, 57.239, 5.73795, 1.98926)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 62.7451
 light = NodePath("light")
 entity = {
@@ -49249,16 +48856,10 @@ flags = 1
 [node name="light" parent="hammerous_course_v01/Entities/rail_light1" index="0"]
 light_color = Color(0.760784, 0.290196, 0.145098, 1)
 light_energy = 62.7451
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 spot_angle = 35.0
 
 [node name="light_dynamics3" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(-1, -8.01719e-08, 3.48598e-08, 0, 0.398749, 0.91706, -8.74228e-08, 0.91706, -0.398749, 55.6, 5.2, 5.6)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -49298,16 +48899,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_dynamics3" index="0"]
 light_color = Color(0.94902, 0.913725, 0.827451, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 spot_angle = 25.0
 
 [node name="light_dynamics4" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(1, -4.0086e-08, 1.74299e-08, 0, 0.398749, 0.91706, -4.37114e-08, -0.91706, 0.398749, 55.4, 5.2, 2.4)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -49347,16 +48942,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_dynamics4" index="0"]
 light_color = Color(0.94902, 0.913725, 0.827451, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 spot_angle = 25.0
 
 [node name="light_dynamics5" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(-4.37114e-08, 0.91706, -0.398749, 0, 0.398749, 0.91706, 1, 4.0086e-08, -1.74299e-08, 47.4, 5.2, 6.69095)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -49395,15 +48984,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_dynamics5" index="0"]
 light_color = Color(0.94902, 0.913725, 0.827451, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 spot_angle = 25.0
 
 [node name="light_20849" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.1228, 1.20389, 30.2228)
-script = ExtResource("40_iodim")
 style = 4
 defaultLightEnergy = 1.56863
 light = NodePath("light")
@@ -49438,16 +49022,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_20849" index="0"]
 light_color = Color(0.180392, 0.372549, 0.552941, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="train_shake" parent="hammerous_course_v01/Entities" instance=ExtResource("41_0dng3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.0745, 3.4, 4.04913)
-script = ExtResource("38_gdxag")
 entity = {
 "amplitude": 5,
 "classname": "env_shake",
@@ -49473,7 +49053,6 @@ shape = SubResource("SphereShape3D_o2axe")
 
 [node name="music_1" parent="hammerous_course_v01/Entities" instance=ExtResource("39_i3s2x")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 89.4, -11.8, 77)
-script = ExtResource("5_vha3o")
 entity = {
 "classname": "ambient_generic",
 "editor": {
@@ -49497,7 +49076,6 @@ flags = 49
 
 [node name="title_02" parent="hammerous_course_v01/Entities" instance=ExtResource("37_rv7qg")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.7495, 8.2, -27.345)
-script = ExtResource("29_cna4p")
 entity = {
 "channel": 1,
 "classname": "game_text",
@@ -49524,22 +49102,10 @@ entity = {
 }
 
 [node name="panel" parent="hammerous_course_v01/Entities/title_02" index="0"]
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxEmpty_lmssv")
-
-[node name="label" parent="hammerous_course_v01/Entities/title_02/panel" index="0"]
-unique_name_in_owner = true
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
 
 [node name="func_instance_33812" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 47.8, 9.4, -24.8)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, 90, 0),
 "classname": "func_instance",
@@ -49555,16 +49121,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="arc_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_33812" instance=ExtResource("9_ibjrx")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/arc.vmf"
+[node name="arc_instance_1" parent="hammerous_course_v01/Entities/func_instance_33812" instance=ExtResource("9_ibjrx")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_33821" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 45.8, 9.4, -24.8)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, 90, 0),
 "classname": "func_instance",
@@ -49580,16 +49141,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="arc_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_33821" instance=ExtResource("9_ibjrx")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/arc.vmf"
+[node name="arc_instance_1" parent="hammerous_course_v01/Entities/func_instance_33821" instance=ExtResource("9_ibjrx")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_33825" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 23, 9.4, -24.8)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, 90, 0),
 "classname": "func_instance",
@@ -49605,16 +49161,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="arc_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_33825" instance=ExtResource("9_ibjrx")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/arc.vmf"
+[node name="arc_instance_1" parent="hammerous_course_v01/Entities/func_instance_33825" instance=ExtResource("9_ibjrx")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_33808" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.4, 1.4, 9.8)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "func_instance",
@@ -49630,16 +49181,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="arc_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_33808" instance=ExtResource("9_ibjrx")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/arc.vmf"
+[node name="arc_instance_1" parent="hammerous_course_v01/Entities/func_instance_33808" instance=ExtResource("9_ibjrx")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_33830" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.4, 1.4, 16.6)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "func_instance",
@@ -49655,16 +49201,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="arc_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_33830" instance=ExtResource("9_ibjrx")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/arc.vmf"
+[node name="arc_instance_1" parent="hammerous_course_v01/Entities/func_instance_33830" instance=ExtResource("9_ibjrx")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_33835" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 80.8, -1, 76.2)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, 90, 0),
 "classname": "func_instance",
@@ -49680,16 +49221,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="arc_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_33835" instance=ExtResource("9_ibjrx")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/arc.vmf"
+[node name="arc_instance_1" parent="hammerous_course_v01/Entities/func_instance_33835" instance=ExtResource("9_ibjrx")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_34159" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.2, 1.6, 34.6)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "func_instance",
@@ -49705,16 +49241,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="arc_rect_short_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_34159" instance=ExtResource("36_oikrn")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/arc_rect_short.vmf"
+[node name="arc_rect_short_instance_1" parent="hammerous_course_v01/Entities/func_instance_34159" instance=ExtResource("36_oikrn")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_34186" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.2, 0.8, 40.6)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "func_instance",
@@ -49730,16 +49261,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="arc_rect_long_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_34186" instance=ExtResource("35_kyhjj")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/arc_rect_long.vmf"
+[node name="arc_rect_long_instance_1" parent="hammerous_course_v01/Entities/func_instance_34186" instance=ExtResource("35_kyhjj")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="info_overlay_34356" parent="hammerous_course_v01/Entities" instance=ExtResource("24_0iii5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 72.4, 0.6, 82.4)
-script = ExtResource("67_3o7dm")
 entity = {
 "BasisNormal": Vector3(0, 1, 0),
 "BasisOrigin": Vector3(2896, -3296, 24),
@@ -49769,14 +49295,13 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34356" index="0"]
+[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34356" index="1"]
 transform = Transform3D(-1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0)
 size = Vector3(3.2, 0.2, 3.2)
 texture_albedo = ExtResource("27_f4c64")
 
 [node name="info_overlay_34362" parent="hammerous_course_v01/Entities" instance=ExtResource("24_0iii5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 71, 0.6, 82.4)
-script = ExtResource("67_3o7dm")
 entity = {
 "BasisNormal": Vector3(0, 1, 0),
 "BasisOrigin": Vector3(2840, -3296, 24),
@@ -49806,14 +49331,13 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34362" index="0"]
+[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34362" index="1"]
 transform = Transform3D(-1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0)
 size = Vector3(3.2, 0.2, 3.2)
 texture_albedo = ExtResource("34_beh1m")
 
 [node name="info_overlay_34368" parent="hammerous_course_v01/Entities" instance=ExtResource("24_0iii5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47, 0.6, 74)
-script = ExtResource("67_3o7dm")
 entity = {
 "BasisNormal": Vector3(1, 0, 0),
 "BasisOrigin": Vector3(1880, -2960, 24),
@@ -49843,14 +49367,13 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34368" index="0"]
+[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34368" index="1"]
 transform = Transform3D(0, 1, 0, 0, 0, -1, -1, 0, 0, 0, 0, 0)
 size = Vector3(3.2, 0.2, 3.2)
 texture_albedo = ExtResource("27_f4c64")
 
 [node name="info_overlay_34374" parent="hammerous_course_v01/Entities" instance=ExtResource("24_0iii5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47, 0.72304, 72.6417)
-script = ExtResource("67_3o7dm")
 entity = {
 "BasisNormal": Vector3(1, 0, 0),
 "BasisOrigin": Vector3(1880, -2905.67, 28.9216),
@@ -49880,14 +49403,13 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34374" index="0"]
+[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34374" index="1"]
 transform = Transform3D(0, 1, 0, 0, 0, -1, -1, 0, 0, 0, 0, 0)
 size = Vector3(3.2, 0.2, 3.2)
 texture_albedo = ExtResource("33_xhb34")
 
 [node name="info_overlay_34388" parent="hammerous_course_v01/Entities" instance=ExtResource("24_0iii5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47, 0.6, 52.6)
-script = ExtResource("67_3o7dm")
 entity = {
 "BasisNormal": Vector3(1, 0, 0),
 "BasisOrigin": Vector3(1880, -2104, 24),
@@ -49917,14 +49439,13 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34388" index="0"]
+[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34388" index="1"]
 transform = Transform3D(0, 1, 0, 0, 0, -1, -1, 0, 0, 0, 0, 0)
 size = Vector3(3.2, 0.2, 3.2)
 texture_albedo = ExtResource("27_f4c64")
 
 [node name="info_overlay_34394" parent="hammerous_course_v01/Entities" instance=ExtResource("24_0iii5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47, 0.6, 51.2)
-script = ExtResource("67_3o7dm")
 entity = {
 "BasisNormal": Vector3(1, 0, 0),
 "BasisOrigin": Vector3(1880, -2048, 24),
@@ -49954,14 +49475,13 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34394" index="0"]
+[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34394" index="1"]
 transform = Transform3D(0, 1, 0, 0, 0, -1, -1, 0, 0, 0, 0, 0)
 size = Vector3(3.2, 0.2, 3.2)
 texture_albedo = ExtResource("32_e64mn")
 
 [node name="info_overlay_34402" parent="hammerous_course_v01/Entities" instance=ExtResource("24_0iii5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.6, 2.25, 16.8)
-script = ExtResource("67_3o7dm")
 entity = {
 "BasisNormal": Vector3(0, -1, 0),
 "BasisOrigin": Vector3(1864, -672, 90),
@@ -49991,14 +49511,13 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34402" index="0"]
+[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34402" index="1"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
 size = Vector3(1.2, 0.2, 1.2)
 texture_albedo = ExtResource("27_f4c64")
 
 [node name="info_overlay_34411" parent="hammerous_course_v01/Entities" instance=ExtResource("24_0iii5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47.35, 2.25, 16.8)
-script = ExtResource("67_3o7dm")
 entity = {
 "BasisNormal": Vector3(0, -1, 0),
 "BasisOrigin": Vector3(1894, -672, 90),
@@ -50028,14 +49547,13 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34411" index="0"]
+[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34411" index="1"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
 size = Vector3(1.2, 0.2, 1.2)
 texture_albedo = ExtResource("31_rx4wv")
 
 [node name="info_overlay_34419" parent="hammerous_course_v01/Entities" instance=ExtResource("24_0iii5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45.6, 1.5, 1.6)
-script = ExtResource("67_3o7dm")
 entity = {
 "BasisNormal": Vector3(0, -1, 0),
 "BasisOrigin": Vector3(1824, -64, 60),
@@ -50065,14 +49583,13 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34419" index="0"]
+[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34419" index="1"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
 size = Vector3(3.2, 0.2, 3.2)
 texture_albedo = ExtResource("27_f4c64")
 
 [node name="info_overlay_34425" parent="hammerous_course_v01/Entities" instance=ExtResource("24_0iii5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47.1, 1.55, 1.6)
-script = ExtResource("67_3o7dm")
 entity = {
 "BasisNormal": Vector3(0, -1, 0),
 "BasisOrigin": Vector3(1884, -64, 62),
@@ -50102,14 +49619,13 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34425" index="0"]
+[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34425" index="1"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
 size = Vector3(3.2, 0.2, 3.2)
 texture_albedo = ExtResource("30_kuqsq")
 
 [node name="info_overlay_34448" parent="hammerous_course_v01/Entities" instance=ExtResource("24_0iii5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60.4, 8.05, 4.05)
-script = ExtResource("67_3o7dm")
 entity = {
 "BasisNormal": Vector3(-1, 0, 0),
 "BasisOrigin": Vector3(2416, -162, 322),
@@ -50139,14 +49655,13 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34448" index="0"]
+[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34448" index="1"]
 transform = Transform3D(0, -1, 0, 0, 0, -1, 1, 0, 0, 0, 0, 0)
 size = Vector3(3.2, 0.2, 3.2)
 texture_albedo = ExtResource("27_f4c64")
 
 [node name="info_overlay_34455" parent="hammerous_course_v01/Entities" instance=ExtResource("24_0iii5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60.4, 8.05, 5.5)
-script = ExtResource("67_3o7dm")
 entity = {
 "BasisNormal": Vector3(-1, 0, 0),
 "BasisOrigin": Vector3(2416, -220, 322),
@@ -50176,14 +49691,13 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34455" index="0"]
+[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34455" index="1"]
 transform = Transform3D(0, -1, 0, 0, 0, -1, 1, 0, 0, 0, 0, 0)
 size = Vector3(3.2, 0.2, 3.2)
 texture_albedo = ExtResource("29_4365c")
 
 [node name="info_overlay_34461" parent="hammerous_course_v01/Entities" instance=ExtResource("24_0iii5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48, 11.2, -12.05)
-script = ExtResource("67_3o7dm")
 entity = {
 "BasisNormal": Vector3(1, 0, 0),
 "BasisOrigin": Vector3(1920, 482, 448),
@@ -50213,14 +49727,13 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34461" index="0"]
+[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34461" index="1"]
 transform = Transform3D(0, 1, 0, 0, 0, -1, -1, 0, 0, 0, 0, 0)
 size = Vector3(3.2, 0.2, 3.2)
 texture_albedo = ExtResource("27_f4c64")
 
 [node name="info_overlay_34467" parent="hammerous_course_v01/Entities" instance=ExtResource("24_0iii5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48, 11.15, -13.55)
-script = ExtResource("67_3o7dm")
 entity = {
 "BasisNormal": Vector3(1, 0, 0),
 "BasisOrigin": Vector3(1920, 542, 446),
@@ -50250,14 +49763,13 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34467" index="0"]
+[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34467" index="1"]
 transform = Transform3D(0, 1, 0, 0, 0, -1, -1, 0, 0, 0, 0, 0)
 size = Vector3(3.2, 0.2, 3.2)
 texture_albedo = ExtResource("28_k7rs3")
 
 [node name="info_overlay_34473" parent="hammerous_course_v01/Entities" instance=ExtResource("24_0iii5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.95, 11.15, -27.2)
-script = ExtResource("67_3o7dm")
 entity = {
 "BasisNormal": Vector3(0, -1, 0),
 "BasisOrigin": Vector3(1998, 1088, 446),
@@ -50287,14 +49799,13 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34473" index="0"]
+[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34473" index="1"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
 size = Vector3(3.2, 0.2, 3.2)
 texture_albedo = ExtResource("27_f4c64")
 
 [node name="info_overlay_34480" parent="hammerous_course_v01/Entities" instance=ExtResource("24_0iii5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.55, 11.2, -27.2)
-script = ExtResource("67_3o7dm")
 entity = {
 "BasisNormal": Vector3(0, -1, 0),
 "BasisOrigin": Vector3(2062, 1088, 448),
@@ -50324,14 +49835,13 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34480" index="0"]
+[node name="decal" parent="hammerous_course_v01/Entities/info_overlay_34480" index="1"]
 transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
 size = Vector3(3.2, 0.2, 3.2)
 texture_albedo = ExtResource("26_0gua3")
 
 [node name="trigger_once_43069" parent="hammerous_course_v01/Entities" instance=ExtResource("22_ev1ps")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 92.925, -11.1, 76.1125)
-script = ExtResource("78_8nb1p")
 entity = {
 "StartDisabled": 0,
 "classname": "trigger_once",
@@ -50533,7 +50043,6 @@ shape = SubResource("ConvexPolygonShape3D_v2w0w")
 
 [node name="viewcontrol_camera" parent="hammerous_course_v01/Entities" instance=ExtResource("20_xgxui")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.15, 9.45, -25.65)
-script = ExtResource("80_atgws")
 entity = {
 "acceleration": 200,
 "angles": Vector3(0, 0, 0),
@@ -50560,12 +50069,8 @@ flags = 138
 [node name="camera" parent="hammerous_course_v01/Entities/viewcontrol_camera" index="0"]
 fov = 30.0
 
-[node name="listener" parent="hammerous_course_v01/Entities/viewcontrol_camera/camera" index="0"]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)
-
 [node name="viewcontrol_camera_path_1" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(-0.999848, 0, 0.0174525, 0, 1, 0, -0.0174525, 0, -0.999848, 24.65, 9.4, -25.65)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 179, 0),
 "classname": "path_track",
@@ -50586,7 +50091,6 @@ entity = {
 
 [node name="viewcontrol_camera_path_4" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(0.882948, 0, -0.469471, 0, 1, 0, 0.469471, 0, 0.882948, 49.9, 9.4, -24.4)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 332, 0),
 "classname": "path_track",
@@ -50607,7 +50111,6 @@ entity = {
 
 [node name="viewcontrol_camera_path_7" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(-0.0523356, 0, -0.99863, 0, 1, 0, 0.99863, 0, -0.0523356, 54, 9, -15.95)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 267, 0),
 "classname": "path_track",
@@ -50631,7 +50134,6 @@ entity = {
 
 [node name="viewcontrol_camera_path_10" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(-0.275637, 0, -0.961262, 0, 1, 0, 0.961262, 0, -0.275637, 50.9, 1.1, 7.9)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 254, 0),
 "classname": "path_track",
@@ -50652,7 +50154,6 @@ entity = {
 
 [node name="viewcontrol_camera_path_13" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(0.207912, 0, -0.978148, 0, 1, 0, 0.978148, 0, 0.207912, 49.85, 1.7, 30.9)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 282, 0),
 "classname": "path_track",
@@ -50673,7 +50174,6 @@ entity = {
 
 [node name="viewcontrol_camera_path_17" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(0.139173, 0, -0.990268, 0, 1, 0, 0.990268, 0, 0.139173, 49.3, -0.15, 64.55)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 278, 0),
 "classname": "path_track",
@@ -50694,7 +50194,6 @@ entity = {
 
 [node name="viewcontrol_camera_path_21" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(0.927184, 0, 0.374607, 0, 1, 0, -0.374607, 0, 0.927184, 62.5, -0.45, 76)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 22, 0),
 "classname": "path_track",
@@ -50715,7 +50214,6 @@ entity = {
 
 [node name="viewcontrol_camera_path_22" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(0.898794, 0, 0.438371, 0, 1, 0, -0.438371, 0, 0.898794, 71.05, -1.2, 78)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 26, 0),
 "classname": "path_track",
@@ -50736,7 +50234,6 @@ entity = {
 
 [node name="viewcontrol_camera_path_23" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80.75, -1, 75.85)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "path_track",
@@ -50760,7 +50257,6 @@ entity = {
 
 [node name="viewcontrol_camera_path_24" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 84.2, -0.8, 76.6)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "path_track",
@@ -50781,7 +50277,6 @@ entity = {
 
 [node name="platform_piston_03_steam_particle" parent="hammerous_course_v01/Entities" instance=ExtResource("16_xgvdl")]
 transform = Transform3D(-3.82308e-08, 2.11917e-08, 1, 0.48481, 0.87462, 0, -0.87462, 0.48481, -4.37114e-08, 37.363, 0.199999, 3.85)
-script = ExtResource("33_qnjso")
 entity = {
 "angles": Vector3(-29, 90, 0),
 "classname": "info_particle_system",
@@ -50799,11 +50294,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="particles" type="Node3D" parent="hammerous_course_v01/Entities/platform_piston_03_steam_particle" instance=ExtResource("19_lcm3y")]
+[node name="particles" parent="hammerous_course_v01/Entities/platform_piston_03_steam_particle" instance=ExtResource("19_lcm3y")]
 
 [node name="flame_effect" parent="hammerous_course_v01/Entities" instance=ExtResource("16_xgvdl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52, -4.3, 47.55)
-script = ExtResource("33_qnjso")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "info_particle_system",
@@ -50821,11 +50315,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="particles" type="Node3D" parent="hammerous_course_v01/Entities/flame_effect" instance=ExtResource("18_hmp0o")]
+[node name="particles" parent="hammerous_course_v01/Entities/flame_effect" instance=ExtResource("18_hmp0o")]
 
 [node name="flame_effect0" parent="hammerous_course_v01/Entities" instance=ExtResource("16_xgvdl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.4, -4.3, 47.6)
-script = ExtResource("33_qnjso")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "info_particle_system",
@@ -50843,11 +50336,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="particles" type="Node3D" parent="hammerous_course_v01/Entities/flame_effect0" instance=ExtResource("18_hmp0o")]
+[node name="particles" parent="hammerous_course_v01/Entities/flame_effect0" instance=ExtResource("18_hmp0o")]
 
 [node name="flame_effect1" parent="hammerous_course_v01/Entities" instance=ExtResource("16_xgvdl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.7, -4.3, 48.95)
-script = ExtResource("33_qnjso")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "info_particle_system",
@@ -50865,11 +50357,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="particles" type="Node3D" parent="hammerous_course_v01/Entities/flame_effect1" instance=ExtResource("18_hmp0o")]
+[node name="particles" parent="hammerous_course_v01/Entities/flame_effect1" instance=ExtResource("18_hmp0o")]
 
 [node name="flame_effect2" parent="hammerous_course_v01/Entities" instance=ExtResource("16_xgvdl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.05, -4.3, 52.15)
-script = ExtResource("33_qnjso")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "info_particle_system",
@@ -50887,11 +50378,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="particles" type="Node3D" parent="hammerous_course_v01/Entities/flame_effect2" instance=ExtResource("18_hmp0o")]
+[node name="particles" parent="hammerous_course_v01/Entities/flame_effect2" instance=ExtResource("18_hmp0o")]
 
 [node name="flame_effect3" parent="hammerous_course_v01/Entities" instance=ExtResource("16_xgvdl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.75, -4.3, 52.1)
-script = ExtResource("33_qnjso")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "info_particle_system",
@@ -50909,11 +50399,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="particles" type="Node3D" parent="hammerous_course_v01/Entities/flame_effect3" instance=ExtResource("18_hmp0o")]
+[node name="particles" parent="hammerous_course_v01/Entities/flame_effect3" instance=ExtResource("18_hmp0o")]
 
 [node name="flame_effect4" parent="hammerous_course_v01/Entities" instance=ExtResource("16_xgvdl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.2, -4.3, 53.35)
-script = ExtResource("33_qnjso")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "info_particle_system",
@@ -50931,11 +50420,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="particles" type="Node3D" parent="hammerous_course_v01/Entities/flame_effect4" instance=ExtResource("18_hmp0o")]
+[node name="particles" parent="hammerous_course_v01/Entities/flame_effect4" instance=ExtResource("18_hmp0o")]
 
 [node name="flame_effect5" parent="hammerous_course_v01/Entities" instance=ExtResource("16_xgvdl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49, -4.3, 54)
-script = ExtResource("33_qnjso")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "info_particle_system",
@@ -50953,11 +50441,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="particles" type="Node3D" parent="hammerous_course_v01/Entities/flame_effect5" instance=ExtResource("18_hmp0o")]
+[node name="particles" parent="hammerous_course_v01/Entities/flame_effect5" instance=ExtResource("18_hmp0o")]
 
 [node name="flame_effect6" parent="hammerous_course_v01/Entities" instance=ExtResource("16_xgvdl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.55, -4.3, 54.1)
-script = ExtResource("33_qnjso")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "info_particle_system",
@@ -50975,11 +50462,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="particles" type="Node3D" parent="hammerous_course_v01/Entities/flame_effect6" instance=ExtResource("18_hmp0o")]
+[node name="particles" parent="hammerous_course_v01/Entities/flame_effect6" instance=ExtResource("18_hmp0o")]
 
 [node name="flame_effect7" parent="hammerous_course_v01/Entities" instance=ExtResource("16_xgvdl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.8, -4.3, 55.65)
-script = ExtResource("33_qnjso")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "info_particle_system",
@@ -50997,11 +50483,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="particles" type="Node3D" parent="hammerous_course_v01/Entities/flame_effect7" instance=ExtResource("18_hmp0o")]
+[node name="particles" parent="hammerous_course_v01/Entities/flame_effect7" instance=ExtResource("18_hmp0o")]
 
 [node name="flame_effect8" parent="hammerous_course_v01/Entities" instance=ExtResource("16_xgvdl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.75, -4.3, 57.85)
-script = ExtResource("33_qnjso")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "info_particle_system",
@@ -51019,11 +50504,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="particles" type="Node3D" parent="hammerous_course_v01/Entities/flame_effect8" instance=ExtResource("18_hmp0o")]
+[node name="particles" parent="hammerous_course_v01/Entities/flame_effect8" instance=ExtResource("18_hmp0o")]
 
 [node name="flame_effect9" parent="hammerous_course_v01/Entities" instance=ExtResource("16_xgvdl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.35, -4.3, 56.8)
-script = ExtResource("33_qnjso")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "info_particle_system",
@@ -51041,11 +50525,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="particles" type="Node3D" parent="hammerous_course_v01/Entities/flame_effect9" instance=ExtResource("18_hmp0o")]
+[node name="particles" parent="hammerous_course_v01/Entities/flame_effect9" instance=ExtResource("18_hmp0o")]
 
 [node name="func_instance_41407" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 48.05, 9.3, -23.2)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, 90, 0),
 "classname": "func_instance",
@@ -51061,16 +50544,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="light_sign_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_41407" instance=ExtResource("15_6lohb")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/light_sign.vmf"
+[node name="light_sign_instance_1" parent="hammerous_course_v01/Entities/func_instance_41407" instance=ExtResource("15_6lohb")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_41396" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48.8, 1.375, 16.85)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "func_instance",
@@ -51086,16 +50564,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="light_sign_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_41396" instance=ExtResource("15_6lohb")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/light_sign.vmf"
+[node name="light_sign_instance_1" parent="hammerous_course_v01/Entities/func_instance_41396" instance=ExtResource("15_6lohb")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_41422" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 23.25, 9.4, -23.2)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, 90, 0),
 "classname": "func_instance",
@@ -51111,16 +50584,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="light_sign_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_41422" instance=ExtResource("15_6lohb")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/light_sign.vmf"
+[node name="light_sign_instance_1" parent="hammerous_course_v01/Entities/func_instance_41422" instance=ExtResource("15_6lohb")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="viewcontrol_camera_path_2" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(-0.999848, 0, 0.0174525, 0, 1, 0, -0.0174525, 0, -0.999848, 30.75, 9.4, -25.65)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 179, 0),
 "classname": "path_track",
@@ -51144,7 +50612,6 @@ entity = {
 
 [node name="func_instance_51739" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-4.37114e-08, -0.866025, -0.5, 3.78551e-08, 0.5, -0.866025, 1, -5.67827e-08, 1.09278e-08, 60.2, 8.3, 4.7)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(-2.16894e-06, -90, 60),
 "classname": "func_instance",
@@ -51160,16 +50627,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_51739" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_51739" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_51746" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-4.37114e-08, 0.866025, 0.5, 3.78551e-08, 0.5, -0.866025, -1, -1.89276e-08, -5.46392e-08, 48.25, 8.55, 4.8)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(-2.16894e-06, 90, 60),
 "classname": "func_instance",
@@ -51185,16 +50647,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_51746" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_51746" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_51756" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-1, 9.46379e-08, 1.09279e-08, 3.78551e-08, 0.5, -0.866025, -8.74228e-08, -0.866025, -0.5, 38.5, 8.85, 9.3)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(-2.16894e-06, -180, 60),
 "classname": "func_instance",
@@ -51210,16 +50667,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_51756" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_51756" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_51766" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-1, -5.67828e-08, -7.64949e-08, 3.78551e-08, 0.5, -0.866025, 8.74228e-08, -0.866025, -0.5, 32.5, 8.8, 9.3)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(-2.16894e-06, 180, 60),
 "classname": "func_instance",
@@ -51235,16 +50687,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_51766" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_51766" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_51769" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-1, 9.46379e-08, 1.09279e-08, 3.78551e-08, 0.5, -0.866025, -8.74228e-08, -0.866025, -0.5, 28.35, 8.9, 9.3)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(-2.16894e-06, -180, 60),
 "classname": "func_instance",
@@ -51260,16 +50707,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_51769" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_51769" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_51772" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-1, -5.67828e-08, -7.64949e-08, 3.78551e-08, 0.5, -0.866025, 8.74228e-08, -0.866025, -0.5, 21.95, 8.85, 9.3)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(-2.16894e-06, 180, 60),
 "classname": "func_instance",
@@ -51285,16 +50727,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_51772" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_51772" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_51778" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-1, -8.74228e-08, 1.09279e-08, -1.09279e-08, -4.37114e-08, -1, 8.74228e-08, -1, 4.37114e-08, 50.25, 2.9, 22.45)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(6.26121e-07, 180, 90),
 "classname": "func_instance",
@@ -51310,16 +50747,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_51778" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_51778" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_51784" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-1, 8.74228e-08, 1.09279e-08, -1.09279e-08, -4.37114e-08, -1, -8.74228e-08, -1, 4.37114e-08, 50.3, 2.9, 31.3)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(6.26121e-07, -180, 90),
 "classname": "func_instance",
@@ -51335,16 +50767,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_51784" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_51784" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_51794" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-4.37114e-08, -0.866025, -0.5, -5.31751e-08, 0.5, -0.866025, 1, -1.12676e-08, -6.79067e-08, 53.15, 2.25, 42.9)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(3.04671e-06, -90, 60),
 "classname": "func_instance",
@@ -51360,16 +50787,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_51794" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_51794" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_51801" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-4.37114e-08, -0.866025, -0.5, -5.31751e-08, 0.5, -0.866025, 1, -1.12676e-08, -6.79067e-08, 53.15, 2.35, 52.45)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(3.04671e-06, -90, 60),
 "classname": "func_instance",
@@ -51385,16 +50807,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_51801" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_51801" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_51805" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-4.37114e-08, -0.866025, -0.5, -5.31751e-08, 0.5, -0.866025, 1, -1.12676e-08, -6.79067e-08, 53.15, 1.75, 63.6)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(3.04671e-06, -90, 60),
 "classname": "func_instance",
@@ -51410,16 +50827,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_51805" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_51805" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_51812" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(1, 2.65876e-08, -4.6051e-08, -5.31751e-08, 0.5, -0.866025, 0, 0.866025, 0.5, 71.45, 2.15, 69.8)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(3.04671e-06, 0, 60),
 "classname": "func_instance",
@@ -51435,16 +50847,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_51812" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_51812" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_51822" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(1, 2.65876e-08, -4.6051e-08, -5.31751e-08, 0.5, -0.866025, 0, 0.866025, 0.5, 57.1, 2.25, 69.95)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(3.04671e-06, 0, 60),
 "classname": "func_instance",
@@ -51460,16 +50867,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_51822" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_51822" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_51828" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-4.37114e-08, 0.866025, 0.5, -5.31751e-08, 0.5, -0.866025, -1, -6.44427e-08, 2.41953e-08, 48.7, 9.75, -17.8596)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(3.04671e-06, 90, 60),
 "classname": "func_instance",
@@ -51485,16 +50887,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_51828" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_51828" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_51946" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-4.37114e-08, 0.866025, 0.5, 3.78551e-08, 0.5, -0.866025, -1, -1.89276e-08, -5.46392e-08, 23.5, 13.9, -31.25)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(-2.16894e-06, 90, 60),
 "classname": "func_instance",
@@ -51510,16 +50907,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_51946" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_51946" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_51951" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-1, -5.67828e-08, -7.64949e-08, 3.78551e-08, 0.5, -0.866025, 8.74228e-08, -0.866025, -0.5, 30.767, 13.65, -13.95)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(-2.16894e-06, 180, 60),
 "classname": "func_instance",
@@ -51535,17 +50927,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_51951" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_51951" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="light_spot_51978" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(1, -3.78552e-08, 2.18557e-08, 0, 0.5, 0.866025, -4.37114e-08, -0.866025, 0.5, 30.8, 13.5, -14.35)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -51583,16 +50969,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_51978" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="light_spot_51994" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(-4.37114e-08, 0.798636, -0.601815, 0, 0.601815, 0.798636, 1, 3.49095e-08, -2.63062e-08, 23.85, 13.8, -31.25)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -51630,15 +51010,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_51994" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="func_instance_53868" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 21, 9.4, -24.8)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, 90, 0),
 "classname": "func_instance",
@@ -51654,16 +51029,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="arc_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_53868" instance=ExtResource("9_ibjrx")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/arc.vmf"
+[node name="arc_instance_1" parent="hammerous_course_v01/Entities/func_instance_53868" instance=ExtResource("9_ibjrx")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="trigger_multiple_54028" parent="hammerous_course_v01/Entities" instance=ExtResource("5_rblj8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.15, -0.1, -24.975)
-script = ExtResource("15_f1ii6")
 entity = {
 "classname": "trigger_multiple",
 "connections": {
@@ -51865,7 +51235,6 @@ shape = SubResource("ConvexPolygonShape3D_5f4lp")
 
 [node name="light_environment" parent="hammerous_course_v01/Entities" instance=ExtResource("3_314a4")]
 transform = Transform3D(0.978148, -0.147016, 0.147016, 0, 0.707107, 0.707107, -0.207912, -0.691655, 0.691655, 30.95, 8.2, -22.675)
-script = ExtResource("85_htnab")
 entity = {
 "_AmbientScaleHDR": 1,
 "_ambient": {
@@ -51909,15 +51278,9 @@ entity = {
 
 [node name="DirectionalLight3D" parent="hammerous_course_v01/Entities/light_environment" index="0"]
 light_energy = 0.784314
-light_bake_mode = 1
-shadow_enabled = true
-shadow_bias = 0.001
-shadow_blur = 3.0
-sky_mode = 1
 
 [node name="func_instance_58464" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-1, 8.74228e-08, -3.82137e-15, 0, -4.37114e-08, -1, -8.74228e-08, -1, 4.37114e-08, 32.05, 13.6, -13.6)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, -180, 90),
 "classname": "func_instance",
@@ -51933,16 +51296,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="wall_fan_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_58464" instance=ExtResource("25_7f6yx")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/wall_fan.vmf"
-ignore_global_import = true
-save_geometry = false
-save_collision = false
+[node name="wall_fan_instance_1" parent="hammerous_course_v01/Entities/func_instance_58464" instance=ExtResource("25_7f6yx")]
 
 [node name="func_instance_58467" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-1, -8.74228e-08, 3.82137e-15, 0, -4.37114e-08, -1, 8.74228e-08, -1, 4.37114e-08, 33.65, 13.6, -13.6)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, 180, 90),
 "classname": "func_instance",
@@ -51958,16 +51315,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="wall_fan_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_58467" instance=ExtResource("25_7f6yx")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/wall_fan.vmf"
-ignore_global_import = true
-save_geometry = false
-save_collision = false
+[node name="wall_fan_instance_1" parent="hammerous_course_v01/Entities/func_instance_58467" instance=ExtResource("25_7f6yx")]
 
 [node name="func_instance_58470" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-1, 8.74228e-08, -3.82137e-15, 0, -4.37114e-08, -1, -8.74228e-08, -1, 4.37114e-08, 35.25, 13.6, -13.6)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, -180, 90),
 "classname": "func_instance",
@@ -51983,16 +51334,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="wall_fan_fast_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_58470" instance=ExtResource("86_t66cy")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/wall_fan_fast.vmf"
-ignore_global_import = true
-save_geometry = false
-save_collision = false
+[node name="wall_fan_fast_instance_1" parent="hammerous_course_v01/Entities/func_instance_58470" instance=ExtResource("86_t66cy")]
 
 [node name="func_instance_58477" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-1, -8.74228e-08, 3.82137e-15, 0, -4.37114e-08, -1, 8.74228e-08, -1, 4.37114e-08, 54.25, 2.4, 82.4)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, 180, 90),
 "classname": "func_instance",
@@ -52008,16 +51353,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="wall_fan_fast_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_58477" instance=ExtResource("86_t66cy")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/wall_fan_fast.vmf"
-ignore_global_import = true
-save_geometry = false
-save_collision = false
+[node name="wall_fan_fast_instance_1" parent="hammerous_course_v01/Entities/func_instance_58477" instance=ExtResource("86_t66cy")]
 
 [node name="light_58689" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.65, 0, 68.525)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -52050,17 +51389,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_58689" index="0"]
 light_color = Color(0.329412, 0.392157, 0.466667, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="light_spot_58574" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(1.19249e-08, -0.156434, 0.987688, 0, 0.987688, 0.156434, -1, -1.86546e-09, 1.17781e-08, 9.175, 0.250785, -24.975)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 3.13725
 light = NodePath("light")
 entity = {
@@ -52098,16 +51432,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_58574" index="0"]
 light_color = Color(0.976471, 0.941176, 0.854902, 1)
 light_energy = 3.13725
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="light_spot_58591" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(-4.37114e-08, 0.156434, -0.987688, 0, 0.987688, 0.156434, 1, 6.83797e-09, -4.31732e-08, 92.675, -10.45, 76.325)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -52145,15 +51473,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_58591" index="0"]
 light_color = Color(0.976471, 0.941176, 0.854902, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="func_instance_58506" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 47.8, 7.8, -13)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, 90, 0),
 "classname": "func_instance",
@@ -52169,16 +51492,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="arc_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_58506" instance=ExtResource("9_ibjrx")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/arc.vmf"
+[node name="arc_instance_1" parent="hammerous_course_v01/Entities/func_instance_58506" instance=ExtResource("9_ibjrx")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="light_58653" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.275, 5.55, -25.0028)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 2.35294
 light = NodePath("light")
 entity = {
@@ -52211,16 +51529,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_58653" index="0"]
 light_color = Color(0.258824, 0.392157, 0.733333, 1)
 light_energy = 2.35294
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 61.3572
 omni_attenuation = 1.44
 
 [node name="light_58659" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.675, 3.1482, -25.4)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 2.35294
 light = NodePath("light")
 entity = {
@@ -52253,16 +51567,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_58659" index="0"]
 light_color = Color(0.258824, 0.392157, 0.733333, 1)
 light_energy = 2.35294
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 61.3572
 omni_attenuation = 1.44
 
 [node name="light_58670" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 86.7128, -4.8, 74.45)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 2.35294
 light = NodePath("light")
 entity = {
@@ -52295,16 +51605,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_58670" index="0"]
 light_color = Color(0.364706, 0.254902, 0.545098, 1)
 light_energy = 2.35294
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 61.3572
 omni_attenuation = 1.44
 
 [node name="light_58676" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 86.1028, -8.125, 77.65)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 2.35294
 light = NodePath("light")
 entity = {
@@ -52337,16 +51643,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_58676" index="0"]
 light_color = Color(0.364706, 0.254902, 0.545098, 1)
 light_energy = 2.35294
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 61.3572
 omni_attenuation = 1.44
 
 [node name="valve_wheel_door" parent="hammerous_course_v01/Entities" instance=ExtResource("59_33vpd")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60.925, 10.5375, -24.6873)
-script = ExtResource("11_fbeum")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "func_door_rotating",
@@ -52564,21 +51866,14 @@ entity = {
 }
 flags = 2392
 
-[node name="body" parent="hammerous_course_v01/Entities/valve_wheel_door" index="0"]
-sleeping = true
-freeze = true
-freeze_mode = 1
-
 [node name="mesh" parent="hammerous_course_v01/Entities/valve_wheel_door/body" index="0"]
 mesh = SubResource("ArrayMesh_34skn")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/valve_wheel_door/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_3ja1s")
 
 [node name="func_instance_59161" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(1, 1.32493e-07, 1.20206e-07, 3.78551e-08, 0.5, -0.866025, -1.74845e-07, 0.866025, 0.5, 62.8, 11.9106, -27)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(-2.16894e-06, 1.00179e-05, 60),
 "classname": "func_instance",
@@ -52594,16 +51889,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_59161" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_59161" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="func_instance_59170" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(1, 1.32493e-07, 1.20206e-07, 3.78551e-08, 0.5, -0.866025, -1.74845e-07, 0.866025, 0.5, 46.1, 12.1, -14.9)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(-2.16894e-06, 1.00179e-05, 60),
 "classname": "func_instance",
@@ -52619,17 +51909,11 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="spotlight_lamp_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_59170" instance=ExtResource("12_dociq")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/spotlight_lamp.vmf"
+[node name="spotlight_lamp_instance_1" parent="hammerous_course_v01/Entities/func_instance_59170" instance=ExtResource("12_dociq")]
 ignore_global_import = true
-save_geometry = false
-save_collision = false
 
 [node name="light_spot_59182" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(-1, -7.57103e-08, 4.37114e-08, 0, 0.5, 0.866025, -8.74228e-08, 0.866025, -0.5, 62.8088, 11.8, -26.5)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -52667,16 +51951,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_59182" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="light_spot_59191" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(-1, -7.57103e-08, 4.37114e-08, 0, 0.5, 0.866025, -8.74228e-08, 0.866025, -0.5, 46.0065, 11.9, -14.6)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 4.70588
 light = NodePath("light")
 entity = {
@@ -52714,15 +51992,10 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_spot_59191" index="0"]
 light_color = Color(0.952941, 0.823529, 0.517647, 1)
 light_energy = 4.70588
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="light_59204" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45.7, 8.7, -12.309)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -52755,16 +52028,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_59204" index="0"]
 light_color = Color(0.329412, 0.392157, 0.466667, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="light_59210" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 64.3953, 11, -8.7)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -52797,16 +52066,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_59210" index="0"]
 light_color = Color(0.329412, 0.392157, 0.466667, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="light_59216" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 64.7, 10.9, -15.1365)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -52839,16 +52104,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_59216" index="0"]
 light_color = Color(0.329412, 0.392157, 0.466667, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="light_59222" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 64.3, 11, -24.179)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 1.56863
 light = NodePath("light")
 entity = {
@@ -52881,16 +52142,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_59222" index="0"]
 light_color = Color(0.329412, 0.392157, 0.466667, 1)
 light_energy = 1.56863
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 50.0979
 omni_attenuation = 1.44
 
 [node name="func_instance_59377" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(-4.37114e-08, 8.74228e-08, 1, -1.74845e-07, -1, 8.74228e-08, 1, -1.74845e-07, 4.37114e-08, 42.4, 12.8, -8.85)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(1.00179e-05, -90, 180),
 "classname": "func_instance",
@@ -52906,16 +52163,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="wall_fan_fast_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_59377" instance=ExtResource("86_t66cy")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/wall_fan_fast.vmf"
-ignore_global_import = true
-save_geometry = false
-save_collision = false
+[node name="wall_fan_fast_instance_1" parent="hammerous_course_v01/Entities/func_instance_59377" instance=ExtResource("86_t66cy")]
 
 [node name="func_instance_59380" parent="hammerous_course_v01/Entities" instance=ExtResource("7_fuyd3")]
 transform = Transform3D(1, 7.64275e-15, -8.74229e-08, 0, -1, -8.74228e-08, -8.74229e-08, 8.74228e-08, -1, 43.95, 12.8, -8.8)
-script = ExtResource("24_lcn7m")
 entity = {
 "angles": Vector3(0, 5.00896e-06, -180),
 "classname": "func_instance",
@@ -52931,17 +52182,10 @@ entity = {
 "vmf": "res://hammer_project/mapsrc/hammerous_course_v01.vmf"
 }
 
-[node name="wall_fan_instance_1" type="Node3D" parent="hammerous_course_v01/Entities/func_instance_59380" instance=ExtResource("25_7f6yx")]
-script = ExtResource("1_s51lk")
-vmf = "res://hammer_project/mapsrc/instances/wall_fan.vmf"
-ignore_global_import = true
-save_geometry = false
-save_collision = false
+[node name="wall_fan_instance_1" parent="hammerous_course_v01/Entities/func_instance_59380" instance=ExtResource("25_7f6yx")]
 
 [node name="light_dynamics6" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(1.19249e-08, -1, -4.37114e-08, 0, -4.37114e-08, 1, -1, -1.19249e-08, -5.21253e-16, 44, 16.9376, -8.8)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 9.41177
 light = NodePath("light")
 entity = {
@@ -52980,14 +52224,9 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_dynamics6" index="0"]
 light_color = Color(0.729412, 0.968627, 0.94902, 1)
 light_energy = 9.41177
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="elevator_base" parent="hammerous_course_v01/Entities" instance=ExtResource("66_oa57g")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 44.6, 9.6, -9.4)
-script = ExtResource("57_fw2pj")
 entity = {
 "ManualAccelSpeed": 0,
 "ManualDecelSpeed": 0,
@@ -54113,12 +53352,6 @@ entity = {
 "wheels": 50
 }
 
-[node name="body" parent="hammerous_course_v01/Entities/elevator_base" index="0"]
-mass = 0.001
-gravity_scale = 0.0
-freeze = true
-freeze_mode = 1
-
 [node name="collision" parent="hammerous_course_v01/Entities/elevator_base/body" index="0"]
 shape = SubResource("ConcavePolygonShape3D_yjr2i")
 
@@ -54127,7 +53360,6 @@ mesh = SubResource("ArrayMesh_wwnfi")
 
 [node name="elevator_path_1" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 44.6, 9.6, -9.4)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "path_track",
@@ -54151,7 +53383,6 @@ entity = {
 
 [node name="elevator_path_2" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 44.6, 6.6, -9.4)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "path_track",
@@ -54174,7 +53405,6 @@ entity = {
 
 [node name="ending_fade" parent="hammerous_course_v01/Entities" instance=ExtResource("69_5y4wc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.95, -0.375, -25.325)
-script = ExtResource("53_cgfoj")
 entity = {
 "classname": "env_fade",
 "connections": {
@@ -54199,7 +53429,6 @@ entity = {
 
 [node name="ending_teleport" parent="hammerous_course_v01/Entities" instance=ExtResource("49_ib214")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2.4, -1.4, -24.8)
-script = ExtResource("61_f2jgj")
 entity = {
 "angles": Vector3(0, 90, 0),
 "classname": "point_teleport",
@@ -54219,7 +53448,6 @@ entity = {
 
 [node name="ramp_walkyway_rotor" parent="hammerous_course_v01/Entities" instance=ExtResource("45_glwyv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 58.2, 2.9, 8.625)
-script = ExtResource("7_26q6v")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "func_rotating",
@@ -60026,17 +59254,11 @@ entity = {
 }
 flags = 584
 
-[node name="body" parent="hammerous_course_v01/Entities/ramp_walkyway_rotor" index="0"]
-freeze = true
-freeze_mode = 1
-
 [node name="mesh" parent="hammerous_course_v01/Entities/ramp_walkyway_rotor/body" index="0"]
 mesh = SubResource("ArrayMesh_gpsaj")
-skeleton = NodePath("../..")
 
 [node name="ramp_walkyway_rotor0" parent="hammerous_course_v01/Entities" instance=ExtResource("45_glwyv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.075, 4.625, 8.825)
-script = ExtResource("7_26q6v")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "func_rotating",
@@ -65842,17 +65064,11 @@ entity = {
 }
 flags = 584
 
-[node name="body" parent="hammerous_course_v01/Entities/ramp_walkyway_rotor0" index="0"]
-freeze = true
-freeze_mode = 1
-
 [node name="mesh" parent="hammerous_course_v01/Entities/ramp_walkyway_rotor0/body" index="0"]
 mesh = SubResource("ArrayMesh_aqms0")
-skeleton = NodePath("../..")
 
 [node name="elevator_wheel_button" parent="hammerous_course_v01/Entities" instance=ExtResource("55_smpen")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.2625, 10.575, -9.2875)
-script = ExtResource("49_e50hg")
 move_direction = Vector3(1, 0, 0)
 move_distance = Vector3(0.0250015, 0, 0)
 speed = 2.5
@@ -66068,14 +65284,12 @@ flags = 1024
 
 [node name="mesh" parent="hammerous_course_v01/Entities/elevator_wheel_button/body" index="0"]
 mesh = SubResource("ArrayMesh_l2of1")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/elevator_wheel_button/body" index="1"]
 shape = SubResource("ConvexPolygonShape3D_k4wb8")
 
 [node name="elevator_wheel_lock_relay" parent="hammerous_course_v01/Entities" instance=ExtResource("74_hrl7v")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.8, 11.2, -9.4)
-script = ExtResource("36_7ub24")
 entity = {
 "classname": "logic_relay",
 "connections": {
@@ -66095,7 +65309,6 @@ entity = {
 
 [node name="valve_wheel_brush" parent="hammerous_course_v01/Entities" instance=ExtResource("87_jmls8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60.925, 10.5375, -24.6875)
-script = ExtResource("88_kwfmn")
 entity = {
 "InputFilter": 0,
 "Solidity": 0,
@@ -71392,14 +70605,12 @@ flags = 2
 
 [node name="mesh" parent="hammerous_course_v01/Entities/valve_wheel_brush/body" index="0"]
 mesh = SubResource("ArrayMesh_exbjc")
-skeleton = NodePath("../..")
 
 [node name="collision" parent="hammerous_course_v01/Entities/valve_wheel_brush/body" index="1"]
 shape = SubResource("ConcavePolygonShape3D_7k53y")
 
 [node name="light_52316" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.4, 9.7, -24.6)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 2.35294
 light = NodePath("light")
 entity = {
@@ -71433,16 +70644,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_52316" index="0"]
 light_color = Color(0.258824, 0.392157, 0.733333, 1)
 light_energy = 2.35294
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 61.3572
 omni_attenuation = 1.44
 
 [node name="light_52321" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("43_55jp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.75, 0.15, -25.45)
-script = ExtResource("40_iodim")
 defaultLightEnergy = 2.35294
 light = NodePath("light")
 entity = {
@@ -71476,16 +70683,12 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_52321" index="0"]
 light_color = Color(0.258824, 0.392157, 0.733333, 1)
 light_energy = 2.35294
-light_volumetric_fog_energy = 2.0
 light_bake_mode = 1
-shadow_enabled = true
-shadow_blur = 0.1
 omni_range = 61.3572
 omni_attenuation = 1.44
 
 [node name="viewcontrol_camera_path_240" parent="hammerous_course_v01/Entities" instance=ExtResource("13_l1clb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.6, 9.6, -25.4)
-script = ExtResource("55_4ijmc")
 entity = {
 "angles": Vector3(0, 0, 0),
 "classname": "path_track",
@@ -71507,8 +70710,6 @@ entity = {
 
 [node name="light_dynamics7" parent="hammerous_course_v01/Entities" node_paths=PackedStringArray("light") instance=ExtResource("10_dhdtg")]
 transform = Transform3D(1, -2.18557e-08, 3.78552e-08, 0, 0.866025, 0.5, -4.37114e-08, -0.5, 0.866025, 34.2752, 13.925, -11.1)
-rotation_order = 3
-script = ExtResource("22_m7l8k")
 defaultLightEnergy = 9.41177
 light = NodePath("light")
 entity = {
@@ -71547,10 +70748,6 @@ entity = {
 [node name="light" parent="hammerous_course_v01/Entities/light_dynamics7" index="0"]
 light_color = Color(0.729412, 0.968627, 0.94902, 1)
 light_energy = 9.41177
-light_volumetric_fog_energy = 2.0
-shadow_enabled = true
-shadow_reverse_cull_face = true
-spot_range = 100.0
 
 [node name="environment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_rfgd6")
