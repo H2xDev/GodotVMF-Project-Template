@@ -9,7 +9,7 @@
 
     icon "resource/icon"
 	gamelogo 1
-	gamedata "$SteamUserDir/Source SDK Base 2013 Singleplayer/bin/halflife2.fgd"
+	gamedata "C:/Program Files (x86)/Steam/steamapps/common/Half-Life 2/bin/halflife2.fgd"
 
 	FileSystem
 	{

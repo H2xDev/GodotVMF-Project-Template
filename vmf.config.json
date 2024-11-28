@@ -3,7 +3,7 @@
 	"vtfcmd": "res://hammer_project/tools/VTFCmd.exe",
 
 	"import": {
-		"scale": 0.01,
+		"scale": 0.02,
 		"generateCollision": true,
 		"generateLightmapUV2": true,
 		"lightmapTexelSize": 0.4,
