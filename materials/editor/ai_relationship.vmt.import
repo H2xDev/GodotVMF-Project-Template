@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://nn67yiquqko6"
+path="res://.godot/imported/ai_relationship.vmt-6eb01b46742dbafdf311f9ab8720b218.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/ai_relationship.vmt"
+dest_files=["res://.godot/imported/ai_relationship.vmt-6eb01b46742dbafdf311f9ab8720b218.vmt.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://b32av0tb5vt0u"
+path="res://.godot/imported/vertexcolor.vmt-73d12cb9315117ce7ad6c1e601ceef90.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/vertexcolor.vmt"
+dest_files=["res://.godot/imported/vertexcolor.vmt-73d12cb9315117ce7ad6c1e601ceef90.vmt.tres"]
+
+[params]
+

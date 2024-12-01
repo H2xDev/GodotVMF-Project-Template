@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://vb0j5edodbgi"
+path="res://.godot/imported/ai_goal_follow.vmt-231d82c8f5e6c015cdbeed639486b660.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/ai_goal_follow.vmt"
+dest_files=["res://.godot/imported/ai_goal_follow.vmt-231d82c8f5e6c015cdbeed639486b660.vmt.tres"]
+
+[params]
+

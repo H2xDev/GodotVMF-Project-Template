@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dnus2mc3bj1nk"
+path="res://.godot/imported/sample_result_1.vmt-b7b4b6958604d78a6af1e0f5513aaf91.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/sample_result_1.vmt"
+dest_files=["res://.godot/imported/sample_result_1.vmt-b7b4b6958604d78a6af1e0f5513aaf91.vmt.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cf0oudhrisdmo"
+path="res://.godot/imported/info_target.vmt-3f8d7e1af61c20e254cb6f6d36be049a.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/info_target.vmt"
+dest_files=["res://.godot/imported/info_target.vmt-3f8d7e1af61c20e254cb6f6d36be049a.vmt.tres"]
+
+[params]
+

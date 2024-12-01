@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://gki6aswt1vpb"
+path="res://.godot/imported/assault_rally.vtf-1a0f3e542bd39fd5051b08d41288eff6.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/assault_rally.vtf"
+dest_files=["res://.godot/imported/assault_rally.vtf-1a0f3e542bd39fd5051b08d41288eff6.vtf.tres"]
+
+[params]
+

@@ -36,7 +36,7 @@ func launch_map():
 	if vmf_arg != -1:
 		map_name = args[vmf_arg + 1];
 	
-	var map_path = "res://hammer_project/mapsrc/{0}.vmf".format([map_name]);
+	var map_path = "res://mapsrc/{0}.vmf".format([map_name]);
 
 	if build_arg:
 		message("Building map: {0}".format([map_path]));

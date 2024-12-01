@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://ceymv3ks7jlwo"
+path="res://.godot/imported/bullseye.vtf-024730d3a870411c43fc27980b737871.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/bullseye.vtf"
+dest_files=["res://.godot/imported/bullseye.vtf-024730d3a870411c43fc27980b737871.vtf.tres"]
+
+[params]
+

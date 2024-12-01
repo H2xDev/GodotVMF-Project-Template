@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://b3umtctkwl83n"
+path="res://.godot/imported/wireframe.vtf-05be6ef51b748c3323f5954bdedd3781.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/wireframe.vtf"
+dest_files=["res://.godot/imported/wireframe.vtf-05be6ef51b748c3323f5954bdedd3781.vtf.tres"]
+
+[params]
+

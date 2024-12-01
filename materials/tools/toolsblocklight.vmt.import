@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://6gbpvbdeb182"
+path="res://.godot/imported/toolsblocklight.vmt-84ca0e23e3818539d2b1a0530cdb8807.vmt.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsblocklight.vmt"
+dest_files=["res://.godot/imported/toolsblocklight.vmt-84ca0e23e3818539d2b1a0530cdb8807.vmt.tres"]
+
+[params]
+

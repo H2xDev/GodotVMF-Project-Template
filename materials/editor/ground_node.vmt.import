@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dcyq546iq4nrn"
+path="res://.godot/imported/ground_node.vmt-f4a000c260f2421409467f5311e3eda8.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/ground_node.vmt"
+dest_files=["res://.godot/imported/ground_node.vmt-f4a000c260f2421409467f5311e3eda8.vmt.tres"]
+
+[params]
+

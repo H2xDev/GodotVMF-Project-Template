@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bfgaq5aixptes"
+path="res://.godot/imported/SG_METALFLOOR001.vmt-76ce865ec0a5698dfb124881ec9f30d3.vmt.tres"
+
+[deps]
+
+source_file="res://materials/se_metal/SG_METALFLOOR001.vmt"
+dest_files=["res://.godot/imported/SG_METALFLOOR001.vmt-76ce865ec0a5698dfb124881ec9f30d3.vmt.tres"]
+
+[params]
+

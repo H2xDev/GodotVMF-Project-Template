@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://spqetqrbmlio"
+path="res://.godot/imported/assault_rally.vmt-9515c7613ac053a9e8c8fbfb3392306d.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/assault_rally.vmt"
+dest_files=["res://.godot/imported/assault_rally.vmt-9515c7613ac053a9e8c8fbfb3392306d.vmt.tres"]
+
+[params]
+

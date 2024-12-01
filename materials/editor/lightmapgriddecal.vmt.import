@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://draksw7axjahc"
+path="res://.godot/imported/lightmapgriddecal.vmt-da2663ff0a27a62239af4918647bb81e.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/lightmapgriddecal.vmt"
+dest_files=["res://.godot/imported/lightmapgriddecal.vmt-da2663ff0a27a62239af4918647bb81e.vmt.tres"]
+
+[params]
+

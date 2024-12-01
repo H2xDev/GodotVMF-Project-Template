@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dfjk7wwd4rg58"
+path="res://.godot/imported/aiscripted_schedule.vtf-5a82a927592b363447e1fcd6ec275111.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/aiscripted_schedule.vtf"
+dest_files=["res://.godot/imported/aiscripted_schedule.vtf-5a82a927592b363447e1fcd6ec275111.vtf.tres"]
+
+[params]
+

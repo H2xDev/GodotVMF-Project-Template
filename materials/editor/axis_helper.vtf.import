@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://c2l85wycef1wa"
+path="res://.godot/imported/axis_helper.vtf-5b7d96010d4ed06ad4d31ac70aa05e6d.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/axis_helper.vtf"
+dest_files=["res://.godot/imported/axis_helper.vtf-5b7d96010d4ed06ad4d31ac70aa05e6d.vtf.tres"]
+
+[params]
+

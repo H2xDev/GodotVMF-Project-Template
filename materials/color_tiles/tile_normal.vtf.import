@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dux838tg6trbe"
+path="res://.godot/imported/tile_normal.vtf-e89c0d4d5a76078a507999e15c3daa5e.vtf.tres"
+
+[deps]
+
+source_file="res://materials/color_tiles/tile_normal.vtf"
+dest_files=["res://.godot/imported/tile_normal.vtf-e89c0d4d5a76078a507999e15c3daa5e.vtf.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cbvlrn7iqobit"
+path="res://.godot/imported/QUARRYIBEAMA.vmt-78cc66a73723bbabe81fd2cfd7c75110.vmt.tres"
+
+[deps]
+
+source_file="res://materials/se_metal/QUARRYIBEAMA.vmt"
+dest_files=["res://.godot/imported/QUARRYIBEAMA.vmt-78cc66a73723bbabe81fd2cfd7c75110.vmt.tres"]
+
+[params]
+

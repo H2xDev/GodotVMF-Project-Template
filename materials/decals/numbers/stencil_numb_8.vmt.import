@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://ba6xli5tgad2l"
+path="res://.godot/imported/stencil_numb_8.vmt-e09d1bc667d996dd36787ba53f037caf.vmt.tres"
+
+[deps]
+
+source_file="res://materials/decals/numbers/stencil_numb_8.vmt"
+dest_files=["res://.godot/imported/stencil_numb_8.vmt-e09d1bc667d996dd36787ba53f037caf.vmt.tres"]
+
+[params]
+

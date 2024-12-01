@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://db1jyratn2ccg"
+path="res://.godot/imported/texture_11.vmt-bc3b446344abbc9ba2174a2a9ba0ccab.vmt.tres"
+
+[deps]
+
+source_file="res://materials/dev/texture_11.vmt"
+dest_files=["res://.godot/imported/texture_11.vmt-bc3b446344abbc9ba2174a2a9ba0ccab.vmt.tres"]
+
+[params]
+

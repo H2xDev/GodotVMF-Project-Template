@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bms03nr15bi83"
+path="res://.godot/imported/cubemap.vtf-9f398f98a9397c5e6e39fef9f3d18926.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/cubemap.vtf"
+dest_files=["res://.godot/imported/cubemap.vtf-9f398f98a9397c5e6e39fef9f3d18926.vtf.tres"]
+
+[params]
+

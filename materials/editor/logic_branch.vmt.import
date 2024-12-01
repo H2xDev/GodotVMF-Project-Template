@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://do5ai8jmqcxk0"
+path="res://.godot/imported/logic_branch.vmt-07e9a4ecda3b73ce91c91cf1244455c2.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/logic_branch.vmt"
+dest_files=["res://.godot/imported/logic_branch.vmt-07e9a4ecda3b73ce91c91cf1244455c2.vmt.tres"]
+
+[params]
+

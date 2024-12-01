@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cksyqex4lrh34"
+path="res://.godot/imported/gray.vtf-087bde77f7700594f127b6eff9829dc5.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/gray.vtf"
+dest_files=["res://.godot/imported/gray.vtf-087bde77f7700594f127b6eff9829dc5.vtf.tres"]
+
+[params]
+

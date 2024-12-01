@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://b6d5bm27ma5b0"
+path="res://.godot/imported/orange.vtf-5970d4ed5860ad6fe3adaab55da3b910.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/orange.vtf"
+dest_files=["res://.godot/imported/orange.vtf-5970d4ed5860ad6fe3adaab55da3b910.vtf.tres"]
+
+[params]
+

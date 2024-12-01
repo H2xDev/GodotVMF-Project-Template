@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bqyi613i517by"
+path="res://.godot/imported/env_explosion.vtf-b2e551e613f10a9f80966aec1b095b25.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_explosion.vtf"
+dest_files=["res://.godot/imported/env_explosion.vtf-b2e551e613f10a9f80966aec1b095b25.vtf.tres"]
+
+[params]
+

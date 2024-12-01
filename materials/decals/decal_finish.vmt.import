@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://c7vg5vd5ahcuc"
+path="res://.godot/imported/decal_finish.vmt-921cb441e62dbba95f42879164004e2e.vmt.tres"
+
+[deps]
+
+source_file="res://materials/decals/decal_finish.vmt"
+dest_files=["res://.godot/imported/decal_finish.vmt-921cb441e62dbba95f42879164004e2e.vmt.tres"]
+
+[params]
+

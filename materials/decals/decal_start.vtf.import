@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cga031bvd4rwr"
+path="res://.godot/imported/decal_start.vtf-8b703fac32f9d755ad802ceb7340279a.vtf.tres"
+
+[deps]
+
+source_file="res://materials/decals/decal_start.vtf"
+dest_files=["res://.godot/imported/decal_start.vtf-8b703fac32f9d755ad802ceb7340279a.vtf.tres"]
+
+[params]
+

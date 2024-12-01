@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://oxal40ylrnmy"
+path="res://.godot/imported/gizmoscalehandle.vmt-93accc3fb4fb947a02d29fa525cf87f0.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/gizmoscalehandle.vmt"
+dest_files=["res://.godot/imported/gizmoscalehandle.vmt-93accc3fb4fb947a02d29fa525cf87f0.vmt.tres"]
+
+[params]
+

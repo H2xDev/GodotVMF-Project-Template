@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://byp1baspmx1p0"
+path="res://.godot/imported/quarryibeama.vtf-c8e8ab8aeaf4d995bbf7fb4708083cfb.vtf.tres"
+
+[deps]
+
+source_file="res://materials/se_metal/quarryibeama.vtf"
+dest_files=["res://.godot/imported/quarryibeama.vtf-c8e8ab8aeaf4d995bbf7fb4708083cfb.vtf.tres"]
+
+[params]
+

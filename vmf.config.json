@@ -1,11 +1,11 @@
 {
-	"gameInfoPath": "res://hammer_project",
-	"vtfcmd": "res://hammer_project/tools/VTFCmd.exe",
+	"gameInfoPath": "res://",
 
 	"import": {
 		"scale": 0.025,
 		"generateCollision": true,
 		"generateLightmapUV2": true,
+		"useNavigationMesh": true,
 		"lightmapTexelSize": 0.4,
 		"instancesFolder": "res://instances",
 		"entitiesFolder": "res://entities",

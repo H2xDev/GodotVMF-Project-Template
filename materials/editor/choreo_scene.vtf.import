@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://b60tcgivmje6r"
+path="res://.godot/imported/choreo_scene.vtf-13458db217d46dfcd9e221c2634c0536.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/choreo_scene.vtf"
+dest_files=["res://.godot/imported/choreo_scene.vtf-13458db217d46dfcd9e221c2634c0536.vtf.tres"]
+
+[params]
+

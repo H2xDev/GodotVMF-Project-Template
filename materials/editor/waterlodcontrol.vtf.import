@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bl6aocprx5p8v"
+path="res://.godot/imported/waterlodcontrol.vtf-108daa20e040ddf81cc282470903d741.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/waterlodcontrol.vtf"
+dest_files=["res://.godot/imported/waterlodcontrol.vtf-108daa20e040ddf81cc282470903d741.vtf.tres"]
+
+[params]
+

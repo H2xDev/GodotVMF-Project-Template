@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://ci7wwd0cx7le6"
+path="res://.godot/imported/blue03.vtf-1bce04d8f35a577ba4d13e3b914dd09e.vtf.tres"
+
+[deps]
+
+source_file="res://materials/color_tiles/blue03.vtf"
+dest_files=["res://.godot/imported/blue03.vtf-1bce04d8f35a577ba4d13e3b914dd09e.vtf.tres"]
+
+[params]
+

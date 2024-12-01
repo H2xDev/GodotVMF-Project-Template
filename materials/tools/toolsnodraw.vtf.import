@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://erbpkbv0ja1u"
+path="res://.godot/imported/toolsnodraw.vtf-b7e6dafb50b3fac155c9a2b7fc6b7f96.vtf.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsnodraw.vtf"
+dest_files=["res://.godot/imported/toolsnodraw.vtf-b7e6dafb50b3fac155c9a2b7fc6b7f96.vtf.tres"]
+
+[params]
+

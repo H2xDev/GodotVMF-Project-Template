@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bojqhi8bu8uk3"
+path="res://.godot/imported/env_particles.vmt-21a73567f3040e96ccd7175464f796d1.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_particles.vmt"
+dest_files=["res://.godot/imported/env_particles.vmt-21a73567f3040e96ccd7175464f796d1.vmt.tres"]
+
+[params]
+

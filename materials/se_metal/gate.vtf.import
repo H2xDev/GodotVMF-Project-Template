@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://usvi8q33ayov"
+path="res://.godot/imported/gate.vtf-a785f53571e88a5b2edf26389985c5e6.vtf.tres"
+
+[deps]
+
+source_file="res://materials/se_metal/gate.vtf"
+dest_files=["res://.godot/imported/gate.vtf-a785f53571e88a5b2edf26389985c5e6.vtf.tres"]
+
+[params]
+

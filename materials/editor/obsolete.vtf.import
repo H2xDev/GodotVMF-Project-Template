@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://7m12nj708st5"
+path="res://.godot/imported/obsolete.vtf-38944f8b817d381378d947b92c86f1f0.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/obsolete.vtf"
+dest_files=["res://.godot/imported/obsolete.vtf-38944f8b817d381378d947b92c86f1f0.vtf.tres"]
+
+[params]
+

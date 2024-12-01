@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cyxy8o074wgxl"
+path="res://.godot/imported/ai_goal_standoff.vmt-26267239ee6ebe994f04c28a129925c7.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/ai_goal_standoff.vmt"
+dest_files=["res://.godot/imported/ai_goal_standoff.vmt-26267239ee6ebe994f04c28a129925c7.vmt.tres"]
+
+[params]
+

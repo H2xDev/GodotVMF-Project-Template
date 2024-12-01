@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://c2jhpp0qsexpu"
+path="res://.godot/imported/white_light_illum.vtf-ebcf908741a8eb058ee24d02871e57df.vtf.tres"
+
+[deps]
+
+source_file="res://materials/white_light_illum.vtf"
+dest_files=["res://.godot/imported/white_light_illum.vtf-ebcf908741a8eb058ee24d02871e57df.vtf.tres"]
+
+[params]
+

@@ -1,0 +1,17 @@
+[remap]
+
+importer="MDL"
+type="PackedScene"
+uid="uid://bmbse0pspgxpw"
+path="res://.godot/imported/spot.mdl-8d451470d24c353061d5d1c1142f4de7.tscn"
+
+[deps]
+
+source_file="res://models/editor/spot.mdl"
+dest_files=["res://.godot/imported/spot.mdl-8d451470d24c353061d5d1c1142f4de7.tscn"]
+
+[params]
+
+scale=0.025
+additional_rotation=Vector3(0, 0, 0)
+materials_root=""

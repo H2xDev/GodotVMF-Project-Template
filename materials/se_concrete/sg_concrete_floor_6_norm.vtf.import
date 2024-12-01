@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cr8254mtcgnr5"
+path="res://.godot/imported/sg_concrete_floor_6_norm.vtf-eaa92e22830a155de22041b6134bc3c0.vtf.tres"
+
+[deps]
+
+source_file="res://materials/se_concrete/sg_concrete_floor_6_norm.vtf"
+dest_files=["res://.godot/imported/sg_concrete_floor_6_norm.vtf-eaa92e22830a155de22041b6134bc3c0.vtf.tres"]
+
+[params]
+

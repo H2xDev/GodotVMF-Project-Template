@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bqiuajryxns4w"
+path="res://.godot/imported/toolsskybox2d.vmt-6852ef6a1cd48270f404716ddcfb8cf4.vmt.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsskybox2d.vmt"
+dest_files=["res://.godot/imported/toolsskybox2d.vmt-6852ef6a1cd48270f404716ddcfb8cf4.vmt.tres"]
+
+[params]
+

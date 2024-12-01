@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dnnqgorqclmv3"
+path="res://.godot/imported/toolsnpcclip.vtf-62bcec7a5451f11b5f9de4e36d76dbd6.vtf.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsnpcclip.vtf"
+dest_files=["res://.godot/imported/toolsnpcclip.vtf-62bcec7a5451f11b5f9de4e36d76dbd6.vtf.tres"]
+
+[params]
+

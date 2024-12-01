@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://csgr7dsosp5cf"
+path="res://.godot/imported/env_tonemap_controller.vmt-647f5c15cd80922cd93087995149a2c6.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_tonemap_controller.vmt"
+dest_files=["res://.godot/imported/env_tonemap_controller.vmt-647f5c15cd80922cd93087995149a2c6.vmt.tres"]
+
+[params]
+

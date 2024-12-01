@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://coy240fsin7dv"
+path="res://.godot/imported/addlight.vmt-5a2d3c4bccfddcf5e62602357aa95c78.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/addlight.vmt"
+dest_files=["res://.godot/imported/addlight.vmt-5a2d3c4bccfddcf5e62602357aa95c78.vmt.tres"]
+
+[params]
+

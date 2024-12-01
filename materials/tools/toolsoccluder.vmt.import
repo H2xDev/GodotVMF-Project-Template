@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://c5rk0g8xw07p3"
+path="res://.godot/imported/toolsoccluder.vmt-687f129f9042087f0c070865ad9ef528.vmt.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsoccluder.vmt"
+dest_files=["res://.godot/imported/toolsoccluder.vmt-687f129f9042087f0c070865ad9ef528.vmt.tres"]
+
+[params]
+

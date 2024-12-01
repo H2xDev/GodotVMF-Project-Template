@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bjqy02e0m450s"
+path="res://.godot/imported/info_lighting.vtf-14f4e4e00078496e0db015958723efcb.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/info_lighting.vtf"
+dest_files=["res://.godot/imported/info_lighting.vtf-14f4e4e00078496e0db015958723efcb.vtf.tres"]
+
+[params]
+

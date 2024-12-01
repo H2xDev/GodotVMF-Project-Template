@@ -1,0 +1,17 @@
+[remap]
+
+importer="MDL"
+type="PackedScene"
+uid="uid://r0uvqx7hx2a8"
+path="res://.godot/imported/camera.mdl-58ab8e145e2b2dc98921ed808ba7dfbc.tscn"
+
+[deps]
+
+source_file="res://models/editor/camera.mdl"
+dest_files=["res://.godot/imported/camera.mdl-58ab8e145e2b2dc98921ed808ba7dfbc.tscn"]
+
+[params]
+
+scale=0.025
+additional_rotation=Vector3(0, 0, 0)
+materials_root=""

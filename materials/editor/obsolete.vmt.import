@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://jkycekiorxyp"
+path="res://.godot/imported/obsolete.vmt-5ddbb8423c384148d9e3e09a85b18dec.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/obsolete.vmt"
+dest_files=["res://.godot/imported/obsolete.vmt-5ddbb8423c384148d9e3e09a85b18dec.vmt.tres"]
+
+[params]
+

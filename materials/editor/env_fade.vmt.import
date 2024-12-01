@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dnb2bdo5wlkym"
+path="res://.godot/imported/env_fade.vmt-3bc7bc3670e33beb48dd8a1878c61991.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_fade.vmt"
+dest_files=["res://.godot/imported/env_fade.vmt-3bc7bc3670e33beb48dd8a1878c61991.vmt.tres"]
+
+[params]
+

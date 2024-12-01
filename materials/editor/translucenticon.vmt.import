@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://b88tuaa3jynjs"
+path="res://.godot/imported/translucenticon.vmt-a99777383be7abd428de87c446d17cbb.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/translucenticon.vmt"
+dest_files=["res://.godot/imported/translucenticon.vmt-a99777383be7abd428de87c446d17cbb.vmt.tres"]
+
+[params]
+

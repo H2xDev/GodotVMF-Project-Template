@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://c42udci1hkfpq"
+path="res://.godot/imported/basealphaenvmapmaskicon.vtf-e7c6a654938bd1681de8b8d11e838e42.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/basealphaenvmapmaskicon.vtf"
+dest_files=["res://.godot/imported/basealphaenvmapmaskicon.vtf-e7c6a654938bd1681de8b8d11e838e42.vtf.tres"]
+
+[params]
+

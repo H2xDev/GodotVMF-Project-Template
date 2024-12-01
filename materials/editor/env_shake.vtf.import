@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bfhqu2vh8vqwy"
+path="res://.godot/imported/env_shake.vtf-33d18cc30e8e7ddcbabf9023aa045ffe.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_shake.vtf"
+dest_files=["res://.godot/imported/env_shake.vtf-33d18cc30e8e7ddcbabf9023aa045ffe.vtf.tres"]
+
+[params]
+

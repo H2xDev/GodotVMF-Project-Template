@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dt3gwuja45l6j"
+path="res://.godot/imported/toolsclip.vmt-eae070146c870039ade350c6d639db7f.vmt.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsclip.vmt"
+dest_files=["res://.godot/imported/toolsclip.vmt-eae070146c870039ade350c6d639db7f.vmt.tres"]
+
+[params]
+

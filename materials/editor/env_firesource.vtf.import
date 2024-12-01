@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dfn0fcpr1x3ud"
+path="res://.godot/imported/env_firesource.vtf-cc1e51cda3e1cbc393781244ce97ad59.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_firesource.vtf"
+dest_files=["res://.godot/imported/env_firesource.vtf-cc1e51cda3e1cbc393781244ce97ad59.vtf.tres"]
+
+[params]
+

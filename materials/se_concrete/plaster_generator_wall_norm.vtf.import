@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dhajull882wnt"
+path="res://.godot/imported/plaster_generator_wall_norm.vtf-b8b36fecc159100731fc813a9d12daea.vtf.tres"
+
+[deps]
+
+source_file="res://materials/se_concrete/plaster_generator_wall_norm.vtf"
+dest_files=["res://.godot/imported/plaster_generator_wall_norm.vtf-b8b36fecc159100731fc813a9d12daea.vtf.tres"]
+
+[params]
+

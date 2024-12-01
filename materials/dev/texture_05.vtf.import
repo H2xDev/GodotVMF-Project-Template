@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cabu5350n604b"
+path="res://.godot/imported/texture_05.vtf-dce19eb36699af64ac9b29a0dc82a3f8.vtf.tres"
+
+[deps]
+
+source_file="res://materials/dev/texture_05.vtf"
+dest_files=["res://.godot/imported/texture_05.vtf-dce19eb36699af64ac9b29a0dc82a3f8.vtf.tres"]
+
+[params]
+

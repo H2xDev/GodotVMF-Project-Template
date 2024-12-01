@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bl7wn1l3t8r4m"
+path="res://.godot/imported/trash_fire_norm.vtf-aa4305d7487663d4c6035a12c7a60461.vtf.tres"
+
+[deps]
+
+source_file="res://materials/se_concrete/trash_fire_norm.vtf"
+dest_files=["res://.godot/imported/trash_fire_norm.vtf-aa4305d7487663d4c6035a12c7a60461.vtf.tres"]
+
+[params]
+

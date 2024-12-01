@@ -1,0 +1,17 @@
+[remap]
+
+importer="MDL"
+type="PackedScene"
+uid="uid://xtvpgmiwcahd"
+path="res://.godot/imported/scriptedsequence.mdl-fda1293877f8a9bc56488d447ac49916.tscn"
+
+[deps]
+
+source_file="res://models/editor/scriptedsequence.mdl"
+dest_files=["res://.godot/imported/scriptedsequence.mdl-fda1293877f8a9bc56488d447ac49916.tscn"]
+
+[params]
+
+scale=0.025
+additional_rotation=Vector3(0, 0, 0)
+materials_root=""

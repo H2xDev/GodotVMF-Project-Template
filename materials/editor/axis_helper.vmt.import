@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://di04kp2fkfta7"
+path="res://.godot/imported/axis_helper.vmt-83a162c553e390fd3e47090405361986.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/axis_helper.vmt"
+dest_files=["res://.godot/imported/axis_helper.vmt-83a162c553e390fd3e47090405361986.vmt.tres"]
+
+[params]
+

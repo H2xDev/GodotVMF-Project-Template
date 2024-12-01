@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://4e35v48vf2kg"
+path="res://.godot/imported/flatdecal.vmt-805818e0af7a7b63a8d1d2644932995b.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/flatdecal.vmt"
+dest_files=["res://.godot/imported/flatdecal.vmt-805818e0af7a7b63a8d1d2644932995b.vmt.tres"]
+
+[params]
+

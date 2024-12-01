@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://ckbudub8gei4p"
+path="res://.godot/imported/GREEN_RED_LIGHT.vmt-9efea9fd8050ae46b81d1ae186f92484.vmt.tres"
+
+[deps]
+
+source_file="res://materials/GREEN_RED_LIGHT.vmt"
+dest_files=["res://.godot/imported/GREEN_RED_LIGHT.vmt-9efea9fd8050ae46b81d1ae186f92484.vmt.tres"]
+
+[params]
+

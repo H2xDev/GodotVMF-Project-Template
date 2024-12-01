@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://c7sa5ne7unkgm"
+path="res://.godot/imported/toolsoccluder-dx10.vtf-e171802d1af382dd98347558e3de1563.vtf.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsoccluder-dx10.vtf"
+dest_files=["res://.godot/imported/toolsoccluder-dx10.vtf-e171802d1af382dd98347558e3de1563.vtf.tres"]
+
+[params]
+

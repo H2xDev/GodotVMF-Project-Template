@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bnk0dytvhrdml"
+path="res://.godot/imported/env_microphone.vtf-ddd4edb830f69eb985a8df63504f2c16.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_microphone.vtf"
+dest_files=["res://.godot/imported/env_microphone.vtf-ddd4edb830f69eb985a8df63504f2c16.vtf.tres"]
+
+[params]
+

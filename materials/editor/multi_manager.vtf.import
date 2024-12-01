@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://304vhh170non"
+path="res://.godot/imported/multi_manager.vtf-5588c2cbc29f80ebe1b7b080b2803298.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/multi_manager.vtf"
+dest_files=["res://.godot/imported/multi_manager.vtf-5588c2cbc29f80ebe1b7b080b2803298.vtf.tres"]
+
+[params]
+

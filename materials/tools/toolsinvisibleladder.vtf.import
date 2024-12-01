@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bjwcs453e5nj8"
+path="res://.godot/imported/toolsinvisibleladder.vtf-555bc30f1363b7b4585bd0cc84657339.vtf.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsinvisibleladder.vtf"
+dest_files=["res://.godot/imported/toolsinvisibleladder.vtf-555bc30f1363b7b4585bd0cc84657339.vtf.tres"]
+
+[params]
+

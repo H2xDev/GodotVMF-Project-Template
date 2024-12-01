@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cr8ml6or0yggp"
+path="res://.godot/imported/filter_class.vmt-b51eb2e61bd695fa33d50330a9bb7057.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/filter_class.vmt"
+dest_files=["res://.godot/imported/filter_class.vmt-b51eb2e61bd695fa33d50330a9bb7057.vmt.tres"]
+
+[params]
+

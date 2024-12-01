@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://b4tagnamqi4bj"
+path="res://.godot/imported/ai_sound.vtf-248c791d8d71892fcb845e049d292e8d.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/ai_sound.vtf"
+dest_files=["res://.godot/imported/ai_sound.vtf-248c791d8d71892fcb845e049d292e8d.vtf.tres"]
+
+[params]
+

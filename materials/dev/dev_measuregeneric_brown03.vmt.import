@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dr7jj0cxd7262"
+path="res://.godot/imported/dev_measuregeneric_brown03.vmt-6b90a19736e07b0a7e867ef1a93d7983.vmt.tres"
+
+[deps]
+
+source_file="res://materials/dev/dev_measuregeneric_brown03.vmt"
+dest_files=["res://.godot/imported/dev_measuregeneric_brown03.vmt-6b90a19736e07b0a7e867ef1a93d7983.vmt.tres"]
+
+[params]
+

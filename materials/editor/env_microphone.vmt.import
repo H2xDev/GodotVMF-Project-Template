@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://icdrpdm7u62"
+path="res://.godot/imported/env_microphone.vmt-b05d045e655cca190d42fe38334bb8e9.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_microphone.vmt"
+dest_files=["res://.godot/imported/env_microphone.vmt-b05d045e655cca190d42fe38334bb8e9.vmt.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://csbnv2r0nwy2v"
+path="res://.godot/imported/grey04.vmt-9eb95088cdfb3b68a80d09dbed91e11d.vmt.tres"
+
+[deps]
+
+source_file="res://materials/color_tiles/grey04.vmt"
+dest_files=["res://.godot/imported/grey04.vmt-9eb95088cdfb3b68a80d09dbed91e11d.vmt.tres"]
+
+[params]
+

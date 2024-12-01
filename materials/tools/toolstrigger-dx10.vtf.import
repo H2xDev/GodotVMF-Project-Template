@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cpgkkofwgihms"
+path="res://.godot/imported/toolstrigger-dx10.vtf-73b612635d5c76082739a7c71555588e.vtf.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolstrigger-dx10.vtf"
+dest_files=["res://.godot/imported/toolstrigger-dx10.vtf-73b612635d5c76082739a7c71555588e.vtf.tres"]
+
+[params]
+

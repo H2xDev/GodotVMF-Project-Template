@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dok6wahb1ulvf"
+path="res://.godot/imported/metalhull01.vtf-657dbb9590cf63d50dc834d7dd5318ed.vtf.tres"
+
+[deps]
+
+source_file="res://materials/se_metal/metalhull01.vtf"
+dest_files=["res://.godot/imported/metalhull01.vtf-657dbb9590cf63d50dc834d7dd5318ed.vtf.tres"]
+
+[params]
+

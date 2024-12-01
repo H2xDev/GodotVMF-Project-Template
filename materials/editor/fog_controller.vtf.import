@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cdwfgpaitgayo"
+path="res://.godot/imported/fog_controller.vtf-b5fc9a1136c2d5ab9d63ce2cffcb912c.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/fog_controller.vtf"
+dest_files=["res://.godot/imported/fog_controller.vtf-b5fc9a1136c2d5ab9d63ce2cffcb912c.vtf.tres"]
+
+[params]
+

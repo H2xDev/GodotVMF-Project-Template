@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://w3yckxpwlysm"
+path="res://.godot/imported/env_firesource.vmt-6693a47f1dba10a3b11c309e5902e3d9.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_firesource.vmt"
+dest_files=["res://.godot/imported/env_firesource.vmt-6693a47f1dba10a3b11c309e5902e3d9.vmt.tres"]
+
+[params]
+

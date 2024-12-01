@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://4do666i7742n"
+path="res://.godot/imported/tanktrain_aitarget.vmt-b4c3b5bf2727e76844cf8a063dcd7863.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/tanktrain_aitarget.vmt"
+dest_files=["res://.godot/imported/tanktrain_aitarget.vmt-b4c3b5bf2727e76844cf8a063dcd7863.vmt.tres"]
+
+[params]
+

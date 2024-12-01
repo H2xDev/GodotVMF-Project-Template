@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://olprais23xca"
+path="res://.godot/imported/metalhull02.vtf-affe79260445b8b94a40e88972d63ccd.vtf.tres"
+
+[deps]
+
+source_file="res://materials/se_metal/metalhull02.vtf"
+dest_files=["res://.godot/imported/metalhull02.vtf-affe79260445b8b94a40e88972d63ccd.vtf.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cgipsknusjn0m"
+path="res://.godot/imported/env_fire.vtf-36c6bad9245ec5a42d972d5c2d594d45.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_fire.vtf"
+dest_files=["res://.godot/imported/env_fire.vtf-36c6bad9245ec5a42d972d5c2d594d45.vtf.tres"]
+
+[params]
+

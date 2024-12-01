@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://duv7g880ovvkk"
+path="res://.godot/imported/env_shooter.vmt-ca9eaf911849644b79e879ea8b446df4.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_shooter.vmt"
+dest_files=["res://.godot/imported/env_shooter.vmt-ca9eaf911849644b79e879ea8b446df4.vmt.tres"]
+
+[params]
+

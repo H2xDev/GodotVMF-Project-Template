@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://btmkceitypbtq"
+path="res://.godot/imported/decal_start.vmt-a31569ef8b93d5209ec10333cece1504.vmt.tres"
+
+[deps]
+
+source_file="res://materials/decals/decal_start.vmt"
+dest_files=["res://.godot/imported/decal_start.vmt-a31569ef8b93d5209ec10333cece1504.vmt.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dynelgv50cn2p"
+path="res://.godot/imported/texture_09.vtf-da429837e30a5fc5197e5b143ab93ed3.vtf.tres"
+
+[deps]
+
+source_file="res://materials/dev/texture_09.vtf"
+dest_files=["res://.godot/imported/texture_09.vtf-da429837e30a5fc5197e5b143ab93ed3.vtf.tres"]
+
+[params]
+

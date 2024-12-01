@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bgg2yrh4cvt07"
+path="res://.godot/imported/tanktrain_aitarget.vtf-98aca748e68658ca5f3a03692c50632c.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/tanktrain_aitarget.vtf"
+dest_files=["res://.godot/imported/tanktrain_aitarget.vtf-98aca748e68658ca5f3a03692c50632c.vtf.tres"]
+
+[params]
+

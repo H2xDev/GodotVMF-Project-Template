@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bt52f0gx7ks4b"
+path="res://.godot/imported/brown01.vmt-88fc6a179eb78df641c594c31c0608ae.vmt.tres"
+
+[deps]
+
+source_file="res://materials/color_tiles/brown01.vmt"
+dest_files=["res://.godot/imported/brown01.vmt-88fc6a179eb78df641c594c31c0608ae.vmt.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cm1rs3utlivos"
+path="res://.godot/imported/TOOLSTRIGGER.vmt-44a5363d1807124ad5ba4a674fe31169.vmt.tres"
+
+[deps]
+
+source_file="res://materials/tools/TOOLSTRIGGER.vmt"
+dest_files=["res://.godot/imported/TOOLSTRIGGER.vmt-44a5363d1807124ad5ba4a674fe31169.vmt.tres"]
+
+[params]
+

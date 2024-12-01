@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dxhed2ma0reqy"
+path="res://.godot/imported/npc_maker.vmt-655281ed49e244e9944d918a41c0583d.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/npc_maker.vmt"
+dest_files=["res://.godot/imported/npc_maker.vmt-655281ed49e244e9944d918a41c0583d.vmt.tres"]
+
+[params]
+

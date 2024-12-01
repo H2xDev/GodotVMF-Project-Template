@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cjpbgu6412vfm"
+path="res://.godot/imported/shadow_control.vtf-9a61d21f175e82fdb37d30b6d819622d.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/shadow_control.vtf"
+dest_files=["res://.godot/imported/shadow_control.vtf-9a61d21f175e82fdb37d30b6d819622d.vtf.tres"]
+
+[params]
+

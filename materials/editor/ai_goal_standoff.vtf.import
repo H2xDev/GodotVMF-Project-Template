@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bfadw1ee3x4qn"
+path="res://.godot/imported/ai_goal_standoff.vtf-872786169a90db33e4ba468e84ebc5d2.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/ai_goal_standoff.vtf"
+dest_files=["res://.godot/imported/ai_goal_standoff.vtf-872786169a90db33e4ba468e84ebc5d2.vtf.tres"]
+
+[params]
+

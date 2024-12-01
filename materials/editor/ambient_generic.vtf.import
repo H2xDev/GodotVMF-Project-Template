@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cdjw3e7ghj032"
+path="res://.godot/imported/ambient_generic.vtf-2b33e0db5de3ea149820de72f5dac74a.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/ambient_generic.vtf"
+dest_files=["res://.godot/imported/ambient_generic.vtf-2b33e0db5de3ea149820de72f5dac74a.vtf.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://c06eqll8k4trq"
+path="res://.godot/imported/gizmorotatehandle.vmt-9fe87ec2fc8a7da24364f57012195808.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/gizmorotatehandle.vmt"
+dest_files=["res://.godot/imported/gizmorotatehandle.vmt-9fe87ec2fc8a7da24364f57012195808.vmt.tres"]
+
+[params]
+

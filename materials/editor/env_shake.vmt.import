@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://p87ndvqmayxf"
+path="res://.godot/imported/env_shake.vmt-879e8937c821c2246bc3077bfa08b9bf.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_shake.vmt"
+dest_files=["res://.godot/imported/env_shake.vmt-879e8937c821c2246bc3077bfa08b9bf.vmt.tres"]
+
+[params]
+

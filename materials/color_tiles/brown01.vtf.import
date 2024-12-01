@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bbq5gs118jvru"
+path="res://.godot/imported/brown01.vtf-74ef2c09df10a429ff45d58df62b6ab6.vtf.tres"
+
+[deps]
+
+source_file="res://materials/color_tiles/brown01.vtf"
+dest_files=["res://.godot/imported/brown01.vtf-74ef2c09df10a429ff45d58df62b6ab6.vtf.tres"]
+
+[params]
+

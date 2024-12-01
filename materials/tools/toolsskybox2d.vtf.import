@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://c774tgxatdvbo"
+path="res://.godot/imported/toolsskybox2d.vtf-3810b3fea3ac920aebef45e9cf3161d1.vtf.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsskybox2d.vtf"
+dest_files=["res://.godot/imported/toolsskybox2d.vtf-3810b3fea3ac920aebef45e9cf3161d1.vtf.tres"]
+
+[params]
+

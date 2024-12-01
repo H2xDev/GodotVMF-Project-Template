@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://boff8ymsugkdh"
+path="res://.godot/imported/cordon.vmt-4e9dd5ff709d066e32ecfebd890fadd2.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/cordon.vmt"
+dest_files=["res://.godot/imported/cordon.vmt-4e9dd5ff709d066e32ecfebd890fadd2.vmt.tres"]
+
+[params]
+

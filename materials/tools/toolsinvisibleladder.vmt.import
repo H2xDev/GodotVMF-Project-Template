@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dp85pxp7ucqra"
+path="res://.godot/imported/toolsinvisibleladder.vmt-adfa4fbd09af77abd2569925fafd2fee.vmt.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsinvisibleladder.vmt"
+dest_files=["res://.godot/imported/toolsinvisibleladder.vmt-adfa4fbd09af77abd2569925fafd2fee.vmt.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cu8xg3hgo0ddx"
+path="res://.godot/imported/addlight1.vmt-b52f60dfeb41b1d6de72ee53f4b16a14.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/addlight1.vmt"
+dest_files=["res://.godot/imported/addlight1.vmt-b52f60dfeb41b1d6de72ee53f4b16a14.vmt.tres"]
+
+[params]
+

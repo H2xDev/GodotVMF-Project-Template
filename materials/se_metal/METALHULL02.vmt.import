@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cp4wqijpdn7uu"
+path="res://.godot/imported/METALHULL02.vmt-e8bdbbab1da3b56cf4638b914a2b2401.vmt.tres"
+
+[deps]
+
+source_file="res://materials/se_metal/METALHULL02.vmt"
+dest_files=["res://.godot/imported/METALHULL02.vmt-e8bdbbab1da3b56cf4638b914a2b2401.vmt.tres"]
+
+[params]
+

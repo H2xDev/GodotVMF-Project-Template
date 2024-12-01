@@ -1,0 +1,17 @@
+[remap]
+
+importer="MDL"
+type="PackedScene"
+uid="uid://ctqlifbkcxqnx"
+path="res://.godot/imported/axis_helper.mdl-fd4d4244ff4eba5f5a46af57bae1beb2.tscn"
+
+[deps]
+
+source_file="res://models/editor/axis_helper.mdl"
+dest_files=["res://.godot/imported/axis_helper.mdl-fd4d4244ff4eba5f5a46af57bae1beb2.tscn"]
+
+[params]
+
+scale=0.025
+additional_rotation=Vector3(0, 0, 0)
+materials_root=""

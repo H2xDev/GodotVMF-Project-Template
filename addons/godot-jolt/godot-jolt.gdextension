@@ -2,7 +2,7 @@
 
 entry_symbol = "godot_jolt_main"
 compatibility_minimum = "4.3"
-compatibility_maximum = "4.3"
+compatibility_maximum = "4.4"
 
 [libraries]
 

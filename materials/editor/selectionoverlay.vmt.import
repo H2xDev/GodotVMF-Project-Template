@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://5ipkkxhdn0ij"
+path="res://.godot/imported/selectionoverlay.vmt-d9122cfb5113eae3ba32a061cf09c10b.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/selectionoverlay.vmt"
+dest_files=["res://.godot/imported/selectionoverlay.vmt-d9122cfb5113eae3ba32a061cf09c10b.vmt.tres"]
+
+[params]
+

@@ -1,0 +1,17 @@
+[remap]
+
+importer="MDL"
+type="PackedScene"
+uid="uid://xcpvkc7alqtl"
+path="res://.godot/imported/spot_cone.mdl-ead32e5e74bb55a23f4b6f1682bfe603.tscn"
+
+[deps]
+
+source_file="res://models/editor/spot_cone.mdl"
+dest_files=["res://.godot/imported/spot_cone.mdl-ead32e5e74bb55a23f4b6f1682bfe603.tscn"]
+
+[params]
+
+scale=0.025
+additional_rotation=Vector3(0, 0, 0)
+materials_root=""

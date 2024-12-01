@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://tk0vy6bu8li0"
+path="res://.godot/imported/CONCRETE_WALL_FENCE_04A.vmt-d21f52de9d7b56146116921b8480a57e.vmt.tres"
+
+[deps]
+
+source_file="res://materials/se_concrete/CONCRETE_WALL_FENCE_04A.vmt"
+dest_files=["res://.godot/imported/CONCRETE_WALL_FENCE_04A.vmt-d21f52de9d7b56146116921b8480a57e.vmt.tres"]
+
+[params]
+

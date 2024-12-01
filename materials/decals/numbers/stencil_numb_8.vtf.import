@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bmmcmiyef6oda"
+path="res://.godot/imported/stencil_numb_8.vtf-c61a8c3db81f717818c39e814f590205.vtf.tres"
+
+[deps]
+
+source_file="res://materials/decals/numbers/stencil_numb_8.vtf"
+dest_files=["res://.godot/imported/stencil_numb_8.vtf-c61a8c3db81f717818c39e814f590205.vtf.tres"]
+
+[params]
+

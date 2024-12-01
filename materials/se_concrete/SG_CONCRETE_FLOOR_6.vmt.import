@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://0on0t16ccauv"
+path="res://.godot/imported/SG_CONCRETE_FLOOR_6.vmt-5315deb242615d2bd23bb9702aeb693f.vmt.tres"
+
+[deps]
+
+source_file="res://materials/se_concrete/SG_CONCRETE_FLOOR_6.vmt"
+dest_files=["res://.godot/imported/SG_CONCRETE_FLOOR_6.vmt-5315deb242615d2bd23bb9702aeb693f.vmt.tres"]
+
+[params]
+

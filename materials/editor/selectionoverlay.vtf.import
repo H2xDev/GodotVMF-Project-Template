@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cynkcqqk6sn2e"
+path="res://.godot/imported/selectionoverlay.vtf-a3383900ad81449bbbf525fe9d8c276f.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/selectionoverlay.vtf"
+dest_files=["res://.godot/imported/selectionoverlay.vtf-a3383900ad81449bbbf525fe9d8c276f.vtf.tres"]
+
+[params]
+

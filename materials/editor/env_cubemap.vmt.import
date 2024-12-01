@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bly1o4syb1obo"
+path="res://.godot/imported/env_cubemap.vmt-489a1854f61307c3af1f0ec102bba498.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_cubemap.vmt"
+dest_files=["res://.godot/imported/env_cubemap.vmt-489a1854f61307c3af1f0ec102bba498.vmt.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://ckqxkei3duc48"
+path="res://.godot/imported/scripted_sentence.vmt-39016899b8bb11a10c2e8b12487a0181.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/scripted_sentence.vmt"
+dest_files=["res://.godot/imported/scripted_sentence.vmt-39016899b8bb11a10c2e8b12487a0181.vmt.tres"]
+
+[params]
+

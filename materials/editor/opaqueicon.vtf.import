@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://ddewo30mf35qs"
+path="res://.godot/imported/opaqueicon.vtf-ec03207f33bb62ba4b78791de9feee20.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/opaqueicon.vtf"
+dest_files=["res://.godot/imported/opaqueicon.vtf-ec03207f33bb62ba4b78791de9feee20.vtf.tres"]
+
+[params]
+

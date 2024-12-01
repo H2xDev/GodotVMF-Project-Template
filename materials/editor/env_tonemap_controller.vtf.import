@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://ctugrb405ir02"
+path="res://.godot/imported/env_tonemap_controller.vtf-e0b6050be01bab432fc894b7c2bd3a5e.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_tonemap_controller.vtf"
+dest_files=["res://.godot/imported/env_tonemap_controller.vtf-e0b6050be01bab432fc894b7c2bd3a5e.vtf.tres"]
+
+[params]
+

@@ -1,0 +1,17 @@
+[remap]
+
+importer="MDL"
+type="PackedScene"
+uid="uid://brnmucun6d2rl"
+path="res://.godot/imported/node_hint.mdl-837d218d0e0141bfba5e7851f56b9ec0.tscn"
+
+[deps]
+
+source_file="res://models/editor/node_hint.mdl"
+dest_files=["res://.godot/imported/node_hint.mdl-837d218d0e0141bfba5e7851f56b9ec0.tscn"]
+
+[params]
+
+scale=0.025
+additional_rotation=Vector3(0, 0, 0)
+materials_root=""

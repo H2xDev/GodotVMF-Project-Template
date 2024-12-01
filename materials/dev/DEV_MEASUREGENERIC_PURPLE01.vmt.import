@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bp5l5qwcgyaaj"
+path="res://.godot/imported/DEV_MEASUREGENERIC_PURPLE01.vmt-df00ab45f71b2cc72a37cbb6d3140479.vmt.tres"
+
+[deps]
+
+source_file="res://materials/dev/DEV_MEASUREGENERIC_PURPLE01.vmt"
+dest_files=["res://.godot/imported/DEV_MEASUREGENERIC_PURPLE01.vmt-df00ab45f71b2cc72a37cbb6d3140479.vmt.tres"]
+
+[params]
+

@@ -1,0 +1,17 @@
+[remap]
+
+importer="MDL"
+type="PackedScene"
+uid="uid://cy87qpxumhbvb"
+path="res://.godot/imported/playerstart.mdl-d283ad2320ef45c7f895b2472ccf5611.tscn"
+
+[deps]
+
+source_file="res://models/editor/playerstart.mdl"
+dest_files=["res://.godot/imported/playerstart.mdl-d283ad2320ef45c7f895b2472ccf5611.tscn"]
+
+[params]
+
+scale=0.025
+additional_rotation=Vector3(0, 0, 0)
+materials_root=""

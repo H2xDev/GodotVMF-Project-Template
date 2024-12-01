@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bumcsihedrpcc"
+path="res://.godot/imported/toolsblockbullets.vmt-6ec955b8d6f8c9945a353de3e82275de.vmt.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsblockbullets.vmt"
+dest_files=["res://.godot/imported/toolsblockbullets.vmt-6ec955b8d6f8c9945a353de3e82275de.vmt.tres"]
+
+[params]
+

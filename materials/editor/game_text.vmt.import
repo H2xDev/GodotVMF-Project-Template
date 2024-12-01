@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bsvh73g08fe4m"
+path="res://.godot/imported/game_text.vmt-1fc56f2d2c097a0bc44150e23b1c77ad.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/game_text.vmt"
+dest_files=["res://.godot/imported/game_text.vmt-1fc56f2d2c097a0bc44150e23b1c77ad.vmt.tres"]
+
+[params]
+

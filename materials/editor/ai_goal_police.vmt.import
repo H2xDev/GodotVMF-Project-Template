@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://o8gex5kavo2x"
+path="res://.godot/imported/ai_goal_police.vmt-d986136e84d588b57ac0467b269ea237.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/ai_goal_police.vmt"
+dest_files=["res://.godot/imported/ai_goal_police.vmt-d986136e84d588b57ac0467b269ea237.vmt.tres"]
+
+[params]
+

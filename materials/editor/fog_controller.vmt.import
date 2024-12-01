@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://djimrdmsy6sbe"
+path="res://.godot/imported/fog_controller.vmt-592a220b1bcebd6d960db24cf14d151d.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/fog_controller.vmt"
+dest_files=["res://.godot/imported/fog_controller.vmt-592a220b1bcebd6d960db24cf14d151d.vmt.tres"]
+
+[params]
+

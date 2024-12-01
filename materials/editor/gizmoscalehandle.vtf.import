@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://nib7rq4hlka5"
+path="res://.godot/imported/gizmoscalehandle.vtf-f20fccd9b8a25b73d405bdb07fdc190d.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/gizmoscalehandle.vtf"
+dest_files=["res://.godot/imported/gizmoscalehandle.vtf-f20fccd9b8a25b73d405bdb07fdc190d.vtf.tres"]
+
+[params]
+

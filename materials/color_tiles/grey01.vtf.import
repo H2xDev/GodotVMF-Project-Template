@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bmd0grwoxkrv3"
+path="res://.godot/imported/grey01.vtf-557baa6221fc92abd6183ea971b6c659.vtf.tres"
+
+[deps]
+
+source_file="res://materials/color_tiles/grey01.vtf"
+dest_files=["res://.godot/imported/grey01.vtf-557baa6221fc92abd6183ea971b6c659.vtf.tres"]
+
+[params]
+

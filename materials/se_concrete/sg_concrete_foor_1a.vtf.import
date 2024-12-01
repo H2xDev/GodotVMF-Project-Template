@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bdady0vijptln"
+path="res://.godot/imported/sg_concrete_foor_1a.vtf-a8a573f316110ca8daf95c83c5a25b88.vtf.tres"
+
+[deps]
+
+source_file="res://materials/se_concrete/sg_concrete_foor_1a.vtf"
+dest_files=["res://.godot/imported/sg_concrete_foor_1a.vtf-a8a573f316110ca8daf95c83c5a25b88.vtf.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://doev2oq5cb75u"
+path="res://.godot/imported/logic_multicompare.vmt-f60f4f363abd81089e130f22aee30cba.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/logic_multicompare.vmt"
+dest_files=["res://.godot/imported/logic_multicompare.vmt-f60f4f363abd81089e130f22aee30cba.vmt.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://0pnqjia526hf"
+path="res://.godot/imported/game_text.vtf-670409f925c360d8e4cb52679a1e73e1.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/game_text.vtf"
+dest_files=["res://.godot/imported/game_text.vtf-670409f925c360d8e4cb52679a1e73e1.vtf.tres"]
+
+[params]
+

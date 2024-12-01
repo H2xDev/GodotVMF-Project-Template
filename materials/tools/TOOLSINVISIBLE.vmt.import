@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dcvuw5s46pyhx"
+path="res://.godot/imported/TOOLSINVISIBLE.vmt-c9657619c11217a2beb6e58f844bd3a1.vmt.tres"
+
+[deps]
+
+source_file="res://materials/tools/TOOLSINVISIBLE.vmt"
+dest_files=["res://.godot/imported/TOOLSINVISIBLE.vmt-c9657619c11217a2beb6e58f844bd3a1.vmt.tres"]
+
+[params]
+

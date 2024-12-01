@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bmfedd0id1jbh"
+path="res://.godot/imported/toolsskip-dx10.vtf-cd72522ac1437cf589b6e103cbf0d835.vtf.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsskip-dx10.vtf"
+dest_files=["res://.godot/imported/toolsskip-dx10.vtf-cd72522ac1437cf589b6e103cbf0d835.vtf.tres"]
+
+[params]
+

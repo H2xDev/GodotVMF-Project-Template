@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bg2g3bg2kjo5a"
+path="res://.godot/imported/dev_measuregeneric_blue05.vtf-0a23a52ac9dcc30b4b25ab356bd3a584.vtf.tres"
+
+[deps]
+
+source_file="res://materials/dev/dev_measuregeneric_blue05.vtf"
+dest_files=["res://.godot/imported/dev_measuregeneric_blue05.vtf-0a23a52ac9dcc30b4b25ab356bd3a584.vtf.tres"]
+
+[params]
+

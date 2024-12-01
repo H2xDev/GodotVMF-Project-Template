@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://66xskl3u4w8i"
+path="res://.godot/imported/scripted_sentence.vtf-9958ad0654886691d5476a3e49c970a5.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/scripted_sentence.vtf"
+dest_files=["res://.godot/imported/scripted_sentence.vtf-9958ad0654886691d5476a3e49c970a5.vtf.tres"]
+
+[params]
+

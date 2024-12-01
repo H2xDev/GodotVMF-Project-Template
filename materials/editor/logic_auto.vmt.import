@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://xylgik50cioi"
+path="res://.godot/imported/logic_auto.vmt-53a8aa47b6aa1462b64a50937d43b63f.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/logic_auto.vmt"
+dest_files=["res://.godot/imported/logic_auto.vmt-53a8aa47b6aa1462b64a50937d43b63f.vmt.tres"]
+
+[params]
+

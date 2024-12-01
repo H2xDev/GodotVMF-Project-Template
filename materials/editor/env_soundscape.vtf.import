@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://c6dpkkyhtjktt"
+path="res://.godot/imported/env_soundscape.vtf-8d5b5ea5c87279cb4dd2999bcb8978de.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_soundscape.vtf"
+dest_files=["res://.godot/imported/env_soundscape.vtf-8d5b5ea5c87279cb4dd2999bcb8978de.vtf.tres"]
+
+[params]
+

@@ -1,0 +1,13 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://blqb84fs3ys3f"
+valid=false
+
+[deps]
+
+source_file="res://materials/editor/color_correction.vtf"
+
+[params]
+

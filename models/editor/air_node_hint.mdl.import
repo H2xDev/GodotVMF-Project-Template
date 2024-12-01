@@ -1,0 +1,17 @@
+[remap]
+
+importer="MDL"
+type="PackedScene"
+uid="uid://bvn5wxg7ikr6q"
+path="res://.godot/imported/air_node_hint.mdl-37665db07eb2c9f5e589e733767fea57.tscn"
+
+[deps]
+
+source_file="res://models/editor/air_node_hint.mdl"
+dest_files=["res://.godot/imported/air_node_hint.mdl-37665db07eb2c9f5e589e733767fea57.tscn"]
+
+[params]
+
+scale=0.025
+additional_rotation=Vector3(0, 0, 0)
+materials_root=""

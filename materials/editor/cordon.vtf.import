@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dmtis0bdamkyq"
+path="res://.godot/imported/cordon.vtf-4f8ecb1b29f4c3d870fa61fc4c5d7e49.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/cordon.vtf"
+dest_files=["res://.godot/imported/cordon.vtf-4f8ecb1b29f4c3d870fa61fc4c5d7e49.vtf.tres"]
+
+[params]
+

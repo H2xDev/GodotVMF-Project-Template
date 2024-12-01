@@ -1,0 +1,17 @@
+[remap]
+
+importer="MDL"
+type="PackedScene"
+uid="uid://dysimrltmqknj"
+path="res://.godot/imported/overlay_helper.mdl-9f08fa41200beb82132e1fb1f02d3f00.tscn"
+
+[deps]
+
+source_file="res://models/editor/overlay_helper.mdl"
+dest_files=["res://.godot/imported/overlay_helper.mdl-9f08fa41200beb82132e1fb1f02d3f00.tscn"]
+
+[params]
+
+scale=0.025
+additional_rotation=Vector3(0, 0, 0)
+materials_root=""

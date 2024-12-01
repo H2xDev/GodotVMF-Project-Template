@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://crbe52ijuwmh4"
+path="res://.godot/imported/basealphaenvmapmaskicon.vmt-35ea994bcbc867a17ff2cdb2cdcbe62a.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/basealphaenvmapmaskicon.vmt"
+dest_files=["res://.godot/imported/basealphaenvmapmaskicon.vmt-35ea994bcbc867a17ff2cdb2cdcbe62a.vmt.tres"]
+
+[params]
+

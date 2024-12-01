@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dsoguotpvip4a"
+path="res://.godot/imported/toolsinvisible.vtf-de6600ef029e9a1f4bc3274cca92f22a.vtf.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsinvisible.vtf"
+dest_files=["res://.godot/imported/toolsinvisible.vtf-de6600ef029e9a1f4bc3274cca92f22a.vtf.tres"]
+
+[params]
+

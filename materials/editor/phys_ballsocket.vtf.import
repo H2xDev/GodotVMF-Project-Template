@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://c16w8onuw0xg6"
+path="res://.godot/imported/phys_ballsocket.vtf-01599599a10e999f9fb4fe9208395109.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/phys_ballsocket.vtf"
+dest_files=["res://.godot/imported/phys_ballsocket.vtf-01599599a10e999f9fb4fe9208395109.vtf.tres"]
+
+[params]
+

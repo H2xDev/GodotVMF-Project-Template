@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cb6nro2sd53l"
+path="res://.godot/imported/WHITE_LIGHT.vmt-eb05eedb47b8dd74d20a336f78229f4b.vmt.tres"
+
+[deps]
+
+source_file="res://materials/WHITE_LIGHT.vmt"
+dest_files=["res://.godot/imported/WHITE_LIGHT.vmt-eb05eedb47b8dd74d20a336f78229f4b.vmt.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://c2fm23awtc504"
+path="res://.godot/imported/climb_node.vtf-a788644785fde77407d3fff713366810.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/climb_node.vtf"
+dest_files=["res://.godot/imported/climb_node.vtf-a788644785fde77407d3fff713366810.vtf.tres"]
+
+[params]
+

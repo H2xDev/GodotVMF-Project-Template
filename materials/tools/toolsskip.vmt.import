@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://y33fw3gcfjeu"
+path="res://.godot/imported/toolsskip.vmt-f044d2efd543fd571347a8463358c60e.vmt.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsskip.vmt"
+dest_files=["res://.godot/imported/toolsskip.vmt-f044d2efd543fd571347a8463358c60e.vmt.tres"]
+
+[params]
+

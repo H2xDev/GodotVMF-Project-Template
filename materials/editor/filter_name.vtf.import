@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bj5sqidigqjp3"
+path="res://.godot/imported/filter_name.vtf-cdfd7f740cd82eb159ea58bdd00645e0.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/filter_name.vtf"
+dest_files=["res://.godot/imported/filter_name.vtf-cdfd7f740cd82eb159ea58bdd00645e0.vtf.tres"]
+
+[params]
+

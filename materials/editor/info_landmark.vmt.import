@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://ueug661883lw"
+path="res://.godot/imported/info_landmark.vmt-128ecac15c65500b82d5d18935bdd985.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/info_landmark.vmt"
+dest_files=["res://.godot/imported/info_landmark.vmt-128ecac15c65500b82d5d18935bdd985.vmt.tres"]
+
+[params]
+

@@ -1,0 +1,17 @@
+[remap]
+
+importer="MDL"
+type="PackedScene"
+uid="uid://cv7ftxhnynuuy"
+path="res://.godot/imported/axis_helper_thick.mdl-86217d19a217ebdb90113f9f7ba13f9a.tscn"
+
+[deps]
+
+source_file="res://models/editor/axis_helper_thick.mdl"
+dest_files=["res://.godot/imported/axis_helper_thick.mdl-86217d19a217ebdb90113f9f7ba13f9a.tscn"]
+
+[params]
+
+scale=0.025
+additional_rotation=Vector3(0, 0, 0)
+materials_root=""

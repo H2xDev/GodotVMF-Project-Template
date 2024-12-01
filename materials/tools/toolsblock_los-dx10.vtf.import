@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://pf8fqr3qfljy"
+path="res://.godot/imported/toolsblock_los-dx10.vtf-82e46085b7edd8f090ab872acfafdf66.vtf.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsblock_los-dx10.vtf"
+dest_files=["res://.godot/imported/toolsblock_los-dx10.vtf-82e46085b7edd8f090ab872acfafdf66.vtf.tres"]
+
+[params]
+

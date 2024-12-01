@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://ce3rs34a04x5t"
+path="res://.godot/imported/toolsblockbullets.vtf-12d162a3bf83ee504304cf341f1f366d.vtf.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsblockbullets.vtf"
+dest_files=["res://.godot/imported/toolsblockbullets.vtf-12d162a3bf83ee504304cf341f1f366d.vtf.tres"]
+
+[params]
+

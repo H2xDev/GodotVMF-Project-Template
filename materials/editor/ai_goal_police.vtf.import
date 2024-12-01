@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://w2eb7h7kq7d3"
+path="res://.godot/imported/ai_goal_police.vtf-aac414449257c97220c931da0e086acb.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/ai_goal_police.vtf"
+dest_files=["res://.godot/imported/ai_goal_police.vtf-aac414449257c97220c931da0e086acb.vtf.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bji43vvly0tr2"
+path="res://.godot/imported/gibshooter.vmt-b0fe92275e6737d26532634398b46a9a.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/gibshooter.vmt"
+dest_files=["res://.godot/imported/gibshooter.vmt-b0fe92275e6737d26532634398b46a9a.vmt.tres"]
+
+[params]
+

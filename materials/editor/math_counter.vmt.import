@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bcne3ufbriqfp"
+path="res://.godot/imported/math_counter.vmt-86149df4e993dfcbcae708b9f0a73e80.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/math_counter.vmt"
+dest_files=["res://.godot/imported/math_counter.vmt-86149df4e993dfcbcae708b9f0a73e80.vmt.tres"]
+
+[params]
+

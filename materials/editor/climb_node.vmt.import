@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cy4q1vhxbycwd"
+path="res://.godot/imported/climb_node.vmt-6b20eb1e4de27f36fc9c4d79f356af42.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/climb_node.vmt"
+dest_files=["res://.godot/imported/climb_node.vmt-6b20eb1e4de27f36fc9c4d79f356af42.vmt.tres"]
+
+[params]
+

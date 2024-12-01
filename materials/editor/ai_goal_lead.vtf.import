@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bxx2xgjfltbv6"
+path="res://.godot/imported/ai_goal_lead.vtf-135c224a3f2db98b8acde800a226e298.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/ai_goal_lead.vtf"
+dest_files=["res://.godot/imported/ai_goal_lead.vtf-135c224a3f2db98b8acde800a226e298.vtf.tres"]
+
+[params]
+

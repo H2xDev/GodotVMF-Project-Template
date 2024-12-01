@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cdj5jyclx5lro"
+path="res://.godot/imported/opaqueicon.vmt-d9373255f86502155f2a38f230074978.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/opaqueicon.vmt"
+dest_files=["res://.godot/imported/opaqueicon.vmt-d9373255f86502155f2a38f230074978.vmt.tres"]
+
+[params]
+

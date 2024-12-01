@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bgbvfp45jg0e3"
+path="res://.godot/imported/game_end.vmt-c3150039e9dd1f17847a9f42b7093278.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/game_end.vmt"
+dest_files=["res://.godot/imported/game_end.vmt-c3150039e9dd1f17847a9f42b7093278.vmt.tres"]
+
+[params]
+

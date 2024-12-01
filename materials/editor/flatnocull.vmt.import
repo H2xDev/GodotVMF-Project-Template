@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://nnpqcm57umkc"
+path="res://.godot/imported/flatnocull.vmt-4546fdd34c5f326c1f526d7847b20214.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/flatnocull.vmt"
+dest_files=["res://.godot/imported/flatnocull.vmt-4546fdd34c5f326c1f526d7847b20214.vmt.tres"]
+
+[params]
+

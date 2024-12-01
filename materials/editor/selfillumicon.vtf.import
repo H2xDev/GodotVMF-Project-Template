@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dccksgcqogdst"
+path="res://.godot/imported/selfillumicon.vtf-5941e7957e374a0ca0d808f4a95da619.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/selfillumicon.vtf"
+dest_files=["res://.godot/imported/selfillumicon.vtf-5941e7957e374a0ca0d808f4a95da619.vtf.tres"]
+
+[params]
+

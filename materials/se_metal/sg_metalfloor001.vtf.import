@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dipthnngg1w2g"
+path="res://.godot/imported/sg_metalfloor001.vtf-1997d032a9934e940acf9a00be45d330.vtf.tres"
+
+[deps]
+
+source_file="res://materials/se_metal/sg_metalfloor001.vtf"
+dest_files=["res://.godot/imported/sg_metalfloor001.vtf-1997d032a9934e940acf9a00be45d330.vtf.tres"]
+
+[params]
+

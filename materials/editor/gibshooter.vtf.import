@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://eli4h5nwjh7e"
+path="res://.godot/imported/gibshooter.vtf-b33df7b5096b12b0c4223a6fa2e3512c.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/gibshooter.vtf"
+dest_files=["res://.godot/imported/gibshooter.vtf-b33df7b5096b12b0c4223a6fa2e3512c.vtf.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://c5sjwtjvia5il"
+path="res://.godot/imported/toolsblocklight.vtf-7560c617a20d1030ae5572a13a7e20f9.vtf.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsblocklight.vtf"
+dest_files=["res://.godot/imported/toolsblocklight.vtf-7560c617a20d1030ae5572a13a7e20f9.vtf.tres"]
+
+[params]
+

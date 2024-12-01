@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://cjxioe1h04mpm"]
 
-[ext_resource type="LightmapGIData" uid="uid://cxppije80iyh0" path="res://lightmaps/hammerous_course.lmbake" id="1_kehvd"]
+[ext_resource type="LightmapGIData" uid="uid://c6gguec5277a6" path="res://lightmaps/lightmapper.lmbake" id="1_kehvd"]
 
 [node name="lightmapper" type="LightmapGI"]
 denoiser_strength = 0.115

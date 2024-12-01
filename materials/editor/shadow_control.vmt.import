@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bqm3gks1bw3fi"
+path="res://.godot/imported/shadow_control.vmt-9430b4560c84237c02b61277bd98f8b0.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/shadow_control.vmt"
+dest_files=["res://.godot/imported/shadow_control.vmt-9430b4560c84237c02b61277bd98f8b0.vmt.tres"]
+
+[params]
+

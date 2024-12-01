@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cskjycoj3btxh"
+path="res://.godot/imported/toolsdotted.vmt-9da1011b2819a46ba5349f0c543717b6.vmt.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsdotted.vmt"
+dest_files=["res://.godot/imported/toolsdotted.vmt-9da1011b2819a46ba5349f0c543717b6.vmt.tres"]
+
+[params]
+

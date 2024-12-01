@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dd63su5ynjqq6"
+path="res://.godot/imported/flat.vtf-6c0b5f7ce0ddd9ac36b7781d565ed962.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/flat.vtf"
+dest_files=["res://.godot/imported/flat.vtf-6c0b5f7ce0ddd9ac36b7781d565ed962.vtf.tres"]
+
+[params]
+

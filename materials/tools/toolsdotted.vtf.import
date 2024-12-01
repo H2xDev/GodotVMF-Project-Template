@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bfbsobgnv4bge"
+path="res://.godot/imported/toolsdotted.vtf-0d2b8c808ddfd319c0af22f0baf27b04.vtf.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsdotted.vtf"
+dest_files=["res://.godot/imported/toolsdotted.vtf-0d2b8c808ddfd319c0af22f0baf27b04.vtf.tres"]
+
+[params]
+

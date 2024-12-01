@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bdfncwclogttc"
+path="res://.godot/imported/green_red_light.vtf-bd10ca46f3b2e35d282c514d7406ce8e.vtf.tres"
+
+[deps]
+
+source_file="res://materials/green_red_light.vtf"
+dest_files=["res://.godot/imported/green_red_light.vtf-bd10ca46f3b2e35d282c514d7406ce8e.vtf.tres"]
+
+[params]
+

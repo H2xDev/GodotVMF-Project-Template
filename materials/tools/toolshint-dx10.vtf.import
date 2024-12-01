@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://b6lraqemygvxu"
+path="res://.godot/imported/toolshint-dx10.vtf-f8d1b83b56a375bc1d0c495da286e94e.vtf.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolshint-dx10.vtf"
+dest_files=["res://.godot/imported/toolshint-dx10.vtf-f8d1b83b56a375bc1d0c495da286e94e.vtf.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://xjagrfly3y41"
+path="res://.godot/imported/GATE.vmt-8d92e39f2da6681216df580d2f0d9517.vmt.tres"
+
+[deps]
+
+source_file="res://materials/se_metal/GATE.vmt"
+dest_files=["res://.godot/imported/GATE.vmt-8d92e39f2da6681216df580d2f0d9517.vmt.tres"]
+
+[params]
+

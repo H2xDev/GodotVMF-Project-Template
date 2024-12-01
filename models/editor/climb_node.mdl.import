@@ -1,0 +1,17 @@
+[remap]
+
+importer="MDL"
+type="PackedScene"
+uid="uid://d3sdbyddl44yu"
+path="res://.godot/imported/climb_node.mdl-4028dd3075d704d21b4ce14a3b265fb7.tscn"
+
+[deps]
+
+source_file="res://models/editor/climb_node.mdl"
+dest_files=["res://.godot/imported/climb_node.mdl-4028dd3075d704d21b4ce14a3b265fb7.tscn"]
+
+[params]
+
+scale=0.025
+additional_rotation=Vector3(0, 0, 0)
+materials_root=""

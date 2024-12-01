@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cbtqwhx2vu0n8"
+path="res://.godot/imported/SG_CONCRETE_FOOR_1A.vmt-ba81c57ea3a31b8184358c8860a57f3c.vmt.tres"
+
+[deps]
+
+source_file="res://materials/se_concrete/SG_CONCRETE_FOOR_1A.vmt"
+dest_files=["res://.godot/imported/SG_CONCRETE_FOOR_1A.vmt-ba81c57ea3a31b8184358c8860a57f3c.vmt.tres"]
+
+[params]
+

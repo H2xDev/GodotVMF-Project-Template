@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dcmjegt28c12s"
+path="res://.godot/imported/logic_timer.vtf-1b5c942d890e309530b7beace99bfd21.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/logic_timer.vtf"
+dest_files=["res://.godot/imported/logic_timer.vtf-1b5c942d890e309530b7beace99bfd21.vtf.tres"]
+
+[params]
+

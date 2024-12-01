@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://qgxs82m5ubfi"
+path="res://.godot/imported/orange.vmt-8e77d1058497a2fc754bd60c409dd105.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/orange.vmt"
+dest_files=["res://.godot/imported/orange.vmt-8e77d1058497a2fc754bd60c409dd105.vmt.tres"]
+
+[params]
+

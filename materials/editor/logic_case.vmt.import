@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dewph645n8yku"
+path="res://.godot/imported/logic_case.vmt-ad716fe05099a8a8f42e7222e69e3d14.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/logic_case.vmt"
+dest_files=["res://.godot/imported/logic_case.vmt-ad716fe05099a8a8f42e7222e69e3d14.vmt.tres"]
+
+[params]
+

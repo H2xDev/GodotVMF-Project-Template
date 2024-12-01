@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dorsmtaootdyq"
+path="res://.godot/imported/sg_concrete_floor_6.vtf-a09d0cadb35ee08c5ec42263d36e22e3.vtf.tres"
+
+[deps]
+
+source_file="res://materials/se_concrete/sg_concrete_floor_6.vtf"
+dest_files=["res://.godot/imported/sg_concrete_floor_6.vtf-a09d0cadb35ee08c5ec42263d36e22e3.vtf.tres"]
+
+[params]
+

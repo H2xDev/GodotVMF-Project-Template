@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://b403jgmf0esqm"
+path="res://.godot/imported/phys_ballsocket.vmt-a6a00d039128f7f0356f80b45c4f1716.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/phys_ballsocket.vmt"
+dest_files=["res://.godot/imported/phys_ballsocket.vmt-a6a00d039128f7f0356f80b45c4f1716.vmt.tres"]
+
+[params]
+

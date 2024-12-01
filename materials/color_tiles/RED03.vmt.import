@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cgjvcx8v6dxf8"
+path="res://.godot/imported/RED03.vmt-361e6ed6108bf80e35ad2e4d35ad502f.vmt.tres"
+
+[deps]
+
+source_file="res://materials/color_tiles/RED03.vmt"
+dest_files=["res://.godot/imported/RED03.vmt-361e6ed6108bf80e35ad2e4d35ad502f.vmt.tres"]
+
+[params]
+

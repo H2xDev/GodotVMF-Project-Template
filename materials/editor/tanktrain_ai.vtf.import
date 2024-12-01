@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dodkgdmcbb72w"
+path="res://.godot/imported/tanktrain_ai.vtf-c4da413210a92f341a9e4c43c492f55e.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/tanktrain_ai.vtf"
+dest_files=["res://.godot/imported/tanktrain_ai.vtf-c4da413210a92f341a9e4c43c492f55e.vtf.tres"]
+
+[params]
+

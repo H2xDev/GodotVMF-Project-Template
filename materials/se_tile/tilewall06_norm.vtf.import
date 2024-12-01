@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cbp34bouifium"
+path="res://.godot/imported/tilewall06_norm.vtf-8d1b151e34ebc254ef1bb768d80d4d9f.vtf.tres"
+
+[deps]
+
+source_file="res://materials/se_tile/tilewall06_norm.vtf"
+dest_files=["res://.godot/imported/tilewall06_norm.vtf-8d1b151e34ebc254ef1bb768d80d4d9f.vtf.tres"]
+
+[params]
+

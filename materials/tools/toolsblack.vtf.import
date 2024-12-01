@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dygohswwgwfeo"
+path="res://.godot/imported/toolsblack.vtf-6a3e394ff702613869eb4777866a679a.vtf.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsblack.vtf"
+dest_files=["res://.godot/imported/toolsblack.vtf-6a3e394ff702613869eb4777866a679a.vtf.tres"]
+
+[params]
+

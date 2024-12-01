@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://prrfqj7gqy2e"
+path="res://.godot/imported/assault_point.vmt-2df800511771823fe7eae19f38e6f1c6.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/assault_point.vmt"
+dest_files=["res://.godot/imported/assault_point.vmt-2df800511771823fe7eae19f38e6f1c6.vmt.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bje7huyly7xxt"
+path="res://.godot/imported/air_node.vtf-75822c7d2277581601e2760d39e5bd1e.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/air_node.vtf"
+dest_files=["res://.godot/imported/air_node.vtf-75822c7d2277581601e2760d39e5bd1e.vtf.tres"]
+
+[params]
+

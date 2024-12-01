@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cihakn4ot22pj"
+path="res://.godot/imported/copyalbedo.vmt-702b7baf693e2706255e39b7aa7ccfc8.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/copyalbedo.vmt"
+dest_files=["res://.godot/imported/copyalbedo.vmt-702b7baf693e2706255e39b7aa7ccfc8.vmt.tres"]
+
+[params]
+

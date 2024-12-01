@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dto571gjd8lkm"
+path="res://.godot/imported/toolsareaportal-dx10.vtf-0604dc31d77bcbdfe7ce74622a5d9ef5.vtf.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsareaportal-dx10.vtf"
+dest_files=["res://.godot/imported/toolsareaportal-dx10.vtf-0604dc31d77bcbdfe7ce74622a5d9ef5.vtf.tres"]
+
+[params]
+

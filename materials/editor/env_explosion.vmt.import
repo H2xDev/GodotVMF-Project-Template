@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dns8lg2alwwjl"
+path="res://.godot/imported/env_explosion.vmt-6a002be3176c931dd6813d6300a0abf0.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_explosion.vmt"
+dest_files=["res://.godot/imported/env_explosion.vmt-6a002be3176c931dd6813d6300a0abf0.vmt.tres"]
+
+[params]
+

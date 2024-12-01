@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://d0qe53oswoh8"
+path="res://.godot/imported/tanktrain_ai.vmt-4aa56835bf71cc96b7f080c1e221a906.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/tanktrain_ai.vmt"
+dest_files=["res://.godot/imported/tanktrain_ai.vmt-4aa56835bf71cc96b7f080c1e221a906.vmt.tres"]
+
+[params]
+

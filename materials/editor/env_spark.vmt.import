@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dkqpj5egch566"
+path="res://.godot/imported/env_spark.vmt-4db8cba698f48f5600c23c306e3f33f3.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_spark.vmt"
+dest_files=["res://.godot/imported/env_spark.vmt-4db8cba698f48f5600c23c306e3f33f3.vmt.tres"]
+
+[params]
+

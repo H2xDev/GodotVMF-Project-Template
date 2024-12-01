@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://xsaicrynsome"
+path="res://.godot/imported/env_fade.vtf-ef0c158a131228e8a0560a320490112d.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_fade.vtf"
+dest_files=["res://.godot/imported/env_fade.vtf-ef0c158a131228e8a0560a320490112d.vtf.tres"]
+
+[params]
+

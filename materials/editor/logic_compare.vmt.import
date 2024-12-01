@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dam7pc2paxcwr"
+path="res://.godot/imported/logic_compare.vmt-cfbaff228fe758adffd15614ff06684d.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/logic_compare.vmt"
+dest_files=["res://.godot/imported/logic_compare.vmt-cfbaff228fe758adffd15614ff06684d.vmt.tres"]
+
+[params]
+

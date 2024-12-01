@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cg17k5n4qupbs"
+path="res://.godot/imported/env_shooter.vtf-45f3269f425694d5fb567b2c757416a3.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_shooter.vtf"
+dest_files=["res://.godot/imported/env_shooter.vtf-45f3269f425694d5fb567b2c757416a3.vtf.tres"]
+
+[params]
+

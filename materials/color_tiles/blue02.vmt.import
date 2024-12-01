@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://ci46xeihqrjsx"
+path="res://.godot/imported/blue02.vmt-54c5bafd23ab21a2be8736d2afeb3ca7.vmt.tres"
+
+[deps]
+
+source_file="res://materials/color_tiles/blue02.vmt"
+dest_files=["res://.godot/imported/blue02.vmt-54c5bafd23ab21a2be8736d2afeb3ca7.vmt.tres"]
+
+[params]
+

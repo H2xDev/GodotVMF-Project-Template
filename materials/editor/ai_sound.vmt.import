@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cdfr7gjj3q0c0"
+path="res://.godot/imported/ai_sound.vmt-97dfc0b092717657531868a35d2c2639.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/ai_sound.vmt"
+dest_files=["res://.godot/imported/ai_sound.vmt-97dfc0b092717657531868a35d2c2639.vmt.tres"]
+
+[params]
+

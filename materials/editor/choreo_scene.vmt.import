@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cfqalbc1jce17"
+path="res://.godot/imported/choreo_scene.vmt-fe086c7946aa2e99a2c56743e7dc2da6.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/choreo_scene.vmt"
+dest_files=["res://.godot/imported/choreo_scene.vmt-fe086c7946aa2e99a2c56743e7dc2da6.vmt.tres"]
+
+[params]
+

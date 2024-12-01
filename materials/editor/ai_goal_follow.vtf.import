@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://ch5w6vbwg2hvw"
+path="res://.godot/imported/ai_goal_follow.vtf-63cf3ea2893eb92fcfa4009f97bc3b7a.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/ai_goal_follow.vtf"
+dest_files=["res://.godot/imported/ai_goal_follow.vtf-63cf3ea2893eb92fcfa4009f97bc3b7a.vtf.tres"]
+
+[params]
+

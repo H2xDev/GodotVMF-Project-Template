@@ -1,0 +1,13 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://c5rmoofcpmi3d"
+valid=false
+
+[deps]
+
+source_file="res://materials/editor/lightmapgrid.vtf"
+
+[params]
+

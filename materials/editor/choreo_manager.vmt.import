@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://b1ka0wy7gigce"
+path="res://.godot/imported/choreo_manager.vmt-190de2fd3ceae4da3479a8386ff7752c.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/choreo_manager.vmt"
+dest_files=["res://.godot/imported/choreo_manager.vmt-190de2fd3ceae4da3479a8386ff7752c.vmt.tres"]
+
+[params]
+

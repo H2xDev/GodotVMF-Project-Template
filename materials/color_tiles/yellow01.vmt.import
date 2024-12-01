@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://btm2ot1kjgtcd"
+path="res://.godot/imported/yellow01.vmt-91ee0b453f8764aa7b720ab41dcb2851.vmt.tres"
+
+[deps]
+
+source_file="res://materials/color_tiles/yellow01.vmt"
+dest_files=["res://.godot/imported/yellow01.vmt-91ee0b453f8764aa7b720ab41dcb2851.vmt.tres"]
+
+[params]
+

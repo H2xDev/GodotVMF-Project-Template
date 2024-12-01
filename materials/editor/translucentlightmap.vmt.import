@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://hdtayrh4cu4b"
+path="res://.godot/imported/translucentlightmap.vmt-0ba06496773830c2e69eefab325766a6.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/translucentlightmap.vmt"
+dest_files=["res://.godot/imported/translucentlightmap.vmt-0ba06496773830c2e69eefab325766a6.vmt.tres"]
+
+[params]
+

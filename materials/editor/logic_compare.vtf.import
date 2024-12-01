@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://djeg6ip0l0re3"
+path="res://.godot/imported/logic_compare.vtf-74c96ec3236be593a20802de2a958bb7.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/logic_compare.vtf"
+dest_files=["res://.godot/imported/logic_compare.vtf-74c96ec3236be593a20802de2a958bb7.vtf.tres"]
+
+[params]
+

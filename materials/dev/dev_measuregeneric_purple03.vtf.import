@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dxnl3ycnyp6em"
+path="res://.godot/imported/dev_measuregeneric_purple03.vtf-ed8a35769a6fe6684895c58a2861d69e.vtf.tres"
+
+[deps]
+
+source_file="res://materials/dev/dev_measuregeneric_purple03.vtf"
+dest_files=["res://.godot/imported/dev_measuregeneric_purple03.vtf-ed8a35769a6fe6684895c58a2861d69e.vtf.tres"]
+
+[params]
+

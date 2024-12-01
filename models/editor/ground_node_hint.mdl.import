@@ -1,0 +1,17 @@
+[remap]
+
+importer="MDL"
+type="PackedScene"
+uid="uid://d4g5ywdkbx3tg"
+path="res://.godot/imported/ground_node_hint.mdl-8e8150fb5e3492f62221a9b44a904691.tscn"
+
+[deps]
+
+source_file="res://models/editor/ground_node_hint.mdl"
+dest_files=["res://.godot/imported/ground_node_hint.mdl-8e8150fb5e3492f62221a9b44a904691.tscn"]
+
+[params]
+
+scale=0.025
+additional_rotation=Vector3(0, 0, 0)
+materials_root=""

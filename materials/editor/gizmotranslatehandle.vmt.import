@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://drysc2v17ulvc"
+path="res://.godot/imported/gizmotranslatehandle.vmt-938299ed912ebd9e11940237708359bb.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/gizmotranslatehandle.vmt"
+dest_files=["res://.godot/imported/gizmotranslatehandle.vmt-938299ed912ebd9e11940237708359bb.vmt.tres"]
+
+[params]
+

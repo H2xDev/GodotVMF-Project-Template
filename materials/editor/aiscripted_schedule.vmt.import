@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bxp5ogd6uy7f8"
+path="res://.godot/imported/aiscripted_schedule.vmt-e17377851a722c485fd155b015adddf3.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/aiscripted_schedule.vmt"
+dest_files=["res://.godot/imported/aiscripted_schedule.vmt-e17377851a722c485fd155b015adddf3.vmt.tres"]
+
+[params]
+

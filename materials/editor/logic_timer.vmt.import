@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://ejk06jyo16ql"
+path="res://.godot/imported/logic_timer.vmt-6e501863158c622384965bf9f6755773.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/logic_timer.vmt"
+dest_files=["res://.godot/imported/logic_timer.vmt-6e501863158c622384965bf9f6755773.vmt.tres"]
+
+[params]
+

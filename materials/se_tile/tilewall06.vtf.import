@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://gscrtt4if5pc"
+path="res://.godot/imported/tilewall06.vtf-3093eb2d3c2797de4cc11f2836b45a8c.vtf.tres"
+
+[deps]
+
+source_file="res://materials/se_tile/tilewall06.vtf"
+dest_files=["res://.godot/imported/tilewall06.vtf-3093eb2d3c2797de4cc11f2836b45a8c.vtf.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://1ghriiha7347"
+path="res://.godot/imported/gray.vmt-e428a5d012c55e3c494d93e7d03f3194.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/gray.vmt"
+dest_files=["res://.godot/imported/gray.vmt-e428a5d012c55e3c494d93e7d03f3194.vmt.tres"]
+
+[params]
+

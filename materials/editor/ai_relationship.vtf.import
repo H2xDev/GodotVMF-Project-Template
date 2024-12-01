@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://ddmn0megjv1ua"
+path="res://.godot/imported/ai_relationship.vtf-6c454464a6e57a3e166744e0eb0af190.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/ai_relationship.vtf"
+dest_files=["res://.godot/imported/ai_relationship.vtf-6c454464a6e57a3e166744e0eb0af190.vtf.tres"]
+
+[params]
+

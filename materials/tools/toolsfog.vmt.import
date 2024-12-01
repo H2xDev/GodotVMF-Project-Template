@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dacwppxummohm"
+path="res://.godot/imported/toolsfog.vmt-af47324f10b80b27c291450c12ce3496.vmt.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsfog.vmt"
+dest_files=["res://.godot/imported/toolsfog.vmt-af47324f10b80b27c291450c12ce3496.vmt.tres"]
+
+[params]
+

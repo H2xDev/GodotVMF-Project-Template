@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cytst3sebg16i"
+path="res://.godot/imported/gradient01.vtf-fb933675d6dd17c9d428bde4f4ec3677.vtf.tres"
+
+[deps]
+
+source_file="res://materials/color_tiles/gradient01.vtf"
+dest_files=["res://.godot/imported/gradient01.vtf-fb933675d6dd17c9d428bde4f4ec3677.vtf.tres"]
+
+[params]
+

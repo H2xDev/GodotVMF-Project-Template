@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://2ig54k7boei6"
+path="res://.godot/imported/translucenticon.vtf-b496a397ad99178038827877a145ebb4.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/translucenticon.vtf"
+dest_files=["res://.godot/imported/translucenticon.vtf-b496a397ad99178038827877a145ebb4.vtf.tres"]
+
+[params]
+

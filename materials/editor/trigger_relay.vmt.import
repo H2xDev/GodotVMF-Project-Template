@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://52t2qkqkr2jv"
+path="res://.godot/imported/trigger_relay.vmt-a2c87059a781930d0d7acffdf99eeb45.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/trigger_relay.vmt"
+dest_files=["res://.godot/imported/trigger_relay.vmt-a2c87059a781930d0d7acffdf99eeb45.vmt.tres"]
+
+[params]
+

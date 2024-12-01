@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://btqfl1408j2fe"
+path="res://.godot/imported/toolsskyfog.vtf-69b971426af3fed1fe5697642cc20213.vtf.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsskyfog.vtf"
+dest_files=["res://.godot/imported/toolsskyfog.vtf-69b971426af3fed1fe5697642cc20213.vtf.tres"]
+
+[params]
+

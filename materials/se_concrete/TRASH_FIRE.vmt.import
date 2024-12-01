@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://c7fjvojsy15sy"
+path="res://.godot/imported/TRASH_FIRE.vmt-513e11a6e593b76c894dc9707641e13d.vmt.tres"
+
+[deps]
+
+source_file="res://materials/se_concrete/TRASH_FIRE.vmt"
+dest_files=["res://.godot/imported/TRASH_FIRE.vmt-513e11a6e593b76c894dc9707641e13d.vmt.tres"]
+
+[params]
+

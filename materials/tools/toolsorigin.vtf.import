@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://qhvaw2hx6khj"
+path="res://.godot/imported/toolsorigin.vtf-50d86fed72fddb8d3142330c08878d96.vtf.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsorigin.vtf"
+dest_files=["res://.godot/imported/toolsorigin.vtf-50d86fed72fddb8d3142330c08878d96.vtf.tres"]
+
+[params]
+

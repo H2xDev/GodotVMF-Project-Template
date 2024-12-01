@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://byph5qmnem7ms"
+path="res://.godot/imported/green_red_light_illum.vtf-efe553450c44b730073ceaaf9a84c078.vtf.tres"
+
+[deps]
+
+source_file="res://materials/green_red_light_illum.vtf"
+dest_files=["res://.godot/imported/green_red_light_illum.vtf-efe553450c44b730073ceaaf9a84c078.vtf.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dj4pc3uh6rej4"
+path="res://.godot/imported/env_soundscape.vmt-2e3379bfba1197aa63fe7975ea633d6e.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/env_soundscape.vmt"
+dest_files=["res://.godot/imported/env_soundscape.vmt-2e3379bfba1197aa63fe7975ea633d6e.vmt.tres"]
+
+[params]
+

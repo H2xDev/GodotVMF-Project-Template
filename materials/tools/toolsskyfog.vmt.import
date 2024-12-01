@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://b70pg1rgameu6"
+path="res://.godot/imported/toolsskyfog.vmt-3c7de0f49bcbb394644cc8e62e0508c2.vmt.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsskyfog.vmt"
+dest_files=["res://.godot/imported/toolsskyfog.vmt-3c7de0f49bcbb394644cc8e62e0508c2.vmt.tres"]
+
+[params]
+

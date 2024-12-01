@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://b4jjncwvnwgyp"
+path="res://.godot/imported/PLASTER_GENERATOR_WALL.vmt-b275c38d40c183e03618c34c53fe1d31.vmt.tres"
+
+[deps]
+
+source_file="res://materials/se_concrete/PLASTER_GENERATOR_WALL.vmt"
+dest_files=["res://.godot/imported/PLASTER_GENERATOR_WALL.vmt-b275c38d40c183e03618c34c53fe1d31.vmt.tres"]
+
+[params]
+

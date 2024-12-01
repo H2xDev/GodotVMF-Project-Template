@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://lcpi25sr4frk"
+path="res://.godot/imported/light_env.vtf-98e169f71d434ada4c675770c8283f2f.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/light_env.vtf"
+dest_files=["res://.godot/imported/light_env.vtf-98e169f71d434ada4c675770c8283f2f.vtf.tres"]
+
+[params]
+

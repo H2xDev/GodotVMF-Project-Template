@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dgt5mng2fgfwc"
+path="res://.godot/imported/ambient_generic.vmt-8b7a826e12b6ef7467ebef9caaf96231.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/ambient_generic.vmt"
+dest_files=["res://.godot/imported/ambient_generic.vmt-8b7a826e12b6ef7467ebef9caaf96231.vmt.tres"]
+
+[params]
+

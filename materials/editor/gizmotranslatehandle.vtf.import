@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://m0xq4uxrkn8w"
+path="res://.godot/imported/gizmotranslatehandle.vtf-85cc976502f9c75c5e6aaa117e1458e5.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/gizmotranslatehandle.vtf"
+dest_files=["res://.godot/imported/gizmotranslatehandle.vtf-85cc976502f9c75c5e6aaa117e1458e5.vtf.tres"]
+
+[params]
+

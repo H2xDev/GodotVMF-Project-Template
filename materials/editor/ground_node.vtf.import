@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://lth5jl5vkw03"
+path="res://.godot/imported/ground_node.vtf-fc5b0241b1d689412b40fb165264b93a.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/ground_node.vtf"
+dest_files=["res://.godot/imported/ground_node.vtf-fc5b0241b1d689412b40fb165264b93a.vtf.tres"]
+
+[params]
+

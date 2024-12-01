@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cxcwwnyri42sg"
+path="res://.godot/imported/gizmoaxis.vtf-713c2d161b148375fb62f9d44c6fe515.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/gizmoaxis.vtf"
+dest_files=["res://.godot/imported/gizmoaxis.vtf-713c2d161b148375fb62f9d44c6fe515.vtf.tres"]
+
+[params]
+

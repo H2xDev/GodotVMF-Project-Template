@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cn41vfvrujeqs"
+path="res://.godot/imported/math_counter.vtf-12ca9799fb4112f841075a83c9b459b5.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/math_counter.vtf"
+dest_files=["res://.godot/imported/math_counter.vtf-12ca9799fb4112f841075a83c9b459b5.vtf.tres"]
+
+[params]
+

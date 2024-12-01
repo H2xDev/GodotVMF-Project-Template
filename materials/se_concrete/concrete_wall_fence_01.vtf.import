@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://b74buo0l63qr7"
+path="res://.godot/imported/concrete_wall_fence_01.vtf-8c573224c5186b8c8a05c28b7fec1c72.vtf.tres"
+
+[deps]
+
+source_file="res://materials/se_concrete/concrete_wall_fence_01.vtf"
+dest_files=["res://.godot/imported/concrete_wall_fence_01.vtf-8c573224c5186b8c8a05c28b7fec1c72.vtf.tres"]
+
+[params]
+

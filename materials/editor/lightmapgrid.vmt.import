@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://he2qru60yjer"
+path="res://.godot/imported/lightmapgrid.vmt-c135157060d8606bc1ac94a2c8280449.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/lightmapgrid.vmt"
+dest_files=["res://.godot/imported/lightmapgrid.vmt-c135157060d8606bc1ac94a2c8280449.vmt.tres"]
+
+[params]
+

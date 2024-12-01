@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://c080pc5rb8kce"
+path="res://.godot/imported/dev_measuregeneric_brown03.vtf-8e7e2d6eed302a7fd89f1fb558ca55c5.vtf.tres"
+
+[deps]
+
+source_file="res://materials/dev/dev_measuregeneric_brown03.vtf"
+dest_files=["res://.godot/imported/dev_measuregeneric_brown03.vtf-8e7e2d6eed302a7fd89f1fb558ca55c5.vtf.tres"]
+
+[params]
+

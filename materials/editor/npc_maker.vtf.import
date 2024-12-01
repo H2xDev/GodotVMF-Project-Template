@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cst4vad8o3q0h"
+path="res://.godot/imported/npc_maker.vtf-2332422058dc87d57426b76219213753.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/npc_maker.vtf"
+dest_files=["res://.godot/imported/npc_maker.vtf-2332422058dc87d57426b76219213753.vtf.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bmgxvaa8kqik4"
+path="res://.godot/imported/TOOLSNODRAW.vmt-cc7c36a3fdcbf282b6d50cf772913d77.vmt.tres"
+
+[deps]
+
+source_file="res://materials/tools/TOOLSNODRAW.vmt"
+dest_files=["res://.godot/imported/TOOLSNODRAW.vmt-cc7c36a3fdcbf282b6d50cf772913d77.vmt.tres"]
+
+[params]
+

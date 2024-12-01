@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://dbjr68nsgg40u"
+path="res://.godot/imported/assault_point.vtf-76c2e788ce242b34a5be706e677f88f6.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/assault_point.vtf"
+dest_files=["res://.godot/imported/assault_point.vtf-76c2e788ce242b34a5be706e677f88f6.vtf.tres"]
+
+[params]
+

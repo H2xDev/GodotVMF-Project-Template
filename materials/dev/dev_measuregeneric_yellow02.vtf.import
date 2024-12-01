@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://csiww84c78ami"
+path="res://.godot/imported/dev_measuregeneric_yellow02.vtf-d995c5616f9cd2e75aea0398f9c8633b.vtf.tres"
+
+[deps]
+
+source_file="res://materials/dev/dev_measuregeneric_yellow02.vtf"
+dest_files=["res://.godot/imported/dev_measuregeneric_yellow02.vtf-d995c5616f9cd2e75aea0398f9c8633b.vtf.tres"]
+
+[params]
+

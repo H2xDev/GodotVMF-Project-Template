@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://b433dadguwb4h"
+path="res://.godot/imported/toolsorigin.vmt-21f267fc67c3b192f07770c95a5b16f2.vmt.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolsorigin.vmt"
+dest_files=["res://.godot/imported/toolsorigin.vmt-21f267fc67c3b192f07770c95a5b16f2.vmt.tres"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bj2ga21gcfli2"
+path="res://.godot/imported/waterlodcontrol.vmt-670baf6e6bb5a76486e8969aab5c6277.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/waterlodcontrol.vmt"
+dest_files=["res://.godot/imported/waterlodcontrol.vmt-670baf6e6bb5a76486e8969aab5c6277.vmt.tres"]
+
+[params]
+

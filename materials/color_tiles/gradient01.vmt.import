@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cfek5bybnt74a"
+path="res://.godot/imported/gradient01.vmt-d8033ea21b53748fb721ee950a0524b2.vmt.tres"
+
+[deps]
+
+source_file="res://materials/color_tiles/gradient01.vmt"
+dest_files=["res://.godot/imported/gradient01.vmt-d8033ea21b53748fb721ee950a0524b2.vmt.tres"]
+
+[params]
+

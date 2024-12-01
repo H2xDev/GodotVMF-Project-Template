@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://ck522mn2qf2th"
+path="res://.godot/imported/gizmorotatehandle.vtf-d86aa89bd1e3eeb9c20333735251d912.vtf.tres"
+
+[deps]
+
+source_file="res://materials/editor/gizmorotatehandle.vtf"
+dest_files=["res://.godot/imported/gizmorotatehandle.vtf-d86aa89bd1e3eeb9c20333735251d912.vtf.tres"]
+
+[params]
+
