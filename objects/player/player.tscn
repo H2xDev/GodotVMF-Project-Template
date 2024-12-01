@@ -1,10 +1,10 @@
 [gd_scene load_steps=3 format=3 uid="uid://c8866x18w1sxp"]
 
-[ext_resource type="Script" path="res://objects/player/player.gd" id="1_3vioq"]
+[ext_resource type="Script" uid="uid://tpqj24rhsgj1" path="res://objects/player/player.gd" id="1_3vioq"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_wxduj"]
-radius = 0.25
-height = 1.8
+radius = 0.32
+height = 1.44
 
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1_3vioq")
@@ -12,12 +12,12 @@ noclip_speed = 40.0
 
 [node name="Capsule" type="CollisionShape3D" parent="."]
 unique_name_in_owner = true
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0)
 shape = SubResource("CapsuleShape3D_wxduj")
 
 [node name="Head" type="Node3D" parent="."]
 unique_name_in_owner = true
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.50505, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.28, 0)
 
 [node name="Camera" type="Camera3D" parent="Head"]
 unique_name_in_owner = true
@@ -34,5 +34,5 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.5)
 target_position = Vector3(0, -0.75, 0)
 
 [node name="StairsAheadRC" type="RayCast3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, -0.5)
-target_position = Vector3(0, -0.55, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.302448, -0.365809)
+target_position = Vector3(0, -0.5, 0)
