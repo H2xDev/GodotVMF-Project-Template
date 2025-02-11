@@ -108,7 +108,6 @@ func import_geometry(_reimport := false) -> void:
 
 	VMFTool.generate_collisions(geometry_mesh);
 	save_collision_file();
-	generate_occluder(true);
 
 	if not get_meta("instance", false):
 		generate_navmesh(geometry_mesh);

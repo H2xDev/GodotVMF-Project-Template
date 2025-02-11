@@ -1,0 +1,22 @@
+[remap]
+
+importer="MDL"
+type="PackedScene"
+uid="uid://dydsmpkd0yibr"
+path="res://.godot/imported/spot.mdl-8d451470d24c353061d5d1c1142f4de7.tscn"
+
+[deps]
+
+source_file="res://models/editor/spot.mdl"
+dest_files=["res://.godot/imported/spot.mdl-8d451470d24c353061d5d1c1142f4de7.tscn"]
+
+[params]
+
+use_global_scale=true
+scale=0.02
+additional_rotation=Vector3(0, 0, 0)
+materials_root=""
+generate_occluder=true
+primitive_occluder=false
+primitive_occluder_scale=Vector3(1, 1, 1)
+gi_mode=1

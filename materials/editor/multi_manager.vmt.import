@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cu2s6n0so3hrv"
+path="res://.godot/imported/multi_manager.vmt-e3818f0fa60c8f99a397c4f533eb65b9.vmt.tres"
+
+[deps]
+
+source_file="res://materials/editor/multi_manager.vmt"
+dest_files=["res://.godot/imported/multi_manager.vmt-e3818f0fa60c8f99a397c4f533eb65b9.vmt.tres"]
+
+[params]
+

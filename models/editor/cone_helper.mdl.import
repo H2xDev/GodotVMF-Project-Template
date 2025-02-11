@@ -1,0 +1,22 @@
+[remap]
+
+importer="MDL"
+type="PackedScene"
+uid="uid://qi6hcwpm43tl"
+path="res://.godot/imported/cone_helper.mdl-b0af534f322453ff39b88c0e41a419f6.tscn"
+
+[deps]
+
+source_file="res://models/editor/cone_helper.mdl"
+dest_files=["res://.godot/imported/cone_helper.mdl-b0af534f322453ff39b88c0e41a419f6.tscn"]
+
+[params]
+
+use_global_scale=true
+scale=0.02
+additional_rotation=Vector3(0, 0, 0)
+materials_root=""
+generate_occluder=true
+primitive_occluder=false
+primitive_occluder_scale=Vector3(1, 1, 1)
+gi_mode=1

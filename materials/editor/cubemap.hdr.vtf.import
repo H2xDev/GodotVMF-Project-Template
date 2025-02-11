@@ -1,0 +1,13 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://1dytbwmpxi8g"
+valid=false
+
+[deps]
+
+source_file="res://materials/editor/cubemap.hdr.vtf"
+
+[params]
+

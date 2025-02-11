@@ -1,0 +1,22 @@
+[remap]
+
+importer="MDL"
+type="PackedScene"
+uid="uid://bfbuw6yya624h"
+path="res://.godot/imported/ground_node.mdl-0340d9eb0990771cf83abc0c6d65a953.tscn"
+
+[deps]
+
+source_file="res://models/editor/ground_node.mdl"
+dest_files=["res://.godot/imported/ground_node.mdl-0340d9eb0990771cf83abc0c6d65a953.tscn"]
+
+[params]
+
+use_global_scale=true
+scale=0.02
+additional_rotation=Vector3(0, 0, 0)
+materials_root=""
+generate_occluder=true
+primitive_occluder=false
+primitive_occluder_scale=Vector3(1, 1, 1)
+gi_mode=1

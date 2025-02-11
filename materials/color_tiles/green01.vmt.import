@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dtbra2llo7ll2"
+path="res://.godot/imported/green01.vmt-fd5b846e5183c929c9f36c8b171086b4.vmt.tres"
+
+[deps]
+
+source_file="res://materials/color_tiles/green01.vmt"
+dest_files=["res://.godot/imported/green01.vmt-fd5b846e5183c929c9f36c8b171086b4.vmt.tres"]
+
+[params]
+

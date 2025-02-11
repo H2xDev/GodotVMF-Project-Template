@@ -1,0 +1,22 @@
+[remap]
+
+importer="MDL"
+type="PackedScene"
+uid="uid://m4ytes7jy3s"
+path="res://.godot/imported/node_hint.mdl-837d218d0e0141bfba5e7851f56b9ec0.tscn"
+
+[deps]
+
+source_file="res://models/editor/node_hint.mdl"
+dest_files=["res://.godot/imported/node_hint.mdl-837d218d0e0141bfba5e7851f56b9ec0.tscn"]
+
+[params]
+
+use_global_scale=true
+scale=0.02
+additional_rotation=Vector3(0, 0, 0)
+materials_root=""
+generate_occluder=true
+primitive_occluder=false
+primitive_occluder_scale=Vector3(1, 1, 1)
+gi_mode=1

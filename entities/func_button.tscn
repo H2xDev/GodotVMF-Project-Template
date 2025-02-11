@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dikmguc0pj36a"]
 
-[ext_resource type="Script" path="res://entities/func_button.gd" id="1_idf36"]
+[ext_resource type="Script" uid="uid://doaoxki2jqfou" path="res://entities/func_button.gd" id="1_idf36"]
 
 [node name="FuncDoor" type="Node3D"]
 script = ExtResource("1_idf36")
@@ -8,9 +8,10 @@ move_direction = null
 move_distance = null
 lip_vector = null
 speed = null
-volume = null
 
 [node name="body" type="StaticBody3D" parent="."]
+collision_layer = 5
+collision_mask = 5
 
 [node name="mesh" type="MeshInstance3D" parent="body"]
 skeleton = NodePath("../..")

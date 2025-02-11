@@ -18,6 +18,7 @@ func _apply_entity(e):
 
 	$body/mesh.set_mesh(get_mesh());
 	$body/mesh.cast_shadow = entity.disableshadows == 0;
+	$body/mesh.gi_mode = GeometryInstance3D.GI_MODE_DYNAMIC;
 
 	if has_flag(FLAG_NONSOLID):
 		$body/collision.queue_free();

@@ -6,8 +6,8 @@ extends ValveIONode
 @export var move_distance = Vector3(0, 0, 0);
 @export var lip_vector = Vector3(0, 0, 0);
 @export var speed = 0.0;
-@export var volume = 1.0;
-@export var radius = 100.0;
+@export var volume: float = 1.0;
+@export var radius: float = 100.0;
 
 const FLAG_NON_SOLID = 4;
 const FLAG_PASSABLE = 8;
@@ -17,7 +17,13 @@ const FLAG_NPC_CANT = 512;
 const FLAG_TOUCH_OPENS = 1024;
 const FLAG_STARTS_LOCKED = 2048;
 const FLAG_SILENT = 4096;
+signal OnOpen;
+signal OnFullyOpen;
+signal OnClose;
+signal OnFullyClosed;
 
+var movedir: Vector3 = Vector3.UP;
+var lip: float = 0.0;
 var start_position = Vector3(0, 0, 0);
 var open_value = 0.0;
 var is_open = false;
@@ -31,8 +37,19 @@ func _apply_entity(e):
 
 	$body/mesh.set_mesh(get_mesh());
 
+	var occluder := BoxOccluder3D.new();
+	occluder.size = $body/mesh.get_aabb().size;
+
 	if not has_flag(FLAG_NON_SOLID):
-		$body/collision.shape = get_entity_shape();
+		$body/collision.free();
+		var collisions = get_separated_collisions();
+		var index = 0;
+
+		for collision in collisions:
+			$body.add_child(collision);
+			collision.set_owner(get_owner());
+			collision.name = "collision_" + str(index);
+			index += 1;
 	else:
 		$body/collision.queue_free();
 
@@ -66,6 +83,9 @@ func _entity_ready():
 ## 0.0 = closed, 1.0 = open
 func move_door(target_value: float = 0.0, instant: bool = false):
 	lip_vector = lip_vector if lip_vector != null else Vector3.ZERO;
+	
+	if not move_distance:
+		move_distance = Vector3.ZERO;
 
 	var target_position = start_position + move_distance * target_value - lip_vector * target_value;
 	var time = (target_position - position).length() / speed;
@@ -79,6 +99,7 @@ func move_door(target_value: float = 0.0, instant: bool = false):
 		current_tween = null;
 
 	current_tween = create_tween();
+	current_tween.set_process_mode(Tween.TWEEN_PROCESS_PHYSICS);
 	current_tween.tween_property(self, "position", target_position, time);
 	await current_tween.finished;
 

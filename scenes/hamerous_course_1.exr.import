@@ -1,0 +1,27 @@
+[remap]
+
+importer="2d_array_texture"
+type="CompressedTexture2DArray"
+uid="uid://dok5bk6ef5oiu"
+path.bptc="res://.godot/imported/hamerous_course_1.exr-32f83fa5db3db45aee1befceb984afaf.bptc.ctexarray"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://scenes/hamerous_course_1.exr"
+dest_files=["res://.godot/imported/hamerous_course_1.exr-32f83fa5db3db45aee1befceb984afaf.bptc.ctexarray"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/channel_pack=1
+mipmaps/generate=false
+mipmaps/limit=-1
+slices/horizontal=1
+slices/vertical=1

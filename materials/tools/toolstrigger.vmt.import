@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://b8kikpfm0f4h8"
+path="res://.godot/imported/toolstrigger.vmt-d91411fc187d3c9966f0ad11339d2491.vmt.tres"
+
+[deps]
+
+source_file="res://materials/tools/toolstrigger.vmt"
+dest_files=["res://.godot/imported/toolstrigger.vmt-d91411fc187d3c9966f0ad11339d2491.vmt.tres"]
+
+[params]
+

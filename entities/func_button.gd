@@ -12,6 +12,7 @@ var wait_time = 0.0;
 var click_sound = null;
 var lock_sound = null;
 var is_pressed = false;
+var mesh_material = null;
 
 func _entity_ready():
 	super._entity_ready();
@@ -66,3 +67,34 @@ func PressOut(_param = null):
 
 	is_pressed = false;
 	trigger_output("OnOut");
+
+func SetMaterialParameter(string = ""):
+	var data = VDFParser.parse_from_string(string);
+	if not data: return;
+
+	if not mesh_material:
+		mesh_material = $body/mesh.mesh.surface_get_material(0).duplicate();
+		$body/mesh.mesh.surface_set_material(0, mesh_material);
+
+	for key in data.keys():
+		if mesh_material is BaseMaterial3D:
+			mesh_material[key] = data[key];
+
+		if mesh_material is ShaderMaterial:
+			mesh_material.set_shader_parameter(key, data[key]);
+
+func TweenMaterialParameter(string = ""):
+	string = string.replace("[", "\"").replace("]", "\"");
+	var data = VDFParser.parse_from_string(string);
+	if not data: return;
+
+	if not mesh_material:
+		mesh_material = $body/mesh.mesh.surface_get_material(0).duplicate();
+		$body/mesh.mesh.surface_set_material(0, mesh_material);
+
+	for key in data.keys():
+		if mesh_material is BaseMaterial3D:
+			create_tween().tween_property(mesh_material, key, data[key], 1.0);
+
+		if mesh_material is ShaderMaterial:
+			mesh_material.set_shader_parameter(key, data[key]);

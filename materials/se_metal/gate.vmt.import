@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://blhr0ncv7derq"
+path="res://.godot/imported/gate.vmt-1634affae44a642161eb25a29fd2ce3c.vmt.tres"
+
+[deps]
+
+source_file="res://materials/se_metal/gate.vmt"
+dest_files=["res://.godot/imported/gate.vmt-1634affae44a642161eb25a29fd2ce3c.vmt.tres"]
+
+[params]
+

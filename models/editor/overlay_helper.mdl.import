@@ -1,0 +1,22 @@
+[remap]
+
+importer="MDL"
+type="PackedScene"
+uid="uid://httv30mgdtwd"
+path="res://.godot/imported/overlay_helper.mdl-9f08fa41200beb82132e1fb1f02d3f00.tscn"
+
+[deps]
+
+source_file="res://models/editor/overlay_helper.mdl"
+dest_files=["res://.godot/imported/overlay_helper.mdl-9f08fa41200beb82132e1fb1f02d3f00.tscn"]
+
+[params]
+
+use_global_scale=true
+scale=0.02
+additional_rotation=Vector3(0, 0, 0)
+materials_root=""
+generate_occluder=true
+primitive_occluder=false
+primitive_occluder_scale=Vector3(1, 1, 1)
+gi_mode=1
