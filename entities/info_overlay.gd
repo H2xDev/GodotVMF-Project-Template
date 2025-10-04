@@ -1,73 +1,43 @@
 @tool
-extends ValveIONode
+class_name info_overlay extends VMFEntityNode
 
-func _apply_entity(e):
-	super._apply_entity(e);
+var uv_0: Vector3:
+	get: return entity.get("uv0") as Vector3;
 
-	var isDecalMode = not "geometry" in e;
+var uv_1: Vector3:
+	get: return entity.get("uv1") as Vector3;
 
-	VTFTool.import_material(e.material);
-	var material = VTFTool.get_material(e.material);
+var uv_2: Vector3:
+	get: return entity.get("uv2") as Vector3;
+
+var uv_3: Vector3:
+	get: return entity.get("uv3") as Vector3;
+
+func _entity_setup(e: VMFEntity) -> void:
+	var material = VMTLoader.get_material(e.data.material);
 
 	if not material:
 		queue_free();
 		return;
 
-	var mesh = ArrayMesh.new();
+	var basis_normal := convert_vector(e.data.get("BasisNormal")) as Vector3;
 
-	var uvs = [
-		Vector2(e.StartU, e.StartV),
-		Vector2(e.StartU, e.EndV),
-		Vector2(e.EndU, e.EndV),
-		Vector2(e.EndU, e.StartV),
-	];
+	var min_x = min(uv_0.x, uv_1.x, uv_2.x, uv_3.x) * config.import.scale;
+	var min_y = min(uv_0.y, uv_1.y, uv_2.y, uv_3.y) * config.import.scale;
+	var max_x = max(uv_0.x, uv_1.x, uv_2.x, uv_3.x) * config.import.scale;
+	var max_y = max(uv_0.y, uv_1.y, uv_2.y, uv_3.y) * config.import.scale;
+	var width = max_x - min_x;
+	var height = max_y - min_y;
 
-	var verts = [
-		convert_vector(e.uv0) * config.import.scale,
-		convert_vector(e.uv1) * config.import.scale,
-		convert_vector(e.uv2) * config.import.scale,
-		convert_vector(e.uv3) * config.import.scale,
-	];
+	$decal.size.x = width;
+	$decal.size.z = height;
 
-	var st = SurfaceTool.new();
-	var normal = convert_vector(e.BasisNormal);
+	var side = -1 if basis_normal.dot(Vector3.BACK) > 0 \
+		or basis_normal.dot(Vector3.RIGHT) > 0 \
+		or basis_normal.dot(Vector3.UP) > 0 else 1;
 
-	st.begin(Mesh.PRIMITIVE_TRIANGLES);
-	st.set_normal(normal);
-
-	var index = 0;
-	for vert in verts:
-		st.set_uv(uvs[index]);
-		st.add_vertex(vert);
-		index += 1;
-
-	var indices = [0, 1, 2, 0, 2, 3];
-	for i in indices:
-		st.add_index(i);
-
-	st.generate_normals();
-	st.generate_tangents();
-	st.set_material(material);
-	st.commit(mesh);
-		
-	var aabb = mesh.get_aabb().size;
-
-	if isDecalMode:
-		$decal.size.x = aabb.x;
-		$decal.size.z = aabb.z;
-
-		var side = -1 if normal.dot(Vector3.BACK) > 0 or normal.dot(Vector3.RIGHT) > 0 or normal.dot(Vector3.UP) > 0 else 1;
-
-		$decal.texture_albedo = material.albedo_texture;
-		$decal.texture_normal = material.normal_texture;
-		$decal.basis.x = -convert_vector(e.BasisU) * side;
-		$decal.basis.z = convert_vector(e.BasisV) * side;
-		$decal.basis.y = normal;
-		$mesh.queue_free();
-	else:
-		$decal.queue_free();
-		$mesh.set_mesh(mesh);
-		$mesh.position += normal * 0.001;
-		$mesh.basis.x = convert_vector(e.BasisU);
-		$mesh.basis.z = -convert_vector(e.BasisV);
-		$mesh.basis.y = normal;
+	$decal.texture_albedo = material.albedo_texture;
+	$decal.texture_normal = material.normal_texture;
+	basis.x = -convert_vector(e.data.BasisU) * side;
+	basis.z = convert_vector(e.data.BasisV) * side;
+	basis.y = basis_normal;

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dn2ra7xmcrgjx"
+path="res://.godot/imported/ground_node_hint.vmt-7db94f09a50be8ed8f8f5bdb2f9da220.vmt.res"
+
+[deps]
+
+source_file="res://materials/editor/ground_node_hint.vmt"
+dest_files=["res://.godot/imported/ground_node_hint.vmt-7db94f09a50be8ed8f8f5bdb2f9da220.vmt.res"]
+
+[params]
+

@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://beponjehvu4od"]
+[gd_scene load_steps=3 format=3 uid="uid://beponjehvu4od"]
 
-[ext_resource type="Script" path="res://entities/info_player_start.gd" id="1_qsly7"]
+[ext_resource type="Script" uid="uid://bb8gee3hjx3f8" path="res://entities/info_player_start.gd" id="1_qsly7"]
+[ext_resource type="PackedScene" uid="uid://c8866x18w1sxp" path="res://objects/player/player.tscn" id="2_26bgq"]
 
-[node name="no_name" type="Node3D"]
+[node name="info_player_start" type="Node3D"]
 script = ExtResource("1_qsly7")
+player_scene = ExtResource("2_26bgq")

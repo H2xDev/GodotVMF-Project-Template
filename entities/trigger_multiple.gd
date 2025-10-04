@@ -1,6 +1,5 @@
 @tool
-class_name trigger_multiple
-extends ValveIONode
+class_name trigger_multiple extends VMFEntityNode
 
 const FLAG_CLIENTS = 1;
 
@@ -13,7 +12,7 @@ func get_filter_entity() -> filter_entity:
 
 func _entity_ready():
 	$area.body_entered.connect(func(body):
-		var is_client_passed = has_flag(FLAG_CLIENTS) and ValveIONode.aliases["!player"] == body;
+		var is_client_passed = has_flag(FLAG_CLIENTS) and VMFEntityNode.aliases["!player"] == body;
 
 		var filter = get_filter_entity();
 		var is_filter_passed = filter.is_passed(body) if filter else false;
@@ -24,7 +23,7 @@ func _entity_ready():
 	);
 
 	$area.body_exited.connect(func(body):
-		var is_client_passed = has_flag(FLAG_CLIENTS) and ValveIONode.aliases["!player"] == body;
+		var is_client_passed = has_flag(FLAG_CLIENTS) and VMFEntityNode.aliases["!player"] == body;
 		var filter = get_filter_entity();
 		var is_filter_passed = filter.is_passed(body) if filter else false;
 
@@ -32,7 +31,5 @@ func _entity_ready():
 			trigger_output("OnEndTouch");
 	);
 
-func _apply_entity(e):
-	super._apply_entity(e);
-	
+func _entity_setup(_e: VMFEntity) -> void:
 	$area/collision.shape = get_entity_shape();

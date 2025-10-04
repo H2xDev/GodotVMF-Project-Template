@@ -1,6 +1,5 @@
 @tool
-class_name path_track
-extends ValveIONode
+class_name path_track extends VMFEntityNode
 
 var next_stop_target: path_track:
 	get: return get_target(entity.get("target", ""));

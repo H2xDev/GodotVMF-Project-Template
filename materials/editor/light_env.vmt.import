@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://de8pn4ajfqk13"
+path="res://.godot/imported/light_env.vmt-2fa4e6f2a5e8a980bd87c159cb62b73d.vmt.res"
+
+[deps]
+
+source_file="res://materials/editor/light_env.vmt"
+dest_files=["res://.godot/imported/light_env.vmt-2fa4e6f2a5e8a980bd87c159cb62b73d.vmt.res"]
+
+[params]
+

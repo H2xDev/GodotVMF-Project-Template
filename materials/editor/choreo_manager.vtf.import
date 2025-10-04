@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://b2vv3dhogijnw"
+path="res://.godot/imported/choreo_manager.vtf-2e2de963d83f5251bfd06d53b6adc03e.vtf.res"
+
+[deps]
+
+source_file="res://materials/editor/choreo_manager.vtf"
+dest_files=["res://.godot/imported/choreo_manager.vtf-2e2de963d83f5251bfd06d53b6adc03e.vtf.res"]
+
+[params]
+

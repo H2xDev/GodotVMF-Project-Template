@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://w52a8jjld8ch"
+path="res://.godot/imported/bullseye.vmt-b43e9a919dd56edbc7b3ea048d0191d1.vmt.res"
+
+[deps]
+
+source_file="res://materials/editor/bullseye.vmt"
+dest_files=["res://.godot/imported/bullseye.vmt-b43e9a919dd56edbc7b3ea048d0191d1.vmt.res"]
+
+[params]
+

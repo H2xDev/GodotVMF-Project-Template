@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://bnmgkdwns1js8"
+path="res://.godot/imported/logic_case.vtf-37875e6d3837abc61bf9d260b58774a7.vtf.res"
+
+[deps]
+
+source_file="res://materials/editor/logic_case.vtf"
+dest_files=["res://.godot/imported/logic_case.vtf-37875e6d3837abc61bf9d260b58774a7.vtf.res"]
+
+[params]
+

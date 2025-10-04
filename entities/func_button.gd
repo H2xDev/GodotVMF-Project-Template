@@ -1,6 +1,5 @@
 @tool
-class_name func_button
-extends func_door
+class_name func_button extends func_door
 
 const FLAG_DONT_MOVE = 1;
 const FLAG_TOUCH_ACTIVATES = 256;

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://pfcbe03jhepf"
+path="res://.godot/imported/logic_branch.vtf-138da3cb4ab0bb7a8141321ba066c2da.vtf.res"
+
+[deps]
+
+source_file="res://materials/editor/logic_branch.vtf"
+dest_files=["res://.godot/imported/logic_branch.vtf-138da3cb4ab0bb7a8141321ba066c2da.vtf.res"]
+
+[params]
+

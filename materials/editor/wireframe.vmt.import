@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://c0bh11c3k1pn2"
+path="res://.godot/imported/wireframe.vmt-158dd520a2fa943b070fb194840b695f.vmt.res"
+
+[deps]
+
+source_file="res://materials/editor/wireframe.vmt"
+dest_files=["res://.godot/imported/wireframe.vmt-158dd520a2fa943b070fb194840b695f.vmt.res"]
+
+[params]
+

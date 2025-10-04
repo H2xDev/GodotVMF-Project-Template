@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dnn1y3q2p7v5f"
+path="res://.godot/imported/SG_CONCRETE_WALL_5A.vmt-e3423d2a4cd34830e11f637e1efb0908.vmt.res"
+
+[deps]
+
+source_file="res://materials/se_concrete/SG_CONCRETE_WALL_5A.vmt"
+dest_files=["res://.godot/imported/SG_CONCRETE_WALL_5A.vmt-e3423d2a4cd34830e11f637e1efb0908.vmt.res"]
+
+[params]
+

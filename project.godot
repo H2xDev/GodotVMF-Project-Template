@@ -10,9 +10,8 @@ config_version=5
 
 [application]
 
-config/name="GodotVMF-Project-Template"
-config/features=PackedStringArray("4.3", "Forward Plus")
-boot_splash/image="res://build_presets/splash.png"
+config/name="GodotVMF Project Example"
+config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
@@ -35,6 +34,10 @@ enabled=PackedStringArray("res://addons/godotvmf/plugin.cfg")
 pickupable=""
 vmfnode_group=""
 vmfnode_ignore-rebuild=""
+
+[godot_vmf]
+
+materials/ignore=["tools/toolsnodraw", "tools/toolsskybox"]
 
 [input]
 
@@ -96,6 +99,6 @@ noclip={
 
 [rendering]
 
+lights_and_shadows/directional_shadow/soft_shadow_filter_quality=5
+lights_and_shadows/positional_shadow/soft_shadow_filter_quality=5
 environment/volumetric_fog/volume_size=128
-anti_aliasing/quality/use_taa=true
-anti_aliasing/quality/use_debanding=true

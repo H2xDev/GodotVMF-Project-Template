@@ -1,6 +1,5 @@
 @tool
-class_name func_brush
-extends ValveIONode
+class_name func_brush extends VMFEntityNode
 
 enum Solidity {
 	TOGGLE,
@@ -8,12 +7,10 @@ enum Solidity {
 	ALWAYS,
 }
 
-func _apply_entity(e):
-	super._apply_entity(e);
-
+func _entity_setup(e: VMFEntity) -> void:
 	$body/mesh.set_mesh(get_mesh());
 
-	if e.get("Solidity") == Solidity.NEVER:
+	if e.data.get("Solidity") == Solidity.NEVER:
 		$body/collision.queue_free();
 	else:
 		$body/collision.shape = get_entity_shape();

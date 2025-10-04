@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://c0q6t4bh1t8t7"
+path="res://.godot/imported/env_fade.vtf-ef0c158a131228e8a0560a320490112d.vtf.res"
+
+[deps]
+
+source_file="res://materials/editor/env_fade.vtf"
+dest_files=["res://.godot/imported/env_fade.vtf-ef0c158a131228e8a0560a320490112d.vtf.res"]
+
+[params]
+

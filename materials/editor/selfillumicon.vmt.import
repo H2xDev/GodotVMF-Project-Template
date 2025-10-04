@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://dcyrrl7vl2hr4"
+path="res://.godot/imported/selfillumicon.vmt-d713e88c0e1ad4ab83e40b5054c60a96.vmt.res"
+
+[deps]
+
+source_file="res://materials/editor/selfillumicon.vmt"
+dest_files=["res://.godot/imported/selfillumicon.vmt-d713e88c0e1ad4ab83e40b5054c60a96.vmt.res"]
+
+[params]
+

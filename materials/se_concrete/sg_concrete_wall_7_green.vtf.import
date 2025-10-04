@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://c3fiv06xgl7ix"
+path="res://.godot/imported/sg_concrete_wall_7_green.vtf-b5355b5cc71d3adcc4eb59e8804dc28f.vtf.res"
+
+[deps]
+
+source_file="res://materials/se_concrete/sg_concrete_wall_7_green.vtf"
+dest_files=["res://.godot/imported/sg_concrete_wall_7_green.vtf-b5355b5cc71d3adcc4eb59e8804dc28f.vtf.res"]
+
+[params]
+

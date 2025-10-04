@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://6lqyvn4kib6o"
+path="res://.godot/imported/multisource.vtf-78352a6759c560f5009be40e2aca8fad.vtf.res"
+
+[deps]
+
+source_file="res://materials/editor/multisource.vtf"
+dest_files=["res://.godot/imported/multisource.vtf-78352a6759c560f5009be40e2aca8fad.vtf.res"]
+
+[params]
+

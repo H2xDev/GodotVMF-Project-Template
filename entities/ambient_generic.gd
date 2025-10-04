@@ -1,6 +1,6 @@
 @tool
 class_name ambient_generic
-extends ValveIONode
+extends VMFEntityNode
 
 const FLAG_PLAY_EVERYWHERE = 1;
 const FLAG_START_SILENT = 16;
@@ -20,9 +20,6 @@ func _entity_ready():
 
 	if not has_flag(FLAG_START_SILENT):
 		play_sound();
-
-func _apply_entity(e):
-	super._apply_entity(e);
 
 func play_sound(_v = volume):
 	if is_playing: return;

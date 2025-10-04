@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://b5x58l66uwy7q"
+path="res://.godot/imported/info_landmark.vtf-0ebc858742c217daffa4ec2d3b892c4e.vtf.res"
+
+[deps]
+
+source_file="res://materials/editor/info_landmark.vtf"
+dest_files=["res://.godot/imported/info_landmark.vtf-0ebc858742c217daffa4ec2d3b892c4e.vtf.res"]
+
+[params]
+

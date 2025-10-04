@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://iew4iu6dr34w"
+path="res://.godot/imported/filter_multiple.vmt-1e133a451c8ac64319aa3aba7e22eff6.vmt.res"
+
+[deps]
+
+source_file="res://materials/editor/filter_multiple.vmt"
+dest_files=["res://.godot/imported/filter_multiple.vmt-1e133a451c8ac64319aa3aba7e22eff6.vmt.res"]
+
+[params]
+

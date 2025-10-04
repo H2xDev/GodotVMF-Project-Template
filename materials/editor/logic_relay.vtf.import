@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://c8q3mgm1iswnu"
+path="res://.godot/imported/logic_relay.vtf-9bcd614a71d870601197ef432c5b3363.vtf.res"
+
+[deps]
+
+source_file="res://materials/editor/logic_relay.vtf"
+dest_files=["res://.godot/imported/logic_relay.vtf-9bcd614a71d870601197ef432c5b3363.vtf.res"]
+
+[params]
+

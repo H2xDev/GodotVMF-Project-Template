@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cd57y8vem866t"
+path="res://.godot/imported/green01.vtf-5339fa1528a39202feb13acaf1c0c265.vtf.res"
+
+[deps]
+
+source_file="res://materials/color_tiles/green01.vtf"
+dest_files=["res://.godot/imported/green01.vtf-5339fa1528a39202feb13acaf1c0c265.vtf.res"]
+
+[params]
+

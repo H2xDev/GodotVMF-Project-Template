@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://ctmxpt1vh1y6l"
+path="res://.godot/imported/env_wind.vmt-1f43c1f895ebfbb91ff0337a0fef3430.vmt.res"
+
+[deps]
+
+source_file="res://materials/editor/env_wind.vmt"
+dest_files=["res://.godot/imported/env_wind.vmt-1f43c1f895ebfbb91ff0337a0fef3430.vmt.res"]
+
+[params]
+

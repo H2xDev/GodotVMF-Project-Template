@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://lq7qh02ksf13"
+path="res://.godot/imported/env_physexplosion.vmt-77dcd4883b564d3b5ec9f5d9c82dc70b.vmt.res"
+
+[deps]
+
+source_file="res://materials/editor/env_physexplosion.vmt"
+dest_files=["res://.godot/imported/env_physexplosion.vmt-77dcd4883b564d3b5ec9f5d9c82dc70b.vmt.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://d2u13nk5g4stt"
+path="res://.godot/imported/flatignorez.vmt-2aa68f82d6bdfe3fcf230371ad115ae1.vmt.res"
+
+[deps]
+
+source_file="res://materials/editor/flatignorez.vmt"
+dest_files=["res://.godot/imported/flatignorez.vmt-2aa68f82d6bdfe3fcf230371ad115ae1.vmt.res"]
+
+[params]
+

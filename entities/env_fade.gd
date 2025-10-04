@@ -1,5 +1,5 @@
 @tool
-extends ValveIONode
+class_name env_fade extends VMFEntityNode
 
 const FLAG_FADE_FROM = 1;
 

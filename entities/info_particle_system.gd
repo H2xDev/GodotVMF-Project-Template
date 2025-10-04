@@ -1,11 +1,8 @@
 @tool
-class_name info_particle_system
-extends ValveIONode
+class_name info_particle_system extends VMFEntityNode
 
-func _apply_entity(e):
-	super._apply_entity(e);
-
-	var scene_path = 'res://particles/{effect_name}.tscn'.format(e);
+func _entity_setup(e: VMFEntity) -> void:
+	var scene_path = 'res://particles/{effect_name}.tscn'.format(e.data);
 
 	if not ResourceLoader.exists(scene_path):
 		push_error('Particle effect not found: {0}'.format([scene_path]));

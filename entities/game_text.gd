@@ -1,5 +1,5 @@
 @tool
-extends ValveIONode
+class_name game_text extends VMFEntityNode
 
 var current_tween = null;
 

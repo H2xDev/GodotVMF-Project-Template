@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bwfyxayf43f88"
+path="res://.godot/imported/red02.vmt-9e3c15636f9465bed522396eb393e478.vmt.res"
+
+[deps]
+
+source_file="res://materials/color_tiles/red02.vmt"
+dest_files=["res://.godot/imported/red02.vmt-9e3c15636f9465bed522396eb393e478.vmt.res"]
+
+[params]
+

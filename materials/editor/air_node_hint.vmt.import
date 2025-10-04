@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cpca0n3khg7ba"
+path="res://.godot/imported/air_node_hint.vmt-00dae2485d873f32f819239589334c78.vmt.res"
+
+[deps]
+
+source_file="res://materials/editor/air_node_hint.vmt"
+dest_files=["res://.godot/imported/air_node_hint.vmt-00dae2485d873f32f819239589334c78.vmt.res"]
+
+[params]
+

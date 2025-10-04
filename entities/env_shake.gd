@@ -1,6 +1,6 @@
 @tool
 class_name env_shake
-extends ValveIONode
+extends VMFEntityNode
 
 const FLAG_GLOBAL_SHAKE = 1;
 const FLAG_PHYSICS = 8;
@@ -23,9 +23,8 @@ func _entity_ready():
 			bodies.erase(body);
 		);
 
-func _apply_entity(e):
-	super._apply_entity(e);
-	$area/collision.shape.radius = e.get("radius", 0.1) * config.import.scale;
+func _entity_setup(e: VMFEntity) -> void:
+	$area/collision.shape.radius = e.data.get("radius", 0.1) * config.import.scale;
 
 func _physics_process(delta):
 	if not enabled: return;

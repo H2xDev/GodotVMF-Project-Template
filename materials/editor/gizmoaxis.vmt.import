@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://xsdpheei0aww"
+path="res://.godot/imported/gizmoaxis.vmt-1e72b5c126bcb4afcf53214b36526943.vmt.res"
+
+[deps]
+
+source_file="res://materials/editor/gizmoaxis.vmt"
+dest_files=["res://.godot/imported/gizmoaxis.vmt-1e72b5c126bcb4afcf53214b36526943.vmt.res"]
+
+[params]
+

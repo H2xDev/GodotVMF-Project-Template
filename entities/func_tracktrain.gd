@@ -1,6 +1,5 @@
 @tool
-class_name func_tracktrain
-extends ValveIONode
+class_name func_tracktrain extends VMFEntityNode
 
 enum MovementState {
 	MOVING_FORWARD,
@@ -29,13 +28,12 @@ var first_target:
 
 func _entity_ready():
 	if not current_point:
-		teleport_to_point(first_target.name, false);
+		teleport_to_point(first_target.targetname, false);
+		print(first_target);
 
 	precache_sounds();
 
-func _apply_entity(e):
-	super._apply_entity(e);
-
+func _entity_setup(_e: VMFEntity) -> void:
 	$body/mesh.set_mesh(get_mesh());
 	$body/collision.shape = get_entity_shape();
 
@@ -91,6 +89,7 @@ func move_to_current_point():
 func move_to_next_point():
 	if not current_point:
 		Stop();
+		print("Stopped");
 		return;
 
 	direction = MovementDirection.FORWARD;
@@ -124,7 +123,7 @@ func teleport_to_point(target_point: String, _trigger_output: bool = false):
 	var track = get_target(target_point);
 
 	if not track:
-		Debugger.log("Path track not found: " + target_point);
+		push_error("Target path_track not found: " + target_point + ". Entity id: " + str(entity.id));
 		return;
 
 	current_point = track;

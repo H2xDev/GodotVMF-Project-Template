@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://ch2rd2y2t0gcp"
+path="res://.godot/imported/white_light.vtf-201684066446b92755fb7e09d53b06dc.vtf.res"
+
+[deps]
+
+source_file="res://materials/white_light.vtf"
+dest_files=["res://.godot/imported/white_light.vtf-201684066446b92755fb7e09d53b06dc.vtf.res"]
+
+[params]
+

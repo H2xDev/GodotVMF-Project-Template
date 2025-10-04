@@ -1,5 +1,5 @@
 @tool
-extends ValveIONode
+class_name func_door_rotating extends VMFEntityNode
 
 const FLAG_USE_OPENS = 256;
 const FLAG_REVERSE = 2;
@@ -42,10 +42,13 @@ func _entity_ready():
 
 	precache_sounds();
 
-func _apply_entity(e):
-	super._apply_entity(e);
-
+func _entity_setup(_e: VMFEntity):
 	var mesh = get_mesh();
+
+	if not mesh:
+		print("No mesh found for entity id " + str(entity.id));
+		return;
+
 	$body/mesh.set_mesh(mesh);
 	$body/collision.shape = mesh.create_convex_shape();
 
@@ -68,10 +71,6 @@ func move_door(progress: float = 0.0):
 	if current_tween:
 		is_prevented = true;
 		current_tween.stop();
-
-	if speed == 0.0:
-		Debugger.log("Door speed is 0, please set a speed value. Entity id " + str(entity.id));
-		return;
 
 	var move_time = rotation_distance / speed;
 

@@ -1,5 +1,5 @@
 @tool
-extends ValveIONode
+class_name point_viewcontrol extends VMFEntityNode
 
 const FLAG_START_AT_PLAYER = 1; # NOTE: Actually stasts from the current active camera
 const FLAG_INFINITE_HOLD_TIME = 8;
@@ -37,11 +37,9 @@ func _calculate_spline_path(points: Array, subdivisions = 10):
 
 	return path;
 
-func _apply_entity(e):
-	super._apply_entity(e);
-
+func _entity_setup(e: VMFEntity) -> void:
 	if has_flag(FLAG_SET_FOV):
-		$camera.fov = e.get("fov", 90.0);
+		$camera.fov = e.data.get("fov", 90.0);
 
 func _entity_ready():
 	start_transform = global_transform;

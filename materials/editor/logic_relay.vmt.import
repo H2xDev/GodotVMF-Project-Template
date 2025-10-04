@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://d0r68ymhxvd0h"
+path="res://.godot/imported/logic_relay.vmt-c0f12059108885eeb2cb076e48fa245b.vmt.res"
+
+[deps]
+
+source_file="res://materials/editor/logic_relay.vmt"
+dest_files=["res://.godot/imported/logic_relay.vmt-c0f12059108885eeb2cb076e48fa245b.vmt.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cs5sisenmdi84"
+path="res://.godot/imported/toolsfog-dx10.vtf-1991997bee007c37f77677ecfde21d38.vtf.res"
+
+[deps]
+
+source_file="res://materials/tools/toolsfog-dx10.vtf"
+dest_files=["res://.godot/imported/toolsfog-dx10.vtf-1991997bee007c37f77677ecfde21d38.vtf.res"]
+
+[params]
+

@@ -1,6 +1,6 @@
 extends Node
 
-const SOUND_FOLDER = "res://hammer_project/sound/";
+const SOUND_FOLDER = "res://sound/";
 
 var sound_cache: Dictionary = {};
 
@@ -16,7 +16,7 @@ func play_sound(position: Vector3, sound_name: String, volume: float = 1.0, pitc
 
 	var sound_player = AudioStreamPlayer3D.new();
 
-	get_tree().get_current_scene().add_child(sound_player);
+	get_tree().current_scene.add_child(sound_player);
 	sound_player.global_transform.origin = position;
 
 	sound_player.stream = sound;

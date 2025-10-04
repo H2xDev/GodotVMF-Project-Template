@@ -1,5 +1,5 @@
 @tool
-extends ValveIONode
+class_name func_rotating extends VMFEntityNode
 
 @export var preview = false;
 
@@ -13,11 +13,9 @@ var current_tween = null;
 var loop_sound = null;
 var current_player = null;
 
-func _apply_entity(e):
-	super._apply_entity(e);
-
+func _entity_setup(e: VMFEntity) -> void:
 	$body/mesh.set_mesh(get_mesh());
-	$body/mesh.cast_shadow = entity.disableshadows == 0;
+	$body/mesh.cast_shadow = e.data.disableshadows == 0;
 
 	if has_flag(FLAG_NONSOLID):
 		$body/collision.queue_free();

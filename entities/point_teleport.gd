@@ -1,5 +1,5 @@
 @tool
-class_name PointTeleport extends ValveIONode
+class_name point_teleport extends VMFEntityNode
 
 func Teleport(_param = null):
 	var target = get_target(entity.target);

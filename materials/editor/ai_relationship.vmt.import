@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bmxbui0adpdi7"
+path="res://.godot/imported/ai_relationship.vmt-6eb01b46742dbafdf311f9ab8720b218.vmt.res"
+
+[deps]
+
+source_file="res://materials/editor/ai_relationship.vmt"
+dest_files=["res://.godot/imported/ai_relationship.vmt-6eb01b46742dbafdf311f9ab8720b218.vmt.res"]
+
+[params]
+

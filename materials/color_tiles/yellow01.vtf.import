@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://c621lku2k7j0h"
+path="res://.godot/imported/yellow01.vtf-c82629a27debb5e0ae681b7b7753990b.vtf.res"
+
+[deps]
+
+source_file="res://materials/color_tiles/yellow01.vtf"
+dest_files=["res://.godot/imported/yellow01.vtf-c82629a27debb5e0ae681b7b7753990b.vtf.res"]
+
+[params]
+

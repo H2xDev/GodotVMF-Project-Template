@@ -1,12 +1,12 @@
 @tool
-class_name filter_entity extends ValveIONode
+class_name filter_entity extends VMFEntityNode
 
-func get_entity(node):
-	if node is ValveIONode: return node;
+func get_entity(node) -> Variant:
+	if node is VMFEntityNode: return node;
 	if node.get_parent() == null: return null;
 
 	node = node.get_parent();
 	return get_entity(node);
 
-func is_passed(node: Node3D) -> bool:
+func is_passed(_node: Node3D) -> bool:
 	return false;

@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://c1nrmqvg6um10"
+path="res://.godot/imported/dev_measuregeneric_white01.vmt-64b1a40a91682f115886810a59267ea3.vmt.res"
+
+[deps]
+
+source_file="res://materials/dev/dev_measuregeneric_white01.vmt"
+dest_files=["res://.godot/imported/dev_measuregeneric_white01.vmt-64b1a40a91682f115886810a59267ea3.vmt.res"]
+
+[params]
+

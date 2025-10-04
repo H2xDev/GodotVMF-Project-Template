@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://cxfhw3sa3pl73"
+path="res://.godot/imported/erroricon.vtf-e3dcc6ae5f7e83062a2c39fdb115ed0f.vtf.res"
+
+[deps]
+
+source_file="res://materials/editor/erroricon.vtf"
+dest_files=["res://.godot/imported/erroricon.vtf-e3dcc6ae5f7e83062a2c39fdb115ed0f.vtf.res"]
+
+[params]
+

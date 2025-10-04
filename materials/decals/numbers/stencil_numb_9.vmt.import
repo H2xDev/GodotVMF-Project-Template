@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bb4g5jc7peo0v"
+path="res://.godot/imported/stencil_numb_9.vmt-00336906adc302d63b7a0bb35ffd76fd.vmt.res"
+
+[deps]
+
+source_file="res://materials/decals/numbers/stencil_numb_9.vmt"
+dest_files=["res://.godot/imported/stencil_numb_9.vmt-00336906adc302d63b7a0bb35ffd76fd.vmt.res"]
+
+[params]
+

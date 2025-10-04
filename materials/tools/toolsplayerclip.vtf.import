@@ -1,0 +1,14 @@
+[remap]
+
+importer="VTF"
+type="Texture"
+uid="uid://lxbgoekrnqpn"
+path="res://.godot/imported/toolsplayerclip.vtf-fc85ef6906c99a41e2ed9c3fc8a63d0d.vtf.res"
+
+[deps]
+
+source_file="res://materials/tools/toolsplayerclip.vtf"
+dest_files=["res://.godot/imported/toolsplayerclip.vtf-fc85ef6906c99a41e2ed9c3fc8a63d0d.vtf.res"]
+
+[params]
+

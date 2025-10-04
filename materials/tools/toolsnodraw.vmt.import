@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://cyl2rh3b2se2x"
+path="res://.godot/imported/toolsnodraw.vmt-8648455a303cf62dedf59d40044a037f.vmt.res"
+
+[deps]
+
+source_file="res://materials/tools/toolsnodraw.vmt"
+dest_files=["res://.godot/imported/toolsnodraw.vmt-8648455a303cf62dedf59d40044a037f.vmt.res"]
+
+[params]
+

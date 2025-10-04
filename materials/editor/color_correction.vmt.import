@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://bn1jy2ypmvq1i"
+path="res://.godot/imported/color_correction.vmt-a51cec981777394f8201d61cd1caa33a.vmt.res"
+
+[deps]
+
+source_file="res://materials/editor/color_correction.vmt"
+dest_files=["res://.godot/imported/color_correction.vmt-a51cec981777394f8201d61cd1caa33a.vmt.res"]
+
+[params]
+

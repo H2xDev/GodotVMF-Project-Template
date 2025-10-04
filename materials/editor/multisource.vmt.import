@@ -1,0 +1,14 @@
+[remap]
+
+importer="VMT"
+type="Material"
+uid="uid://c5x2kfnpwvgnl"
+path="res://.godot/imported/multisource.vmt-597b712933833120dbea5ad8f4e74f1a.vmt.res"
+
+[deps]
+
+source_file="res://materials/editor/multisource.vmt"
+dest_files=["res://.godot/imported/multisource.vmt-597b712933833120dbea5ad8f4e74f1a.vmt.res"]
+
+[params]
+
