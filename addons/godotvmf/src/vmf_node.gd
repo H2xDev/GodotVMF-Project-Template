@@ -30,14 +30,18 @@ var vmf: String = '';
 
 @export_category("Resource Generation")
 
-## Save the resulting geometry mesh as a resource (saves to the geometryFolder in vmf.config.json)
+## During import the importer will remove all invisible faces from the mesh.
+## Increases the import time
+@export var remove_merged_faces: bool = true;
+
+## Save the resulting geometry mesh as a resource (saves to the "Geometry folder" in Project Settings)
 @export var save_geometry: bool = true;
 
-## Save the resulting collision shape as a resource (saves to the geometryFolder in vmf.config.json)
+## Save the resulting collision shape as a resource (saves to the "Geometry folder" in Project Settings)
 @export var save_collision: bool = true;
 
 ## Set this to true before import if you're goint to use this node in runtime
-var is_runtime = false;
+var is_runtime: bool = false;
 
 var vmf_structure: VMFStructure;
 
@@ -87,7 +91,7 @@ func import_geometry() -> void:
 	if navmesh: navmesh.free();
 	if geometry: geometry.free();
 
-	var mesh: ArrayMesh = VMFTool.create_mesh(vmf_structure);
+	var mesh: ArrayMesh = VMFTool.create_mesh(vmf_structure, Vector3.ZERO, remove_merged_faces);
 	if not mesh: return;
 
 	var geometry_mesh := MeshInstance3D.new()
@@ -118,10 +122,26 @@ func import_geometry() -> void:
 func generate_navmesh(geometry_mesh: MeshInstance3D):
 	if not VMFConfig.import.use_navigation_mesh: return;
 
+	var navreg := NavigationRegion3D.new();
+
 	var navmesh_preset := VMFConfig.import.navigation_mesh_preset;
 
-	var navreg := NavigationRegion3D.new();
-	navreg.navigation_mesh = NavigationMesh.new() if not navmesh_preset else navmesh_preset;
+	if navmesh_preset == "":
+		navreg.navigation_mesh = NavigationMesh.new();
+		return;
+
+	if ResourceLoader.exists(navmesh_preset):
+		var res := load(navmesh_preset);
+
+		if res is not NavigationMesh:
+			VMFLogger.error("Navigation mesh preset \"%s\" is not a NavigationMesh resource. Falling back to default." % navmesh_preset);
+			navreg.navigation_mesh = NavigationMesh.new();
+		else:
+			navreg.navigation_mesh = load(navmesh_preset);
+	else:
+		VMFLogger.error("Navigation mesh preset \"%s\" is not found. Falling back to default." % navmesh_preset);
+		navreg.navigation_mesh = NavigationMesh.new();
+
 	navreg.name = "NavigationMesh";
 
 	add_child(navreg);

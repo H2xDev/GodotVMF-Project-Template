@@ -41,7 +41,10 @@ func _init(raw: Dictionary, _solid: VMFSolid) -> void:
 ## Called automatically from VMFSolid
 func calculate_vertices() -> void:
 	# Already calculated
-	if vertices.size() > 0: return; 
+	if vertices.size() > 0: 
+		if is_displacement:
+			dispinfo.calculate_vertices();
+		return; 
 
 	var raw_vertices: Array[Vector3] = [];
 	var cache = {};
@@ -74,6 +77,9 @@ func calculate_vertices() -> void:
 	raw_vertices.sort_custom(vector_sorter.sort);
 
 	vertices = PackedVector3Array(raw_vertices);
+
+	if is_displacement:
+		dispinfo.calculate_vertices();
 
 ## Retrns the UV coordinates for the given vertex on this side
 func get_uv(vertex: Vector3) -> Vector2:

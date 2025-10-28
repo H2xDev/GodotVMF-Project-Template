@@ -20,7 +20,11 @@ static func generate_collisions(mesh_instance: MeshInstance3D):
 		if is_ignored: continue;
 
 		var compilekeys = material.get_meta("compile_keys", []) if material else [];
-		var surface_prop = (material.get_meta("surfaceprop", "default") if material else "default").to_lower();
+		var surface_prop = (material.get_meta("surfaceprop", "default") if material else "default");
+		
+		# NOTE: Blend textures can have more than one surface prop. In this case we'll choose the first one.
+		if surface_prop is Array:
+			surface_prop = surface_prop[0];
 
 		if compilekeys.size() > 0:
 			surface_prop = "tool_" + compilekeys[0];
@@ -166,7 +170,7 @@ static func remove_merged_faces(brush_a: VMFSolid, brushes: Array[VMFSolid]) -> 
 
 
 ## Returns MeshInstance3D from parsed VMF structure
-static func create_mesh(vmf_structure: VMFStructure, offset: Vector3 = Vector3(0, 0, 0)) -> ArrayMesh:
+static func create_mesh(vmf_structure: VMFStructure, offset: Vector3 = Vector3.ZERO, optimized: bool = true) -> ArrayMesh:
 	clear_caches();
 	var import_scale := VMFConfig.import.scale;
 
@@ -178,7 +182,7 @@ static func create_mesh(vmf_structure: VMFStructure, offset: Vector3 = Vector3(0
 	var mesh := ArrayMesh.new();
 
 	for brush in brushes:
-		remove_merged_faces(brush, brushes);
+		if optimized: remove_merged_faces(brush, brushes);
 
 		for side: VMFSide in brush.sides:
 			var material: String = side.material.to_upper();
@@ -271,7 +275,7 @@ static func create_mesh(vmf_structure: VMFStructure, offset: Vector3 = Vector3(0
 		var material = VMTLoader.get_material(sides[0].material);
 		if material: sf.set_material(material);
 		
-		sf.optimize_indices_for_cache();
+		if optimized: sf.optimize_indices_for_cache();
 		sf.generate_normals();
 		sf.generate_tangents();
 		sf.commit(mesh);
